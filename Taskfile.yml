@@ -1,0 +1,42 @@
+version: '3'
+
+silent: true
+
+includes:
+  video: ./taskfiles/video.yml
+  animation: ./taskfiles/animation.yml
+  render: ./taskfiles/render.yml
+
+tasks:
+  default:
+    desc: Показать доступные команды
+    cmds:
+      - task --list
+
+  setup:
+    desc: Установить зависимости
+    cmds:
+      - pnpm install
+
+  generate:
+    desc: Пересобрать реестр видео и композиций
+    cmds:
+      - pnpm generate
+
+  studio:
+    desc: Открыть Remotion Studio
+    deps: [generate]
+    cmds:
+      - pnpm --filter @channel/remotion studio
+
+  check:
+    desc: Проверить структуру, таймлайны и TypeScript
+    cmds:
+      - pnpm check
+
+  compositions:
+    desc: Показать все доступные композиции
+    deps: [generate]
+    cmds:
+      - pnpm --filter @channel/remotion compositions
+

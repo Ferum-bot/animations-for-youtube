@@ -1,0 +1,38 @@
+version: '3'
+
+tasks:
+  preview:
+    desc: Рендер H.264-превью композиции
+    requires:
+      vars: [COMPOSITION]
+    deps: [':generate']
+    cmds:
+      - mkdir -p renders/previews
+      - pnpm --filter @channel/remotion render "{{.COMPOSITION}}" "../../renders/previews/{{.COMPOSITION}}.mp4" --codec=h264
+
+  overlay:
+    desc: Рендер прозрачного ProRes 4444
+    requires:
+      vars: [VIDEO]
+    deps: [':generate']
+    cmds:
+      - mkdir -p "renders/{{.VIDEO}}"
+      - pnpm --filter @channel/remotion render "Video-{{.VIDEO}}-Overlay" "../../renders/{{.VIDEO}}/overlay.mov" --codec=prores --prores-profile=4444 --pixel-format=yuva444p10le --image-format=png
+
+  animation:
+    desc: Рендер одной прозрачной анимации
+    requires:
+      vars: [VIDEO, ANIMATION]
+    deps: [':generate']
+    cmds:
+      - mkdir -p "renders/{{.VIDEO}}/clips"
+      - pnpm --filter @channel/remotion render "Video-{{.VIDEO}}-{{.ANIMATION}}" "../../renders/{{.VIDEO}}/clips/{{.ANIMATION}}.mov" --codec=prores --prores-profile=4444 --pixel-format=yuva444p10le --image-format=png
+
+  standard:
+    desc: Рендер стандартной анимации
+    requires:
+      vars: [NAME]
+    deps: [':generate']
+    cmds:
+      - mkdir -p renders/standard
+      - pnpm --filter @channel/remotion render "Standard-{{.NAME}}" "../../renders/standard/{{.NAME}}.mov" --codec=prores --prores-profile=4444 --pixel-format=yuva444p10le --image-format=png

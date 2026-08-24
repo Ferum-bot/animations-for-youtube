@@ -1,0 +1,25 @@
+[
+  {
+    "id": "show-request-flow",
+    "animation": "request-flow",
+    "anchor": "request-start",
+    "offsetMs": -250,
+    "durationMs": 4000,
+    "props": {
+      "themeId": "graphite",
+      "transparent": true
+    }
+  },
+  {
+    "id": "show-database-commit",
+    "animation": "database-commit",
+    "anchor": "database-commit",
+    "offsetMs": -300,
+    "durationMs": 3400,
+    "props": {
+      "themeId": "paper",
+      "transparent": true
+    }
+  }
+]
+

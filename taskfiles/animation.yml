@@ -1,0 +1,13 @@
+version: '3'
+
+tasks:
+  new:
+    desc: Создать анимацию внутри видео
+    requires:
+      vars: [VIDEO, ANIMATION]
+    vars:
+      KIND: '{{.KIND | default "2d"}}'
+    cmds:
+      - node scripts/create-animation.mjs --video "{{.VIDEO}}" --animation "{{.ANIMATION}}" --title "{{.TITLE | default .ANIMATION}}" --kind "{{.KIND}}"
+      - task: :generate
+

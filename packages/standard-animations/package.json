@@ -1,0 +1,12 @@
+{
+  "name": "@channel/standard-animations",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.tsx",
+  "dependencies": {
+    "@channel/design-system": "workspace:*",
+    "@channel/motion-core": "workspace:*"
+  }
+}
+

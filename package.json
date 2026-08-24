@@ -1,0 +1,36 @@
+{
+  "name": "animations-for-youtube",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@11.19.0",
+  "scripts": {
+    "generate": "node scripts/generate-registry.mjs",
+    "validate": "node scripts/validate-project.mjs",
+    "check": "pnpm generate && pnpm validate && pnpm --filter @channel/remotion check",
+    "studio": "pnpm generate && pnpm --filter @channel/remotion studio",
+    "compositions": "pnpm generate && pnpm --filter @channel/remotion compositions"
+  },
+  "dependencies": {
+    "@channel/audio-sync": "workspace:*",
+    "@channel/design-system": "workspace:*",
+    "@channel/motion-core": "workspace:*",
+    "@channel/standard-animations": "workspace:*",
+    "@channel/theme": "workspace:*"
+  },
+  "devDependencies": {
+    "@react-three/fiber": "9.7.0",
+    "@remotion/cli": "4.0.515",
+    "@remotion/media": "4.0.515",
+    "@remotion/three": "4.0.515",
+    "@remotion/transitions": "4.0.515",
+    "@types/node": "24.10.13",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.4",
+    "@types/three": "0.185.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "remotion": "4.0.515",
+    "three": "0.185.1",
+    "typescript": "5.9.3"
+  }
+}

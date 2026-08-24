@@ -1,0 +1,11 @@
+{
+  "id": "database-commit",
+  "title": "Database commit",
+  "kind": "2d",
+  "durationMs": 3400,
+  "defaultProps": {
+    "themeId": "paper",
+    "transparent": true
+  }
+}
+

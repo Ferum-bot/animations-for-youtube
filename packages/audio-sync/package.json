@@ -1,0 +1,10 @@
+{
+  "name": "@channel/audio-sync",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.ts",
+  "dependencies": {
+    "@channel/motion-core": "workspace:*"
+  }
+}

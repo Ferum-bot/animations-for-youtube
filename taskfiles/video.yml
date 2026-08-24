@@ -1,0 +1,26 @@
+version: '3'
+
+tasks:
+  new:
+    desc: Создать каталог нового видео
+    requires:
+      vars: [VIDEO]
+    cmds:
+      - node scripts/create-video.mjs --video "{{.VIDEO}}" --title "{{.TITLE | default .VIDEO}}"
+      - task: :generate
+
+  ingest:
+    desc: Добавить аудио и транскрипцию к видео
+    requires:
+      vars: [VIDEO, AUDIO, TRANSCRIPT]
+    cmds:
+      - node scripts/ingest-media.mjs --video "{{.VIDEO}}" --audio "{{.AUDIO}}" --transcript "{{.TRANSCRIPT}}"
+      - task: :generate
+
+  validate:
+    desc: Проверить конкретное видео
+    requires:
+      vars: [VIDEO]
+    cmds:
+      - node scripts/validate-project.mjs --video "{{.VIDEO}}"
+

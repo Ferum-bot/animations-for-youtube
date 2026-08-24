@@ -1,0 +1,18 @@
+{
+  "name": "@channel/remotion",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.tsx",
+    "render": "remotion render src/index.tsx",
+    "compositions": "remotion compositions src/index.tsx",
+    "check": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@channel/audio-sync": "workspace:*",
+    "@channel/design-system": "workspace:*",
+    "@channel/motion-core": "workspace:*",
+    "@channel/standard-animations": "workspace:*"
+  }
+}
+

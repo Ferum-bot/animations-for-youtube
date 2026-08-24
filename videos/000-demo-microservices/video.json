@@ -1,0 +1,10 @@
+{
+  "id": "000-demo-microservices",
+  "title": "Demo: request to database",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "durationMs": 10000,
+  "audio": null
+}
+
