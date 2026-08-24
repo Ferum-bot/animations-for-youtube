@@ -17,8 +17,8 @@ await mkdir(path.join(directory, 'media'), {recursive: true});
 await writeJson(path.join(directory, 'video.json'), {
   id: video,
   title,
-  width: 1920,
-  height: 1080,
+  width: 2560,
+  height: 1440,
   fps: 30,
   durationMs: 30000,
   audio: null,
@@ -38,4 +38,3 @@ await writeFile(
 );
 
 console.log(`Created videos/${video}`);
-

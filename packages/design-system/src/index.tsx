@@ -23,8 +23,13 @@ const StageSurface: React.FC<{children: React.ReactNode; transparent: boolean}> 
 }) => {
   const theme = useChannelTheme();
   const frame = useCurrentFrame();
-  const {durationInFrames} = useVideoConfig();
+  const {durationInFrames, height, width} = useVideoConfig();
   const opacity = fadeEnvelope({frame, durationInFrames});
+  const designWidth = 1920;
+  const designHeight = 1080;
+  const scale = Math.min(width / designWidth, height / designHeight);
+  const left = (width - designWidth * scale) / 2;
+  const top = (height - designHeight * scale) / 2;
 
   return (
     <AbsoluteFill
@@ -35,7 +40,19 @@ const StageSurface: React.FC<{children: React.ReactNode; transparent: boolean}> 
         opacity,
       }}
     >
-      {children}
+      <div
+        style={{
+          position: 'absolute',
+          left,
+          top,
+          width: designWidth,
+          height: designHeight,
+          transform: `scale(${scale})`,
+          transformOrigin: 'top left',
+        }}
+      >
+        {children}
+      </div>
     </AbsoluteFill>
   );
 };
@@ -94,4 +111,3 @@ export const TechnicalLabel: React.FC<{children: React.ReactNode}> = ({children}
   const theme = useChannelTheme();
   return <div style={{color: theme.muted, font: `16px ${theme.fontMono}`}}>{children}</div>;
 };
-

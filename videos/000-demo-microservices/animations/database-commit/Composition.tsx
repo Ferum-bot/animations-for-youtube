@@ -3,6 +3,7 @@ import {interpolate, useCurrentFrame} from 'remotion';
 import {MotionStage, TechnicalLabel, useChannelTheme} from '@channel/design-system';
 import {clamp} from '@channel/motion-core';
 import type {ThemeId} from '@channel/design-system';
+import {ReadablePanel} from '../../shared/ReadablePanel';
 import {VideoBadge} from '../../shared/VideoBadge';
 
 type DatabaseCommitProps = {
@@ -28,21 +29,33 @@ const CommitContent: React.FC = () => {
   return (
     <>
       <VideoBadge>DEMO / DATABASE COMMIT</VideoBadge>
-      <div style={{position: 'absolute', left: 74, top: 118, fontSize: 62, fontWeight: 800}}>
-        Сначала WAL. Потом подтверждение.
-      </div>
-      <div style={{position: 'absolute', left: 260, top: 460, width: 1400}}>
-        <TechnicalLabel>BEGIN → ROW CHANGE → WAL APPEND → FSYNC → COMMIT</TechnicalLabel>
-        <div style={{height: 16, marginTop: 28, background: theme.line}}>
-          <div style={{height: '100%', width: `${progress * 100}%`, background: committed ? theme.success : theme.signal}} />
+      <ReadablePanel left={220} top={300} width={1480} padding="46px 52px 52px">
+        <div style={{fontSize: 62, fontWeight: 800}}>Сначала WAL. Потом подтверждение.</div>
+        <div style={{marginTop: 110}}>
+          <TechnicalLabel>BEGIN → ROW CHANGE → WAL APPEND → FSYNC → COMMIT</TechnicalLabel>
+          <div style={{height: 16, marginTop: 28, background: theme.line}}>
+            <div
+              style={{
+                height: '100%',
+                width: `${progress * 100}%`,
+                background: committed ? theme.success : theme.signal,
+              }}
+            />
+          </div>
+          <div
+            style={{
+              marginTop: 32,
+              fontSize: 42,
+              fontWeight: 800,
+              color: committed ? theme.success : theme.text,
+            }}
+          >
+            {committed ? 'COMMIT DURABLE' : 'WRITING WAL'}
+          </div>
         </div>
-        <div style={{marginTop: 32, fontSize: 42, fontWeight: 800, color: committed ? theme.success : theme.text}}>
-          {committed ? 'COMMIT DURABLE' : 'WRITING WAL'}
-        </div>
-      </div>
+      </ReadablePanel>
     </>
   );
 };
 
 export default DatabaseCommit;
-

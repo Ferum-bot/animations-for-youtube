@@ -5,6 +5,7 @@ silent: true
 includes:
   video: ./taskfiles/video.yml
   animation: ./taskfiles/animation.yml
+  qa: ./taskfiles/qa.yml
   render: ./taskfiles/render.yml
 
 tasks:
@@ -39,4 +40,3 @@ tasks:
     deps: [generate]
     cmds:
       - pnpm --filter @channel/remotion compositions
-

@@ -3,6 +3,7 @@ import {interpolate, useCurrentFrame} from 'remotion';
 import {DataPacket, MotionStage, ServiceCard, useChannelTheme} from '@channel/design-system';
 import {clamp} from '@channel/motion-core';
 import type {ThemeId} from '@channel/design-system';
+import {ReadablePanel} from '../../shared/ReadablePanel';
 import {VideoBadge} from '../../shared/VideoBadge';
 
 type RequestFlowProps = {
@@ -35,9 +36,9 @@ const RequestFlowContent: React.FC = () => {
   return (
     <>
       <VideoBadge>DEMO / REQUEST FLOW</VideoBadge>
-      <div style={{position: 'absolute', left: 74, top: 112, fontSize: 58, fontWeight: 800}}>
-        Запрос пересекает четыре границы.
-      </div>
+      <ReadablePanel left={74} top={112} padding="20px 26px 22px">
+        <div style={{fontSize: 58, fontWeight: 800}}>Запрос пересекает четыре границы.</div>
+      </ReadablePanel>
       <div style={{position: 'absolute', left: 185, right: 185, top: 563, height: 3, background: theme.line}} />
       {services.map(([label, detail], index) => (
         <ServiceCard
@@ -55,4 +56,3 @@ const RequestFlowContent: React.FC = () => {
 };
 
 export default RequestFlow;
-

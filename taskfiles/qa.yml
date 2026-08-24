@@ -1,0 +1,13 @@
+version: '3'
+
+tasks:
+  frames:
+    desc: Отрендерить ключевые кадры для визуальной приёмки
+    requires:
+      vars: [COMPOSITION]
+    vars:
+      FRAMES: '{{.FRAMES | default "0,30,60,90"}}'
+    deps: [':generate']
+    cmds:
+      - node scripts/render-keyframes.mjs --composition "{{.COMPOSITION}}" --frames "{{.FRAMES}}"
+

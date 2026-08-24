@@ -26,8 +26,8 @@ export const GeneratedVideoCompositions: React.FC = () => (
       <Composition
         id="Video-000-demo-microservices-database-commit"
         component={Animation0DatabaseCommit}
-        width={1920}
-        height={1080}
+        width={2560}
+        height={1440}
         fps={30}
         durationInFrames={102}
         defaultProps={{"themeId":"paper","transparent":true}}
@@ -35,8 +35,8 @@ export const GeneratedVideoCompositions: React.FC = () => (
       <Composition
         id="Video-000-demo-microservices-request-flow"
         component={Animation1RequestFlow}
-        width={1920}
-        height={1080}
+        width={2560}
+        height={1440}
         fps={30}
         durationInFrames={120}
         defaultProps={{"themeId":"graphite","transparent":true}}
@@ -44,8 +44,8 @@ export const GeneratedVideoCompositions: React.FC = () => (
       <Composition
         id="Video-000-demo-microservices-Overlay"
         component={V000DemoMicroservicesOverlay}
-        width={1920}
-        height={1080}
+        width={2560}
+        height={1440}
         fps={30}
         durationInFrames={300}
       />

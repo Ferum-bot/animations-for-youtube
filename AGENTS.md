@@ -2,6 +2,18 @@
 
 Read this file before changing motion code.
 
+## Non-negotiable operating rules
+
+These rules apply to every task in this repository unless the user explicitly overrides one in the current request.
+
+1. Never create a Git commit and never push. A commit or push is allowed only when the user explicitly asks for that exact action.
+2. Write human-readable code using SOLID, DRY, and KISS. Decompose by responsibility, prefer clear names, keep public APIs small, and remove incidental complexity.
+3. Every new video or animation ends with a refactoring pass. Review both the changed area and the whole codebase for duplication, misplaced responsibilities, and reusable components. Keep a component local first; promote it to a global package only when its contract is genuinely cross-video.
+4. Use modern TypeScript: strict types, `unknown` plus narrowing instead of unsafe assertions, discriminated unions for variants, `satisfies` for configuration, readonly data where appropriate, exhaustive checks, and type inference where it improves clarity. Avoid `any`, enums without a strong reason, non-null assertions, and type casts that hide design problems.
+5. Every animation requires visual acceptance. Inspect all important frames: empty/entrance, first readable state, semantic transitions, peak state, resolved hold, and exit. Check clipping, overlaps, safe areas, line intersections, accidental artifacts, typography, and alpha over light and dark backgrounds.
+6. Do not automatically assemble or render a full video. Implement and acceptance-check animations. Render key stills for QA; render clips or a full overlay only when the user explicitly asks.
+7. Production animations are YouTube 2K QHD: `2560x1440`, `30fps`. The eight frozen legacy references remain `1920x1080` historical examples and are not production output.
+
 ## Product
 
 This repository contains explanatory motion graphics for a Russian-language YouTube channel about computer science and distributed systems. The host footage is usually a talking head. Graphics clarify a relationship, state change, boundary, or failure mode; they are not decorative filler.
@@ -18,6 +30,7 @@ The intended tone is authored, calm, editorial, technically literate, and occasi
 - `examples/animations/` contains eight canonical visual references. Preserve all eight unless the user explicitly requests removal.
 - `apps/remotion/src/generated/video-registry.tsx` is generated. Never edit it by hand; run `task generate`.
 - Generated renders and ingested audio are not source and must not be committed.
+- `docs/style/motion-design-youtube-research-ru.pdf` is the canonical research document for the user's visual direction.
 
 ## Architecture rules
 
@@ -126,10 +139,11 @@ task render:overlay VIDEO=001-topic
 ## Definition of done
 
 1. `task check` succeeds.
-2. Scrubbing is deterministic at every frame.
-3. The technical state sequence is correct.
-4. Titles, Russian glyphs, safe areas, connections, and occlusion are visually checked.
-5. Inspect beginning, midpoint, resolved state, and fade-out frames.
-6. Alpha output is checked over both light and dark footage.
-7. Do not mark a scene complete merely because it renders.
-
+2. A repository-wide refactoring and duplication pass is complete.
+3. Scrubbing is deterministic at every frame.
+4. The technical state sequence is correct.
+5. Key stills are rendered and visually inspected, including beginning, transitions, resolved state, and fade-out.
+6. Titles, Russian glyphs, safe areas, connections, clipping, and occlusion are checked.
+7. Alpha output is checked over both light and dark footage when an alpha render is requested.
+8. Production metadata is `2560x1440`, `30fps`.
+9. Do not mark a scene complete merely because TypeScript passes or one frame renders.
