@@ -1,0 +1,7 @@
+{
+  "id": "subscribe-callout",
+  "title": "ПОДПИСКА НА КАНАЛ",
+  "kind": "2d",
+  "durationMs": 3000,
+  "defaultProps": {}
+}

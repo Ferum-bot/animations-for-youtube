@@ -13,6 +13,7 @@ These rules apply to every task in this repository unless the user explicitly ov
 5. Every animation requires visual acceptance. Inspect all important frames: empty/entrance, first readable state, semantic transitions, peak state, resolved hold, and exit. Check clipping, overlaps, safe areas, line intersections, accidental artifacts, typography, and alpha over light and dark backgrounds.
 6. Do not automatically assemble or render a full video. Implement and acceptance-check animations. Render key stills for QA; render clips or a full overlay only when the user explicitly asks.
 7. Production animations are YouTube 2K QHD: `2560x1440`, `30fps`. The eight frozen legacy references remain `1920x1080` historical examples and are not production output.
+8. Deliver transparent CapCut overlays as QuickTime `ProRes 4444` with an alpha-capable pixel format. H.264/MP4 is preview-only and must not be used as the compositing master.
 
 ## Product
 
@@ -55,6 +56,7 @@ The intended tone is authored, calm, editorial, technically literate, and occasi
 8. Typography and negative space are primary design elements.
 9. Keep at least 74 px of safe margin at 1920x1080.
 10. The frame must remain understandable without sound and as a thumbnail.
+11. Talking-head overlays must preserve a deliberate presenter-safe zone. The default compact left-side footprint on a `2560x1440` canvas is: panel up to `1080 px`, rails up to `860 px`, title zone up to `780 px`. Keep the right side free unless the user explicitly approves another layout.
 
 ## Visual system
 

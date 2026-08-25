@@ -1,5 +1,21 @@
 [
   {
+    "id": "show-episode-agenda",
+    "animation": "episode-agenda",
+    "anchor": "episode-agenda-start",
+    "offsetMs": 0,
+    "durationMs": 23360,
+    "props": {}
+  },
+  {
+    "id": "show-subscribe-callout",
+    "animation": "subscribe-callout",
+    "anchor": "subscribe-cta",
+    "offsetMs": 0,
+    "durationMs": 3000,
+    "props": {}
+  },
+  {
     "id": "show-chapter-01-what-is-dns",
     "animation": "chapter-01-what-is-dns",
     "anchor": "chapter-01-what-is-dns-start",

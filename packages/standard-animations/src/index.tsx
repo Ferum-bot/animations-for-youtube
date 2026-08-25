@@ -8,7 +8,7 @@ import {
 } from './chapter-divider/ChapterDivider';
 
 export {Subscribe, subscribeDefaultProps} from './Subscribe';
-export type {SubscribeProps} from './Subscribe';
+export type {SubscribePlacement, SubscribeProps} from './Subscribe';
 export {
   ChapterDivider,
   delegationDividerDefaultProps,

@@ -9,6 +9,8 @@ import Animation2Chapter01WhatIsDns from '../../../../videos/001-network-dns/ani
 import Animation3Chapter02HowDnsWorks from '../../../../videos/001-network-dns/animations/chapter-02-how-dns-works/Composition';
 import Animation4Chapter03SecurityPrivacyMyths from '../../../../videos/001-network-dns/animations/chapter-03-security-privacy-myths/Composition';
 import Animation5Chapter04Conclusion from '../../../../videos/001-network-dns/animations/chapter-04-conclusion/Composition';
+import Animation6EpisodeAgenda from '../../../../videos/001-network-dns/animations/episode-agenda/Composition';
+import Animation7SubscribeCallout from '../../../../videos/001-network-dns/animations/subscribe-callout/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "database-commit": Animation0DatabaseCommit,
@@ -29,14 +31,16 @@ const V001NetworkDnsComponents: Record<string, TimelineComponent> = {
   "chapter-02-how-dns-works": Animation3Chapter02HowDnsWorks,
   "chapter-03-security-privacy-myths": Animation4Chapter03SecurityPrivacyMyths,
   "chapter-04-conclusion": Animation5Chapter04Conclusion,
+  "episode-agenda": Animation6EpisodeAgenda,
+  "subscribe-callout": Animation7SubscribeCallout,
 };
 
 const V001NetworkDnsOverlay: React.FC = () => (
   <TimelineOverlay
-    anchors={{"intro-protocol":0,"intro-dependent-systems":7080,"intro-1983-question":22140,"subscribe-cta":51720,"chapter-01-what-is-dns-start":55040,"why-names":55040,"arpanet-hosts-txt":96340,"name-as-indirection":113820,"central-file-failure":115520,"dns-two-ideas":151000,"dns-as-key-value-store":178420,"dns-message-shape":212680,"chapter-02-how-dns-works-start":236760,"name-tree":252320,"fqdn-root-dot":274960,"tld-icann-registry":284560,"zone-delegation":320440,"resource-record-fields":378000,"resource-record-types":393800,"request-participants":432800,"recursive-vs-iterative":471760,"iterative-resolution-walk":505220,"dns-packet-stack":558640,"udp-efficiency":593660,"cache-and-ttl":607600,"transaction-id":668620,"root-hints":693900,"why-thirteen":721640,"root-anycast":754700,"chapter-03-security-privacy-myths-start":777060,"security-intro":777060,"cache-poisoning":800840,"compatibility-patches":833920,"dnssec":866860,"privacy-intro":896320,"encrypted-dns-protocols":929360,"resolver-trust-shift":970860,"myth-thirteen-servers":1025240,"myth-phone-book":1083620,"chapter-04-conclusion-start":1129420,"conclusion":1129420,"dns-as-traffic-control":1178460,"next-video-teaser":1202640,"outro":1208460}}
+    anchors={{"intro-protocol":0,"intro-dependent-systems":7080,"intro-1983-question":22140,"subscribe-cta":51720,"chapter-01-what-is-dns-start":55040,"why-names":55040,"arpanet-hosts-txt":96340,"name-as-indirection":113820,"central-file-failure":115520,"dns-two-ideas":151000,"dns-as-key-value-store":178420,"dns-message-shape":212680,"chapter-02-how-dns-works-start":236760,"name-tree":252320,"fqdn-root-dot":274960,"tld-icann-registry":284560,"zone-delegation":320440,"resource-record-fields":378000,"resource-record-types":393800,"request-participants":432800,"recursive-vs-iterative":471760,"iterative-resolution-walk":505220,"dns-packet-stack":558640,"udp-efficiency":593660,"cache-and-ttl":607600,"transaction-id":668620,"root-hints":693900,"why-thirteen":721640,"root-anycast":754700,"chapter-03-security-privacy-myths-start":777060,"security-intro":777060,"cache-poisoning":800840,"compatibility-patches":833920,"dnssec":866860,"privacy-intro":896320,"encrypted-dns-protocols":929360,"resolver-trust-shift":970860,"myth-thirteen-servers":1025240,"myth-phone-book":1083620,"chapter-04-conclusion-start":1129420,"conclusion":1129420,"dns-as-traffic-control":1178460,"next-video-teaser":1202640,"outro":1208460,"episode-agenda-start":11140}}
     audio={"generated/001-network-dns/audio.wav"}
     components={V001NetworkDnsComponents}
-    timeline={[{"id":"show-chapter-01-what-is-dns","animation":"chapter-01-what-is-dns","anchor":"chapter-01-what-is-dns-start","offsetMs":0,"durationMs":4000,"props":{}},{"id":"show-chapter-02-how-dns-works","animation":"chapter-02-how-dns-works","anchor":"chapter-02-how-dns-works-start","offsetMs":0,"durationMs":4000,"props":{}},{"id":"show-chapter-03-security-privacy-myths","animation":"chapter-03-security-privacy-myths","anchor":"chapter-03-security-privacy-myths-start","offsetMs":0,"durationMs":4000,"props":{}},{"id":"show-chapter-04-conclusion","animation":"chapter-04-conclusion","anchor":"chapter-04-conclusion-start","offsetMs":0,"durationMs":4000,"props":{}}]}
+    timeline={[{"id":"show-episode-agenda","animation":"episode-agenda","anchor":"episode-agenda-start","offsetMs":0,"durationMs":23360,"props":{}},{"id":"show-subscribe-callout","animation":"subscribe-callout","anchor":"subscribe-cta","offsetMs":0,"durationMs":3000,"props":{}},{"id":"show-chapter-01-what-is-dns","animation":"chapter-01-what-is-dns","anchor":"chapter-01-what-is-dns-start","offsetMs":0,"durationMs":4000,"props":{}},{"id":"show-chapter-02-how-dns-works","animation":"chapter-02-how-dns-works","anchor":"chapter-02-how-dns-works-start","offsetMs":0,"durationMs":4000,"props":{}},{"id":"show-chapter-03-security-privacy-myths","animation":"chapter-03-security-privacy-myths","anchor":"chapter-03-security-privacy-myths-start","offsetMs":0,"durationMs":4000,"props":{}},{"id":"show-chapter-04-conclusion","animation":"chapter-04-conclusion","anchor":"chapter-04-conclusion-start","offsetMs":0,"durationMs":4000,"props":{}}]}
   />
 );
 
@@ -105,6 +109,24 @@ export const GeneratedVideoCompositions: React.FC = () => (
         height={1440}
         fps={30}
         durationInFrames={120}
+        defaultProps={{}}
+      />
+      <Composition
+        id="Video-001-network-dns-episode-agenda"
+        component={Animation6EpisodeAgenda}
+        width={2560}
+        height={1440}
+        fps={30}
+        durationInFrames={701}
+        defaultProps={{}}
+      />
+      <Composition
+        id="Video-001-network-dns-subscribe-callout"
+        component={Animation7SubscribeCallout}
+        width={2560}
+        height={1440}
+        fps={30}
+        durationInFrames={90}
         defaultProps={{}}
       />
       <Composition
