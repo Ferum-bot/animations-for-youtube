@@ -1,0 +1,13 @@
+{
+  "id": "001-network-dns",
+  "title": "Network DNS",
+  "width": 2560,
+  "height": 1440,
+  "fps": 30,
+  "durationMs": 1217887,
+  "audio": "generated/001-network-dns/audio.wav",
+  "source": {
+    "audioSha256": "ab1eba1f06c5c589e351035718c5a1c20db2a5c65e6e9688c5d6ccf6832b70b6",
+    "transcriptSha256": "e28c1af301472bfd501260045e31677adbbca7c2d183ae366426ece8378e3e25"
+  }
+}

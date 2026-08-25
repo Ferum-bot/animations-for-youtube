@@ -7,24 +7,31 @@ import type {ThemeId} from '@channel/theme';
 export {ChannelThemeProvider, getTheme, themes, useChannelTheme} from '@channel/theme';
 export type {ChannelTheme, ThemeId} from '@channel/theme';
 
+export type StageTransitionMode = 'cut' | 'fade';
+
 export const MotionStage: React.FC<{
   children: React.ReactNode;
   themeId?: ThemeId;
   transparent?: boolean;
-}> = ({children, themeId = 'graphite', transparent = true}) => (
+  transitionMode?: StageTransitionMode;
+}> = ({children, themeId = 'graphite', transparent = true, transitionMode = 'fade'}) => (
   <ChannelThemeProvider themeId={themeId}>
-    <StageSurface transparent={transparent}>{children}</StageSurface>
+    <StageSurface transparent={transparent} transitionMode={transitionMode}>
+      {children}
+    </StageSurface>
   </ChannelThemeProvider>
 );
 
-const StageSurface: React.FC<{children: React.ReactNode; transparent: boolean}> = ({
-  children,
-  transparent,
-}) => {
+const StageSurface: React.FC<{
+  children: React.ReactNode;
+  transparent: boolean;
+  transitionMode: StageTransitionMode;
+}> = ({children, transparent, transitionMode}) => {
   const theme = useChannelTheme();
   const frame = useCurrentFrame();
   const {durationInFrames, height, width} = useVideoConfig();
-  const opacity = fadeEnvelope({frame, durationInFrames});
+  const opacity =
+    transitionMode === 'fade' ? fadeEnvelope({frame, durationInFrames}) : 1;
   const designWidth = 1920;
   const designHeight = 1080;
   const scale = Math.min(width / designWidth, height / designHeight);
