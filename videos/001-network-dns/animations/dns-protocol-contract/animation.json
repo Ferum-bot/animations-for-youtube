@@ -1,0 +1,10 @@
+{
+  "id": "dns-protocol-contract",
+  "title": "Контракт протокола DNS",
+  "kind": "2d",
+  "durationMs": 23680,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

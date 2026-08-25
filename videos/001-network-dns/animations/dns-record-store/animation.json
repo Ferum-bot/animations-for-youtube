@@ -1,0 +1,10 @@
+{
+  "id": "dns-record-store",
+  "title": "DNS как хранилище записей",
+  "kind": "2d",
+  "durationMs": 33420,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

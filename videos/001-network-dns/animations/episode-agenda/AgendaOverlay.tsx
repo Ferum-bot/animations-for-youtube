@@ -2,15 +2,13 @@ import React from 'react';
 import {interpolate, useCurrentFrame, useVideoConfig} from 'remotion';
 import {useChannelTheme} from '@channel/design-system';
 import {clamp, msToFrames, smoothProgress} from '@channel/motion-core';
+import {dnsPresenterOverlayLayout} from '../../shared/presenterOverlayLayout';
 import {agendaBeats} from './content';
 
 const firstEnterFrames = 14;
 const crossfadeFrames = 10;
-const panelWidth = 1080;
-const contentLeft = 104;
-const contentWidth = 860;
-const titleLeft = 224;
-const titleWidth = 780;
+const {panelWidth, contentLeft, contentWidth, titleLeft, titleWidth} =
+  dnsPresenterOverlayLayout;
 
 const getActiveBeatIndex = (frame: number, fps: number): number => {
   let activeIndex = 0;

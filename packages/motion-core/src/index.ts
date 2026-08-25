@@ -13,6 +13,8 @@ export const msToFrames = (milliseconds: number, fps: number): number =>
 export const framesToMs = (frames: number, fps: number): number =>
   Math.round((frames / fps) * 1000);
 
+export const clamp01 = (value: number): number => Math.max(0, Math.min(1, value));
+
 export const linearProgress = (
   frame: number,
   startFrame: number,
@@ -50,11 +52,15 @@ export const fadeEnvelope = ({
   durationInFrames: number;
   enterFrames?: number;
   exitFrames?: number;
-}): number =>
-  interpolate(
+}): number => {
+  const lastFrame = Math.max(0, durationInFrames - 1);
+  const enterEnd = Math.min(enterFrames, lastFrame);
+  const exitStart = Math.max(enterEnd, lastFrame - exitFrames);
+
+  return interpolate(
     frame,
-    [0, enterFrames, durationInFrames - exitFrames, durationInFrames],
+    [0, enterEnd, exitStart, lastFrame],
     [0, 1, 1, 0],
     clamp,
   );
-
+};

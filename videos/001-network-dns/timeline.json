@@ -24,6 +24,50 @@
     "props": {}
   },
   {
+    "id": "show-name-indirection",
+    "animation": "name-indirection",
+    "anchor": "name-indirection-start",
+    "offsetMs": 0,
+    "durationMs": 27540,
+    "props": {
+      "themeId": "graphite",
+      "transparent": true
+    }
+  },
+  {
+    "id": "show-dns-two-ideas",
+    "animation": "dns-two-ideas",
+    "anchor": "dns-two-ideas",
+    "offsetMs": 0,
+    "durationMs": 27380,
+    "props": {
+      "themeId": "graphite",
+      "transparent": true
+    }
+  },
+  {
+    "id": "show-dns-record-store",
+    "animation": "dns-record-store",
+    "anchor": "dns-as-key-value-store",
+    "offsetMs": 0,
+    "durationMs": 33420,
+    "props": {
+      "themeId": "graphite",
+      "transparent": true
+    }
+  },
+  {
+    "id": "show-dns-protocol-contract",
+    "animation": "dns-protocol-contract",
+    "anchor": "dns-message-shape",
+    "offsetMs": 0,
+    "durationMs": 23680,
+    "props": {
+      "themeId": "graphite",
+      "transparent": true
+    }
+  },
+  {
     "id": "show-chapter-02-how-dns-works",
     "animation": "chapter-02-how-dns-works",
     "anchor": "chapter-02-how-dns-works-start",
