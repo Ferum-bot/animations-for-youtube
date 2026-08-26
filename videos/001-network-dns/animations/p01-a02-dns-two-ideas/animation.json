@@ -1,0 +1,12 @@
+{
+  "id": "p01-a02-dns-two-ideas",
+  "part": 1,
+  "order": 2,
+  "title": "Две идеи DNS",
+  "kind": "2d",
+  "durationMs": 27380,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

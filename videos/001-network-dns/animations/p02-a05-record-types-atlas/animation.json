@@ -1,0 +1,12 @@
+{
+  "id": "p02-a05-record-types-atlas",
+  "part": 2,
+  "order": 5,
+  "title": "Атлас типов DNS-записей",
+  "kind": "2d",
+  "durationMs": 39000,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

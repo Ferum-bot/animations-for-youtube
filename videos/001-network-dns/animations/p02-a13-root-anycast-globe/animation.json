@@ -1,0 +1,12 @@
+{
+  "id": "p02-a13-root-anycast-globe",
+  "part": 2,
+  "order": 13,
+  "title": "Anycast направляет DNS-запрос к ближайшей root-инстанции",
+  "kind": "2d",
+  "durationMs": 10740,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

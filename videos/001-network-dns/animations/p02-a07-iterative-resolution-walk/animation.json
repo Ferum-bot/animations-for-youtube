@@ -1,0 +1,12 @@
+{
+  "id": "p02-a07-iterative-resolution-walk",
+  "part": 2,
+  "order": 7,
+  "title": "Итеративный обход DNS-дерева",
+  "kind": "2d",
+  "durationMs": 53420,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

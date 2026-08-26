@@ -18,6 +18,8 @@ const definitions = [];
 const folders = [];
 let importIndex = 0;
 
+const formatIndex = (value) => String(value).padStart(2, '0');
+
 for (const videoEntry of videoEntries) {
   const videoDirectory = path.join(videosRoot, videoEntry.name);
   const video = await readJson(path.join(videoDirectory, 'video.json'));
@@ -28,7 +30,7 @@ for (const videoEntry of videoEntries) {
     .filter((entry) => entry.isDirectory())
     .sort((a, b) => a.name.localeCompare(b.name));
   const componentPairs = [];
-  const compositionRows = [];
+  const compositionRowsByPart = new Map();
 
   for (const animationEntry of animationEntries) {
     const animationDirectory = path.join(animationsDirectory, animationEntry.name);
@@ -39,16 +41,25 @@ for (const videoEntry of videoEntries) {
       `import ${identifier} from '../../../../videos/${video.id}/animations/${animation.id}/Composition';`,
     );
     componentPairs.push(`  ${JSON.stringify(animation.id)}: ${identifier},`);
-    compositionRows.push(`      <Composition
-        id=${JSON.stringify(`Video-${video.id}-${animation.id}`)}
-        component={${identifier}}
-        width={${video.width}}
-        height={${video.height}}
-        fps={${video.fps}}
-        durationInFrames={${msToFrames(animation.durationMs, video.fps)}}
-        defaultProps={${JSON.stringify(animation.defaultProps)}}
-      />`);
+    const compositionRows = compositionRowsByPart.get(animation.part) ?? [];
+    compositionRows.push(`        <Composition
+          id=${JSON.stringify(`Video-${video.id}-${animation.id}`)}
+          component={${identifier}}
+          width={${video.width}}
+          height={${video.height}}
+          fps={${video.fps}}
+          durationInFrames={${msToFrames(animation.durationMs, video.fps)}}
+          defaultProps={${JSON.stringify(animation.defaultProps)}}
+        />`);
+    compositionRowsByPart.set(animation.part, compositionRows);
   }
+
+  const partFolders = [...compositionRowsByPart.entries()]
+    .sort(([left], [right]) => left - right)
+    .map(([part, compositionRows]) => `      <Folder name=${JSON.stringify(`P-${formatIndex(part)}`)}>
+${compositionRows.join('\n')}
+      </Folder>`)
+    .join('\n');
 
   const videoIdentifier = toIdentifier(video.id);
   definitions.push(`const ${videoIdentifier}Components: Record<string, TimelineComponent> = {
@@ -65,7 +76,7 @@ const ${videoIdentifier}Overlay: React.FC = () => (
 );`);
 
   folders.push(`    <Folder name=${JSON.stringify(`V-${video.id}`)}>
-${compositionRows.join('\n')}
+${partFolders}
       <Composition
         id=${JSON.stringify(`Video-${video.id}-Overlay`)}
         component={${videoIdentifier}Overlay}
@@ -91,4 +102,3 @@ ${folders.join('\n')}
 
 await writeFile(output, source, 'utf8');
 console.log(`Generated ${path.relative(process.cwd(), output)} for ${videoEntries.length} video(s)`);
-

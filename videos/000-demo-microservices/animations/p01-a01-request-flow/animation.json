@@ -1,0 +1,12 @@
+{
+  "id": "p01-a01-request-flow",
+  "part": 1,
+  "order": 1,
+  "title": "Request flow",
+  "kind": "2d",
+  "durationMs": 4000,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

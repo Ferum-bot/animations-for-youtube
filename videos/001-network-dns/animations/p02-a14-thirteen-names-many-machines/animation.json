@@ -1,0 +1,12 @@
+{
+  "id": "p02-a14-thirteen-names-many-machines",
+  "part": 2,
+  "order": 14,
+  "title": "Тринадцать root-идентификаторов — это тысячи серверов",
+  "kind": "2d",
+  "durationMs": 11620,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

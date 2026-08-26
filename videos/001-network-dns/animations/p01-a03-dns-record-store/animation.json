@@ -1,0 +1,12 @@
+{
+  "id": "p01-a03-dns-record-store",
+  "part": 1,
+  "order": 3,
+  "title": "DNS как хранилище записей",
+  "kind": "2d",
+  "durationMs": 33420,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

@@ -3,22 +3,36 @@ import React from 'react';
 import {Composition, Folder} from 'remotion';
 import {TimelineOverlay} from '../TimelineOverlay';
 import type {TimelineComponent} from '../TimelineOverlay';
-import Animation0DatabaseCommit from '../../../../videos/000-demo-microservices/animations/database-commit/Composition';
-import Animation1RequestFlow from '../../../../videos/000-demo-microservices/animations/request-flow/Composition';
-import Animation2Chapter01WhatIsDns from '../../../../videos/001-network-dns/animations/chapter-01-what-is-dns/Composition';
-import Animation3Chapter02HowDnsWorks from '../../../../videos/001-network-dns/animations/chapter-02-how-dns-works/Composition';
-import Animation4Chapter03SecurityPrivacyMyths from '../../../../videos/001-network-dns/animations/chapter-03-security-privacy-myths/Composition';
-import Animation5Chapter04Conclusion from '../../../../videos/001-network-dns/animations/chapter-04-conclusion/Composition';
-import Animation6DnsProtocolContract from '../../../../videos/001-network-dns/animations/dns-protocol-contract/Composition';
-import Animation7DnsRecordStore from '../../../../videos/001-network-dns/animations/dns-record-store/Composition';
-import Animation8DnsTwoIdeas from '../../../../videos/001-network-dns/animations/dns-two-ideas/Composition';
-import Animation9EpisodeAgenda from '../../../../videos/001-network-dns/animations/episode-agenda/Composition';
-import Animation10NameIndirection from '../../../../videos/001-network-dns/animations/name-indirection/Composition';
-import Animation11SubscribeCallout from '../../../../videos/001-network-dns/animations/subscribe-callout/Composition';
+import Animation0P01A01RequestFlow from '../../../../videos/000-demo-microservices/animations/p01-a01-request-flow/Composition';
+import Animation1P01A02DatabaseCommit from '../../../../videos/000-demo-microservices/animations/p01-a02-database-commit/Composition';
+import Animation2P00A01EpisodeAgenda from '../../../../videos/001-network-dns/animations/p00-a01-episode-agenda/Composition';
+import Animation3P00A02SubscribeCallout from '../../../../videos/001-network-dns/animations/p00-a02-subscribe-callout/Composition';
+import Animation4P01A00ChapterDivider from '../../../../videos/001-network-dns/animations/p01-a00-chapter-divider/Composition';
+import Animation5P01A01NameIndirection from '../../../../videos/001-network-dns/animations/p01-a01-name-indirection/Composition';
+import Animation6P01A02DnsTwoIdeas from '../../../../videos/001-network-dns/animations/p01-a02-dns-two-ideas/Composition';
+import Animation7P01A03DnsRecordStore from '../../../../videos/001-network-dns/animations/p01-a03-dns-record-store/Composition';
+import Animation8P01A04DnsProtocolContract from '../../../../videos/001-network-dns/animations/p01-a04-dns-protocol-contract/Composition';
+import Animation9P02A00ChapterDivider from '../../../../videos/001-network-dns/animations/p02-a00-chapter-divider/Composition';
+import Animation10P02A01NameTreeReversedPath from '../../../../videos/001-network-dns/animations/p02-a01-name-tree-reversed-path/Composition';
+import Animation11P02A02TldGovernanceStack from '../../../../videos/001-network-dns/animations/p02-a02-tld-governance-stack/Composition';
+import Animation12P02A03ZoneDelegation from '../../../../videos/001-network-dns/animations/p02-a03-zone-delegation/Composition';
+import Animation13P02A04ResourceRecordAnatomy from '../../../../videos/001-network-dns/animations/p02-a04-resource-record-anatomy/Composition';
+import Animation14P02A05RecordTypesAtlas from '../../../../videos/001-network-dns/animations/p02-a05-record-types-atlas/Composition';
+import Animation15P02A06ResolverParticipants from '../../../../videos/001-network-dns/animations/p02-a06-resolver-participants/Composition';
+import Animation16P02A07IterativeResolutionWalk from '../../../../videos/001-network-dns/animations/p02-a07-iterative-resolution-walk/Composition';
+import Animation17P02A08DnsPacketStack from '../../../../videos/001-network-dns/animations/p02-a08-dns-packet-stack/Composition';
+import Animation18P02A09CacheAndTtl from '../../../../videos/001-network-dns/animations/p02-a09-cache-and-ttl/Composition';
+import Animation19P02A10TransactionIdCorrelation from '../../../../videos/001-network-dns/animations/p02-a10-transaction-id-correlation/Composition';
+import Animation20P02A11RootServersAToM from '../../../../videos/001-network-dns/animations/p02-a11-root-servers-a-to-m/Composition';
+import Animation21P02A12WhyThirteenPacketBudget from '../../../../videos/001-network-dns/animations/p02-a12-why-thirteen-packet-budget/Composition';
+import Animation22P02A13RootAnycastGlobe from '../../../../videos/001-network-dns/animations/p02-a13-root-anycast-globe/Composition';
+import Animation23P02A14ThirteenNamesManyMachines from '../../../../videos/001-network-dns/animations/p02-a14-thirteen-names-many-machines/Composition';
+import Animation24P03A00ChapterDivider from '../../../../videos/001-network-dns/animations/p03-a00-chapter-divider/Composition';
+import Animation25P04A00ChapterDivider from '../../../../videos/001-network-dns/animations/p04-a00-chapter-divider/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
-  "database-commit": Animation0DatabaseCommit,
-  "request-flow": Animation1RequestFlow,
+  "p01-a01-request-flow": Animation0P01A01RequestFlow,
+  "p01-a02-database-commit": Animation1P01A02DatabaseCommit,
 };
 
 const V000DemoMicroservicesOverlay: React.FC = () => (
@@ -26,53 +40,69 @@ const V000DemoMicroservicesOverlay: React.FC = () => (
     anchors={{"request-start":1000,"database-commit":5400}}
     audio={null}
     components={V000DemoMicroservicesComponents}
-    timeline={[{"id":"show-request-flow","animation":"request-flow","anchor":"request-start","offsetMs":-250,"durationMs":4000,"props":{"themeId":"graphite","transparent":true}},{"id":"show-database-commit","animation":"database-commit","anchor":"database-commit","offsetMs":-300,"durationMs":3400,"props":{"themeId":"paper","transparent":true}}]}
+    timeline={[{"id":"show-p01-a01-request-flow","animation":"p01-a01-request-flow","anchor":"request-start","offsetMs":-250,"durationMs":4000,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p01-a02-database-commit","animation":"p01-a02-database-commit","anchor":"database-commit","offsetMs":-300,"durationMs":3400,"props":{"themeId":"paper","transparent":true}}]}
   />
 );
 
 const V001NetworkDnsComponents: Record<string, TimelineComponent> = {
-  "chapter-01-what-is-dns": Animation2Chapter01WhatIsDns,
-  "chapter-02-how-dns-works": Animation3Chapter02HowDnsWorks,
-  "chapter-03-security-privacy-myths": Animation4Chapter03SecurityPrivacyMyths,
-  "chapter-04-conclusion": Animation5Chapter04Conclusion,
-  "dns-protocol-contract": Animation6DnsProtocolContract,
-  "dns-record-store": Animation7DnsRecordStore,
-  "dns-two-ideas": Animation8DnsTwoIdeas,
-  "episode-agenda": Animation9EpisodeAgenda,
-  "name-indirection": Animation10NameIndirection,
-  "subscribe-callout": Animation11SubscribeCallout,
+  "p00-a01-episode-agenda": Animation2P00A01EpisodeAgenda,
+  "p00-a02-subscribe-callout": Animation3P00A02SubscribeCallout,
+  "p01-a00-chapter-divider": Animation4P01A00ChapterDivider,
+  "p01-a01-name-indirection": Animation5P01A01NameIndirection,
+  "p01-a02-dns-two-ideas": Animation6P01A02DnsTwoIdeas,
+  "p01-a03-dns-record-store": Animation7P01A03DnsRecordStore,
+  "p01-a04-dns-protocol-contract": Animation8P01A04DnsProtocolContract,
+  "p02-a00-chapter-divider": Animation9P02A00ChapterDivider,
+  "p02-a01-name-tree-reversed-path": Animation10P02A01NameTreeReversedPath,
+  "p02-a02-tld-governance-stack": Animation11P02A02TldGovernanceStack,
+  "p02-a03-zone-delegation": Animation12P02A03ZoneDelegation,
+  "p02-a04-resource-record-anatomy": Animation13P02A04ResourceRecordAnatomy,
+  "p02-a05-record-types-atlas": Animation14P02A05RecordTypesAtlas,
+  "p02-a06-resolver-participants": Animation15P02A06ResolverParticipants,
+  "p02-a07-iterative-resolution-walk": Animation16P02A07IterativeResolutionWalk,
+  "p02-a08-dns-packet-stack": Animation17P02A08DnsPacketStack,
+  "p02-a09-cache-and-ttl": Animation18P02A09CacheAndTtl,
+  "p02-a10-transaction-id-correlation": Animation19P02A10TransactionIdCorrelation,
+  "p02-a11-root-servers-a-to-m": Animation20P02A11RootServersAToM,
+  "p02-a12-why-thirteen-packet-budget": Animation21P02A12WhyThirteenPacketBudget,
+  "p02-a13-root-anycast-globe": Animation22P02A13RootAnycastGlobe,
+  "p02-a14-thirteen-names-many-machines": Animation23P02A14ThirteenNamesManyMachines,
+  "p03-a00-chapter-divider": Animation24P03A00ChapterDivider,
+  "p04-a00-chapter-divider": Animation25P04A00ChapterDivider,
 };
 
 const V001NetworkDnsOverlay: React.FC = () => (
   <TimelineOverlay
-    anchors={{"intro-protocol":0,"intro-dependent-systems":7080,"intro-1983-question":22140,"subscribe-cta":51720,"chapter-01-what-is-dns-start":55040,"why-names":55040,"arpanet-hosts-txt":96340,"name-as-indirection":113820,"central-file-failure":115520,"dns-two-ideas":151000,"dns-as-key-value-store":178420,"dns-message-shape":212680,"chapter-02-how-dns-works-start":236760,"name-tree":252320,"fqdn-root-dot":274960,"tld-icann-registry":284560,"zone-delegation":320440,"resource-record-fields":378000,"resource-record-types":393800,"request-participants":432800,"recursive-vs-iterative":471760,"iterative-resolution-walk":505220,"dns-packet-stack":558640,"udp-efficiency":593660,"cache-and-ttl":607600,"transaction-id":668620,"root-hints":693900,"why-thirteen":721640,"root-anycast":754700,"chapter-03-security-privacy-myths-start":777060,"security-intro":777060,"cache-poisoning":800840,"compatibility-patches":833920,"dnssec":866860,"privacy-intro":896320,"encrypted-dns-protocols":929360,"resolver-trust-shift":970860,"myth-thirteen-servers":1025240,"myth-phone-book":1083620,"chapter-04-conclusion-start":1129420,"conclusion":1129420,"dns-as-traffic-control":1178460,"next-video-teaser":1202640,"outro":1208460,"episode-agenda-start":11140,"name-indirection-start":68280}}
+    anchors={{"intro-protocol":0,"intro-dependent-systems":7080,"intro-1983-question":22140,"subscribe-cta":51720,"chapter-01-what-is-dns-start":55040,"why-names":55040,"arpanet-hosts-txt":96340,"name-as-indirection":113820,"central-file-failure":115520,"dns-two-ideas":151000,"dns-as-key-value-store":178420,"dns-message-shape":212680,"chapter-02-how-dns-works-start":236760,"name-tree":252320,"fqdn-root-dot":274960,"tld-icann-registry":284560,"zone-delegation":320440,"resource-record-fields":378000,"resource-record-types":393800,"request-participants":432800,"recursive-vs-iterative":471760,"iterative-resolution-walk":505220,"dns-packet-stack":558640,"udp-efficiency":593660,"cache-and-ttl":607600,"transaction-id":668620,"root-hints":693900,"why-thirteen":721640,"root-anycast":754700,"root-many-instances":765440,"chapter-03-security-privacy-myths-start":777060,"security-intro":777060,"cache-poisoning":800840,"compatibility-patches":833920,"dnssec":866860,"privacy-intro":896320,"encrypted-dns-protocols":929360,"resolver-trust-shift":970860,"myth-thirteen-servers":1025240,"myth-phone-book":1083620,"chapter-04-conclusion-start":1129420,"conclusion":1129420,"dns-as-traffic-control":1178460,"next-video-teaser":1202640,"outro":1208460,"episode-agenda-start":11140,"name-indirection-start":68280}}
     audio={"generated/001-network-dns/audio.wav"}
     components={V001NetworkDnsComponents}
-    timeline={[{"id":"show-episode-agenda","animation":"episode-agenda","anchor":"episode-agenda-start","offsetMs":0,"durationMs":23360,"props":{}},{"id":"show-subscribe-callout","animation":"subscribe-callout","anchor":"subscribe-cta","offsetMs":0,"durationMs":3000,"props":{}},{"id":"show-chapter-01-what-is-dns","animation":"chapter-01-what-is-dns","anchor":"chapter-01-what-is-dns-start","offsetMs":0,"durationMs":4000,"props":{}},{"id":"show-name-indirection","animation":"name-indirection","anchor":"name-indirection-start","offsetMs":0,"durationMs":27540,"props":{"themeId":"graphite","transparent":true}},{"id":"show-dns-two-ideas","animation":"dns-two-ideas","anchor":"dns-two-ideas","offsetMs":0,"durationMs":27380,"props":{"themeId":"graphite","transparent":true}},{"id":"show-dns-record-store","animation":"dns-record-store","anchor":"dns-as-key-value-store","offsetMs":0,"durationMs":33420,"props":{"themeId":"graphite","transparent":true}},{"id":"show-dns-protocol-contract","animation":"dns-protocol-contract","anchor":"dns-message-shape","offsetMs":0,"durationMs":23680,"props":{"themeId":"graphite","transparent":true}},{"id":"show-chapter-02-how-dns-works","animation":"chapter-02-how-dns-works","anchor":"chapter-02-how-dns-works-start","offsetMs":0,"durationMs":4000,"props":{}},{"id":"show-chapter-03-security-privacy-myths","animation":"chapter-03-security-privacy-myths","anchor":"chapter-03-security-privacy-myths-start","offsetMs":0,"durationMs":4000,"props":{}},{"id":"show-chapter-04-conclusion","animation":"chapter-04-conclusion","anchor":"chapter-04-conclusion-start","offsetMs":0,"durationMs":4000,"props":{}}]}
+    timeline={[{"id":"show-p00-a01-episode-agenda","animation":"p00-a01-episode-agenda","anchor":"episode-agenda-start","offsetMs":0,"durationMs":23360,"props":{}},{"id":"show-p00-a02-subscribe-callout","animation":"p00-a02-subscribe-callout","anchor":"subscribe-cta","offsetMs":0,"durationMs":3000,"props":{}},{"id":"show-p01-a00-chapter-divider","animation":"p01-a00-chapter-divider","anchor":"chapter-01-what-is-dns-start","offsetMs":0,"durationMs":4000,"props":{}},{"id":"show-p01-a01-name-indirection","animation":"p01-a01-name-indirection","anchor":"name-indirection-start","offsetMs":0,"durationMs":27540,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p01-a02-dns-two-ideas","animation":"p01-a02-dns-two-ideas","anchor":"dns-two-ideas","offsetMs":0,"durationMs":27380,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p01-a03-dns-record-store","animation":"p01-a03-dns-record-store","anchor":"dns-as-key-value-store","offsetMs":0,"durationMs":33420,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p01-a04-dns-protocol-contract","animation":"p01-a04-dns-protocol-contract","anchor":"dns-message-shape","offsetMs":0,"durationMs":23680,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a00-chapter-divider","animation":"p02-a00-chapter-divider","anchor":"chapter-02-how-dns-works-start","offsetMs":0,"durationMs":4000,"props":{}},{"id":"show-p02-a01-name-tree-reversed-path","animation":"p02-a01-name-tree-reversed-path","anchor":"name-tree","offsetMs":0,"durationMs":22640,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a02-tld-governance-stack","animation":"p02-a02-tld-governance-stack","anchor":"tld-icann-registry","offsetMs":0,"durationMs":35880,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a03-zone-delegation","animation":"p02-a03-zone-delegation","anchor":"zone-delegation","offsetMs":0,"durationMs":57560,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a04-resource-record-anatomy","animation":"p02-a04-resource-record-anatomy","anchor":"resource-record-fields","offsetMs":0,"durationMs":15800,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a05-record-types-atlas","animation":"p02-a05-record-types-atlas","anchor":"resource-record-types","offsetMs":0,"durationMs":39000,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a06-resolver-participants","animation":"p02-a06-resolver-participants","anchor":"request-participants","offsetMs":0,"durationMs":38960,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a07-iterative-resolution-walk","animation":"p02-a07-iterative-resolution-walk","anchor":"iterative-resolution-walk","offsetMs":0,"durationMs":53420,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a08-dns-packet-stack","animation":"p02-a08-dns-packet-stack","anchor":"dns-packet-stack","offsetMs":0,"durationMs":35020,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a09-cache-and-ttl","animation":"p02-a09-cache-and-ttl","anchor":"cache-and-ttl","offsetMs":0,"durationMs":61020,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a10-transaction-id-correlation","animation":"p02-a10-transaction-id-correlation","anchor":"transaction-id","offsetMs":0,"durationMs":14940,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a11-root-servers-a-to-m","animation":"p02-a11-root-servers-a-to-m","anchor":"root-hints","offsetMs":0,"durationMs":20280,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a12-why-thirteen-packet-budget","animation":"p02-a12-why-thirteen-packet-budget","anchor":"why-thirteen","offsetMs":0,"durationMs":33060,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a13-root-anycast-globe","animation":"p02-a13-root-anycast-globe","anchor":"root-anycast","offsetMs":0,"durationMs":10740,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a14-thirteen-names-many-machines","animation":"p02-a14-thirteen-names-many-machines","anchor":"root-many-instances","offsetMs":0,"durationMs":11620,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p03-a00-chapter-divider","animation":"p03-a00-chapter-divider","anchor":"chapter-03-security-privacy-myths-start","offsetMs":0,"durationMs":4000,"props":{}},{"id":"show-p04-a00-chapter-divider","animation":"p04-a00-chapter-divider","anchor":"chapter-04-conclusion-start","offsetMs":0,"durationMs":4000,"props":{}}]}
   />
 );
 
 export const GeneratedVideoCompositions: React.FC = () => (
   <>
     <Folder name="V-000-demo-microservices">
-      <Composition
-        id="Video-000-demo-microservices-database-commit"
-        component={Animation0DatabaseCommit}
-        width={2560}
-        height={1440}
-        fps={30}
-        durationInFrames={102}
-        defaultProps={{"themeId":"paper","transparent":true}}
-      />
-      <Composition
-        id="Video-000-demo-microservices-request-flow"
-        component={Animation1RequestFlow}
-        width={2560}
-        height={1440}
-        fps={30}
-        durationInFrames={120}
-        defaultProps={{"themeId":"graphite","transparent":true}}
-      />
+      <Folder name="P-01">
+        <Composition
+          id="Video-000-demo-microservices-p01-a01-request-flow"
+          component={Animation0P01A01RequestFlow}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={120}
+          defaultProps={{"themeId":"graphite","transparent":true}}
+        />
+        <Composition
+          id="Video-000-demo-microservices-p01-a02-database-commit"
+          component={Animation1P01A02DatabaseCommit}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={102}
+          defaultProps={{"themeId":"paper","transparent":true}}
+        />
+      </Folder>
       <Composition
         id="Video-000-demo-microservices-Overlay"
         component={V000DemoMicroservicesOverlay}
@@ -83,96 +113,232 @@ export const GeneratedVideoCompositions: React.FC = () => (
       />
     </Folder>
     <Folder name="V-001-network-dns">
-      <Composition
-        id="Video-001-network-dns-chapter-01-what-is-dns"
-        component={Animation2Chapter01WhatIsDns}
-        width={2560}
-        height={1440}
-        fps={30}
-        durationInFrames={120}
-        defaultProps={{}}
-      />
-      <Composition
-        id="Video-001-network-dns-chapter-02-how-dns-works"
-        component={Animation3Chapter02HowDnsWorks}
-        width={2560}
-        height={1440}
-        fps={30}
-        durationInFrames={120}
-        defaultProps={{}}
-      />
-      <Composition
-        id="Video-001-network-dns-chapter-03-security-privacy-myths"
-        component={Animation4Chapter03SecurityPrivacyMyths}
-        width={2560}
-        height={1440}
-        fps={30}
-        durationInFrames={120}
-        defaultProps={{}}
-      />
-      <Composition
-        id="Video-001-network-dns-chapter-04-conclusion"
-        component={Animation5Chapter04Conclusion}
-        width={2560}
-        height={1440}
-        fps={30}
-        durationInFrames={120}
-        defaultProps={{}}
-      />
-      <Composition
-        id="Video-001-network-dns-dns-protocol-contract"
-        component={Animation6DnsProtocolContract}
-        width={2560}
-        height={1440}
-        fps={30}
-        durationInFrames={710}
-        defaultProps={{"themeId":"graphite","transparent":true}}
-      />
-      <Composition
-        id="Video-001-network-dns-dns-record-store"
-        component={Animation7DnsRecordStore}
-        width={2560}
-        height={1440}
-        fps={30}
-        durationInFrames={1003}
-        defaultProps={{"themeId":"graphite","transparent":true}}
-      />
-      <Composition
-        id="Video-001-network-dns-dns-two-ideas"
-        component={Animation8DnsTwoIdeas}
-        width={2560}
-        height={1440}
-        fps={30}
-        durationInFrames={821}
-        defaultProps={{"themeId":"graphite","transparent":true}}
-      />
-      <Composition
-        id="Video-001-network-dns-episode-agenda"
-        component={Animation9EpisodeAgenda}
-        width={2560}
-        height={1440}
-        fps={30}
-        durationInFrames={701}
-        defaultProps={{}}
-      />
-      <Composition
-        id="Video-001-network-dns-name-indirection"
-        component={Animation10NameIndirection}
-        width={2560}
-        height={1440}
-        fps={30}
-        durationInFrames={826}
-        defaultProps={{"themeId":"graphite","transparent":true}}
-      />
-      <Composition
-        id="Video-001-network-dns-subscribe-callout"
-        component={Animation11SubscribeCallout}
-        width={2560}
-        height={1440}
-        fps={30}
-        durationInFrames={90}
-        defaultProps={{}}
-      />
+      <Folder name="P-00">
+        <Composition
+          id="Video-001-network-dns-p00-a01-episode-agenda"
+          component={Animation2P00A01EpisodeAgenda}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={701}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-001-network-dns-p00-a02-subscribe-callout"
+          component={Animation3P00A02SubscribeCallout}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={90}
+          defaultProps={{}}
+        />
+      </Folder>
+      <Folder name="P-01">
+        <Composition
+          id="Video-001-network-dns-p01-a00-chapter-divider"
+          component={Animation4P01A00ChapterDivider}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={120}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-001-network-dns-p01-a01-name-indirection"
+          component={Animation5P01A01NameIndirection}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={826}
+          defaultProps={{"themeId":"graphite","transparent":true}}
+        />
+        <Composition
+          id="Video-001-network-dns-p01-a02-dns-two-ideas"
+          component={Animation6P01A02DnsTwoIdeas}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={821}
+          defaultProps={{"themeId":"graphite","transparent":true}}
+        />
+        <Composition
+          id="Video-001-network-dns-p01-a03-dns-record-store"
+          component={Animation7P01A03DnsRecordStore}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1003}
+          defaultProps={{"themeId":"graphite","transparent":true}}
+        />
+        <Composition
+          id="Video-001-network-dns-p01-a04-dns-protocol-contract"
+          component={Animation8P01A04DnsProtocolContract}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={710}
+          defaultProps={{"themeId":"graphite","transparent":true}}
+        />
+      </Folder>
+      <Folder name="P-02">
+        <Composition
+          id="Video-001-network-dns-p02-a00-chapter-divider"
+          component={Animation9P02A00ChapterDivider}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={120}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-001-network-dns-p02-a01-name-tree-reversed-path"
+          component={Animation10P02A01NameTreeReversedPath}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={679}
+          defaultProps={{"themeId":"graphite","transparent":true}}
+        />
+        <Composition
+          id="Video-001-network-dns-p02-a02-tld-governance-stack"
+          component={Animation11P02A02TldGovernanceStack}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1076}
+          defaultProps={{"themeId":"graphite","transparent":true}}
+        />
+        <Composition
+          id="Video-001-network-dns-p02-a03-zone-delegation"
+          component={Animation12P02A03ZoneDelegation}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1727}
+          defaultProps={{"themeId":"graphite","transparent":true}}
+        />
+        <Composition
+          id="Video-001-network-dns-p02-a04-resource-record-anatomy"
+          component={Animation13P02A04ResourceRecordAnatomy}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={474}
+          defaultProps={{"themeId":"graphite","transparent":true}}
+        />
+        <Composition
+          id="Video-001-network-dns-p02-a05-record-types-atlas"
+          component={Animation14P02A05RecordTypesAtlas}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1170}
+          defaultProps={{"themeId":"graphite","transparent":true}}
+        />
+        <Composition
+          id="Video-001-network-dns-p02-a06-resolver-participants"
+          component={Animation15P02A06ResolverParticipants}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1169}
+          defaultProps={{"themeId":"graphite","transparent":true}}
+        />
+        <Composition
+          id="Video-001-network-dns-p02-a07-iterative-resolution-walk"
+          component={Animation16P02A07IterativeResolutionWalk}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1603}
+          defaultProps={{"themeId":"graphite","transparent":true}}
+        />
+        <Composition
+          id="Video-001-network-dns-p02-a08-dns-packet-stack"
+          component={Animation17P02A08DnsPacketStack}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1051}
+          defaultProps={{"themeId":"graphite","transparent":true}}
+        />
+        <Composition
+          id="Video-001-network-dns-p02-a09-cache-and-ttl"
+          component={Animation18P02A09CacheAndTtl}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1831}
+          defaultProps={{"themeId":"graphite","transparent":true}}
+        />
+        <Composition
+          id="Video-001-network-dns-p02-a10-transaction-id-correlation"
+          component={Animation19P02A10TransactionIdCorrelation}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={448}
+          defaultProps={{"themeId":"graphite","transparent":true}}
+        />
+        <Composition
+          id="Video-001-network-dns-p02-a11-root-servers-a-to-m"
+          component={Animation20P02A11RootServersAToM}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={608}
+          defaultProps={{"themeId":"graphite","transparent":true}}
+        />
+        <Composition
+          id="Video-001-network-dns-p02-a12-why-thirteen-packet-budget"
+          component={Animation21P02A12WhyThirteenPacketBudget}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={992}
+          defaultProps={{"themeId":"graphite","transparent":true}}
+        />
+        <Composition
+          id="Video-001-network-dns-p02-a13-root-anycast-globe"
+          component={Animation22P02A13RootAnycastGlobe}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={322}
+          defaultProps={{"themeId":"graphite","transparent":true}}
+        />
+        <Composition
+          id="Video-001-network-dns-p02-a14-thirteen-names-many-machines"
+          component={Animation23P02A14ThirteenNamesManyMachines}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={349}
+          defaultProps={{"themeId":"graphite","transparent":true}}
+        />
+      </Folder>
+      <Folder name="P-03">
+        <Composition
+          id="Video-001-network-dns-p03-a00-chapter-divider"
+          component={Animation24P03A00ChapterDivider}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={120}
+          defaultProps={{}}
+        />
+      </Folder>
+      <Folder name="P-04">
+        <Composition
+          id="Video-001-network-dns-p04-a00-chapter-divider"
+          component={Animation25P04A00ChapterDivider}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={120}
+          defaultProps={{}}
+        />
+      </Folder>
       <Composition
         id="Video-001-network-dns-Overlay"
         component={V001NetworkDnsOverlay}

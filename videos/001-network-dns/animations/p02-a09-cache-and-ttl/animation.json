@@ -1,0 +1,12 @@
+{
+  "id": "p02-a09-cache-and-ttl",
+  "part": 2,
+  "order": 9,
+  "title": "Кеш DNS и жизненный цикл TTL",
+  "kind": "2d",
+  "durationMs": 61020,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

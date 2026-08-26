@@ -1,0 +1,12 @@
+{
+  "id": "p01-a01-name-indirection",
+  "part": 1,
+  "order": 1,
+  "title": "Имя как уровень косвенности",
+  "kind": "2d",
+  "durationMs": 27540,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

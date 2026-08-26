@@ -1,0 +1,12 @@
+{
+  "id": "p02-a08-dns-packet-stack",
+  "part": 2,
+  "order": 8,
+  "title": "DNS-запрос внутри сетевого стека",
+  "kind": "2d",
+  "durationMs": 35020,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

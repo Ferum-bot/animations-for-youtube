@@ -4,14 +4,23 @@ import {assertSlug, parseArgs, readJson, writeJson} from './lib.mjs';
 
 const args = parseArgs(process.argv.slice(2));
 const video = args.video;
-const animation = args.animation;
-const title = args.title ?? animation;
+const animationSlug = args.animation;
+const part = Number(args.part);
+const order = Number(args.order);
+const title = args.title ?? animationSlug;
 const kind = args.kind ?? '2d';
 
-if (!video || !animation) throw new Error('--video and --animation are required');
+if (!video || !animationSlug || !args.part || !args.order) {
+  throw new Error('--video, --animation, --part, and --order are required');
+}
 assertSlug(video, 'video');
-assertSlug(animation, 'animation');
+assertSlug(animationSlug, 'animation');
+if (![part, order].every((value) => Number.isInteger(value) && value >= 0 && value <= 99)) {
+  throw new Error('--part and --order must be integers from 0 to 99');
+}
 if (!['2d', '3d'].includes(kind)) throw new Error('--kind must be 2d or 3d');
+
+const animation = `p${String(part).padStart(2, '0')}-a${String(order).padStart(2, '0')}-${animationSlug}`;
 
 const videoDirectory = path.resolve('videos', video);
 await access(path.join(videoDirectory, 'video.json'));
@@ -21,6 +30,8 @@ const serializedTitle = JSON.stringify(title);
 
 await writeJson(path.join(directory, 'animation.json'), {
   id: animation,
+  part,
+  order,
   title,
   kind,
   durationMs: 4000,

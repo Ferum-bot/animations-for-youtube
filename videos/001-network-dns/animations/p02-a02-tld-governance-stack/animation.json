@@ -1,0 +1,12 @@
+{
+  "id": "p02-a02-tld-governance-stack",
+  "part": 2,
+  "order": 2,
+  "title": "Экосистема доменов верхнего уровня",
+  "kind": "2d",
+  "durationMs": 35880,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

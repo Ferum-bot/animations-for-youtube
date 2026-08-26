@@ -1,0 +1,12 @@
+{
+  "id": "p02-a04-resource-record-anatomy",
+  "part": 2,
+  "order": 4,
+  "title": "Анатомия ресурсной записи DNS",
+  "kind": "2d",
+  "durationMs": 15800,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

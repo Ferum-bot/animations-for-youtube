@@ -1,0 +1,9 @@
+{
+  "id": "p00-a02-subscribe-callout",
+  "part": 0,
+  "order": 2,
+  "title": "ПОДПИСКА НА КАНАЛ",
+  "kind": "2d",
+  "durationMs": 3000,
+  "defaultProps": {}
+}

@@ -1,0 +1,12 @@
+{
+  "id": "p02-a01-name-tree-reversed-path",
+  "part": 2,
+  "order": 1,
+  "title": "Имя DNS как путь по дереву",
+  "kind": "2d",
+  "durationMs": 22640,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

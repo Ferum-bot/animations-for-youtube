@@ -1,0 +1,12 @@
+{
+  "id": "p02-a03-zone-delegation",
+  "part": 2,
+  "order": 3,
+  "title": "Делегирование зон DNS",
+  "kind": "3d",
+  "durationMs": 57560,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

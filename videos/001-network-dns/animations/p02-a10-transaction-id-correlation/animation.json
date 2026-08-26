@@ -1,0 +1,12 @@
+{
+  "id": "p02-a10-transaction-id-correlation",
+  "part": 2,
+  "order": 10,
+  "title": "Transaction ID связывает DNS-запрос и ответ",
+  "kind": "2d",
+  "durationMs": 14940,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

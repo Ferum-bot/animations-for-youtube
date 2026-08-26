@@ -8,6 +8,7 @@ const requestedVideo = args.video;
 const errors = [];
 const warnings = [];
 const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const numberedAnimationPattern = /^p(\d{2})-a(\d{2})-[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const videosRoot = path.resolve('videos');
 const entries = (await readdir(videosRoot, {withFileTypes: true}))
   .filter((entry) => entry.isDirectory())
@@ -26,6 +27,7 @@ for (const entry of entries) {
   const animationDirectories = (await readdir(path.join(directory, 'animations'), {withFileTypes: true}))
     .filter((item) => item.isDirectory());
   const animationIds = new Set();
+  const animationPositions = new Set();
 
   if (video.id !== entry.name) errors.push(`${entry.name}: video.json id must match directory name`);
   if (!slugPattern.test(video.id)) errors.push(`${entry.name}: invalid video id`);
@@ -51,6 +53,26 @@ for (const entry of entries) {
       errors.push(`${entry.name}/${animationDirectory.name}: animation id must match directory name`);
     }
     if (!slugPattern.test(metadata.id)) errors.push(`${entry.name}/${metadata.id}: invalid animation id`);
+    if (!numberedAnimationPattern.test(metadata.id)) {
+      errors.push(`${entry.name}/${metadata.id}: animation id must match pNN-aNN-slug`);
+    }
+    if (!Number.isInteger(metadata.part) || metadata.part < 0 || metadata.part > 99) {
+      errors.push(`${entry.name}/${metadata.id}: part must be an integer from 0 to 99`);
+    }
+    if (!Number.isInteger(metadata.order) || metadata.order < 0 || metadata.order > 99) {
+      errors.push(`${entry.name}/${metadata.id}: order must be an integer from 0 to 99`);
+    }
+    const expectedPrefix = Number.isInteger(metadata.part) && Number.isInteger(metadata.order)
+      ? `p${String(metadata.part).padStart(2, '0')}-a${String(metadata.order).padStart(2, '0')}-`
+      : '';
+    if (expectedPrefix && !metadata.id.startsWith(expectedPrefix)) {
+      errors.push(`${entry.name}/${metadata.id}: id prefix must match part and order metadata`);
+    }
+    const position = `${metadata.part}:${metadata.order}`;
+    if (animationPositions.has(position)) {
+      errors.push(`${entry.name}/${metadata.id}: duplicate animation position ${position}`);
+    }
+    animationPositions.add(position);
     if (!Number.isFinite(metadata.durationMs) || metadata.durationMs <= 0) {
       errors.push(`${entry.name}/${metadata.id}: durationMs must be positive`);
     }

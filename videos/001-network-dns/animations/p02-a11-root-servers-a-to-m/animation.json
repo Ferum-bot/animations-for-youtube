@@ -1,0 +1,12 @@
+{
+  "id": "p02-a11-root-servers-a-to-m",
+  "part": 2,
+  "order": 11,
+  "title": "Корневые серверы DNS от A до M",
+  "kind": "2d",
+  "durationMs": 20280,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

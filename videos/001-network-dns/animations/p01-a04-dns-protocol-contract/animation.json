@@ -1,0 +1,12 @@
+{
+  "id": "p01-a04-dns-protocol-contract",
+  "part": 1,
+  "order": 4,
+  "title": "Контракт протокола DNS",
+  "kind": "2d",
+  "durationMs": 23680,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

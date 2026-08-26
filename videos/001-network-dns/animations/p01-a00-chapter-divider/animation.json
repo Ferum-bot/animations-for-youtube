@@ -1,0 +1,9 @@
+{
+  "id": "p01-a00-chapter-divider",
+  "part": 1,
+  "order": 0,
+  "title": "ЧТО ТАКОЕ DNS И ЗАЧЕМ ОН НУЖЕН",
+  "kind": "2d",
+  "durationMs": 4000,
+  "defaultProps": {}
+}

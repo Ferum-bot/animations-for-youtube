@@ -16,14 +16,16 @@ task check
 
 ```bash
 task video:new VIDEO=001-topic TITLE="Название видео"
-task animation:new VIDEO=001-topic ANIMATION=request-flow TITLE="Request flow"
+task animation:new VIDEO=001-topic PART=02 ORDER=03 ANIMATION=request-flow TITLE="Request flow"
 task video:ingest VIDEO=001-topic AUDIO=/path/final.wav TRANSCRIPT=/path/transcript.srt
-task render:animation VIDEO=001-topic ANIMATION=request-flow
+task render:animation VIDEO=001-topic ANIMATION=p02-a03-request-flow
 task render:overlay VIDEO=001-topic
 task render:standard NAME=Subscribe
 ```
 
 После создания анимации поправьте семантический якорь в `anchors.json` и её размещение в `timeline.json`. Таймкоды хранятся в миллисекундах; номера кадров вычисляются автоматически.
+
+Идентификатор анимации имеет вид `pNN-aNN-slug`: `pNN` — часть видео, `aNN` — номер внутри части. Общие вставки относятся к `p00`, а разделитель части всегда имеет номер `a00`. Remotion Studio автоматически группирует композиции по папкам частей.
 
 ## Где что лежит
 

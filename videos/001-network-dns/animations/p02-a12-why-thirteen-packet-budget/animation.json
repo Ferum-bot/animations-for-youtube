@@ -1,0 +1,12 @@
+{
+  "id": "p02-a12-why-thirteen-packet-budget",
+  "part": 2,
+  "order": 12,
+  "title": "Почему исторически корневых DNS-имён тринадцать",
+  "kind": "2d",
+  "durationMs": 33060,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

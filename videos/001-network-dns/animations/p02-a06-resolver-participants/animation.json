@@ -1,0 +1,12 @@
+{
+  "id": "p02-a06-resolver-participants",
+  "part": 2,
+  "order": 6,
+  "title": "Участники DNS-запроса",
+  "kind": "2d",
+  "durationMs": 38960,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

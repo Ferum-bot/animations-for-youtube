@@ -1,7 +1,7 @@
 [
   {
-    "id": "show-request-flow",
-    "animation": "request-flow",
+    "id": "show-p01-a01-request-flow",
+    "animation": "p01-a01-request-flow",
     "anchor": "request-start",
     "offsetMs": -250,
     "durationMs": 4000,
@@ -11,8 +11,8 @@
     }
   },
   {
-    "id": "show-database-commit",
-    "animation": "database-commit",
+    "id": "show-p01-a02-database-commit",
+    "animation": "p01-a02-database-commit",
     "anchor": "database-commit",
     "offsetMs": -300,
     "durationMs": 3400,
@@ -22,4 +22,3 @@
     }
   }
 ]
-

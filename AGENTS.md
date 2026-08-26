@@ -43,6 +43,7 @@ The intended tone is authored, calm, editorial, technically literate, and occasi
 6. Use milliseconds as the persisted timing unit. Convert to frames only at the Remotion boundary.
 7. A composition ID may contain only letters, numbers, and hyphens.
 8. Pin `remotion` and every `@remotion/*` package to the same exact version.
+9. Episode animation IDs follow `pNN-aNN-slug`: `pNN` is the part number and `aNN` is the order inside that part. Use part `00` for episode-wide inserts and order `00` for chapter dividers. Directory name, `animation.json` ID, timeline reference, and Remotion composition ID must stay identical.
 
 ## Design principles
 
@@ -132,7 +133,7 @@ task studio
 task check
 task compositions
 task video:new VIDEO=001-topic TITLE="Title"
-task animation:new VIDEO=001-topic ANIMATION=request-flow TITLE="Request flow"
+task animation:new VIDEO=001-topic PART=02 ORDER=03 ANIMATION=request-flow TITLE="Request flow"
 task render:preview COMPOSITION=Examples-EditorialPulse
 task render:animation VIDEO=001-topic ANIMATION=request-flow
 task render:overlay VIDEO=001-topic
