@@ -1,0 +1,12 @@
+{
+  "id": "p03-a18-root-system-resilience",
+  "part": 3,
+  "order": 18,
+  "title": "Устойчивость корневой системы",
+  "kind": "2d",
+  "durationMs": 12520,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

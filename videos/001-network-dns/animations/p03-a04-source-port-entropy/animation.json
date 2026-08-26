@@ -1,0 +1,12 @@
+{
+  "id": "p03-a04-source-port-entropy",
+  "part": 3,
+  "order": 4,
+  "title": "Случайный UDP-порт как второй фактор DNS-запроса",
+  "kind": "2d",
+  "durationMs": 8300,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

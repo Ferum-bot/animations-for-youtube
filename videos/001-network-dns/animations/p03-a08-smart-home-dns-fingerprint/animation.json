@@ -1,0 +1,12 @@
+{
+  "id": "p03-a08-smart-home-dns-fingerprint",
+  "part": 3,
+  "order": 8,
+  "title": "Как DNS-запросы выдают устройства умного дома",
+  "kind": "2d",
+  "durationMs": 9780,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

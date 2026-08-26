@@ -1,0 +1,12 @@
+{
+  "id": "p03-a13-trust-moved-not-solved",
+  "part": 3,
+  "order": 13,
+  "title": "DoH переносит доверие, а не устраняет его",
+  "kind": "2d",
+  "durationMs": 5800,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

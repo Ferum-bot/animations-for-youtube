@@ -1,0 +1,12 @@
+{
+  "id": "p03-a09-encrypted-dns-transport-atlas",
+  "part": 3,
+  "order": 9,
+  "title": "DoT, DoH и DoQ: один DNS в трёх транспортных оболочках",
+  "kind": "2d",
+  "durationMs": 14520,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

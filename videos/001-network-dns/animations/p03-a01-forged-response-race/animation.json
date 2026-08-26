@@ -1,0 +1,12 @@
+{
+  "id": "p03-a01-forged-response-race",
+  "part": 3,
+  "order": 1,
+  "title": "Гонка настоящего и поддельного DNS-ответов",
+  "kind": "2d",
+  "durationMs": 20940,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

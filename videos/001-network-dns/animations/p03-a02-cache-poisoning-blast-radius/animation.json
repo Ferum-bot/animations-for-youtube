@@ -1,0 +1,12 @@
+{
+  "id": "p03-a02-cache-poisoning-blast-radius",
+  "part": 3,
+  "order": 2,
+  "title": "Отравление DNS-кэша и масштаб целой зоны",
+  "kind": "2d",
+  "durationMs": 20460,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

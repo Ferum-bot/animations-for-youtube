@@ -1,0 +1,12 @@
+{
+  "id": "p03-a12-resolver-ownership-shift",
+  "part": 3,
+  "order": 12,
+  "title": "DoH переносит контроль к выбранному резолверу",
+  "kind": "2d",
+  "durationMs": 24600,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

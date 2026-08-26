@@ -238,6 +238,193 @@
     "props": {}
   },
   {
+    "id": "show-p03-a01-forged-response-race",
+    "animation": "p03-a01-forged-response-race",
+    "anchor": "forged-response-race",
+    "offsetMs": 0,
+    "durationMs": 20940,
+    "props": {
+      "themeId": "graphite",
+      "transparent": true
+    }
+  },
+  {
+    "id": "show-p03-a02-cache-poisoning-blast-radius",
+    "animation": "p03-a02-cache-poisoning-blast-radius",
+    "anchor": "cache-poisoning",
+    "offsetMs": 0,
+    "durationMs": 20460,
+    "props": {
+      "themeId": "graphite",
+      "transparent": true
+    }
+  },
+  {
+    "id": "show-p03-a03-sixteen-bit-compatibility-trap",
+    "animation": "p03-a03-sixteen-bit-compatibility-trap",
+    "anchor": "sixteen-bit-compatibility-trap",
+    "offsetMs": 0,
+    "durationMs": 9860,
+    "props": {
+      "themeId": "graphite",
+      "transparent": true
+    }
+  },
+  {
+    "id": "show-p03-a04-source-port-entropy",
+    "animation": "p03-a04-source-port-entropy",
+    "anchor": "compatibility-patches",
+    "offsetMs": 0,
+    "durationMs": 8300,
+    "props": {
+      "themeId": "graphite",
+      "transparent": true
+    }
+  },
+  {
+    "id": "show-p03-a05-zero-x20-case-randomization",
+    "animation": "p03-a05-zero-x20-case-randomization",
+    "anchor": "zero-x20-case-randomization",
+    "offsetMs": 0,
+    "durationMs": 18800,
+    "props": {
+      "themeId": "graphite",
+      "transparent": true
+    }
+  },
+  {
+    "id": "show-p03-a06-dnssec-trust-vs-deployment",
+    "animation": "p03-a06-dnssec-trust-vs-deployment",
+    "anchor": "dnssec",
+    "offsetMs": 0,
+    "durationMs": 28900,
+    "props": {
+      "themeId": "graphite",
+      "transparent": true
+    }
+  },
+  {
+    "id": "show-p03-a08-smart-home-dns-fingerprint",
+    "animation": "p03-a08-smart-home-dns-fingerprint",
+    "anchor": "smart-home-dns-fingerprint",
+    "offsetMs": 0,
+    "durationMs": 9780,
+    "props": {
+      "themeId": "graphite",
+      "transparent": true
+    }
+  },
+  {
+    "id": "show-p03-a09-encrypted-dns-transport-atlas",
+    "animation": "p03-a09-encrypted-dns-transport-atlas",
+    "anchor": "encrypted-dns-protocols",
+    "offsetMs": 0,
+    "durationMs": 14520,
+    "props": {
+      "themeId": "graphite",
+      "transparent": true
+    }
+  },
+  {
+    "id": "show-p03-a11-privacy-two-question-model",
+    "animation": "p03-a11-privacy-two-question-model",
+    "anchor": "resolver-trust-shift",
+    "offsetMs": 0,
+    "durationMs": 15800,
+    "props": {
+      "themeId": "graphite",
+      "transparent": true
+    }
+  },
+  {
+    "id": "show-p03-a12-resolver-ownership-shift",
+    "animation": "p03-a12-resolver-ownership-shift",
+    "anchor": "resolver-ownership-shift",
+    "offsetMs": 0,
+    "durationMs": 24600,
+    "props": {
+      "themeId": "graphite",
+      "transparent": true
+    }
+  },
+  {
+    "id": "show-p03-a13-trust-moved-not-solved",
+    "animation": "p03-a13-trust-moved-not-solved",
+    "anchor": "trust-moved-not-solved",
+    "offsetMs": 0,
+    "durationMs": 5800,
+    "props": {
+      "themeId": "graphite",
+      "transparent": true
+    }
+  },
+  {
+    "id": "show-p03-a14-root-myth-cold-open",
+    "animation": "p03-a14-root-myth-cold-open",
+    "anchor": "myth-thirteen-servers",
+    "offsetMs": 0,
+    "durationMs": 12020,
+    "props": {
+      "themeId": "graphite",
+      "transparent": true
+    }
+  },
+  {
+    "id": "show-p03-a15-thirteen-identities-root-fleet",
+    "animation": "p03-a15-thirteen-identities-root-fleet",
+    "anchor": "root-scale-reveal",
+    "offsetMs": 0,
+    "durationMs": 14880,
+    "props": {
+      "themeId": "graphite",
+      "transparent": true
+    }
+  },
+  {
+    "id": "show-p03-a18-root-system-resilience",
+    "animation": "p03-a18-root-system-resilience",
+    "anchor": "root-system-resilience",
+    "offsetMs": 0,
+    "durationMs": 12520,
+    "props": {
+      "themeId": "graphite",
+      "transparent": true
+    }
+  },
+  {
+    "id": "show-p03-a19-phone-book-myth",
+    "animation": "p03-a19-phone-book-myth",
+    "anchor": "myth-phone-book",
+    "offsetMs": 0,
+    "durationMs": 6340,
+    "props": {
+      "themeId": "graphite",
+      "transparent": true
+    }
+  },
+  {
+    "id": "show-p03-a20-dns-traffic-steering",
+    "animation": "p03-a20-dns-traffic-steering",
+    "anchor": "dns-traffic-steering",
+    "offsetMs": 0,
+    "durationMs": 11000,
+    "props": {
+      "themeId": "graphite",
+      "transparent": true
+    }
+  },
+  {
+    "id": "show-p03-a22-dns-control-lever",
+    "animation": "p03-a22-dns-control-lever",
+    "anchor": "dns-control-lever",
+    "offsetMs": 0,
+    "durationMs": 18680,
+    "props": {
+      "themeId": "graphite",
+      "transparent": true
+    }
+  },
+  {
     "id": "show-p04-a00-chapter-divider",
     "animation": "p04-a00-chapter-divider",
     "anchor": "chapter-04-conclusion-start",

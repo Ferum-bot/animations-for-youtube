@@ -1,0 +1,12 @@
+{
+  "id": "p03-a19-phone-book-myth",
+  "part": 3,
+  "order": 19,
+  "title": "Миф: DNS — это телефонная книга",
+  "kind": "2d",
+  "durationMs": 6340,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

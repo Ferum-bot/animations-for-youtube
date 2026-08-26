@@ -1,0 +1,12 @@
+{
+  "id": "p03-a15-thirteen-identities-root-fleet",
+  "part": 3,
+  "order": 15,
+  "title": "Тринадцать идентификаторов и физический флот",
+  "kind": "2d",
+  "durationMs": 14880,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

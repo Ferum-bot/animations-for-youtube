@@ -1,0 +1,12 @@
+{
+  "id": "p03-a06-dnssec-trust-vs-deployment",
+  "part": 3,
+  "order": 6,
+  "title": "DNSSEC: цепочка доверия и разрыв внедрения",
+  "kind": "2d",
+  "durationMs": 28900,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

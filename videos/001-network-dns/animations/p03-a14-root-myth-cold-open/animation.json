@@ -1,0 +1,12 @@
+{
+  "id": "p03-a14-root-myth-cold-open",
+  "part": 3,
+  "order": 14,
+  "title": "Миф: корневых серверов всего тринадцать",
+  "kind": "2d",
+  "durationMs": 12020,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

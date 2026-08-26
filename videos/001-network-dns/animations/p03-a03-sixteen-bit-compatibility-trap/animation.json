@@ -1,0 +1,12 @@
+{
+  "id": "p03-a03-sixteen-bit-compatibility-trap",
+  "part": 3,
+  "order": 3,
+  "title": "16-битное поле и ловушка совместимости DNS",
+  "kind": "2d",
+  "durationMs": 9860,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

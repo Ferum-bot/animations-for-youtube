@@ -1,0 +1,12 @@
+{
+  "id": "p03-a11-privacy-two-question-model",
+  "part": 3,
+  "order": 11,
+  "title": "Приватность DNS: шифрование канала и владелец резолвера",
+  "kind": "2d",
+  "durationMs": 15800,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

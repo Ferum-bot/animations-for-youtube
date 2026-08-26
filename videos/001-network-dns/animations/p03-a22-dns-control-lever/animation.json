@@ -1,0 +1,12 @@
+{
+  "id": "p03-a22-dns-control-lever",
+  "part": 3,
+  "order": 22,
+  "title": "DNS как рычаг управления системой",
+  "kind": "2d",
+  "durationMs": 18680,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

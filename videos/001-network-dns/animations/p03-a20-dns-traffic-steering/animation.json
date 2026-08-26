@@ -1,0 +1,12 @@
+{
+  "id": "p03-a20-dns-traffic-steering",
+  "part": 3,
+  "order": 20,
+  "title": "DNS управляет глобальным трафиком",
+  "kind": "2d",
+  "durationMs": 11000,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}

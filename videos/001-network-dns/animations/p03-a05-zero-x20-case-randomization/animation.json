@@ -1,0 +1,12 @@
+{
+  "id": "p03-a05-zero-x20-case-randomization",
+  "part": 3,
+  "order": 5,
+  "title": "0x20: регистр букв как дополнительная энтропия DNS",
+  "kind": "2d",
+  "durationMs": 18800,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}
