@@ -1,0 +1,12 @@
+{
+  "id": "p04-a01-conclusion-recap",
+  "part": 4,
+  "order": 1,
+  "title": "Финальный разбор DNS: фундамент, наследие и рычаги",
+  "kind": "2d",
+  "durationMs": 70860,
+  "defaultProps": {
+    "themeId": "graphite",
+    "transparent": true
+  }
+}
