@@ -1,0 +1,13 @@
+[
+  {
+    "id": "show-p01-a01-lru-two-structures",
+    "animation": "p01-a01-lru-two-structures",
+    "anchor": "p01-a01-lru-two-structures-start",
+    "offsetMs": 0,
+    "durationMs": 87360,
+    "props": {
+      "themeId": "paper",
+      "transparent": false
+    }
+  }
+]

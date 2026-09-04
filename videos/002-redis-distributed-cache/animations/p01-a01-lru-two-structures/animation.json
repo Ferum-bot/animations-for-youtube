@@ -1,0 +1,12 @@
+{
+  "id": "p01-a01-lru-two-structures",
+  "part": 1,
+  "order": 1,
+  "title": "LRU: HashMap + Doubly Linked List",
+  "kind": "2d",
+  "durationMs": 87360,
+  "defaultProps": {
+    "themeId": "paper",
+    "transparent": false
+  }
+}

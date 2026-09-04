@@ -11,9 +11,11 @@ node_modules/
 .env.*
 !.env.example
 
+transcripts
 out/
 renders/
 apps/remotion/public/generated/
+docs/concepts
 
 videos/*/media/*
 !videos/*/media/README.md

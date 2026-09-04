@@ -1,0 +1,15 @@
+export const whiteboardTheme = {
+  paper: '#F2EEE4',
+  paperRaised: '#FBF8F0',
+  ink: '#111111',
+  mutedInk: '#777169',
+  gridDot: '#C9C2B6',
+  redis: '#F04A24',
+  redisDark: '#7A1E2C',
+  cobalt: '#1845D8',
+  green: '#2F7D45',
+  amber: '#E3B11E',
+  white: '#FFFFFF',
+  handFont: '"Marker Felt", "Chalkboard SE", "Comic Sans MS", cursive',
+  monoFont: 'Menlo, Monaco, Consolas, monospace',
+} as const;

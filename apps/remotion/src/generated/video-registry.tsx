@@ -47,6 +47,7 @@ import Animation40P03A20DnsTrafficSteering from '../../../../videos/001-network-
 import Animation41P03A22DnsControlLever from '../../../../videos/001-network-dns/animations/p03-a22-dns-control-lever/Composition';
 import Animation42P04A00ChapterDivider from '../../../../videos/001-network-dns/animations/p04-a00-chapter-divider/Composition';
 import Animation43P04A01ConclusionRecap from '../../../../videos/001-network-dns/animations/p04-a01-conclusion-recap/Composition';
+import Animation44P01A01LruTwoStructures from '../../../../videos/002-redis-distributed-cache/animations/p01-a01-lru-two-structures/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -113,6 +114,19 @@ const V001NetworkDnsOverlay: React.FC = () => (
     audio={"generated/001-network-dns/audio.wav"}
     components={V001NetworkDnsComponents}
     timeline={[{"id":"show-p00-a01-episode-agenda","animation":"p00-a01-episode-agenda","anchor":"episode-agenda-start","offsetMs":0,"durationMs":23360,"props":{}},{"id":"show-p00-a02-subscribe-callout","animation":"p00-a02-subscribe-callout","anchor":"subscribe-cta","offsetMs":0,"durationMs":3000,"props":{}},{"id":"show-p01-a00-chapter-divider","animation":"p01-a00-chapter-divider","anchor":"chapter-01-what-is-dns-start","offsetMs":0,"durationMs":4000,"props":{}},{"id":"show-p01-a01-name-indirection","animation":"p01-a01-name-indirection","anchor":"name-indirection-start","offsetMs":0,"durationMs":27540,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p01-a02-dns-two-ideas","animation":"p01-a02-dns-two-ideas","anchor":"dns-two-ideas","offsetMs":0,"durationMs":27380,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p01-a03-dns-record-store","animation":"p01-a03-dns-record-store","anchor":"dns-as-key-value-store","offsetMs":0,"durationMs":33420,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p01-a04-dns-protocol-contract","animation":"p01-a04-dns-protocol-contract","anchor":"dns-message-shape","offsetMs":0,"durationMs":23680,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a00-chapter-divider","animation":"p02-a00-chapter-divider","anchor":"chapter-02-how-dns-works-start","offsetMs":0,"durationMs":4000,"props":{}},{"id":"show-p02-a01-name-tree-reversed-path","animation":"p02-a01-name-tree-reversed-path","anchor":"name-tree","offsetMs":0,"durationMs":22640,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a02-tld-governance-stack","animation":"p02-a02-tld-governance-stack","anchor":"tld-icann-registry","offsetMs":0,"durationMs":35880,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a03-zone-delegation","animation":"p02-a03-zone-delegation","anchor":"zone-delegation","offsetMs":0,"durationMs":57560,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a04-resource-record-anatomy","animation":"p02-a04-resource-record-anatomy","anchor":"resource-record-fields","offsetMs":0,"durationMs":15800,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a05-record-types-atlas","animation":"p02-a05-record-types-atlas","anchor":"resource-record-types","offsetMs":0,"durationMs":39000,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a06-resolver-participants","animation":"p02-a06-resolver-participants","anchor":"request-participants","offsetMs":0,"durationMs":38960,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a07-iterative-resolution-walk","animation":"p02-a07-iterative-resolution-walk","anchor":"iterative-resolution-walk","offsetMs":0,"durationMs":53420,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a08-dns-packet-stack","animation":"p02-a08-dns-packet-stack","anchor":"dns-packet-stack","offsetMs":0,"durationMs":35020,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a09-cache-and-ttl","animation":"p02-a09-cache-and-ttl","anchor":"cache-and-ttl","offsetMs":0,"durationMs":61020,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a10-transaction-id-correlation","animation":"p02-a10-transaction-id-correlation","anchor":"transaction-id","offsetMs":0,"durationMs":14940,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a11-root-servers-a-to-m","animation":"p02-a11-root-servers-a-to-m","anchor":"root-hints","offsetMs":0,"durationMs":20280,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a12-why-thirteen-packet-budget","animation":"p02-a12-why-thirteen-packet-budget","anchor":"why-thirteen","offsetMs":0,"durationMs":33060,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a13-root-anycast-globe","animation":"p02-a13-root-anycast-globe","anchor":"root-anycast","offsetMs":0,"durationMs":10740,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p02-a14-thirteen-names-many-machines","animation":"p02-a14-thirteen-names-many-machines","anchor":"root-many-instances","offsetMs":0,"durationMs":11620,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p03-a00-chapter-divider","animation":"p03-a00-chapter-divider","anchor":"chapter-03-security-privacy-myths-start","offsetMs":0,"durationMs":4000,"props":{}},{"id":"show-p03-a01-forged-response-race","animation":"p03-a01-forged-response-race","anchor":"forged-response-race","offsetMs":0,"durationMs":20940,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p03-a02-cache-poisoning-blast-radius","animation":"p03-a02-cache-poisoning-blast-radius","anchor":"cache-poisoning","offsetMs":0,"durationMs":20460,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p03-a03-sixteen-bit-compatibility-trap","animation":"p03-a03-sixteen-bit-compatibility-trap","anchor":"sixteen-bit-compatibility-trap","offsetMs":0,"durationMs":9860,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p03-a04-source-port-entropy","animation":"p03-a04-source-port-entropy","anchor":"compatibility-patches","offsetMs":0,"durationMs":8300,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p03-a05-zero-x20-case-randomization","animation":"p03-a05-zero-x20-case-randomization","anchor":"zero-x20-case-randomization","offsetMs":0,"durationMs":18800,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p03-a06-dnssec-trust-vs-deployment","animation":"p03-a06-dnssec-trust-vs-deployment","anchor":"dnssec","offsetMs":0,"durationMs":28900,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p03-a08-smart-home-dns-fingerprint","animation":"p03-a08-smart-home-dns-fingerprint","anchor":"smart-home-dns-fingerprint","offsetMs":0,"durationMs":9780,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p03-a09-encrypted-dns-transport-atlas","animation":"p03-a09-encrypted-dns-transport-atlas","anchor":"encrypted-dns-protocols","offsetMs":0,"durationMs":14520,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p03-a11-privacy-two-question-model","animation":"p03-a11-privacy-two-question-model","anchor":"resolver-trust-shift","offsetMs":0,"durationMs":15800,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p03-a12-resolver-ownership-shift","animation":"p03-a12-resolver-ownership-shift","anchor":"resolver-ownership-shift","offsetMs":0,"durationMs":24600,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p03-a13-trust-moved-not-solved","animation":"p03-a13-trust-moved-not-solved","anchor":"trust-moved-not-solved","offsetMs":0,"durationMs":5800,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p03-a14-root-myth-cold-open","animation":"p03-a14-root-myth-cold-open","anchor":"myth-thirteen-servers","offsetMs":0,"durationMs":12020,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p03-a15-thirteen-identities-root-fleet","animation":"p03-a15-thirteen-identities-root-fleet","anchor":"root-scale-reveal","offsetMs":0,"durationMs":14880,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p03-a18-root-system-resilience","animation":"p03-a18-root-system-resilience","anchor":"root-system-resilience","offsetMs":0,"durationMs":12520,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p03-a19-phone-book-myth","animation":"p03-a19-phone-book-myth","anchor":"myth-phone-book","offsetMs":0,"durationMs":6340,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p03-a20-dns-traffic-steering","animation":"p03-a20-dns-traffic-steering","anchor":"dns-traffic-steering","offsetMs":0,"durationMs":11000,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p03-a22-dns-control-lever","animation":"p03-a22-dns-control-lever","anchor":"dns-control-lever","offsetMs":0,"durationMs":18680,"props":{"themeId":"graphite","transparent":true}},{"id":"show-p04-a00-chapter-divider","animation":"p04-a00-chapter-divider","anchor":"chapter-04-conclusion-start","offsetMs":0,"durationMs":4000,"props":{}},{"id":"show-p04-a01-conclusion-recap","animation":"p04-a01-conclusion-recap","anchor":"conclusion-recap","offsetMs":0,"durationMs":70860,"props":{"themeId":"graphite","transparent":true}}]}
+  />
+);
+
+const V002RedisDistributedCacheComponents: Record<string, TimelineComponent> = {
+  "p01-a01-lru-two-structures": Animation44P01A01LruTwoStructures,
+};
+
+const V002RedisDistributedCacheOverlay: React.FC = () => (
+  <TimelineOverlay
+    anchors={{"p01-a01-lru-two-structures-start":616440}}
+    audio={"generated/002-redis-distributed-cache/audio.wav"}
+    components={V002RedisDistributedCacheComponents}
+    timeline={[{"id":"show-p01-a01-lru-two-structures","animation":"p01-a01-lru-two-structures","anchor":"p01-a01-lru-two-structures-start","offsetMs":0,"durationMs":87360,"props":{"themeId":"paper","transparent":false}}]}
   />
 );
 
@@ -544,6 +558,27 @@ export const GeneratedVideoCompositions: React.FC = () => (
         height={1440}
         fps={30}
         durationInFrames={36537}
+      />
+    </Folder>
+    <Folder name="V-002-redis-distributed-cache">
+      <Folder name="P-01">
+        <Composition
+          id="Video-002-redis-distributed-cache-p01-a01-lru-two-structures"
+          component={Animation44P01A01LruTwoStructures}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={2621}
+          defaultProps={{"themeId":"paper","transparent":false}}
+        />
+      </Folder>
+      <Composition
+        id="Video-002-redis-distributed-cache-Overlay"
+        component={V002RedisDistributedCacheOverlay}
+        width={2560}
+        height={1440}
+        fps={30}
+        durationInFrames={90354}
       />
     </Folder>
   </>

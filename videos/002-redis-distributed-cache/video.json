@@ -1,0 +1,13 @@
+{
+  "id": "002-redis-distributed-cache",
+  "title": "System Design: Distributed Cache Redis",
+  "width": 2560,
+  "height": 1440,
+  "fps": 30,
+  "durationMs": 3011814,
+  "audio": "generated/002-redis-distributed-cache/audio.wav",
+  "source": {
+    "audioSha256": "3601d6a1fa87dc9796bc6e67861f7a1d1cb2cdda61a190babd6e5d497724aad5",
+    "transcriptSha256": "b938122267b0bf935695aa226b6100ec773143fc46b8d15838aa9ab7348427cc"
+  }
+}
