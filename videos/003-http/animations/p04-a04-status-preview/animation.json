@@ -1,0 +1,10 @@
+{
+  "id": "p04-a04-status-preview",
+  "part": 4,
+  "order": 4,
+  "title": "Коды состояния — общий просмотр со звуком",
+  "durationMs": 115200,
+  "kind": "2d",
+  "studioFolder": "P-05-Kody-sostoyaniya",
+  "defaultProps": {}
+}

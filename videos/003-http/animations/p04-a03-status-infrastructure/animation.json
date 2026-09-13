@@ -1,0 +1,13 @@
+{
+  "id": "p04-a03-status-infrastructure",
+  "part": 4,
+  "order": 3,
+  "title": "Посредники, мониторинг и общий протокол",
+  "durationMs": 45160,
+  "kind": "2d",
+  "studioFolder": "P-05-Kody-sostoyaniya",
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "presenter"
+  }
+}

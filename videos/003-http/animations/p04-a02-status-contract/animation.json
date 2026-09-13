@@ -1,0 +1,13 @@
+{
+  "id": "p04-a02-status-contract",
+  "part": 4,
+  "order": 2,
+  "title": "Общий язык и повтор после ошибки",
+  "durationMs": 27440,
+  "kind": "2d",
+  "studioFolder": "P-05-Kody-sostoyaniya",
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "presenter"
+  }
+}

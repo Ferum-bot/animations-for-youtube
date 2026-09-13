@@ -1,0 +1,13 @@
+{
+  "id": "p04-a01-status-families",
+  "part": 4,
+  "order": 1,
+  "title": "Пять семейств кодов",
+  "durationMs": 42600,
+  "kind": "2d",
+  "studioFolder": "P-05-Kody-sostoyaniya",
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "presenter"
+  }
+}
