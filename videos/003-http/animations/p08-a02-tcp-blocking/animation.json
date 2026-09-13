@@ -1,0 +1,13 @@
+{
+  "id": "p08-a02-tcp-blocking",
+  "part": 8,
+  "order": 2,
+  "title": "TCP — потеря и блокировка выдачи",
+  "durationMs": 29000,
+  "kind": "2d",
+  "studioFolder": "P-09-HTTP-2-i-3",
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "presenter"
+  }
+}

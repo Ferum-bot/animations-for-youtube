@@ -1,0 +1,13 @@
+{
+  "id": "p07-a01-short-connections",
+  "part": 7,
+  "order": 1,
+  "title": "HTTP/1.0 — цена отдельных соединений",
+  "durationMs": 35707,
+  "kind": "2d",
+  "studioFolder": "P-08-HTTP-1-0-i-1-1",
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "presenter"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "p08-a01-binary-multiplexing",
+  "part": 8,
+  "order": 1,
+  "title": "HTTP/2 — кадры и мультиплексирование",
+  "durationMs": 47894,
+  "kind": "2d",
+  "studioFolder": "P-09-HTTP-2-i-3",
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "presenter"
+  }
+}

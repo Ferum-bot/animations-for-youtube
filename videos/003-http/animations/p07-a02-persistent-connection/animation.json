@@ -1,0 +1,13 @@
+{
+  "id": "p07-a02-persistent-connection",
+  "part": 7,
+  "order": 2,
+  "title": "HTTP/1.1 — повторное использование",
+  "durationMs": 28660,
+  "kind": "2d",
+  "studioFolder": "P-08-HTTP-1-0-i-1-1",
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "presenter"
+  }
+}

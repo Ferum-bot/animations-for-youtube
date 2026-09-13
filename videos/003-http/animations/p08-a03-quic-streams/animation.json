@@ -1,0 +1,13 @@
+{
+  "id": "p08-a03-quic-streams",
+  "part": 8,
+  "order": 3,
+  "title": "QUIC — независимая доставка потоков",
+  "durationMs": 14000,
+  "kind": "2d",
+  "studioFolder": "P-09-HTTP-2-i-3",
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "presenter"
+  }
+}

@@ -287,5 +287,71 @@
       "withAudio": false,
       "previewBackground": "transparent"
     }
+  },
+  {
+    "id": "show-p07-a01-short-connections",
+    "animation": "p07-a01-short-connections",
+    "anchor": "p07-a01-short-connections-start",
+    "offsetMs": 0,
+    "durationMs": 35707,
+    "props": {
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
+  },
+  {
+    "id": "show-p07-a02-persistent-connection",
+    "animation": "p07-a02-persistent-connection",
+    "anchor": "p07-a02-persistent-connection-start",
+    "offsetMs": 0,
+    "durationMs": 28660,
+    "props": {
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
+  },
+  {
+    "id": "show-p07-a03-parallel-connections",
+    "animation": "p07-a03-parallel-connections",
+    "anchor": "p07-a03-parallel-connections-start",
+    "offsetMs": 0,
+    "durationMs": 16657,
+    "props": {
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
+  },
+  {
+    "id": "show-p08-a01-binary-multiplexing",
+    "animation": "p08-a01-binary-multiplexing",
+    "anchor": "p08-a01-binary-multiplexing-start",
+    "offsetMs": 0,
+    "durationMs": 47894,
+    "props": {
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
+  },
+  {
+    "id": "show-p08-a02-tcp-blocking",
+    "animation": "p08-a02-tcp-blocking",
+    "anchor": "p08-a02-tcp-blocking-start",
+    "offsetMs": 0,
+    "durationMs": 29000,
+    "props": {
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
+  },
+  {
+    "id": "show-p08-a03-quic-streams",
+    "animation": "p08-a03-quic-streams",
+    "anchor": "p08-a03-quic-streams-start",
+    "offsetMs": 0,
+    "durationMs": 14000,
+    "props": {
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
   }
 ]

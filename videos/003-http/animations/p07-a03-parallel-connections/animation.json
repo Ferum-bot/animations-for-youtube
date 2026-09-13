@@ -1,0 +1,13 @@
+{
+  "id": "p07-a03-parallel-connections",
+  "part": 7,
+  "order": 3,
+  "title": "Шесть соединений браузера",
+  "durationMs": 16657,
+  "kind": "2d",
+  "studioFolder": "P-08-HTTP-1-0-i-1-1",
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "presenter"
+  }
+}
