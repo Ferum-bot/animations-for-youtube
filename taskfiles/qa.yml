@@ -1,6 +1,13 @@
 version: '3'
 
 tasks:
+  capcut-alpha:
+    desc: Проверить RGB и альфу готового ProRes для CapCut
+    requires:
+      vars: [INPUT]
+    cmds:
+      - node scripts/check-capcut-alpha.mjs --input "{{.INPUT}}"
+
   frames:
     desc: Отрендерить ключевые кадры для визуальной приёмки
     requires:
@@ -10,4 +17,3 @@ tasks:
     deps: [':generate']
     cmds:
       - node scripts/render-keyframes.mjs --composition "{{.COMPOSITION}}" --frames "{{.FRAMES}}"
-

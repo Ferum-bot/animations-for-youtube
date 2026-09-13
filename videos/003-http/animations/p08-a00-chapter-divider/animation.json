@@ -1,0 +1,10 @@
+{
+  "id": "p08-a00-chapter-divider",
+  "part": 8,
+  "order": 0,
+  "title": "HTTP/2 и HTTP/3",
+  "durationMs": 4500,
+  "defaultProps": {},
+  "kind": "2d",
+  "studioFolder": "P-01-Perehody"
+}

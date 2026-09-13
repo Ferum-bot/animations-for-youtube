@@ -1,0 +1,93 @@
+[
+  {
+    "id": "show-episode-agenda",
+    "animation": "p00-a01-episode-agenda",
+    "anchor": "episode-agenda-start",
+    "offsetMs": 0,
+    "durationMs": 23433,
+    "props": {
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
+  },
+  {
+    "id": "show-p01-a00-chapter-divider",
+    "animation": "p01-a00-chapter-divider",
+    "anchor": "chapter-01-start",
+    "offsetMs": 0,
+    "durationMs": 4500,
+    "props": {}
+  },
+  {
+    "id": "show-p02-a00-chapter-divider",
+    "animation": "p02-a00-chapter-divider",
+    "anchor": "chapter-02-start",
+    "offsetMs": 0,
+    "durationMs": 4500,
+    "props": {}
+  },
+  {
+    "id": "show-p03-a00-chapter-divider",
+    "animation": "p03-a00-chapter-divider",
+    "anchor": "chapter-03-start",
+    "offsetMs": 0,
+    "durationMs": 4500,
+    "props": {}
+  },
+  {
+    "id": "show-p04-a00-chapter-divider",
+    "animation": "p04-a00-chapter-divider",
+    "anchor": "chapter-04-start",
+    "offsetMs": 0,
+    "durationMs": 4500,
+    "props": {}
+  },
+  {
+    "id": "show-p05-a00-chapter-divider",
+    "animation": "p05-a00-chapter-divider",
+    "anchor": "chapter-05-start",
+    "offsetMs": 0,
+    "durationMs": 4500,
+    "props": {}
+  },
+  {
+    "id": "show-p06-a00-chapter-divider",
+    "animation": "p06-a00-chapter-divider",
+    "anchor": "chapter-06-start",
+    "offsetMs": 0,
+    "durationMs": 4500,
+    "props": {}
+  },
+  {
+    "id": "show-p07-a00-chapter-divider",
+    "animation": "p07-a00-chapter-divider",
+    "anchor": "chapter-07-start",
+    "offsetMs": 0,
+    "durationMs": 4500,
+    "props": {}
+  },
+  {
+    "id": "show-p08-a00-chapter-divider",
+    "animation": "p08-a00-chapter-divider",
+    "anchor": "chapter-08-start",
+    "offsetMs": 0,
+    "durationMs": 4500,
+    "props": {}
+  },
+  {
+    "id": "show-p09-a00-chapter-divider",
+    "animation": "p09-a00-chapter-divider",
+    "anchor": "chapter-09-start",
+    "offsetMs": 0,
+    "durationMs": 4500,
+    "props": {}
+  },
+  {
+    "id": "show-p10-a00-chapter-divider",
+    "animation": "p10-a00-chapter-divider",
+    "anchor": "chapter-10-start",
+    "offsetMs": 0,
+    "durationMs": 4500,
+    "props": {}
+  }
+]

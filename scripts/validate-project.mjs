@@ -53,6 +53,10 @@ for (const entry of entries) {
       errors.push(`${entry.name}/${animationDirectory.name}: animation id must match directory name`);
     }
     if (!slugPattern.test(metadata.id)) errors.push(`${entry.name}/${metadata.id}: invalid animation id`);
+    if (metadata.studioFolder !== undefined &&
+      (typeof metadata.studioFolder !== 'string' || !/^[a-zA-Z0-9-]+$/.test(metadata.studioFolder))) {
+      errors.push(`${entry.name}/${metadata.id}: studioFolder must contain only letters A-Z, numbers, or hyphens`);
+    }
     if (!numberedAnimationPattern.test(metadata.id)) {
       errors.push(`${entry.name}/${metadata.id}: animation id must match pNN-aNN-slug`);
     }

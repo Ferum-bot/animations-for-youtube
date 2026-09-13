@@ -28,6 +28,14 @@ tasks:
       - mkdir -p "renders/{{.VIDEO}}/clips"
       - pnpm --filter @channel/remotion render "Video-{{.VIDEO}}-{{.ANIMATION}}" "../../renders/{{.VIDEO}}/clips/{{.ANIMATION}}.mov" --codec=prores --prores-profile=4444 --pixel-format=yuva444p10le --image-format=png
 
+  capcut:
+    desc: ProRes 4444 с согласованным RGB и альфой для CapCut macOS
+    requires:
+      vars: [VIDEO, ANIMATION]
+    deps: [':generate']
+    cmds:
+      - node scripts/render-capcut.mjs --video "{{.VIDEO}}" --animation "{{.ANIMATION}}"
+
   standard:
     desc: Рендер стандартной анимации
     requires:

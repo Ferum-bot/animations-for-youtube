@@ -1,0 +1,10 @@
+{
+  "id": "p02-a00-chapter-divider",
+  "part": 2,
+  "order": 0,
+  "title": "Анатомия HTTP",
+  "durationMs": 4500,
+  "defaultProps": {},
+  "kind": "2d",
+  "studioFolder": "P-01-Perehody"
+}

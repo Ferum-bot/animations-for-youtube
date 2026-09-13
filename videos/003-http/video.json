@@ -1,0 +1,13 @@
+{
+  "id": "003-http",
+  "title": "HTTP: от кода до провода",
+  "width": 2560,
+  "height": 1440,
+  "fps": 30,
+  "durationMs": 1420852,
+  "audio": "generated/003-http/audio.wav",
+  "source": {
+    "audioSha256": "6f50c1a1d8800e589d7638481ba875f54d822c75a8399c8cf5bc130f3a1730d7",
+    "transcriptSha256": "b9e90ee0e6fb25983c2ce7e6cd5028f8a0786dced1f2868982e3837cb6276587"
+  }
+}

@@ -48,6 +48,19 @@ import Animation41P03A22DnsControlLever from '../../../../videos/001-network-dns
 import Animation42P04A00ChapterDivider from '../../../../videos/001-network-dns/animations/p04-a00-chapter-divider/Composition';
 import Animation43P04A01ConclusionRecap from '../../../../videos/001-network-dns/animations/p04-a01-conclusion-recap/Composition';
 import Animation44P01A01LruTwoStructures from '../../../../videos/002-redis-distributed-cache/animations/p01-a01-lru-two-structures/Composition';
+import Animation45P00A01EpisodeAgenda from '../../../../videos/003-http/animations/p00-a01-episode-agenda/Composition';
+import Animation46P00A02AgendaPreview from '../../../../videos/003-http/animations/p00-a02-agenda-preview/Composition';
+import Animation47P00A03ChapterPreview from '../../../../videos/003-http/animations/p00-a03-chapter-preview/Composition';
+import Animation48P01A00ChapterDivider from '../../../../videos/003-http/animations/p01-a00-chapter-divider/Composition';
+import Animation49P02A00ChapterDivider from '../../../../videos/003-http/animations/p02-a00-chapter-divider/Composition';
+import Animation50P03A00ChapterDivider from '../../../../videos/003-http/animations/p03-a00-chapter-divider/Composition';
+import Animation51P04A00ChapterDivider from '../../../../videos/003-http/animations/p04-a00-chapter-divider/Composition';
+import Animation52P05A00ChapterDivider from '../../../../videos/003-http/animations/p05-a00-chapter-divider/Composition';
+import Animation53P06A00ChapterDivider from '../../../../videos/003-http/animations/p06-a00-chapter-divider/Composition';
+import Animation54P07A00ChapterDivider from '../../../../videos/003-http/animations/p07-a00-chapter-divider/Composition';
+import Animation55P08A00ChapterDivider from '../../../../videos/003-http/animations/p08-a00-chapter-divider/Composition';
+import Animation56P09A00ChapterDivider from '../../../../videos/003-http/animations/p09-a00-chapter-divider/Composition';
+import Animation57P10A00ChapterDivider from '../../../../videos/003-http/animations/p10-a00-chapter-divider/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -127,6 +140,31 @@ const V002RedisDistributedCacheOverlay: React.FC = () => (
     audio={"generated/002-redis-distributed-cache/audio.wav"}
     components={V002RedisDistributedCacheComponents}
     timeline={[{"id":"show-p01-a01-lru-two-structures","animation":"p01-a01-lru-two-structures","anchor":"p01-a01-lru-two-structures-start","offsetMs":0,"durationMs":87360,"props":{"themeId":"paper","transparent":false}}]}
+  />
+);
+
+const V003HttpComponents: Record<string, TimelineComponent> = {
+  "p00-a01-episode-agenda": Animation45P00A01EpisodeAgenda,
+  "p00-a02-agenda-preview": Animation46P00A02AgendaPreview,
+  "p00-a03-chapter-preview": Animation47P00A03ChapterPreview,
+  "p01-a00-chapter-divider": Animation48P01A00ChapterDivider,
+  "p02-a00-chapter-divider": Animation49P02A00ChapterDivider,
+  "p03-a00-chapter-divider": Animation50P03A00ChapterDivider,
+  "p04-a00-chapter-divider": Animation51P04A00ChapterDivider,
+  "p05-a00-chapter-divider": Animation52P05A00ChapterDivider,
+  "p06-a00-chapter-divider": Animation53P06A00ChapterDivider,
+  "p07-a00-chapter-divider": Animation54P07A00ChapterDivider,
+  "p08-a00-chapter-divider": Animation55P08A00ChapterDivider,
+  "p09-a00-chapter-divider": Animation56P09A00ChapterDivider,
+  "p10-a00-chapter-divider": Animation57P10A00ChapterDivider,
+};
+
+const V003HttpOverlay: React.FC = () => (
+  <TimelineOverlay
+    anchors={{"episode-agenda-start":15300,"agenda-anatomy":17290,"agenda-methods":19260,"agenda-body":22480,"agenda-versions":26580,"agenda-request-path":31760,"chapter-01-start":69200,"chapter-02-start":162000,"chapter-03-start":219700,"chapter-04-start":472000,"chapter-05-start":628800,"chapter-06-start":775900,"chapter-07-start":882600,"chapter-08-start":973900,"chapter-09-start":1072300,"chapter-10-start":1377000}}
+    audio={"generated/003-http/audio.wav"}
+    components={V003HttpComponents}
+    timeline={[{"id":"show-episode-agenda","animation":"p00-a01-episode-agenda","anchor":"episode-agenda-start","offsetMs":0,"durationMs":23433,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a00-chapter-divider","animation":"p01-a00-chapter-divider","anchor":"chapter-01-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p02-a00-chapter-divider","animation":"p02-a00-chapter-divider","anchor":"chapter-02-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p03-a00-chapter-divider","animation":"p03-a00-chapter-divider","anchor":"chapter-03-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p04-a00-chapter-divider","animation":"p04-a00-chapter-divider","anchor":"chapter-04-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p05-a00-chapter-divider","animation":"p05-a00-chapter-divider","anchor":"chapter-05-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p06-a00-chapter-divider","animation":"p06-a00-chapter-divider","anchor":"chapter-06-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p07-a00-chapter-divider","animation":"p07-a00-chapter-divider","anchor":"chapter-07-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p08-a00-chapter-divider","animation":"p08-a00-chapter-divider","anchor":"chapter-08-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p09-a00-chapter-divider","animation":"p09-a00-chapter-divider","anchor":"chapter-09-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p10-a00-chapter-divider","animation":"p10-a00-chapter-divider","anchor":"chapter-10-start","offsetMs":0,"durationMs":4500,"props":{}}]}
   />
 );
 
@@ -579,6 +617,137 @@ export const GeneratedVideoCompositions: React.FC = () => (
         height={1440}
         fps={30}
         durationInFrames={90354}
+      />
+    </Folder>
+    <Folder name="V-003-http">
+      <Folder name="P-00">
+        <Composition
+          id="Video-003-http-p00-a01-episode-agenda"
+          component={Animation45P00A01EpisodeAgenda}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={703}
+          defaultProps={{"withAudio":true,"previewBackground":"transparent"}}
+        />
+        <Composition
+          id="Video-003-http-p00-a02-agenda-preview"
+          component={Animation46P00A02AgendaPreview}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={703}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-003-http-p00-a03-chapter-preview"
+          component={Animation47P00A03ChapterPreview}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={135}
+          defaultProps={{}}
+        />
+      </Folder>
+      <Folder name="P-01-Perehody">
+        <Composition
+          id="Video-003-http-p01-a00-chapter-divider"
+          component={Animation48P01A00ChapterDivider}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={135}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-003-http-p02-a00-chapter-divider"
+          component={Animation49P02A00ChapterDivider}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={135}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-003-http-p03-a00-chapter-divider"
+          component={Animation50P03A00ChapterDivider}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={135}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-003-http-p04-a00-chapter-divider"
+          component={Animation51P04A00ChapterDivider}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={135}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-003-http-p05-a00-chapter-divider"
+          component={Animation52P05A00ChapterDivider}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={135}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-003-http-p06-a00-chapter-divider"
+          component={Animation53P06A00ChapterDivider}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={135}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-003-http-p07-a00-chapter-divider"
+          component={Animation54P07A00ChapterDivider}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={135}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-003-http-p08-a00-chapter-divider"
+          component={Animation55P08A00ChapterDivider}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={135}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-003-http-p09-a00-chapter-divider"
+          component={Animation56P09A00ChapterDivider}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={135}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-003-http-p10-a00-chapter-divider"
+          component={Animation57P10A00ChapterDivider}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={135}
+          defaultProps={{}}
+        />
+      </Folder>
+      <Composition
+        id="Video-003-http-Overlay"
+        component={V003HttpOverlay}
+        width={2560}
+        height={1440}
+        fps={30}
+        durationInFrames={42626}
       />
     </Folder>
   </>

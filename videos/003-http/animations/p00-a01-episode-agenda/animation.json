@@ -1,0 +1,12 @@
+{
+  "id": "p00-a01-episode-agenda",
+  "part": 0,
+  "order": 1,
+  "title": "В этом видео — прозрачный анонс с аудио",
+  "durationMs": 23433,
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "transparent"
+  },
+  "kind": "2d"
+}

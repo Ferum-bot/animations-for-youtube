@@ -14,6 +14,7 @@ These rules apply to every task in this repository unless the user explicitly ov
 6. Do not automatically assemble or render a full video. Implement and acceptance-check animations. Render key stills for QA; render clips or a full overlay only when the user explicitly asks.
 7. Production animations are YouTube 2K QHD: `2560x1440`, `30fps`. The eight frozen legacy references remain `1920x1080` historical examples and are not production output.
 8. Deliver transparent CapCut overlays as QuickTime `ProRes 4444` with an alpha-capable pixel format. H.264/MP4 is preview-only and must not be used as the compositing master.
+9. CapCut macOS alpha exports must use `task render:capcut` (premultiplied RGB, converted once from original PNGs in 16-bit RGB). A `yuva` pixel format alone does not ensure correct compositing. Run `task qa:capcut-alpha INPUT=...` on the encoded MOV and inspect the feathered edge at 100% over light/dark footage, including entrance/exit. For a new export pipeline, verify it in CapCut before delivery; FFmpeg/PNG previews alone previously missed colored fringes. Keep generic straight-alpha exports separate for editors that expect them.
 
 ## Product
 

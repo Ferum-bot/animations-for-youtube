@@ -30,7 +30,7 @@ for (const videoEntry of videoEntries) {
     .filter((entry) => entry.isDirectory())
     .sort((a, b) => a.name.localeCompare(b.name));
   const componentPairs = [];
-  const compositionRowsByPart = new Map();
+  const compositionRowsByFolder = new Map();
 
   for (const animationEntry of animationEntries) {
     const animationDirectory = path.join(animationsDirectory, animationEntry.name);
@@ -41,7 +41,8 @@ for (const videoEntry of videoEntries) {
       `import ${identifier} from '../../../../videos/${video.id}/animations/${animation.id}/Composition';`,
     );
     componentPairs.push(`  ${JSON.stringify(animation.id)}: ${identifier},`);
-    const compositionRows = compositionRowsByPart.get(animation.part) ?? [];
+    const folderName = animation.studioFolder ?? `P-${formatIndex(animation.part)}`;
+    const compositionRows = compositionRowsByFolder.get(folderName) ?? [];
     compositionRows.push(`        <Composition
           id=${JSON.stringify(`Video-${video.id}-${animation.id}`)}
           component={${identifier}}
@@ -51,12 +52,12 @@ for (const videoEntry of videoEntries) {
           durationInFrames={${msToFrames(animation.durationMs, video.fps)}}
           defaultProps={${JSON.stringify(animation.defaultProps)}}
         />`);
-    compositionRowsByPart.set(animation.part, compositionRows);
+    compositionRowsByFolder.set(folderName, compositionRows);
   }
 
-  const partFolders = [...compositionRowsByPart.entries()]
-    .sort(([left], [right]) => left - right)
-    .map(([part, compositionRows]) => `      <Folder name=${JSON.stringify(`P-${formatIndex(part)}`)}>
+  const animationFolders = [...compositionRowsByFolder.entries()]
+    .sort(([left], [right]) => left.localeCompare(right))
+    .map(([name, compositionRows]) => `      <Folder name=${JSON.stringify(name)}>
 ${compositionRows.join('\n')}
       </Folder>`)
     .join('\n');
@@ -76,7 +77,7 @@ const ${videoIdentifier}Overlay: React.FC = () => (
 );`);
 
   folders.push(`    <Folder name=${JSON.stringify(`V-${video.id}`)}>
-${partFolders}
+${animationFolders}
       <Composition
         id=${JSON.stringify(`Video-${video.id}-Overlay`)}
         component={${videoIdentifier}Overlay}
