@@ -1,0 +1,13 @@
+{
+  "id": "p05-a04-protocol-upgrade",
+  "part": 5,
+  "order": 4,
+  "title": "Upgrade — HTTP в WebSocket",
+  "durationMs": 13910,
+  "kind": "2d",
+  "studioFolder": "P-06-Zagolovki-HTTP",
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "presenter"
+  }
+}

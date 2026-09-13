@@ -1,0 +1,13 @@
+{
+  "id": "p05-a03-header-trust",
+  "part": 5,
+  "order": 3,
+  "title": "Referer и граница доверия",
+  "durationMs": 51867,
+  "kind": "2d",
+  "studioFolder": "P-06-Zagolovki-HTTP",
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "presenter"
+  }
+}

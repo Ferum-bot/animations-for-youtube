@@ -70,11 +70,16 @@ import Animation63P04A02StatusContract from '../../../../videos/003-http/animati
 import Animation64P04A03StatusInfrastructure from '../../../../videos/003-http/animations/p04-a03-status-infrastructure/Composition';
 import Animation65P04A04StatusPreview from '../../../../videos/003-http/animations/p04-a04-status-preview/Composition';
 import Animation66P05A00ChapterDivider from '../../../../videos/003-http/animations/p05-a00-chapter-divider/Composition';
-import Animation67P06A00ChapterDivider from '../../../../videos/003-http/animations/p06-a00-chapter-divider/Composition';
-import Animation68P07A00ChapterDivider from '../../../../videos/003-http/animations/p07-a00-chapter-divider/Composition';
-import Animation69P08A00ChapterDivider from '../../../../videos/003-http/animations/p08-a00-chapter-divider/Composition';
-import Animation70P09A00ChapterDivider from '../../../../videos/003-http/animations/p09-a00-chapter-divider/Composition';
-import Animation71P10A00ChapterDivider from '../../../../videos/003-http/animations/p10-a00-chapter-divider/Composition';
+import Animation67P05A01HeaderGroups from '../../../../videos/003-http/animations/p05-a01-header-groups/Composition';
+import Animation68P05A02HostRouting from '../../../../videos/003-http/animations/p05-a02-host-routing/Composition';
+import Animation69P05A03HeaderTrust from '../../../../videos/003-http/animations/p05-a03-header-trust/Composition';
+import Animation70P05A04ProtocolUpgrade from '../../../../videos/003-http/animations/p05-a04-protocol-upgrade/Composition';
+import Animation71P05A05HeadersPreview from '../../../../videos/003-http/animations/p05-a05-headers-preview/Composition';
+import Animation72P06A00ChapterDivider from '../../../../videos/003-http/animations/p06-a00-chapter-divider/Composition';
+import Animation73P07A00ChapterDivider from '../../../../videos/003-http/animations/p07-a00-chapter-divider/Composition';
+import Animation74P08A00ChapterDivider from '../../../../videos/003-http/animations/p08-a00-chapter-divider/Composition';
+import Animation75P09A00ChapterDivider from '../../../../videos/003-http/animations/p09-a00-chapter-divider/Composition';
+import Animation76P10A00ChapterDivider from '../../../../videos/003-http/animations/p10-a00-chapter-divider/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -180,19 +185,24 @@ const V003HttpComponents: Record<string, TimelineComponent> = {
   "p04-a03-status-infrastructure": Animation64P04A03StatusInfrastructure,
   "p04-a04-status-preview": Animation65P04A04StatusPreview,
   "p05-a00-chapter-divider": Animation66P05A00ChapterDivider,
-  "p06-a00-chapter-divider": Animation67P06A00ChapterDivider,
-  "p07-a00-chapter-divider": Animation68P07A00ChapterDivider,
-  "p08-a00-chapter-divider": Animation69P08A00ChapterDivider,
-  "p09-a00-chapter-divider": Animation70P09A00ChapterDivider,
-  "p10-a00-chapter-divider": Animation71P10A00ChapterDivider,
+  "p05-a01-header-groups": Animation67P05A01HeaderGroups,
+  "p05-a02-host-routing": Animation68P05A02HostRouting,
+  "p05-a03-header-trust": Animation69P05A03HeaderTrust,
+  "p05-a04-protocol-upgrade": Animation70P05A04ProtocolUpgrade,
+  "p05-a05-headers-preview": Animation71P05A05HeadersPreview,
+  "p06-a00-chapter-divider": Animation72P06A00ChapterDivider,
+  "p07-a00-chapter-divider": Animation73P07A00ChapterDivider,
+  "p08-a00-chapter-divider": Animation74P08A00ChapterDivider,
+  "p09-a00-chapter-divider": Animation75P09A00ChapterDivider,
+  "p10-a00-chapter-divider": Animation76P10A00ChapterDivider,
 };
 
 const V003HttpOverlay: React.FC = () => (
   <TimelineOverlay
-    anchors={{"episode-agenda-start":15300,"agenda-anatomy":17290,"agenda-methods":19260,"agenda-body":22480,"agenda-versions":26580,"agenda-request-path":31760,"chapter-01-start":69200,"chapter-02-start":162000,"chapter-03-start":219700,"chapter-04-start":472000,"chapter-05-start":628800,"chapter-06-start":775900,"chapter-07-start":882600,"chapter-08-start":973900,"chapter-09-start":1072300,"chapter-10-start":1377000,"p01-request-response-start":73585,"p01-readable-http-start":87585,"p01-protocol-passport-start":132585,"p01-part-preview-start":73585,"p01-request-send":80215,"p01-response-return":81625,"p01-web-foundation":83785,"p01-ascii-text":90925,"p01-email-format":93805,"p01-manual-request":99105,"p01-telnet-open":100965,"p01-request-type":101185,"p01-terminal-response":102955,"p01-easy-implement":107725,"p01-easy-read":108585,"p01-easy-develop":109935,"p01-passport-formats":138585,"p01-passport-request":140985,"p01-passport-response":141965,"p01-passport-syntax":142585,"p01-syntax-start-line":143355,"p01-syntax-headers":144585,"p01-syntax-separator":145635,"p01-syntax-body":147215,"p01-passport-semantics":147585,"p01-semantics-method":148715,"p01-semantics-status":149375,"p01-passport-rules":150855,"p01-rules-client":152585,"p01-rules-response":155255,"p02-anatomy-start":166428,"p02-anatomy-version":169608,"p02-anatomy-later":170158,"p02-anatomy-anatomy":174438,"p02-anatomy-start-line":178778,"p02-anatomy-headers":180748,"p02-anatomy-blank-line":182018,"p02-anatomy-body":183488,"p02-anatomy-separator":184958,"p02-anatomy-compare":189898,"p02-anatomy-isolate-line":194488,"p02-anatomy-method":198948,"p02-anatomy-target":199898,"p02-anatomy-request-version":200308,"p02-anatomy-response":202548,"p02-anatomy-response-version":203848,"p02-anatomy-status":204228,"p02-anatomy-reason":205488,"p03-method-catalog-start":224096,"p03-safe-contract-start":267496,"p03-put-patch-start":326396,"p03-cors-preflight-start":371696,"p03-list":227266,"p03-patch":243696,"p03-document":252236,"p03-year":254576,"p03-partial":258806,"p03-standard":265576,"p03-safe":269326,"p03-read":274556,"p03-independent":281936,"p03-retry":293506,"p03-crawler":295766,"p03-index":299866,"p03-contract":302136,"p03-bad-get":310006,"p03-balance":311596,"p03-second-bad-get":313436,"p03-put-focus":333696,"p03-representation":335816,"p03-put-repeat":339916,"p03-patch-instructions":343656,"p03-options":380686,"p03-browser":389076,"p03-preflight":391706,"p03-curl":395006,"p03-missing":400006,"p03-browser-policy":405336,"p03-origin":409136,"p03-two-origins":415796,"p03-csrf":422496,"p03-preflight-explain":429756,"p03-allowed-methods":435176,"p03-allowed-origins":436666,"p03-middleware":440846,"p03-handler":444266,"p03-cache":448586,"p03-cache-repeat":450126,"p03-cache-expire":452286,"p04-a01-status-families-start":476400,"p04-a02-status-contract-start":519000,"p04-a03-status-infrastructure-start":546440,"p04-informational":481900,"p04-success":487800,"p04-redirect":493700,"p04-cache":498800,"p04-client-error":504900,"p04-forbidden":509300,"p04-not-found":511500,"p04-server-error":514200,"p04-common-language":519000,"p04-understand":526800,"p04-algorithm":530100,"p04-retry-example":532570,"p04-notify":537600,"p04-pause":540400,"p04-retry":544400,"p04-intermediaries":556400,"p04-load-balancer":561040,"p04-proxy":562600,"p04-cdn":563900,"p04-standard-code":569100,"p04-alerting":576670,"p04-errors":581400,"p04-notification":582800,"p04-conclusion":585380}}
+    anchors={{"episode-agenda-start":15300,"agenda-anatomy":17290,"agenda-methods":19260,"agenda-body":22480,"agenda-versions":26580,"agenda-request-path":31760,"chapter-01-start":69200,"chapter-02-start":162000,"chapter-03-start":219700,"chapter-04-start":472000,"chapter-05-start":628800,"chapter-06-start":775900,"chapter-07-start":882600,"chapter-08-start":973900,"chapter-09-start":1072300,"chapter-10-start":1377000,"p01-request-response-start":73585,"p01-readable-http-start":87585,"p01-protocol-passport-start":132585,"p01-part-preview-start":73585,"p01-request-send":80215,"p01-response-return":81625,"p01-web-foundation":83785,"p01-ascii-text":90925,"p01-email-format":93805,"p01-manual-request":99105,"p01-telnet-open":100965,"p01-request-type":101185,"p01-terminal-response":102955,"p01-easy-implement":107725,"p01-easy-read":108585,"p01-easy-develop":109935,"p01-passport-formats":138585,"p01-passport-request":140985,"p01-passport-response":141965,"p01-passport-syntax":142585,"p01-syntax-start-line":143355,"p01-syntax-headers":144585,"p01-syntax-separator":145635,"p01-syntax-body":147215,"p01-passport-semantics":147585,"p01-semantics-method":148715,"p01-semantics-status":149375,"p01-passport-rules":150855,"p01-rules-client":152585,"p01-rules-response":155255,"p02-anatomy-start":166428,"p02-anatomy-version":169608,"p02-anatomy-later":170158,"p02-anatomy-anatomy":174438,"p02-anatomy-start-line":178778,"p02-anatomy-headers":180748,"p02-anatomy-blank-line":182018,"p02-anatomy-body":183488,"p02-anatomy-separator":184958,"p02-anatomy-compare":189898,"p02-anatomy-isolate-line":194488,"p02-anatomy-method":198948,"p02-anatomy-target":199898,"p02-anatomy-request-version":200308,"p02-anatomy-response":202548,"p02-anatomy-response-version":203848,"p02-anatomy-status":204228,"p02-anatomy-reason":205488,"p03-method-catalog-start":224096,"p03-safe-contract-start":267496,"p03-put-patch-start":326396,"p03-cors-preflight-start":371696,"p03-list":227266,"p03-patch":243696,"p03-document":252236,"p03-year":254576,"p03-partial":258806,"p03-standard":265576,"p03-safe":269326,"p03-read":274556,"p03-independent":281936,"p03-retry":293506,"p03-crawler":295766,"p03-index":299866,"p03-contract":302136,"p03-bad-get":310006,"p03-balance":311596,"p03-second-bad-get":313436,"p03-put-focus":333696,"p03-representation":335816,"p03-put-repeat":339916,"p03-patch-instructions":343656,"p03-options":380686,"p03-browser":389076,"p03-preflight":391706,"p03-curl":395006,"p03-missing":400006,"p03-browser-policy":405336,"p03-origin":409136,"p03-two-origins":415796,"p03-csrf":422496,"p03-preflight-explain":429756,"p03-allowed-methods":435176,"p03-allowed-origins":436666,"p03-middleware":440846,"p03-handler":444266,"p03-cache":448586,"p03-cache-repeat":450126,"p03-cache-expire":452286,"p04-a01-status-families-start":476400,"p04-a02-status-contract-start":519000,"p04-a03-status-infrastructure-start":546440,"p04-informational":481900,"p04-success":487800,"p04-redirect":493700,"p04-cache":498800,"p04-client-error":504900,"p04-forbidden":509300,"p04-not-found":511500,"p04-server-error":514200,"p04-common-language":519000,"p04-understand":526800,"p04-algorithm":530100,"p04-retry-example":532570,"p04-notify":537600,"p04-pause":540400,"p04-retry":544400,"p04-intermediaries":556400,"p04-load-balancer":561040,"p04-proxy":562600,"p04-cdn":563900,"p04-standard-code":569100,"p04-alerting":576670,"p04-errors":581400,"p04-notification":582800,"p04-conclusion":585380,"p05-a01-header-groups-start":633206,"p05-a02-host-routing-start":686866,"p05-a03-header-trust-start":702816,"p05-a04-protocol-upgrade-start":754656,"p05-catalog":639786,"p05-accept":645626,"p05-identity":653716,"p05-cookies":660016,"p05-cache":664926,"p05-cache-details":668046,"p05-cache-builtin":674066,"p05-three":686866,"p05-host":689826,"p05-multi-site":695726,"p05-referer":702816,"p05-typo":706686,"p05-rules":714816,"p05-untrusted":720566,"p05-forge-referer":724566,"p05-forge-agent":730566,"p05-claims":736566,"p05-attacks":739686,"p05-proxy":741776,"p05-verify":748566,"p05-upgrade":754656,"p05-switch":757676,"p05-websocket":761706,"p05-next-video":765736}}
     audio={"generated/003-http/audio.wav"}
     components={V003HttpComponents}
-    timeline={[{"id":"show-episode-agenda","animation":"p00-a01-episode-agenda","anchor":"episode-agenda-start","offsetMs":0,"durationMs":23433,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a00-chapter-divider","animation":"p01-a00-chapter-divider","anchor":"chapter-01-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p02-a00-chapter-divider","animation":"p02-a00-chapter-divider","anchor":"chapter-02-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p03-a00-chapter-divider","animation":"p03-a00-chapter-divider","anchor":"chapter-03-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p04-a00-chapter-divider","animation":"p04-a00-chapter-divider","anchor":"chapter-04-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p05-a00-chapter-divider","animation":"p05-a00-chapter-divider","anchor":"chapter-05-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p06-a00-chapter-divider","animation":"p06-a00-chapter-divider","anchor":"chapter-06-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p07-a00-chapter-divider","animation":"p07-a00-chapter-divider","anchor":"chapter-07-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p08-a00-chapter-divider","animation":"p08-a00-chapter-divider","anchor":"chapter-08-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p09-a00-chapter-divider","animation":"p09-a00-chapter-divider","anchor":"chapter-09-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p10-a00-chapter-divider","animation":"p10-a00-chapter-divider","anchor":"chapter-10-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p01-a01-request-response","animation":"p01-a01-request-response","anchor":"p01-request-response-start","offsetMs":0,"durationMs":14000,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a02-readable-http","animation":"p01-a02-readable-http","anchor":"p01-readable-http-start","offsetMs":0,"durationMs":24000,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a03-protocol-passport","animation":"p01-a03-protocol-passport","anchor":"p01-protocol-passport-start","offsetMs":0,"durationMs":23767,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p02-a01-message-anatomy","animation":"p02-a01-message-anatomy","anchor":"p02-anatomy-start","offsetMs":0,"durationMs":41400,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p03-a01-method-catalog","animation":"p03-a01-method-catalog","anchor":"p03-method-catalog-start","offsetMs":0,"durationMs":43000,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p03-a02-safe-contract","animation":"p03-a02-safe-contract","anchor":"p03-safe-contract-start","offsetMs":0,"durationMs":49700,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p03-a03-put-patch","animation":"p03-a03-put-patch","anchor":"p03-put-patch-start","offsetMs":0,"durationMs":21000,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p03-a04-cors-preflight","animation":"p03-a04-cors-preflight","anchor":"p03-cors-preflight-start","offsetMs":0,"durationMs":83600,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p04-a01-status-families","animation":"p04-a01-status-families","anchor":"p04-a01-status-families-start","offsetMs":0,"durationMs":42600,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p04-a02-status-contract","animation":"p04-a02-status-contract","anchor":"p04-a02-status-contract-start","offsetMs":0,"durationMs":27440,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p04-a03-status-infrastructure","animation":"p04-a03-status-infrastructure","anchor":"p04-a03-status-infrastructure-start","offsetMs":0,"durationMs":45160,"props":{"withAudio":false,"previewBackground":"transparent"}}]}
+    timeline={[{"id":"show-episode-agenda","animation":"p00-a01-episode-agenda","anchor":"episode-agenda-start","offsetMs":0,"durationMs":23433,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a00-chapter-divider","animation":"p01-a00-chapter-divider","anchor":"chapter-01-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p02-a00-chapter-divider","animation":"p02-a00-chapter-divider","anchor":"chapter-02-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p03-a00-chapter-divider","animation":"p03-a00-chapter-divider","anchor":"chapter-03-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p04-a00-chapter-divider","animation":"p04-a00-chapter-divider","anchor":"chapter-04-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p05-a00-chapter-divider","animation":"p05-a00-chapter-divider","anchor":"chapter-05-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p06-a00-chapter-divider","animation":"p06-a00-chapter-divider","anchor":"chapter-06-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p07-a00-chapter-divider","animation":"p07-a00-chapter-divider","anchor":"chapter-07-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p08-a00-chapter-divider","animation":"p08-a00-chapter-divider","anchor":"chapter-08-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p09-a00-chapter-divider","animation":"p09-a00-chapter-divider","anchor":"chapter-09-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p10-a00-chapter-divider","animation":"p10-a00-chapter-divider","anchor":"chapter-10-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p01-a01-request-response","animation":"p01-a01-request-response","anchor":"p01-request-response-start","offsetMs":0,"durationMs":14000,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a02-readable-http","animation":"p01-a02-readable-http","anchor":"p01-readable-http-start","offsetMs":0,"durationMs":24000,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a03-protocol-passport","animation":"p01-a03-protocol-passport","anchor":"p01-protocol-passport-start","offsetMs":0,"durationMs":23767,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p02-a01-message-anatomy","animation":"p02-a01-message-anatomy","anchor":"p02-anatomy-start","offsetMs":0,"durationMs":41400,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p03-a01-method-catalog","animation":"p03-a01-method-catalog","anchor":"p03-method-catalog-start","offsetMs":0,"durationMs":43000,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p03-a02-safe-contract","animation":"p03-a02-safe-contract","anchor":"p03-safe-contract-start","offsetMs":0,"durationMs":49700,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p03-a03-put-patch","animation":"p03-a03-put-patch","anchor":"p03-put-patch-start","offsetMs":0,"durationMs":21000,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p03-a04-cors-preflight","animation":"p03-a04-cors-preflight","anchor":"p03-cors-preflight-start","offsetMs":0,"durationMs":83600,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p04-a01-status-families","animation":"p04-a01-status-families","anchor":"p04-a01-status-families-start","offsetMs":0,"durationMs":42600,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p04-a02-status-contract","animation":"p04-a02-status-contract","anchor":"p04-a02-status-contract-start","offsetMs":0,"durationMs":27440,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p04-a03-status-infrastructure","animation":"p04-a03-status-infrastructure","anchor":"p04-a03-status-infrastructure-start","offsetMs":0,"durationMs":45160,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p05-a01-header-groups","animation":"p05-a01-header-groups","anchor":"p05-a01-header-groups-start","offsetMs":0,"durationMs":53660,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p05-a02-host-routing","animation":"p05-a02-host-routing","anchor":"p05-a02-host-routing-start","offsetMs":0,"durationMs":15933,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p05-a03-header-trust","animation":"p05-a03-header-trust","anchor":"p05-a03-header-trust-start","offsetMs":0,"durationMs":51867,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p05-a04-protocol-upgrade","animation":"p05-a04-protocol-upgrade","anchor":"p05-a04-protocol-upgrade-start","offsetMs":0,"durationMs":13910,"props":{"withAudio":false,"previewBackground":"transparent"}}]}
   />
 );
 
@@ -725,7 +735,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-003-http-p06-a00-chapter-divider"
-          component={Animation67P06A00ChapterDivider}
+          component={Animation72P06A00ChapterDivider}
           width={2560}
           height={1440}
           fps={30}
@@ -734,7 +744,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-003-http-p07-a00-chapter-divider"
-          component={Animation68P07A00ChapterDivider}
+          component={Animation73P07A00ChapterDivider}
           width={2560}
           height={1440}
           fps={30}
@@ -743,7 +753,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-003-http-p08-a00-chapter-divider"
-          component={Animation69P08A00ChapterDivider}
+          component={Animation74P08A00ChapterDivider}
           width={2560}
           height={1440}
           fps={30}
@@ -752,7 +762,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-003-http-p09-a00-chapter-divider"
-          component={Animation70P09A00ChapterDivider}
+          component={Animation75P09A00ChapterDivider}
           width={2560}
           height={1440}
           fps={30}
@@ -761,7 +771,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-003-http-p10-a00-chapter-divider"
-          component={Animation71P10A00ChapterDivider}
+          component={Animation76P10A00ChapterDivider}
           width={2560}
           height={1440}
           fps={30}
@@ -900,6 +910,53 @@ export const GeneratedVideoCompositions: React.FC = () => (
           height={1440}
           fps={30}
           durationInFrames={3456}
+          defaultProps={{}}
+        />
+      </Folder>
+      <Folder name="P-06-Zagolovki-HTTP">
+        <Composition
+          id="Video-003-http-p05-a01-header-groups"
+          component={Animation67P05A01HeaderGroups}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1610}
+          defaultProps={{"withAudio":true,"previewBackground":"presenter"}}
+        />
+        <Composition
+          id="Video-003-http-p05-a02-host-routing"
+          component={Animation68P05A02HostRouting}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={478}
+          defaultProps={{"withAudio":true,"previewBackground":"presenter"}}
+        />
+        <Composition
+          id="Video-003-http-p05-a03-header-trust"
+          component={Animation69P05A03HeaderTrust}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1556}
+          defaultProps={{"withAudio":true,"previewBackground":"presenter"}}
+        />
+        <Composition
+          id="Video-003-http-p05-a04-protocol-upgrade"
+          component={Animation70P05A04ProtocolUpgrade}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={417}
+          defaultProps={{"withAudio":true,"previewBackground":"presenter"}}
+        />
+        <Composition
+          id="Video-003-http-p05-a05-headers-preview"
+          component={Animation71P05A05HeadersPreview}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={4061}
           defaultProps={{}}
         />
       </Folder>

@@ -17,3 +17,10 @@ export type TimedState = {readonly startMs: number};
 
 export const activeStateIndex = (states: readonly TimedState[], timeMs: number): number =>
   states.reduce((active, state, index) => timeMs >= state.startMs ? index : active, -1);
+
+/** Consecutive explanations leave a brief clear interval for the eye. */
+export const shotOpacity = (timeMs: number, startMs: number, endMs: number): number =>
+  reveal(timeMs, startMs, 280) * (1 - reveal(timeMs, endMs - 330, 250));
+
+export const flightOpacity = (timeMs: number, startMs: number, durationMs: number): number =>
+  reveal(timeMs, startMs, 120) * (1 - reveal(timeMs, startMs + durationMs, 150));

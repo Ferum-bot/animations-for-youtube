@@ -1,0 +1,13 @@
+{
+  "id": "p05-a02-host-routing",
+  "part": 5,
+  "order": 2,
+  "title": "Host — один IP, несколько сайтов",
+  "durationMs": 15933,
+  "kind": "2d",
+  "studioFolder": "P-06-Zagolovki-HTTP",
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "presenter"
+  }
+}

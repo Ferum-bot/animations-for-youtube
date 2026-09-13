@@ -210,5 +210,49 @@
       "withAudio": false,
       "previewBackground": "transparent"
     }
+  },
+  {
+    "id": "show-p05-a01-header-groups",
+    "animation": "p05-a01-header-groups",
+    "anchor": "p05-a01-header-groups-start",
+    "offsetMs": 0,
+    "durationMs": 53660,
+    "props": {
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
+  },
+  {
+    "id": "show-p05-a02-host-routing",
+    "animation": "p05-a02-host-routing",
+    "anchor": "p05-a02-host-routing-start",
+    "offsetMs": 0,
+    "durationMs": 15933,
+    "props": {
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
+  },
+  {
+    "id": "show-p05-a03-header-trust",
+    "animation": "p05-a03-header-trust",
+    "anchor": "p05-a03-header-trust-start",
+    "offsetMs": 0,
+    "durationMs": 51867,
+    "props": {
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
+  },
+  {
+    "id": "show-p05-a04-protocol-upgrade",
+    "animation": "p05-a04-protocol-upgrade",
+    "anchor": "p05-a04-protocol-upgrade-start",
+    "offsetMs": 0,
+    "durationMs": 13910,
+    "props": {
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
   }
 ]

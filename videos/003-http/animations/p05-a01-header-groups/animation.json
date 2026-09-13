@@ -1,0 +1,13 @@
+{
+  "id": "p05-a01-header-groups",
+  "part": 5,
+  "order": 1,
+  "title": "Группы заголовков",
+  "durationMs": 53660,
+  "kind": "2d",
+  "studioFolder": "P-06-Zagolovki-HTTP",
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "presenter"
+  }
+}
