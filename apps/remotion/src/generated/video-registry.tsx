@@ -57,14 +57,15 @@ import Animation50P01A02ReadableHttp from '../../../../videos/003-http/animation
 import Animation51P01A03ProtocolPassport from '../../../../videos/003-http/animations/p01-a03-protocol-passport/Composition';
 import Animation52P01A04PartPreview from '../../../../videos/003-http/animations/p01-a04-part-preview/Composition';
 import Animation53P02A00ChapterDivider from '../../../../videos/003-http/animations/p02-a00-chapter-divider/Composition';
-import Animation54P03A00ChapterDivider from '../../../../videos/003-http/animations/p03-a00-chapter-divider/Composition';
-import Animation55P04A00ChapterDivider from '../../../../videos/003-http/animations/p04-a00-chapter-divider/Composition';
-import Animation56P05A00ChapterDivider from '../../../../videos/003-http/animations/p05-a00-chapter-divider/Composition';
-import Animation57P06A00ChapterDivider from '../../../../videos/003-http/animations/p06-a00-chapter-divider/Composition';
-import Animation58P07A00ChapterDivider from '../../../../videos/003-http/animations/p07-a00-chapter-divider/Composition';
-import Animation59P08A00ChapterDivider from '../../../../videos/003-http/animations/p08-a00-chapter-divider/Composition';
-import Animation60P09A00ChapterDivider from '../../../../videos/003-http/animations/p09-a00-chapter-divider/Composition';
-import Animation61P10A00ChapterDivider from '../../../../videos/003-http/animations/p10-a00-chapter-divider/Composition';
+import Animation54P02A01MessageAnatomy from '../../../../videos/003-http/animations/p02-a01-message-anatomy/Composition';
+import Animation55P03A00ChapterDivider from '../../../../videos/003-http/animations/p03-a00-chapter-divider/Composition';
+import Animation56P04A00ChapterDivider from '../../../../videos/003-http/animations/p04-a00-chapter-divider/Composition';
+import Animation57P05A00ChapterDivider from '../../../../videos/003-http/animations/p05-a00-chapter-divider/Composition';
+import Animation58P06A00ChapterDivider from '../../../../videos/003-http/animations/p06-a00-chapter-divider/Composition';
+import Animation59P07A00ChapterDivider from '../../../../videos/003-http/animations/p07-a00-chapter-divider/Composition';
+import Animation60P08A00ChapterDivider from '../../../../videos/003-http/animations/p08-a00-chapter-divider/Composition';
+import Animation61P09A00ChapterDivider from '../../../../videos/003-http/animations/p09-a00-chapter-divider/Composition';
+import Animation62P10A00ChapterDivider from '../../../../videos/003-http/animations/p10-a00-chapter-divider/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -157,22 +158,23 @@ const V003HttpComponents: Record<string, TimelineComponent> = {
   "p01-a03-protocol-passport": Animation51P01A03ProtocolPassport,
   "p01-a04-part-preview": Animation52P01A04PartPreview,
   "p02-a00-chapter-divider": Animation53P02A00ChapterDivider,
-  "p03-a00-chapter-divider": Animation54P03A00ChapterDivider,
-  "p04-a00-chapter-divider": Animation55P04A00ChapterDivider,
-  "p05-a00-chapter-divider": Animation56P05A00ChapterDivider,
-  "p06-a00-chapter-divider": Animation57P06A00ChapterDivider,
-  "p07-a00-chapter-divider": Animation58P07A00ChapterDivider,
-  "p08-a00-chapter-divider": Animation59P08A00ChapterDivider,
-  "p09-a00-chapter-divider": Animation60P09A00ChapterDivider,
-  "p10-a00-chapter-divider": Animation61P10A00ChapterDivider,
+  "p02-a01-message-anatomy": Animation54P02A01MessageAnatomy,
+  "p03-a00-chapter-divider": Animation55P03A00ChapterDivider,
+  "p04-a00-chapter-divider": Animation56P04A00ChapterDivider,
+  "p05-a00-chapter-divider": Animation57P05A00ChapterDivider,
+  "p06-a00-chapter-divider": Animation58P06A00ChapterDivider,
+  "p07-a00-chapter-divider": Animation59P07A00ChapterDivider,
+  "p08-a00-chapter-divider": Animation60P08A00ChapterDivider,
+  "p09-a00-chapter-divider": Animation61P09A00ChapterDivider,
+  "p10-a00-chapter-divider": Animation62P10A00ChapterDivider,
 };
 
 const V003HttpOverlay: React.FC = () => (
   <TimelineOverlay
-    anchors={{"episode-agenda-start":15300,"agenda-anatomy":17290,"agenda-methods":19260,"agenda-body":22480,"agenda-versions":26580,"agenda-request-path":31760,"chapter-01-start":69200,"chapter-02-start":162000,"chapter-03-start":219700,"chapter-04-start":472000,"chapter-05-start":628800,"chapter-06-start":775900,"chapter-07-start":882600,"chapter-08-start":973900,"chapter-09-start":1072300,"chapter-10-start":1377000,"p01-request-response-start":73585,"p01-readable-http-start":87585,"p01-protocol-passport-start":132585,"p01-part-preview-start":73585,"p01-request-send":80215,"p01-response-return":81625,"p01-web-foundation":83785,"p01-ascii-text":90925,"p01-email-format":93805,"p01-manual-request":99105,"p01-telnet-open":100965,"p01-request-type":101185,"p01-terminal-response":102955,"p01-easy-implement":107725,"p01-easy-read":108585,"p01-easy-develop":109935,"p01-passport-formats":138585,"p01-passport-request":140985,"p01-passport-response":141965,"p01-passport-syntax":142585,"p01-syntax-start-line":143355,"p01-syntax-headers":144585,"p01-syntax-separator":145635,"p01-syntax-body":147215,"p01-passport-semantics":147585,"p01-semantics-method":148715,"p01-semantics-status":149375,"p01-passport-rules":150855,"p01-rules-client":152585,"p01-rules-response":155255}}
+    anchors={{"episode-agenda-start":15300,"agenda-anatomy":17290,"agenda-methods":19260,"agenda-body":22480,"agenda-versions":26580,"agenda-request-path":31760,"chapter-01-start":69200,"chapter-02-start":162000,"chapter-03-start":219700,"chapter-04-start":472000,"chapter-05-start":628800,"chapter-06-start":775900,"chapter-07-start":882600,"chapter-08-start":973900,"chapter-09-start":1072300,"chapter-10-start":1377000,"p01-request-response-start":73585,"p01-readable-http-start":87585,"p01-protocol-passport-start":132585,"p01-part-preview-start":73585,"p01-request-send":80215,"p01-response-return":81625,"p01-web-foundation":83785,"p01-ascii-text":90925,"p01-email-format":93805,"p01-manual-request":99105,"p01-telnet-open":100965,"p01-request-type":101185,"p01-terminal-response":102955,"p01-easy-implement":107725,"p01-easy-read":108585,"p01-easy-develop":109935,"p01-passport-formats":138585,"p01-passport-request":140985,"p01-passport-response":141965,"p01-passport-syntax":142585,"p01-syntax-start-line":143355,"p01-syntax-headers":144585,"p01-syntax-separator":145635,"p01-syntax-body":147215,"p01-passport-semantics":147585,"p01-semantics-method":148715,"p01-semantics-status":149375,"p01-passport-rules":150855,"p01-rules-client":152585,"p01-rules-response":155255,"p02-anatomy-start":166428,"p02-anatomy-version":169608,"p02-anatomy-later":170158,"p02-anatomy-anatomy":174438,"p02-anatomy-start-line":178778,"p02-anatomy-headers":180748,"p02-anatomy-blank-line":182018,"p02-anatomy-body":183488,"p02-anatomy-separator":184958,"p02-anatomy-compare":189898,"p02-anatomy-isolate-line":194488,"p02-anatomy-method":198948,"p02-anatomy-target":199898,"p02-anatomy-request-version":200308,"p02-anatomy-response":202548,"p02-anatomy-response-version":203848,"p02-anatomy-status":204228,"p02-anatomy-reason":205488}}
     audio={"generated/003-http/audio.wav"}
     components={V003HttpComponents}
-    timeline={[{"id":"show-episode-agenda","animation":"p00-a01-episode-agenda","anchor":"episode-agenda-start","offsetMs":0,"durationMs":23433,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a00-chapter-divider","animation":"p01-a00-chapter-divider","anchor":"chapter-01-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p02-a00-chapter-divider","animation":"p02-a00-chapter-divider","anchor":"chapter-02-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p03-a00-chapter-divider","animation":"p03-a00-chapter-divider","anchor":"chapter-03-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p04-a00-chapter-divider","animation":"p04-a00-chapter-divider","anchor":"chapter-04-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p05-a00-chapter-divider","animation":"p05-a00-chapter-divider","anchor":"chapter-05-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p06-a00-chapter-divider","animation":"p06-a00-chapter-divider","anchor":"chapter-06-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p07-a00-chapter-divider","animation":"p07-a00-chapter-divider","anchor":"chapter-07-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p08-a00-chapter-divider","animation":"p08-a00-chapter-divider","anchor":"chapter-08-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p09-a00-chapter-divider","animation":"p09-a00-chapter-divider","anchor":"chapter-09-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p10-a00-chapter-divider","animation":"p10-a00-chapter-divider","anchor":"chapter-10-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p01-a01-request-response","animation":"p01-a01-request-response","anchor":"p01-request-response-start","offsetMs":0,"durationMs":14000,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a02-readable-http","animation":"p01-a02-readable-http","anchor":"p01-readable-http-start","offsetMs":0,"durationMs":24000,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a03-protocol-passport","animation":"p01-a03-protocol-passport","anchor":"p01-protocol-passport-start","offsetMs":0,"durationMs":23767,"props":{"withAudio":false,"previewBackground":"transparent"}}]}
+    timeline={[{"id":"show-episode-agenda","animation":"p00-a01-episode-agenda","anchor":"episode-agenda-start","offsetMs":0,"durationMs":23433,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a00-chapter-divider","animation":"p01-a00-chapter-divider","anchor":"chapter-01-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p02-a00-chapter-divider","animation":"p02-a00-chapter-divider","anchor":"chapter-02-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p03-a00-chapter-divider","animation":"p03-a00-chapter-divider","anchor":"chapter-03-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p04-a00-chapter-divider","animation":"p04-a00-chapter-divider","anchor":"chapter-04-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p05-a00-chapter-divider","animation":"p05-a00-chapter-divider","anchor":"chapter-05-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p06-a00-chapter-divider","animation":"p06-a00-chapter-divider","anchor":"chapter-06-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p07-a00-chapter-divider","animation":"p07-a00-chapter-divider","anchor":"chapter-07-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p08-a00-chapter-divider","animation":"p08-a00-chapter-divider","anchor":"chapter-08-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p09-a00-chapter-divider","animation":"p09-a00-chapter-divider","anchor":"chapter-09-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p10-a00-chapter-divider","animation":"p10-a00-chapter-divider","anchor":"chapter-10-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p01-a01-request-response","animation":"p01-a01-request-response","anchor":"p01-request-response-start","offsetMs":0,"durationMs":14000,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a02-readable-http","animation":"p01-a02-readable-http","anchor":"p01-readable-http-start","offsetMs":0,"durationMs":24000,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a03-protocol-passport","animation":"p01-a03-protocol-passport","anchor":"p01-protocol-passport-start","offsetMs":0,"durationMs":23767,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p02-a01-message-anatomy","animation":"p02-a01-message-anatomy","anchor":"p02-anatomy-start","offsetMs":0,"durationMs":41400,"props":{"withAudio":false,"previewBackground":"transparent"}}]}
   />
 );
 
@@ -678,7 +680,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-003-http-p03-a00-chapter-divider"
-          component={Animation54P03A00ChapterDivider}
+          component={Animation55P03A00ChapterDivider}
           width={2560}
           height={1440}
           fps={30}
@@ -687,7 +689,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-003-http-p04-a00-chapter-divider"
-          component={Animation55P04A00ChapterDivider}
+          component={Animation56P04A00ChapterDivider}
           width={2560}
           height={1440}
           fps={30}
@@ -696,7 +698,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-003-http-p05-a00-chapter-divider"
-          component={Animation56P05A00ChapterDivider}
+          component={Animation57P05A00ChapterDivider}
           width={2560}
           height={1440}
           fps={30}
@@ -705,7 +707,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-003-http-p06-a00-chapter-divider"
-          component={Animation57P06A00ChapterDivider}
+          component={Animation58P06A00ChapterDivider}
           width={2560}
           height={1440}
           fps={30}
@@ -714,7 +716,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-003-http-p07-a00-chapter-divider"
-          component={Animation58P07A00ChapterDivider}
+          component={Animation59P07A00ChapterDivider}
           width={2560}
           height={1440}
           fps={30}
@@ -723,7 +725,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-003-http-p08-a00-chapter-divider"
-          component={Animation59P08A00ChapterDivider}
+          component={Animation60P08A00ChapterDivider}
           width={2560}
           height={1440}
           fps={30}
@@ -732,7 +734,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-003-http-p09-a00-chapter-divider"
-          component={Animation60P09A00ChapterDivider}
+          component={Animation61P09A00ChapterDivider}
           width={2560}
           height={1440}
           fps={30}
@@ -741,7 +743,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-003-http-p10-a00-chapter-divider"
-          component={Animation61P10A00ChapterDivider}
+          component={Animation62P10A00ChapterDivider}
           width={2560}
           height={1440}
           fps={30}
@@ -785,6 +787,17 @@ export const GeneratedVideoCompositions: React.FC = () => (
           fps={30}
           durationInFrames={2490}
           defaultProps={{}}
+        />
+      </Folder>
+      <Folder name="P-03-Anatomiya-HTTP">
+        <Composition
+          id="Video-003-http-p02-a01-message-anatomy"
+          component={Animation54P02A01MessageAnatomy}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1242}
+          defaultProps={{"withAudio":true,"previewBackground":"presenter"}}
         />
       </Folder>
       <Composition

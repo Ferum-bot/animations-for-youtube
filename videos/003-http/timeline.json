@@ -122,5 +122,16 @@
       "withAudio": false,
       "previewBackground": "transparent"
     }
+  },
+  {
+    "id": "show-p02-a01-message-anatomy",
+    "animation": "p02-a01-message-anatomy",
+    "anchor": "p02-anatomy-start",
+    "offsetMs": 0,
+    "durationMs": 41400,
+    "props": {
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
   }
 ]

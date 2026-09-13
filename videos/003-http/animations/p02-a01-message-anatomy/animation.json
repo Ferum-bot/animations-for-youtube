@@ -1,0 +1,13 @@
+{
+  "id": "p02-a01-message-anatomy",
+  "part": 2,
+  "order": 1,
+  "title": "Анатомия HTTP — вся часть со звуком",
+  "durationMs": 41400,
+  "kind": "2d",
+  "studioFolder": "P-03-Anatomiya-HTTP",
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "presenter"
+  }
+}
