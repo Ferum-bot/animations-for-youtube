@@ -1,0 +1,13 @@
+{
+  "id": "p06-a02-chunked-stream",
+  "part": 6,
+  "order": 2,
+  "title": "Передача частями и нулевой чанк",
+  "durationMs": 37560,
+  "kind": "2d",
+  "studioFolder": "P-07-Granitsy-soobshcheniya",
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "presenter"
+  }
+}

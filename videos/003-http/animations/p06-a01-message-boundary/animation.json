@@ -1,0 +1,13 @@
+{
+  "id": "p06-a01-message-boundary",
+  "part": 6,
+  "order": 1,
+  "title": "Граница сообщения и Content-Length",
+  "durationMs": 33760,
+  "kind": "2d",
+  "studioFolder": "P-07-Granitsy-soobshcheniya",
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "presenter"
+  }
+}

@@ -254,5 +254,38 @@
       "withAudio": false,
       "previewBackground": "transparent"
     }
+  },
+  {
+    "id": "show-p06-a01-message-boundary",
+    "animation": "p06-a01-message-boundary",
+    "anchor": "p06-a01-message-boundary-start",
+    "offsetMs": 0,
+    "durationMs": 33760,
+    "props": {
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
+  },
+  {
+    "id": "show-p06-a02-chunked-stream",
+    "animation": "p06-a02-chunked-stream",
+    "anchor": "p06-a02-chunked-stream-start",
+    "offsetMs": 0,
+    "durationMs": 37560,
+    "props": {
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
+  },
+  {
+    "id": "show-p06-a03-framing-choice",
+    "animation": "p06-a03-framing-choice",
+    "anchor": "p06-a03-framing-choice-start",
+    "offsetMs": 0,
+    "durationMs": 27300,
+    "props": {
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
   }
 ]

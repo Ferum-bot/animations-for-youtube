@@ -1,0 +1,13 @@
+{
+  "id": "p06-a03-framing-choice",
+  "part": 6,
+  "order": 3,
+  "title": "Конфликт разметки и выбор способа",
+  "durationMs": 27300,
+  "kind": "2d",
+  "studioFolder": "P-07-Granitsy-soobshcheniya",
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "presenter"
+  }
+}
