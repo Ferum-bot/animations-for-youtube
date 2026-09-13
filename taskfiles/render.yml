@@ -34,7 +34,10 @@ tasks:
       vars: [VIDEO, ANIMATION]
     deps: [':generate']
     cmds:
-      - node scripts/render-capcut.mjs --video "{{.VIDEO}}" --animation "{{.ANIMATION}}"
+      - >-
+        node scripts/render-capcut.mjs --video "{{.VIDEO}}" --animation "{{.ANIMATION}}"
+        --props '{"withAudio":false,"previewBackground":"transparent"}'
+        {{if .OUTPUT}}--output "{{.OUTPUT}}"{{end}}
 
   standard:
     desc: Рендер стандартной анимации

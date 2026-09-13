@@ -1,0 +1,13 @@
+{
+  "id": "p03-a01-method-catalog",
+  "part": 3,
+  "order": 1,
+  "title": "Методы и PATCH",
+  "durationMs": 43000,
+  "kind": "2d",
+  "studioFolder": "P-04-Metody-HTTP",
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "presenter"
+  }
+}

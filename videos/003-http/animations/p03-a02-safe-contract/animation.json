@@ -1,0 +1,13 @@
+{
+  "id": "p03-a02-safe-contract",
+  "part": 3,
+  "order": 2,
+  "title": "Безопасные методы и нарушение GET",
+  "durationMs": 49700,
+  "kind": "2d",
+  "studioFolder": "P-04-Metody-HTTP",
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "presenter"
+  }
+}

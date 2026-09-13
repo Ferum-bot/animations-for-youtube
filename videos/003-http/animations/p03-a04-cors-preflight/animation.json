@@ -1,0 +1,13 @@
+{
+  "id": "p03-a04-cors-preflight",
+  "part": 3,
+  "order": 4,
+  "title": "OPTIONS, CORS и кэш preflight",
+  "durationMs": 83600,
+  "kind": "2d",
+  "studioFolder": "P-04-Metody-HTTP",
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "presenter"
+  }
+}

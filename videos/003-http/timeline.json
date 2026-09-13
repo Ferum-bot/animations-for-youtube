@@ -133,5 +133,82 @@
       "withAudio": false,
       "previewBackground": "transparent"
     }
+  },
+  {
+    "id": "show-p03-a01-method-catalog",
+    "animation": "p03-a01-method-catalog",
+    "anchor": "p03-method-catalog-start",
+    "offsetMs": 0,
+    "durationMs": 43000,
+    "props": {
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
+  },
+  {
+    "id": "show-p03-a02-safe-contract",
+    "animation": "p03-a02-safe-contract",
+    "anchor": "p03-safe-contract-start",
+    "offsetMs": 0,
+    "durationMs": 49700,
+    "props": {
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
+  },
+  {
+    "id": "show-p03-a03-put-patch",
+    "animation": "p03-a03-put-patch",
+    "anchor": "p03-put-patch-start",
+    "offsetMs": 0,
+    "durationMs": 21000,
+    "props": {
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
+  },
+  {
+    "id": "show-p03-a04-cors-preflight",
+    "animation": "p03-a04-cors-preflight",
+    "anchor": "p03-cors-preflight-start",
+    "offsetMs": 0,
+    "durationMs": 83600,
+    "props": {
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
+  },
+  {
+    "id": "show-p04-a01-status-families",
+    "animation": "p04-a01-status-families",
+    "anchor": "p04-a01-status-families-start",
+    "offsetMs": 0,
+    "durationMs": 42600,
+    "props": {
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
+  },
+  {
+    "id": "show-p04-a02-status-contract",
+    "animation": "p04-a02-status-contract",
+    "anchor": "p04-a02-status-contract-start",
+    "offsetMs": 0,
+    "durationMs": 27440,
+    "props": {
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
+  },
+  {
+    "id": "show-p04-a03-status-infrastructure",
+    "animation": "p04-a03-status-infrastructure",
+    "anchor": "p04-a03-status-infrastructure-start",
+    "offsetMs": 0,
+    "durationMs": 45160,
+    "props": {
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
   }
 ]

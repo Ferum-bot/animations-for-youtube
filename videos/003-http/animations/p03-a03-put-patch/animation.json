@@ -1,0 +1,13 @@
+{
+  "id": "p03-a03-put-patch",
+  "part": 3,
+  "order": 3,
+  "title": "PUT и PATCH: повтор и изменение",
+  "durationMs": 21000,
+  "kind": "2d",
+  "studioFolder": "P-04-Metody-HTTP",
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "presenter"
+  }
+}
