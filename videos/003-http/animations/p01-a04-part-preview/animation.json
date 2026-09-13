@@ -1,0 +1,10 @@
+{
+  "id": "p01-a04-part-preview",
+  "part": 1,
+  "order": 4,
+  "title": "Первая часть целиком — просмотр со звуком",
+  "durationMs": 83000,
+  "defaultProps": {},
+  "kind": "2d",
+  "studioFolder": "P-02-Chto-takoe-HTTP"
+}

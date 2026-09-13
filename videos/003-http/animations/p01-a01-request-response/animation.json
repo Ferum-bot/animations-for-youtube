@@ -1,0 +1,13 @@
+{
+  "id": "p01-a01-request-response",
+  "part": 1,
+  "order": 1,
+  "title": "Клиент и сервер — запрос и ответ",
+  "durationMs": 14000,
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "transparent"
+  },
+  "kind": "3d",
+  "studioFolder": "P-02-Chto-takoe-HTTP"
+}

@@ -4,7 +4,7 @@ import {httpLayout, httpTheme as theme} from './theme';
 
 export type PreviewBackground = 'transparent' | 'presenter' | 'light' | 'dark';
 
-const Preview: React.FC<{background: PreviewBackground}> = ({background}) => {
+export const HttpPreviewBackground: React.FC<{background: PreviewBackground}> = ({background}) => {
   if (background === 'transparent') return null;
   if (background === 'presenter') {
     // Supplied screenshot: the actual 16:9 footage is x=10, y=35, w=1260, h=707.
@@ -25,7 +25,8 @@ export const HttpStage: React.FC<{
   opacity: number;
   surface: 'presenter-side' | 'fullscreen';
   previewBackground?: PreviewBackground;
-}> = ({children, opacity, surface, previewBackground = 'transparent'}) => {
+  sceneLayer?: React.ReactNode;
+}> = ({children, opacity, surface, previewBackground = 'transparent', sceneLayer}) => {
   const {backgroundSolidEnd: solid, backgroundTransparentStart: end} = httpLayout;
   const featherPosition = (progress: number) => `${(solid + (end - solid) * progress) / httpLayout.width * 100}%`;
   const feather = `linear-gradient(90deg, black 0%, black ${featherPosition(0)},
@@ -34,11 +35,12 @@ export const HttpStage: React.FC<{
     transparent ${featherPosition(1)}, transparent 100%)`;
   return (
     <AbsoluteFill>
-      <Preview background={previewBackground} />
+      <HttpPreviewBackground background={previewBackground} />
       <AbsoluteFill style={{opacity}}>
         <AbsoluteFill style={{background: theme.background,
           maskImage: surface === 'presenter-side' ? feather : undefined,
           WebkitMaskImage: surface === 'presenter-side' ? feather : undefined}} />
+        {sceneLayer}
         <svg width="100%" height="100%" viewBox="0 0 2560 1440"
           style={{position: 'absolute', color: theme.text, fontFamily: theme.fontSans}}>
           {children}

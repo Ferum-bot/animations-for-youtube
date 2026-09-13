@@ -1,0 +1,13 @@
+{
+  "id": "p01-a03-protocol-passport",
+  "part": 1,
+  "order": 3,
+  "title": "Паспорт протокола",
+  "durationMs": 23767,
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "transparent"
+  },
+  "kind": "2d",
+  "studioFolder": "P-02-Chto-takoe-HTTP"
+}

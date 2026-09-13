@@ -1,0 +1,13 @@
+{
+  "id": "p01-a02-readable-http",
+  "part": 1,
+  "order": 2,
+  "title": "HTTP глазами и руками — telnet",
+  "durationMs": 24000,
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "transparent"
+  },
+  "kind": "2d",
+  "studioFolder": "P-02-Chto-takoe-HTTP"
+}
