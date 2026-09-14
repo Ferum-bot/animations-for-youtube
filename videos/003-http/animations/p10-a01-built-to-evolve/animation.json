@@ -1,0 +1,13 @@
+{
+  "id": "p10-a01-built-to-evolve",
+  "part": 10,
+  "order": 1,
+  "title": "HTTP — создан, чтобы развиваться",
+  "durationMs": 23900,
+  "kind": "2d",
+  "studioFolder": "P-11-Chto-vazhno-zapomnit",
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "presenter"
+  }
+}

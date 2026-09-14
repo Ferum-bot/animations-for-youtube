@@ -13,6 +13,7 @@ node_modules/
 
 transcripts
 out/
+output/
 renders/
 apps/remotion/public/generated/
 docs/concepts

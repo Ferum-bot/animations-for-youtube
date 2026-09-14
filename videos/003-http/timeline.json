@@ -364,5 +364,16 @@
       "withAudio": false,
       "previewBackground": "transparent"
     }
+  },
+  {
+    "id": "show-p10-a01-built-to-evolve",
+    "animation": "p10-a01-built-to-evolve",
+    "anchor": "p10-a01-built-to-evolve-start",
+    "offsetMs": 0,
+    "durationMs": 23900,
+    "props": {
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
   }
 ]
