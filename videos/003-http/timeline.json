@@ -353,5 +353,16 @@
       "withAudio": false,
       "previewBackground": "transparent"
     }
+  },
+  {
+    "id": "show-p09-a01-code-to-wire",
+    "animation": "p09-a01-code-to-wire",
+    "anchor": "p09-a01-code-to-wire-start",
+    "offsetMs": 0,
+    "durationMs": 285875,
+    "props": {
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
   }
 ]
