@@ -1,0 +1,13 @@
+{
+  "id": "004-ozon-flash-sale",
+  "title": "OZON: проектирование flash sale",
+  "width": 2560,
+  "height": 1440,
+  "fps": 30,
+  "durationMs": 2940575,
+  "audio": "generated/004-ozon-flash-sale/audio.wav",
+  "source": {
+    "audioSha256": "0a8a1998a7c2406b9639a416bd5aabdb63586ba58fa86060d5e02b0bd1848663",
+    "transcriptSha256": "a14d892280d608150d58910290a230a2b91a3b3248e76e12bf70dbc7e5bbfeed"
+  }
+}

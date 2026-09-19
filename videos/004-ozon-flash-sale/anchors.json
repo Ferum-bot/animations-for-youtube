@@ -1,0 +1,21 @@
+{
+  "reservation-sql-start": 608220,
+  "reservation-transaction": 621080,
+  "reservation-isolation": 623380,
+  "reservation-atomic": 641740,
+  "reservation-nonnegative": 649880,
+  "reservation-predicates": 656200,
+  "reservation-cte": 669360,
+  "reservation-decrement": 674800,
+  "reservation-item": 681260,
+  "reservation-stock": 685160,
+  "reservation-sale-window": 691260,
+  "reservation-returning": 695060,
+  "reservation-insert": 697200,
+  "reservation-from-cte": 707440,
+  "reservation-statement": 713080,
+  "reservation-isolation-reprise": 720220,
+  "reservation-check-write": 726680,
+  "reservation-conclusion": 740700,
+  "reservation-sql-end": 749300
+}

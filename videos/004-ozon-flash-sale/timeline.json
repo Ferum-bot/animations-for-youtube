@@ -1,0 +1,15 @@
+[
+  {
+    "id": "show-p02-a01-postgres-reservation",
+    "animation": "p02-a01-postgres-reservation",
+    "anchor": "reservation-sql-start",
+    "offsetMs": 0,
+    "durationMs": 141080,
+    "props": {
+      "themeId": "graphite",
+      "backgroundOpacity": 0.94,
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
+  }
+]

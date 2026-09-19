@@ -1,0 +1,14 @@
+{
+  "id": "p02-a01-postgres-reservation",
+  "part": 2,
+  "order": 1,
+  "title": "Атомарная резервация PostgreSQL",
+  "kind": "2d",
+  "durationMs": 141080,
+  "defaultProps": {
+    "themeId": "graphite",
+    "backgroundOpacity": 0.94,
+    "withAudio": false,
+    "previewBackground": "transparent"
+  }
+}

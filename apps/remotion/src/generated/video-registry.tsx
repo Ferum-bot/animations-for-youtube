@@ -95,6 +95,7 @@ import Animation88P09A01CodeToWire from '../../../../videos/003-http/animations/
 import Animation89P09A02JourneyPreview from '../../../../videos/003-http/animations/p09-a02-journey-preview/Composition';
 import Animation90P10A00ChapterDivider from '../../../../videos/003-http/animations/p10-a00-chapter-divider/Composition';
 import Animation91P10A01BuiltToEvolve from '../../../../videos/003-http/animations/p10-a01-built-to-evolve/Composition';
+import Animation92P02A01PostgresReservation from '../../../../videos/004-ozon-flash-sale/animations/p02-a01-postgres-reservation/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -233,6 +234,19 @@ const V003HttpOverlay: React.FC = () => (
     audio={"generated/003-http/audio.wav"}
     components={V003HttpComponents}
     timeline={[{"id":"show-episode-agenda","animation":"p00-a01-episode-agenda","anchor":"episode-agenda-start","offsetMs":0,"durationMs":23433,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a00-chapter-divider","animation":"p01-a00-chapter-divider","anchor":"chapter-01-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p02-a00-chapter-divider","animation":"p02-a00-chapter-divider","anchor":"chapter-02-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p03-a00-chapter-divider","animation":"p03-a00-chapter-divider","anchor":"chapter-03-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p04-a00-chapter-divider","animation":"p04-a00-chapter-divider","anchor":"chapter-04-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p05-a00-chapter-divider","animation":"p05-a00-chapter-divider","anchor":"chapter-05-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p06-a00-chapter-divider","animation":"p06-a00-chapter-divider","anchor":"chapter-06-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p07-a00-chapter-divider","animation":"p07-a00-chapter-divider","anchor":"chapter-07-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p08-a00-chapter-divider","animation":"p08-a00-chapter-divider","anchor":"chapter-08-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p09-a00-chapter-divider","animation":"p09-a00-chapter-divider","anchor":"chapter-09-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p10-a00-chapter-divider","animation":"p10-a00-chapter-divider","anchor":"chapter-10-start","offsetMs":0,"durationMs":4500,"props":{}},{"id":"show-p01-a01-request-response","animation":"p01-a01-request-response","anchor":"p01-request-response-start","offsetMs":0,"durationMs":14000,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a02-readable-http","animation":"p01-a02-readable-http","anchor":"p01-readable-http-start","offsetMs":0,"durationMs":24000,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a03-protocol-passport","animation":"p01-a03-protocol-passport","anchor":"p01-protocol-passport-start","offsetMs":0,"durationMs":23767,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p02-a01-message-anatomy","animation":"p02-a01-message-anatomy","anchor":"p02-anatomy-start","offsetMs":0,"durationMs":41400,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p03-a01-method-catalog","animation":"p03-a01-method-catalog","anchor":"p03-method-catalog-start","offsetMs":0,"durationMs":43000,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p03-a02-safe-contract","animation":"p03-a02-safe-contract","anchor":"p03-safe-contract-start","offsetMs":0,"durationMs":49700,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p03-a03-put-patch","animation":"p03-a03-put-patch","anchor":"p03-put-patch-start","offsetMs":0,"durationMs":21000,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p03-a04-cors-preflight","animation":"p03-a04-cors-preflight","anchor":"p03-cors-preflight-start","offsetMs":0,"durationMs":83600,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p04-a01-status-families","animation":"p04-a01-status-families","anchor":"p04-a01-status-families-start","offsetMs":0,"durationMs":42600,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p04-a02-status-contract","animation":"p04-a02-status-contract","anchor":"p04-a02-status-contract-start","offsetMs":0,"durationMs":27440,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p04-a03-status-infrastructure","animation":"p04-a03-status-infrastructure","anchor":"p04-a03-status-infrastructure-start","offsetMs":0,"durationMs":45160,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p05-a01-header-groups","animation":"p05-a01-header-groups","anchor":"p05-a01-header-groups-start","offsetMs":0,"durationMs":53660,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p05-a02-host-routing","animation":"p05-a02-host-routing","anchor":"p05-a02-host-routing-start","offsetMs":0,"durationMs":15933,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p05-a03-header-trust","animation":"p05-a03-header-trust","anchor":"p05-a03-header-trust-start","offsetMs":0,"durationMs":51867,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p05-a04-protocol-upgrade","animation":"p05-a04-protocol-upgrade","anchor":"p05-a04-protocol-upgrade-start","offsetMs":0,"durationMs":13910,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p06-a01-message-boundary","animation":"p06-a01-message-boundary","anchor":"p06-a01-message-boundary-start","offsetMs":0,"durationMs":33760,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p06-a02-chunked-stream","animation":"p06-a02-chunked-stream","anchor":"p06-a02-chunked-stream-start","offsetMs":0,"durationMs":37560,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p06-a03-framing-choice","animation":"p06-a03-framing-choice","anchor":"p06-a03-framing-choice-start","offsetMs":0,"durationMs":27300,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p07-a01-short-connections","animation":"p07-a01-short-connections","anchor":"p07-a01-short-connections-start","offsetMs":0,"durationMs":35707,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p07-a02-persistent-connection","animation":"p07-a02-persistent-connection","anchor":"p07-a02-persistent-connection-start","offsetMs":0,"durationMs":28660,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p07-a03-parallel-connections","animation":"p07-a03-parallel-connections","anchor":"p07-a03-parallel-connections-start","offsetMs":0,"durationMs":16657,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p08-a01-binary-multiplexing","animation":"p08-a01-binary-multiplexing","anchor":"p08-a01-binary-multiplexing-start","offsetMs":0,"durationMs":47894,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p08-a02-tcp-blocking","animation":"p08-a02-tcp-blocking","anchor":"p08-a02-tcp-blocking-start","offsetMs":0,"durationMs":29000,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p08-a03-quic-streams","animation":"p08-a03-quic-streams","anchor":"p08-a03-quic-streams-start","offsetMs":0,"durationMs":14000,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p09-a01-code-to-wire","animation":"p09-a01-code-to-wire","anchor":"p09-a01-code-to-wire-start","offsetMs":0,"durationMs":285875,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p10-a01-built-to-evolve","animation":"p10-a01-built-to-evolve","anchor":"p10-a01-built-to-evolve-start","offsetMs":0,"durationMs":23900,"props":{"withAudio":false,"previewBackground":"transparent"}}]}
+  />
+);
+
+const V004OzonFlashSaleComponents: Record<string, TimelineComponent> = {
+  "p02-a01-postgres-reservation": Animation92P02A01PostgresReservation,
+};
+
+const V004OzonFlashSaleOverlay: React.FC = () => (
+  <TimelineOverlay
+    anchors={{"reservation-sql-start":608220,"reservation-transaction":621080,"reservation-isolation":623380,"reservation-atomic":641740,"reservation-nonnegative":649880,"reservation-predicates":656200,"reservation-cte":669360,"reservation-decrement":674800,"reservation-item":681260,"reservation-stock":685160,"reservation-sale-window":691260,"reservation-returning":695060,"reservation-insert":697200,"reservation-from-cte":707440,"reservation-statement":713080,"reservation-isolation-reprise":720220,"reservation-check-write":726680,"reservation-conclusion":740700,"reservation-sql-end":749300}}
+    audio={"generated/004-ozon-flash-sale/audio.wav"}
+    components={V004OzonFlashSaleComponents}
+    timeline={[{"id":"show-p02-a01-postgres-reservation","animation":"p02-a01-postgres-reservation","anchor":"reservation-sql-start","offsetMs":0,"durationMs":141080,"props":{"themeId":"graphite","backgroundOpacity":0.94,"withAudio":false,"previewBackground":"transparent"}}]}
   />
 );
 
@@ -1142,6 +1156,27 @@ export const GeneratedVideoCompositions: React.FC = () => (
         height={1440}
         fps={30}
         durationInFrames={42626}
+      />
+    </Folder>
+    <Folder name="V-004-ozon-flash-sale">
+      <Folder name="P-02">
+        <Composition
+          id="Video-004-ozon-flash-sale-p02-a01-postgres-reservation"
+          component={Animation92P02A01PostgresReservation}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={4232}
+          defaultProps={{"themeId":"graphite","backgroundOpacity":0.94,"withAudio":false,"previewBackground":"transparent"}}
+        />
+      </Folder>
+      <Composition
+        id="Video-004-ozon-flash-sale-Overlay"
+        component={V004OzonFlashSaleOverlay}
+        width={2560}
+        height={1440}
+        fps={30}
+        durationInFrames={88217}
       />
     </Folder>
   </>
