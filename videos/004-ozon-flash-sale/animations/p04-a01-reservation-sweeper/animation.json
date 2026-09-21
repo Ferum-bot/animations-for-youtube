@@ -1,0 +1,14 @@
+{
+  "id": "p04-a01-reservation-sweeper",
+  "part": 4,
+  "order": 1,
+  "title": "Возвращаем просроченные резервации",
+  "kind": "2d",
+  "durationMs": 19460,
+  "defaultProps": {
+    "themeId": "paper",
+    "backgroundOpacity": 1,
+    "withAudio": false,
+    "previewBackground": "transparent"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "p04-a02-reservation-cas-outbox",
+  "part": 4,
+  "order": 2,
+  "title": "Одна резервация — один переход",
+  "kind": "2d",
+  "durationMs": 47820,
+  "defaultProps": {
+    "themeId": "paper",
+    "backgroundOpacity": 1,
+    "withAudio": false,
+    "previewBackground": "transparent"
+  }
+}

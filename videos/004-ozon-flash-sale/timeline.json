@@ -37,5 +37,31 @@
       "withAudio": false,
       "previewBackground": "transparent"
     }
+  },
+  {
+    "id": "show-p04-a01-reservation-sweeper",
+    "animation": "p04-a01-reservation-sweeper",
+    "anchor": "sweeper-start",
+    "offsetMs": 0,
+    "durationMs": 19460,
+    "props": {
+      "themeId": "paper",
+      "backgroundOpacity": 1,
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
+  },
+  {
+    "id": "show-p04-a02-reservation-cas-outbox",
+    "animation": "p04-a02-reservation-cas-outbox",
+    "anchor": "cas-start",
+    "offsetMs": 0,
+    "durationMs": 47820,
+    "props": {
+      "themeId": "paper",
+      "backgroundOpacity": 1,
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
   }
 ]

@@ -42,3 +42,10 @@
 
 `p03-a02-skip-locked`: 24:20.100–24:43.460, SQL и выбор свободной строки.
 Композиция: `Video-004-ozon-flash-sale-p03-a02-skip-locked`.
+
+## Истечение резерваций
+
+- `p04-a01-reservation-sweeper`: 30:20.840–30:40.300, условный UPDATE и возврат остатка.
+- `p04-a02-reservation-cas-outbox`: 36:41.680–37:29.500, гонка за статус и Outbox → worker → Redis.
+
+Обе сцены используют shared/code и общие элементы диаграмм shared/expiry.
