@@ -1,3 +1,5 @@
+import type {CodeToken} from '../../shared/code/types';
+
 /** The supplied SQL; only Markdown/HTML escaping and indentation are normalized. */
 export const reservationSql = `-- резервация (PostgreSQL)
 BEGIN ISOLATION LEVEL READ COMMITTED;
@@ -18,15 +20,13 @@ RETURNING id, expires_at;
 
 COMMIT;`;
 
-type TokenKind = 'plain' | 'comment' | 'keyword' | 'column' | 'string' | 'number' | 'parameter' | 'function' | 'cte';
-export type SqlToken = {readonly text: string; readonly kind: TokenKind};
 const keywords = new Set(['BEGIN', 'ISOLATION', 'LEVEL', 'READ', 'COMMITTED', 'WITH', 'AS',
   'UPDATE', 'SET', 'WHERE', 'AND', 'RETURNING', 'INSERT', 'INTO', 'SELECT', 'FROM', 'INTERVAL', 'COMMIT']);
 // Semantic identifiers in this fixed snippet, not a general SQL schema resolver.
 const columns = new Set(['id', 'stock', 'sale_start', 'sale_end', 'item_id', 'user_id', 'status', 'expires_at']);
 
 // A small lexer for this PostgreSQL snippet; every source character is preserved.
-const tokenize = (line: string): readonly SqlToken[] =>
+const tokenize = (line: string): readonly CodeToken[] =>
   (line.match(/--.*|'(?:[^']|'')*'|:[a-z_]+|\b\d+\b|\b[a-z_]+\b|[^\w:'-]+|./gi) ?? []).map((text) => {
     if (text.startsWith('--')) return {text, kind: 'comment'};
     if (text.startsWith("'")) return {text, kind: 'string'};

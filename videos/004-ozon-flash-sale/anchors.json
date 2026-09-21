@@ -17,5 +17,22 @@
   "reservation-isolation-reprise": 720220,
   "reservation-check-write": 726680,
   "reservation-conclusion": 740700,
-  "reservation-sql-end": 749300
+  "reservation-sql-end": 749300,
+  "lua-start": 1282920,
+  "lua-overview": 1289560,
+  "lua-keys": 1300260,
+  "lua-stock-key": 1302840,
+  "lua-holders-key": 1306820,
+  "lua-user": 1315000,
+  "lua-ttl": 1320400,
+  "lua-duplicate": 1322660,
+  "lua-duplicate-result": 1328040,
+  "lua-read-stock": 1331840,
+  "lua-stock-check": 1338160,
+  "lua-decrement": 1345320,
+  "lua-holder-add": 1350800,
+  "lua-success": 1355820,
+  "lua-atomic": 1358000,
+  "lua-roundtrip": 1365740,
+  "lua-end": 1373480
 }

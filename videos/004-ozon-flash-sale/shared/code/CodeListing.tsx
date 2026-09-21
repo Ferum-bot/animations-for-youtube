@@ -1,26 +1,31 @@
 import React from 'react';
 import {smoothProgress} from '@channel/motion-core';
-import type {OzonTheme} from '../../shared/theme';
-import {cues, cueTime, type LineRange} from './cues';
-import {sqlLines, type SqlToken} from './sql';
+import type {OzonTheme} from '../theme';
+import type {CodeCue, CodeToken, LineRange} from './types';
 
 const layout = {x: 208, y: 292, lineHeight: 51, fontSize: 36, highlightX: 184, highlightWidth: 1556};
 const contains = (ranges: readonly LineRange[], line: number): boolean =>
   ranges.some(([first, last]) => line >= first && line <= last);
 
-const tokenColor = (token: SqlToken, theme: OzonTheme): string => {
+const tokenColor = (token: CodeToken, theme: OzonTheme): string => {
   if (token.kind === 'plain') return theme.text;
   if (token.kind === 'comment') return theme.comment;
   return theme.syntax[token.kind];
 };
 
-export const SqlListing: React.FC<{readonly timeMs: number; readonly theme: OzonTheme}> = ({timeMs, theme}) => {
-  const activeIndex = cues.reduce((active, cue, index) => timeMs >= cueTime(cue) ? index : active, 0);
+export const CodeListing: React.FC<{
+  readonly timeMs: number;
+  readonly theme: OzonTheme;
+  readonly cues: readonly CodeCue[];
+  readonly lines: readonly (readonly CodeToken[])[];
+}> = ({timeMs, theme, cues, lines}) => {
+  const activeIndex = cues.reduce((active, cue, index) => timeMs >= cue.startMs ? index : active, 0);
   const active = cues[activeIndex] ?? cues[0];
+  if (!active) return null;
   const previous = cues[Math.max(0, activeIndex - 1)] ?? active;
-  const transition = smoothProgress(timeMs, cueTime(active), cueTime(active) + 280);
+  const transition = smoothProgress(timeMs, active.startMs, active.startMs + 280);
   return <g fontFamily={theme.fontMono} fontSize={layout.fontSize}>
-    {sqlLines.map((tokens, index) => {
+    {lines.map((tokens, index) => {
       const line = index + 1;
       const y = layout.y + index * layout.lineHeight;
       const before = contains(previous.ranges, line) ? 1 : 0;

@@ -11,5 +11,18 @@
       "withAudio": false,
       "previewBackground": "transparent"
     }
+  },
+  {
+    "id": "show-p03-a01-redis-lua-reservation",
+    "animation": "p03-a01-redis-lua-reservation",
+    "anchor": "lua-start",
+    "offsetMs": 0,
+    "durationMs": 90560,
+    "props": {
+      "themeId": "paper",
+      "backgroundOpacity": 1,
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
   }
 ]

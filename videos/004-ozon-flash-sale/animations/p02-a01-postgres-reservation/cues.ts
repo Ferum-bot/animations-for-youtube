@@ -2,16 +2,9 @@ import anchors from '../../anchors.json';
 import metadata from './animation.json';
 
 export const scene = {startMs: anchors['reservation-sql-start'], durationMs: metadata.durationMs};
-type Anchor = Exclude<keyof typeof anchors, 'reservation-sql-end'>;
-export type LineRange = readonly [first: number, last: number];
-export type SqlCue = {
-  readonly anchor: Anchor;
-  readonly ranges: readonly LineRange[];
-  readonly label: string;
-  readonly title: readonly string[];
-  readonly body: readonly string[];
-  readonly detail: string;
-};
+type Anchor = Extract<keyof typeof anchors, `reservation-${string}`>;
+import type {CodeCue} from '../../shared/code/types';
+export type SqlCue = Omit<CodeCue, 'startMs'> & {readonly anchor: Anchor};
 
 export const cues = [
   {anchor: 'reservation-sql-start', ranges: [], label: 'РЕЗЕРВАЦИЯ', title: ['Один запрос.', 'Два изменения.'], body: ['Уменьшить остаток', 'и создать резервацию.'], detail: 'PostgreSQL'},

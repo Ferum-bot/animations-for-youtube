@@ -1,0 +1,14 @@
+{
+  "id": "p03-a01-redis-lua-reservation",
+  "part": 3,
+  "order": 1,
+  "title": "Атомарная резервация Redis + Lua",
+  "kind": "2d",
+  "durationMs": 90560,
+  "defaultProps": {
+    "themeId": "paper",
+    "backgroundOpacity": 1,
+    "withAudio": false,
+    "previewBackground": "transparent"
+  }
+}

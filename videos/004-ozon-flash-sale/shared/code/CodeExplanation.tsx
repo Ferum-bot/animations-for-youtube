@@ -1,18 +1,23 @@
 import React from 'react';
 import {smoothProgress} from '@channel/motion-core';
-import type {OzonTheme} from '../../shared/theme';
-import {cues, cueTime, scene} from './cues';
+import type {OzonTheme} from '../theme';
+import type {CodeCue} from './types';
 
-export const Explanation: React.FC<{readonly timeMs: number; readonly theme: OzonTheme}> = ({timeMs, theme}) => <>
+export const CodeExplanation: React.FC<{
+  readonly timeMs: number;
+  readonly theme: OzonTheme;
+  readonly cues: readonly CodeCue[];
+  readonly durationMs: number;
+}> = ({timeMs, theme, cues, durationMs}) => <>
   {cues.map((cue, index) => {
-    const start = cueTime(cue);
+    const start = cue.startMs;
     const next = cues[index + 1];
-    const end = next ? cueTime(next) : scene.durationMs;
+    const end = next ? next.startMs : durationMs;
     const enter = smoothProgress(timeMs, start, start + 280);
     const opacity = enter * (1 - smoothProgress(timeMs, end - 160, end));
     if (opacity <= 0) return null;
     const labelWidth = cue.label.length * 14 + 20;
-    return <g key={cue.anchor} opacity={opacity} transform={`translate(1850 ${400 + (1 - enter) * 10})`}>
+    return <g key={cue.startMs} opacity={opacity} transform={`translate(1850 ${400 + (1 - enter) * 10})`}>
       <path d={`M -15 40 C -22 13 ${labelWidth - 10} 14 ${labelWidth} 38
         C ${labelWidth + 14} 73 -8 76 -17 47`}
         stroke={theme.secondary} strokeWidth={1.8} fill="none" strokeLinecap="round"
