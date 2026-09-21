@@ -27,13 +27,15 @@ export const SqlListing: React.FC<{readonly timeMs: number; readonly theme: Ozon
       const after = contains(active.ranges, line) ? 1 : 0;
       const focus = before + (after - before) * transition;
       return <g key={line}>
-        <rect x={layout.highlightX} y={y - 37} width={layout.highlightWidth} height={layout.lineHeight}
-          fill={theme.accent} opacity={focus * 0.12} />
-        <rect x={layout.highlightX} y={y - 37} width={4} height={layout.lineHeight}
-          fill={theme.accent} opacity={focus} />
-        <text x={152} y={y} textAnchor="end" fontSize={23} fill={theme.comment}>{String(line).padStart(2, '0')}</text>
+        <path d={`M ${layout.highlightX} ${y - 35} Q 920 ${y - 38} ${layout.highlightX + layout.highlightWidth} ${y - 35}
+          L ${layout.highlightX + layout.highlightWidth - 3} ${y + 14} Q 850 ${y + 12} ${layout.highlightX + 2} ${y + 14} Z`}
+          fill={theme.marker} opacity={focus * 0.19} />
+        <path d={`M 177 ${y - 36} Q 174 ${y - 10} 177 ${y + 15}`} strokeWidth={2}
+          stroke={theme.secondary} opacity={focus} fill="none" strokeLinecap="round" />
+        <text x={152} y={y} textAnchor="end" fontSize={21} fill={theme.comment} opacity={0.7}>{String(line).padStart(2, '0')}</text>
         <text x={layout.x} y={y} xmlSpace="preserve" fill={theme.text}>
-          {tokens.map((token, tokenIndex) => <tspan key={tokenIndex} fill={tokenColor(token, theme)}>{token.text}</tspan>)}
+          {tokens.map((token, tokenIndex) => <tspan key={tokenIndex} fill={tokenColor(token, theme)}
+            fontStyle={token.kind === 'function' || token.kind === 'parameter' ? 'italic' : undefined}>{token.text}</tspan>)}
         </text>
       </g>;
     })}

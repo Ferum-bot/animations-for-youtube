@@ -18,10 +18,12 @@ RETURNING id, expires_at;
 
 COMMIT;`;
 
-type TokenKind = 'plain' | 'comment' | 'keyword' | 'string' | 'number' | 'parameter' | 'function';
+type TokenKind = 'plain' | 'comment' | 'keyword' | 'column' | 'string' | 'number' | 'parameter' | 'function' | 'cte';
 export type SqlToken = {readonly text: string; readonly kind: TokenKind};
 const keywords = new Set(['BEGIN', 'ISOLATION', 'LEVEL', 'READ', 'COMMITTED', 'WITH', 'AS',
   'UPDATE', 'SET', 'WHERE', 'AND', 'RETURNING', 'INSERT', 'INTO', 'SELECT', 'FROM', 'INTERVAL', 'COMMIT']);
+// Semantic identifiers in this fixed snippet, not a general SQL schema resolver.
+const columns = new Set(['id', 'stock', 'sale_start', 'sale_end', 'item_id', 'user_id', 'status', 'expires_at']);
 
 // A small lexer for this PostgreSQL snippet; every source character is preserved.
 const tokenize = (line: string): readonly SqlToken[] =>
@@ -32,6 +34,8 @@ const tokenize = (line: string): readonly SqlToken[] =>
     if (/^\d+$/.test(text)) return {text, kind: 'number'};
     if (keywords.has(text.toUpperCase())) return {text, kind: 'keyword'};
     if (text.toLowerCase() === 'now') return {text, kind: 'function'};
+    if (columns.has(text.toLowerCase())) return {text, kind: 'column'};
+    if (text.toLowerCase() === 'dec') return {text, kind: 'cte'};
     return {text, kind: 'plain'};
   });
 

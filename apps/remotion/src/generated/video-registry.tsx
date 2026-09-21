@@ -246,7 +246,7 @@ const V004OzonFlashSaleOverlay: React.FC = () => (
     anchors={{"reservation-sql-start":608220,"reservation-transaction":621080,"reservation-isolation":623380,"reservation-atomic":641740,"reservation-nonnegative":649880,"reservation-predicates":656200,"reservation-cte":669360,"reservation-decrement":674800,"reservation-item":681260,"reservation-stock":685160,"reservation-sale-window":691260,"reservation-returning":695060,"reservation-insert":697200,"reservation-from-cte":707440,"reservation-statement":713080,"reservation-isolation-reprise":720220,"reservation-check-write":726680,"reservation-conclusion":740700,"reservation-sql-end":749300}}
     audio={"generated/004-ozon-flash-sale/audio.wav"}
     components={V004OzonFlashSaleComponents}
-    timeline={[{"id":"show-p02-a01-postgres-reservation","animation":"p02-a01-postgres-reservation","anchor":"reservation-sql-start","offsetMs":0,"durationMs":141080,"props":{"themeId":"graphite","backgroundOpacity":0.94,"withAudio":false,"previewBackground":"transparent"}}]}
+    timeline={[{"id":"show-p02-a01-postgres-reservation","animation":"p02-a01-postgres-reservation","anchor":"reservation-sql-start","offsetMs":0,"durationMs":141080,"props":{"themeId":"paper","backgroundOpacity":1,"withAudio":false,"previewBackground":"transparent"}}]}
   />
 );
 
@@ -1167,7 +1167,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           height={1440}
           fps={30}
           durationInFrames={4232}
-          defaultProps={{"themeId":"graphite","backgroundOpacity":0.94,"withAudio":false,"previewBackground":"transparent"}}
+          defaultProps={{"themeId":"paper","backgroundOpacity":1,"withAudio":false,"previewBackground":"transparent"}}
         />
       </Folder>
       <Composition

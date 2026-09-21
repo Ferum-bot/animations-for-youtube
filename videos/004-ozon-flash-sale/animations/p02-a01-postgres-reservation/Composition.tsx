@@ -1,7 +1,7 @@
 import React from 'react';
 import {AbsoluteFill, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {Audio} from '@remotion/media';
-import {clamp01, fadeEnvelope, msToFrames} from '@channel/motion-core';
+import {clamp01, msToFrames, smoothProgress} from '@channel/motion-core';
 import {getTheme, type ThemeId} from '@channel/theme';
 import video from '../../video.json';
 import {getOzonTheme} from '../../shared/theme';
@@ -16,13 +16,17 @@ type Props = {
   readonly previewBackground?: 'transparent' | 'light' | 'dark';
 };
 
-const Composition: React.FC<Props> = ({themeId = 'graphite', backgroundOpacity = 0.94,
+const transition = {enterMs: 900, exitMs: 1100} as const;
+
+const Composition: React.FC<Props> = ({themeId = 'paper', backgroundOpacity = 1,
   withAudio = false, previewBackground = 'transparent'}) => {
   const frame = useCurrentFrame();
   const {fps, durationInFrames} = useVideoConfig();
   const timeMs = frame * 1000 / fps;
   const theme = getOzonTheme(themeId);
-  const opacity = fadeEnvelope({frame, durationInFrames, enterFrames: 10, exitFrames: 12});
+  const lastFrame = durationInFrames - 1;
+  const opacity = smoothProgress(frame, 0, msToFrames(transition.enterMs, fps)) *
+    (1 - smoothProgress(frame, lastFrame - msToFrames(transition.exitMs, fps), lastFrame));
   return <AbsoluteFill>
     {previewBackground !== 'transparent' ? <AbsoluteFill style={{background:
       getTheme(previewBackground === 'light' ? 'paper' : 'graphite').background}} /> : null}
@@ -30,15 +34,17 @@ const Composition: React.FC<Props> = ({themeId = 'graphite', backgroundOpacity =
     <AbsoluteFill style={{opacity}}>
       <AbsoluteFill style={{background: theme.background, opacity: clamp01(backgroundOpacity)}} />
       <svg width="100%" height="100%" viewBox="0 0 2560 1440" style={{position: 'absolute', inset: 0, fontFamily: theme.fontSans}}>
-        <text x={120} y={112} fontSize={25} letterSpacing={3} fontFamily={theme.fontMono} fill={theme.accent}>OZON / FLASH SALE</text>
-        <text x={120} y={190} fontSize={62} fontWeight={700} letterSpacing={-1.5} fill={theme.text}>Атомарная резервация</text>
-        <text x={2440} y={185} fontSize={27} textAnchor="end" fontFamily={theme.fontMono} fill={theme.comment}>PostgreSQL</text>
-        <path d="M 120 226 H 2440 M 1786 270 V 1200" stroke={theme.line} strokeWidth={2} />
+        <defs>
+          <pattern id="reservation-board-dots" width={32} height={32} patternUnits="userSpaceOnUse">
+            <circle cx={16} cy={16} r={1.15} fill={theme.grid} opacity={0.45} />
+          </pattern>
+        </defs>
+        <rect width={2560} height={1440} fill="url(#reservation-board-dots)" />
+        <text x={208} y={163} fontSize={49} fontWeight={600} fill={theme.text}>Атомарная резервация</text>
+        <path d="M 207 183 Q 475 188 758 182" stroke={theme.secondary} strokeWidth={2.3} fill="none" strokeLinecap="round" />
+        <text x={2440} y={161} fontSize={25} textAnchor="end" fontFamily={theme.fontMono} fill={theme.comment}>PostgreSQL</text>
         <SqlListing timeMs={timeMs} theme={theme} />
         <Explanation timeMs={timeMs} theme={theme} />
-        <path d="M 120 1254 H 2440" stroke={theme.line} strokeWidth={2} />
-        <text x={120} y={1320} fontSize={27} fill={theme.comment}>Остаток + резервация</text>
-        <text x={2440} y={1320} textAnchor="end" fontSize={27} fontFamily={theme.fontMono} fill={theme.accent}>UPDATE → RETURNING → INSERT</text>
       </svg>
     </AbsoluteFill>
   </AbsoluteFill>;

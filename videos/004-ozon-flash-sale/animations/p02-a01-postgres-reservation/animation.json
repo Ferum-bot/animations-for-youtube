@@ -6,8 +6,8 @@
   "kind": "2d",
   "durationMs": 141080,
   "defaultProps": {
-    "themeId": "graphite",
-    "backgroundOpacity": 0.94,
+    "themeId": "paper",
+    "backgroundOpacity": 1,
     "withAudio": false,
     "previewBackground": "transparent"
   }
