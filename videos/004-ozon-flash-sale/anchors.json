@@ -34,5 +34,14 @@
   "lua-success": 1355820,
   "lua-atomic": 1358000,
   "lua-roundtrip": 1365740,
-  "lua-end": 1373480
+  "lua-end": 1373480,
+  "skip-start": 1460100,
+  "skip-table": 1461740,
+  "skip-select": 1468820,
+  "skip-item": 1471080,
+  "skip-lock": 1472940,
+  "skip-skip": 1473420,
+  "skip-limit": 1473940,
+  "skip-rows": 1475940,
+  "skip-end": 1483460
 }

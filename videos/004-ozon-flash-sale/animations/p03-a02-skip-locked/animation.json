@@ -1,0 +1,14 @@
+{
+  "id": "p03-a02-skip-locked",
+  "part": 3,
+  "order": 2,
+  "title": "Одна строка — одна единица",
+  "kind": "2d",
+  "durationMs": 23360,
+  "defaultProps": {
+    "themeId": "paper",
+    "backgroundOpacity": 1,
+    "withAudio": false,
+    "previewBackground": "transparent"
+  }
+}

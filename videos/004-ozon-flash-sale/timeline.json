@@ -24,5 +24,18 @@
       "withAudio": false,
       "previewBackground": "transparent"
     }
+  },
+  {
+    "id": "show-p03-a02-skip-locked",
+    "animation": "p03-a02-skip-locked",
+    "anchor": "skip-start",
+    "offsetMs": 0,
+    "durationMs": 23360,
+    "props": {
+      "themeId": "paper",
+      "backgroundOpacity": 1,
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
   }
 ]

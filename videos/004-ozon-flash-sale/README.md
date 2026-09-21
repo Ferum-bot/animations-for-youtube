@@ -37,3 +37,8 @@
 `p03-a01-redis-lua-reservation`: 21:22.920–22:53.480, 16 акцентов по речи.
 Композиция: `Video-004-ozon-flash-sale-p03-a01-redis-lua-reservation`.
 Общие компоненты SQL/Lua находятся в `shared/code/`.
+
+## SKIP LOCKED
+
+`p03-a02-skip-locked`: 24:20.100–24:43.460, SQL и выбор свободной строки.
+Композиция: `Video-004-ozon-flash-sale-p03-a02-skip-locked`.

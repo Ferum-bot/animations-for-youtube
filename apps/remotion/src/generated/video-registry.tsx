@@ -97,6 +97,7 @@ import Animation90P10A00ChapterDivider from '../../../../videos/003-http/animati
 import Animation91P10A01BuiltToEvolve from '../../../../videos/003-http/animations/p10-a01-built-to-evolve/Composition';
 import Animation92P02A01PostgresReservation from '../../../../videos/004-ozon-flash-sale/animations/p02-a01-postgres-reservation/Composition';
 import Animation93P03A01RedisLuaReservation from '../../../../videos/004-ozon-flash-sale/animations/p03-a01-redis-lua-reservation/Composition';
+import Animation94P03A02SkipLocked from '../../../../videos/004-ozon-flash-sale/animations/p03-a02-skip-locked/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -241,14 +242,15 @@ const V003HttpOverlay: React.FC = () => (
 const V004OzonFlashSaleComponents: Record<string, TimelineComponent> = {
   "p02-a01-postgres-reservation": Animation92P02A01PostgresReservation,
   "p03-a01-redis-lua-reservation": Animation93P03A01RedisLuaReservation,
+  "p03-a02-skip-locked": Animation94P03A02SkipLocked,
 };
 
 const V004OzonFlashSaleOverlay: React.FC = () => (
   <TimelineOverlay
-    anchors={{"reservation-sql-start":608220,"reservation-transaction":621080,"reservation-isolation":623380,"reservation-atomic":641740,"reservation-nonnegative":649880,"reservation-predicates":656200,"reservation-cte":669360,"reservation-decrement":674800,"reservation-item":681260,"reservation-stock":685160,"reservation-sale-window":691260,"reservation-returning":695060,"reservation-insert":697200,"reservation-from-cte":707440,"reservation-statement":713080,"reservation-isolation-reprise":720220,"reservation-check-write":726680,"reservation-conclusion":740700,"reservation-sql-end":749300,"lua-start":1282920,"lua-overview":1289560,"lua-keys":1300260,"lua-stock-key":1302840,"lua-holders-key":1306820,"lua-user":1315000,"lua-ttl":1320400,"lua-duplicate":1322660,"lua-duplicate-result":1328040,"lua-read-stock":1331840,"lua-stock-check":1338160,"lua-decrement":1345320,"lua-holder-add":1350800,"lua-success":1355820,"lua-atomic":1358000,"lua-roundtrip":1365740,"lua-end":1373480}}
+    anchors={{"reservation-sql-start":608220,"reservation-transaction":621080,"reservation-isolation":623380,"reservation-atomic":641740,"reservation-nonnegative":649880,"reservation-predicates":656200,"reservation-cte":669360,"reservation-decrement":674800,"reservation-item":681260,"reservation-stock":685160,"reservation-sale-window":691260,"reservation-returning":695060,"reservation-insert":697200,"reservation-from-cte":707440,"reservation-statement":713080,"reservation-isolation-reprise":720220,"reservation-check-write":726680,"reservation-conclusion":740700,"reservation-sql-end":749300,"lua-start":1282920,"lua-overview":1289560,"lua-keys":1300260,"lua-stock-key":1302840,"lua-holders-key":1306820,"lua-user":1315000,"lua-ttl":1320400,"lua-duplicate":1322660,"lua-duplicate-result":1328040,"lua-read-stock":1331840,"lua-stock-check":1338160,"lua-decrement":1345320,"lua-holder-add":1350800,"lua-success":1355820,"lua-atomic":1358000,"lua-roundtrip":1365740,"lua-end":1373480,"skip-start":1460100,"skip-table":1461740,"skip-select":1468820,"skip-item":1471080,"skip-lock":1472940,"skip-skip":1473420,"skip-limit":1473940,"skip-rows":1475940,"skip-end":1483460}}
     audio={"generated/004-ozon-flash-sale/audio.wav"}
     components={V004OzonFlashSaleComponents}
-    timeline={[{"id":"show-p02-a01-postgres-reservation","animation":"p02-a01-postgres-reservation","anchor":"reservation-sql-start","offsetMs":0,"durationMs":141080,"props":{"themeId":"paper","backgroundOpacity":1,"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p03-a01-redis-lua-reservation","animation":"p03-a01-redis-lua-reservation","anchor":"lua-start","offsetMs":0,"durationMs":90560,"props":{"themeId":"paper","backgroundOpacity":1,"withAudio":false,"previewBackground":"transparent"}}]}
+    timeline={[{"id":"show-p02-a01-postgres-reservation","animation":"p02-a01-postgres-reservation","anchor":"reservation-sql-start","offsetMs":0,"durationMs":141080,"props":{"themeId":"paper","backgroundOpacity":1,"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p03-a01-redis-lua-reservation","animation":"p03-a01-redis-lua-reservation","anchor":"lua-start","offsetMs":0,"durationMs":90560,"props":{"themeId":"paper","backgroundOpacity":1,"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p03-a02-skip-locked","animation":"p03-a02-skip-locked","anchor":"skip-start","offsetMs":0,"durationMs":23360,"props":{"themeId":"paper","backgroundOpacity":1,"withAudio":false,"previewBackground":"transparent"}}]}
   />
 );
 
@@ -1180,6 +1182,15 @@ export const GeneratedVideoCompositions: React.FC = () => (
           height={1440}
           fps={30}
           durationInFrames={2717}
+          defaultProps={{"themeId":"paper","backgroundOpacity":1,"withAudio":false,"previewBackground":"transparent"}}
+        />
+        <Composition
+          id="Video-004-ozon-flash-sale-p03-a02-skip-locked"
+          component={Animation94P03A02SkipLocked}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={701}
           defaultProps={{"themeId":"paper","backgroundOpacity":1,"withAudio":false,"previewBackground":"transparent"}}
         />
       </Folder>
