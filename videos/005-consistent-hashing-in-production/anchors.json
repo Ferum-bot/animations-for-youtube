@@ -1,0 +1,12 @@
+{
+  "intro-experiment-start": 32520,
+  "intro-live-service": 38800,
+  "intro-single-instance": 45070,
+  "intro-cluster": 46230,
+  "intro-live-load": 49990,
+  "intro-add-node": 52260,
+  "intro-remove-node": 52830,
+  "intro-consequences": 54240,
+  "intro-speech-end": 59480,
+  "intro-experiment-end": 60000
+}

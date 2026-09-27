@@ -16,6 +16,10 @@ These rules apply to every task in this repository unless the user explicitly ov
 8. Deliver transparent CapCut overlays as QuickTime `ProRes 4444` with an alpha-capable pixel format. H.264/MP4 is preview-only and must not be used as the compositing master.
 9. CapCut macOS alpha exports must use `task render:capcut` (premultiplied RGB, converted once from original PNGs in 16-bit RGB). A `yuva` pixel format alone does not ensure correct compositing. Run `task qa:capcut-alpha INPUT=...` on the encoded MOV and inspect the feathered edge at 100% over light/dark footage, including entrance/exit. For a new export pipeline, verify it in CapCut before delivery; FFmpeg/PNG previews alone previously missed colored fringes. Keep generic straight-alpha exports separate for editors that expect them.
 
+## Repository contents
+
+Present plans, storyboards, design proposals, research summaries, and progress reports in the conversation only. Do not save them or auxiliary analysis artifacts in this repository, including ignored directories. Repository additions should be implementation code and its required configuration/data, human-facing README instructions for running or extending the project, and important agent rules. Keep temporary analysis files outside the repository. Do not create planning folders, taste profiles, signal packets, or context reports as deliverables.
+
 ## Product
 
 This repository contains explanatory motion graphics for a Russian-language YouTube channel about computer science and distributed systems. The host footage is usually a talking head. Graphics clarify a relationship, state change, boundary, or failure mode; they are not decorative filler.

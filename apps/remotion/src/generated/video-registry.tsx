@@ -100,6 +100,7 @@ import Animation93P03A01RedisLuaReservation from '../../../../videos/004-ozon-fl
 import Animation94P03A02SkipLocked from '../../../../videos/004-ozon-flash-sale/animations/p03-a02-skip-locked/Composition';
 import Animation95P04A01ReservationSweeper from '../../../../videos/004-ozon-flash-sale/animations/p04-a01-reservation-sweeper/Composition';
 import Animation96P04A02ReservationCasOutbox from '../../../../videos/004-ozon-flash-sale/animations/p04-a02-reservation-cas-outbox/Composition';
+import Animation97P00A01ProductionExperiment from '../../../../videos/005-consistent-hashing-in-production/animations/p00-a01-production-experiment/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -255,6 +256,19 @@ const V004OzonFlashSaleOverlay: React.FC = () => (
     audio={"generated/004-ozon-flash-sale/audio.wav"}
     components={V004OzonFlashSaleComponents}
     timeline={[{"id":"show-p02-a01-postgres-reservation","animation":"p02-a01-postgres-reservation","anchor":"reservation-sql-start","offsetMs":0,"durationMs":141080,"props":{"themeId":"paper","backgroundOpacity":1,"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p03-a01-redis-lua-reservation","animation":"p03-a01-redis-lua-reservation","anchor":"lua-start","offsetMs":0,"durationMs":90560,"props":{"themeId":"paper","backgroundOpacity":1,"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p03-a02-skip-locked","animation":"p03-a02-skip-locked","anchor":"skip-start","offsetMs":0,"durationMs":23360,"props":{"themeId":"paper","backgroundOpacity":1,"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p04-a01-reservation-sweeper","animation":"p04-a01-reservation-sweeper","anchor":"sweeper-start","offsetMs":0,"durationMs":19460,"props":{"themeId":"paper","backgroundOpacity":1,"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p04-a02-reservation-cas-outbox","animation":"p04-a02-reservation-cas-outbox","anchor":"cas-start","offsetMs":0,"durationMs":47820,"props":{"themeId":"paper","backgroundOpacity":1,"withAudio":false,"previewBackground":"transparent"}}]}
+  />
+);
+
+const V005ConsistentHashingInProductionComponents: Record<string, TimelineComponent> = {
+  "p00-a01-production-experiment": Animation97P00A01ProductionExperiment,
+};
+
+const V005ConsistentHashingInProductionOverlay: React.FC = () => (
+  <TimelineOverlay
+    anchors={{"intro-experiment-start":32520,"intro-live-service":38800,"intro-single-instance":45070,"intro-cluster":46230,"intro-live-load":49990,"intro-add-node":52260,"intro-remove-node":52830,"intro-consequences":54240,"intro-speech-end":59480,"intro-experiment-end":60000}}
+    audio={"generated/005-consistent-hashing-in-production/audio.wav"}
+    components={V005ConsistentHashingInProductionComponents}
+    timeline={[{"id":"show-p00-a01-production-experiment","animation":"p00-a01-production-experiment","anchor":"intro-experiment-start","offsetMs":0,"durationMs":27480,"props":{"withAudio":false,"previewBackground":"transparent"}}]}
   />
 );
 
@@ -1225,6 +1239,27 @@ export const GeneratedVideoCompositions: React.FC = () => (
         height={1440}
         fps={30}
         durationInFrames={88217}
+      />
+    </Folder>
+    <Folder name="V-005-consistent-hashing-in-production">
+      <Folder name="P-00">
+        <Composition
+          id="Video-005-consistent-hashing-in-production-p00-a01-production-experiment"
+          component={Animation97P00A01ProductionExperiment}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={824}
+          defaultProps={{"withAudio":true,"previewBackground":"transparent"}}
+        />
+      </Folder>
+      <Composition
+        id="Video-005-consistent-hashing-in-production-Overlay"
+        component={V005ConsistentHashingInProductionOverlay}
+        width={2560}
+        height={1440}
+        fps={30}
+        durationInFrames={10183}
       />
     </Folder>
   </>

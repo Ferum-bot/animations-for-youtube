@@ -1,0 +1,13 @@
+[
+  {
+    "id": "show-p00-a01-production-experiment",
+    "animation": "p00-a01-production-experiment",
+    "anchor": "intro-experiment-start",
+    "offsetMs": 0,
+    "durationMs": 27480,
+    "props": {
+      "withAudio": false,
+      "previewBackground": "transparent"
+    }
+  }
+]

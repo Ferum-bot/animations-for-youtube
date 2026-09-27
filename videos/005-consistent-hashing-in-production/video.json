@@ -1,0 +1,13 @@
+{
+  "id": "005-consistent-hashing-in-production",
+  "title": "Кольцо под нагрузкой: consistent hashing на проде",
+  "width": 2560,
+  "height": 1440,
+  "fps": 30,
+  "durationMs": 339429,
+  "audio": "generated/005-consistent-hashing-in-production/audio.wav",
+  "source": {
+    "audioSha256": "b7936661623c04b7bd5cf83dc9907a1b66f1c95203f93f1137384e4725fb335e",
+    "transcriptSha256": "412e9f99d0375909c2ce3294079c48b0fc7aaa401b1593a4b58a777bc0ff4694"
+  }
+}

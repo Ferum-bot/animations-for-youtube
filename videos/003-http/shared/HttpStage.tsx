@@ -1,5 +1,6 @@
 import React from 'react';
 import {AbsoluteFill, Img, staticFile} from 'remotion';
+import {FeatheredBackground} from '@channel/design-system';
 import {httpLayout, httpTheme as theme} from './theme';
 
 export type PreviewBackground = 'transparent' | 'presenter' | 'light' | 'dark';
@@ -27,19 +28,14 @@ export const HttpStage: React.FC<{
   previewBackground?: PreviewBackground;
   sceneLayer?: React.ReactNode;
 }> = ({children, opacity, surface, previewBackground = 'transparent', sceneLayer}) => {
-  const {backgroundSolidEnd: solid, backgroundTransparentStart: end} = httpLayout;
-  const featherPosition = (progress: number) => `${(solid + (end - solid) * progress) / httpLayout.width * 100}%`;
-  const feather = `linear-gradient(90deg, black 0%, black ${featherPosition(0)},
-    rgba(0,0,0,.94) ${featherPosition(0.18)}, rgba(0,0,0,.65) ${featherPosition(0.4)},
-    rgba(0,0,0,.25) ${featherPosition(0.68)}, rgba(0,0,0,.06) ${featherPosition(0.9)},
-    transparent ${featherPosition(1)}, transparent 100%)`;
   return (
     <AbsoluteFill>
       <HttpPreviewBackground background={previewBackground} />
       <AbsoluteFill style={{opacity}}>
-        <AbsoluteFill style={{background: theme.background,
-          maskImage: surface === 'presenter-side' ? feather : undefined,
-          WebkitMaskImage: surface === 'presenter-side' ? feather : undefined}} />
+        <FeatheredBackground color={theme.background} feather={surface === 'presenter-side' ? {
+          solidEnd: httpLayout.backgroundSolidEnd,
+          transparentStart: httpLayout.backgroundTransparentStart,
+        } : undefined} />
         {sceneLayer}
         <svg width="100%" height="100%" viewBox="0 0 2560 1440"
           style={{position: 'absolute', color: theme.text, fontFamily: theme.fontSans}}>

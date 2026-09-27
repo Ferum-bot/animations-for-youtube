@@ -6,6 +6,7 @@ import type {ThemeId} from '@channel/theme';
 
 export {ChannelThemeProvider, getTheme, themes, useChannelTheme} from '@channel/theme';
 export type {ChannelTheme, ThemeId} from '@channel/theme';
+export {FeatheredBackground} from './FeatheredBackground';
 
 export type StageTransitionMode = 'cut' | 'fade';
 

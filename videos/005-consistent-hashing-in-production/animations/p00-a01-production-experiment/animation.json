@@ -1,0 +1,12 @@
+{
+  "id": "p00-a01-production-experiment",
+  "part": 0,
+  "order": 1,
+  "title": "Проверим на живом сервисе",
+  "kind": "2d",
+  "durationMs": 27480,
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "transparent"
+  }
+}
