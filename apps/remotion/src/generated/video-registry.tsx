@@ -101,6 +101,17 @@ import Animation94P03A02SkipLocked from '../../../../videos/004-ozon-flash-sale/
 import Animation95P04A01ReservationSweeper from '../../../../videos/004-ozon-flash-sale/animations/p04-a01-reservation-sweeper/Composition';
 import Animation96P04A02ReservationCasOutbox from '../../../../videos/004-ozon-flash-sale/animations/p04-a02-reservation-cas-outbox/Composition';
 import Animation97P00A01ProductionExperiment from '../../../../videos/005-consistent-hashing-in-production/animations/p00-a01-production-experiment/Composition';
+import Animation98P01A01ShardChoice from '../../../../videos/005-consistent-hashing-in-production/animations/p01-a01-shard-choice/Composition';
+import Animation99P01A02ModuloRoute from '../../../../videos/005-consistent-hashing-in-production/animations/p01-a02-modulo-route/Composition';
+import Animation100P01A03ModuloChange from '../../../../videos/005-consistent-hashing-in-production/animations/p01-a03-modulo-change/Composition';
+import Animation101P01A04RingSpace from '../../../../videos/005-consistent-hashing-in-production/animations/p01-a04-ring-space/Composition';
+import Animation102P01A05RingLookup from '../../../../videos/005-consistent-hashing-in-production/animations/p01-a05-ring-lookup/Composition';
+import Animation103P01A06RingAdd from '../../../../videos/005-consistent-hashing-in-production/animations/p01-a06-ring-add/Composition';
+import Animation104P01A07RingRemove from '../../../../videos/005-consistent-hashing-in-production/animations/p01-a07-ring-remove/Composition';
+import Animation105P01A08VirtualNodes from '../../../../videos/005-consistent-hashing-in-production/animations/p01-a08-virtual-nodes/Composition';
+import Animation106P01A09VirtualRemove from '../../../../videos/005-consistent-hashing-in-production/animations/p01-a09-virtual-remove/Composition';
+import Animation107P01A10VirtualAdd from '../../../../videos/005-consistent-hashing-in-production/animations/p01-a10-virtual-add/Composition';
+import Animation108P01A11AlgorithmBoundary from '../../../../videos/005-consistent-hashing-in-production/animations/p01-a11-algorithm-boundary/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -261,14 +272,25 @@ const V004OzonFlashSaleOverlay: React.FC = () => (
 
 const V005ConsistentHashingInProductionComponents: Record<string, TimelineComponent> = {
   "p00-a01-production-experiment": Animation97P00A01ProductionExperiment,
+  "p01-a01-shard-choice": Animation98P01A01ShardChoice,
+  "p01-a02-modulo-route": Animation99P01A02ModuloRoute,
+  "p01-a03-modulo-change": Animation100P01A03ModuloChange,
+  "p01-a04-ring-space": Animation101P01A04RingSpace,
+  "p01-a05-ring-lookup": Animation102P01A05RingLookup,
+  "p01-a06-ring-add": Animation103P01A06RingAdd,
+  "p01-a07-ring-remove": Animation104P01A07RingRemove,
+  "p01-a08-virtual-nodes": Animation105P01A08VirtualNodes,
+  "p01-a09-virtual-remove": Animation106P01A09VirtualRemove,
+  "p01-a10-virtual-add": Animation107P01A10VirtualAdd,
+  "p01-a11-algorithm-boundary": Animation108P01A11AlgorithmBoundary,
 };
 
 const V005ConsistentHashingInProductionOverlay: React.FC = () => (
   <TimelineOverlay
-    anchors={{"intro-experiment-start":32520,"intro-live-service":38800,"intro-single-instance":45070,"intro-cluster":46230,"intro-live-load":49990,"intro-add-node":52260,"intro-remove-node":52830,"intro-consequences":54240,"intro-speech-end":59480,"intro-experiment-end":60000}}
+    anchors={{"intro-experiment-start":32520,"intro-live-service":38800,"intro-single-instance":45070,"intro-cluster":46230,"intro-live-load":49990,"intro-add-node":52260,"intro-remove-node":52830,"intro-consequences":54240,"intro-speech-end":59480,"intro-experiment-end":60000,"p01-a01-shard-choice-start":80880,"p01-a02-modulo-route-start":107780,"p01-a03-modulo-change-start":124820,"p01-a04-ring-space-start":162200,"p01-a05-ring-lookup-start":184320,"p01-a06-ring-add-start":209880,"p01-a07-ring-remove-start":232040,"p01-a08-virtual-nodes-start":265600,"p01-a09-virtual-remove-start":284820,"p01-a10-virtual-add-start":303340,"p01-a11-algorithm-boundary-start":312920}}
     audio={"generated/005-consistent-hashing-in-production/audio.wav"}
     components={V005ConsistentHashingInProductionComponents}
-    timeline={[{"id":"show-p00-a01-production-experiment","animation":"p00-a01-production-experiment","anchor":"intro-experiment-start","offsetMs":0,"durationMs":27480,"props":{"withAudio":false,"previewBackground":"transparent"}}]}
+    timeline={[{"id":"show-p00-a01-production-experiment","animation":"p00-a01-production-experiment","anchor":"intro-experiment-start","offsetMs":0,"durationMs":27480,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a01-shard-choice","animation":"p01-a01-shard-choice","anchor":"p01-a01-shard-choice-start","offsetMs":0,"durationMs":26900,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a02-modulo-route","animation":"p01-a02-modulo-route","anchor":"p01-a02-modulo-route-start","offsetMs":0,"durationMs":17040,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a03-modulo-change","animation":"p01-a03-modulo-change","anchor":"p01-a03-modulo-change-start","offsetMs":0,"durationMs":37380,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a04-ring-space","animation":"p01-a04-ring-space","anchor":"p01-a04-ring-space-start","offsetMs":0,"durationMs":22120,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a05-ring-lookup","animation":"p01-a05-ring-lookup","anchor":"p01-a05-ring-lookup-start","offsetMs":0,"durationMs":25560,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a06-ring-add","animation":"p01-a06-ring-add","anchor":"p01-a06-ring-add-start","offsetMs":0,"durationMs":22160,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a07-ring-remove","animation":"p01-a07-ring-remove","anchor":"p01-a07-ring-remove-start","offsetMs":0,"durationMs":33560,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a08-virtual-nodes","animation":"p01-a08-virtual-nodes","anchor":"p01-a08-virtual-nodes-start","offsetMs":0,"durationMs":19220,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a09-virtual-remove","animation":"p01-a09-virtual-remove","anchor":"p01-a09-virtual-remove-start","offsetMs":0,"durationMs":18520,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a10-virtual-add","animation":"p01-a10-virtual-add","anchor":"p01-a10-virtual-add-start","offsetMs":0,"durationMs":9580,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a11-algorithm-boundary","animation":"p01-a11-algorithm-boundary","anchor":"p01-a11-algorithm-boundary-start","offsetMs":0,"durationMs":17040,"props":{"withAudio":false,"previewBackground":"transparent"}}]}
   />
 );
 
@@ -1250,6 +1272,107 @@ export const GeneratedVideoCompositions: React.FC = () => (
           height={1440}
           fps={30}
           durationInFrames={824}
+          defaultProps={{"withAudio":true,"previewBackground":"transparent"}}
+        />
+      </Folder>
+      <Folder name="P-01">
+        <Composition
+          id="Video-005-consistent-hashing-in-production-p01-a01-shard-choice"
+          component={Animation98P01A01ShardChoice}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={807}
+          defaultProps={{"withAudio":true,"previewBackground":"transparent"}}
+        />
+        <Composition
+          id="Video-005-consistent-hashing-in-production-p01-a02-modulo-route"
+          component={Animation99P01A02ModuloRoute}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={511}
+          defaultProps={{"withAudio":true,"previewBackground":"transparent"}}
+        />
+        <Composition
+          id="Video-005-consistent-hashing-in-production-p01-a03-modulo-change"
+          component={Animation100P01A03ModuloChange}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1121}
+          defaultProps={{"withAudio":true,"previewBackground":"transparent"}}
+        />
+        <Composition
+          id="Video-005-consistent-hashing-in-production-p01-a04-ring-space"
+          component={Animation101P01A04RingSpace}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={664}
+          defaultProps={{"withAudio":true,"previewBackground":"transparent"}}
+        />
+        <Composition
+          id="Video-005-consistent-hashing-in-production-p01-a05-ring-lookup"
+          component={Animation102P01A05RingLookup}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={767}
+          defaultProps={{"withAudio":true,"previewBackground":"transparent"}}
+        />
+        <Composition
+          id="Video-005-consistent-hashing-in-production-p01-a06-ring-add"
+          component={Animation103P01A06RingAdd}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={665}
+          defaultProps={{"withAudio":true,"previewBackground":"transparent"}}
+        />
+        <Composition
+          id="Video-005-consistent-hashing-in-production-p01-a07-ring-remove"
+          component={Animation104P01A07RingRemove}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1007}
+          defaultProps={{"withAudio":true,"previewBackground":"transparent"}}
+        />
+        <Composition
+          id="Video-005-consistent-hashing-in-production-p01-a08-virtual-nodes"
+          component={Animation105P01A08VirtualNodes}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={577}
+          defaultProps={{"withAudio":true,"previewBackground":"transparent"}}
+        />
+        <Composition
+          id="Video-005-consistent-hashing-in-production-p01-a09-virtual-remove"
+          component={Animation106P01A09VirtualRemove}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={556}
+          defaultProps={{"withAudio":true,"previewBackground":"transparent"}}
+        />
+        <Composition
+          id="Video-005-consistent-hashing-in-production-p01-a10-virtual-add"
+          component={Animation107P01A10VirtualAdd}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={287}
+          defaultProps={{"withAudio":true,"previewBackground":"transparent"}}
+        />
+        <Composition
+          id="Video-005-consistent-hashing-in-production-p01-a11-algorithm-boundary"
+          component={Animation108P01A11AlgorithmBoundary}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={511}
           defaultProps={{"withAudio":true,"previewBackground":"transparent"}}
         />
       </Folder>

@@ -1,0 +1,12 @@
+{
+  "id": "p01-a11-algorithm-boundary",
+  "part": 1,
+  "order": 11,
+  "title": "Границы алгоритма",
+  "kind": "2d",
+  "durationMs": 17040,
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "transparent"
+  }
+}

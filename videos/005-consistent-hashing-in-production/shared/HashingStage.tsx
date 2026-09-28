@@ -10,7 +10,8 @@ export const HashingStage: React.FC<{
   readonly opacity: number;
   readonly previewBackground: PreviewBackground;
   readonly children: React.ReactNode;
-}> = ({opacity, previewBackground, children}) => (
+  readonly label?: string;
+}> = ({opacity, previewBackground, children, label = 'Один сервис превращается в кластер под нагрузкой'}) => (
   <AbsoluteFill>
     {previewBackground !== 'transparent' ? (
       <AbsoluteFill style={{background: getTheme(previewBackground === 'light' ? 'paper' : 'graphite').background}} />
@@ -20,7 +21,7 @@ export const HashingStage: React.FC<{
         feather={{solidEnd: layout.solidEnd, transparentStart: layout.transparentStart}} />
       <svg width="100%" height="100%" viewBox={`0 0 ${layout.width} ${layout.height}`}
         style={{position: 'absolute', fontFamily: theme.fontSans}}
-        aria-label="Один сервис превращается в кластер под нагрузкой">
+        aria-label={label}>
         {children}
       </svg>
     </AbsoluteFill>

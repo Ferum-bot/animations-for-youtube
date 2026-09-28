@@ -1,0 +1,12 @@
+{
+  "id": "p01-a07-ring-remove",
+  "part": 1,
+  "order": 7,
+  "title": "Удаление создаёт перекос",
+  "kind": "2d",
+  "durationMs": 33560,
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "transparent"
+  }
+}

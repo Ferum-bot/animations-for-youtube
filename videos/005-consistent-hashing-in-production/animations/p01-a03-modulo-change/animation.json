@@ -1,0 +1,12 @@
+{
+  "id": "p01-a03-modulo-change",
+  "part": 1,
+  "order": 3,
+  "title": "Изменили N — изменили адреса",
+  "kind": "2d",
+  "durationMs": 37380,
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "transparent"
+  }
+}

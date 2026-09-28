@@ -1,0 +1,12 @@
+{
+  "id": "p01-a10-virtual-add",
+  "part": 1,
+  "order": 10,
+  "title": "Добавление с виртуальными нодами",
+  "kind": "2d",
+  "durationMs": 9580,
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "transparent"
+  }
+}

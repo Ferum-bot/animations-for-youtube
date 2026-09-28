@@ -1,0 +1,12 @@
+{
+  "id": "p01-a04-ring-space",
+  "part": 1,
+  "order": 4,
+  "title": "Из числовой шкалы в кольцо",
+  "kind": "2d",
+  "durationMs": 22120,
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "transparent"
+  }
+}

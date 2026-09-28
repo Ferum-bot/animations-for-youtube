@@ -1,0 +1,12 @@
+{
+  "id": "p01-a05-ring-lookup",
+  "part": 1,
+  "order": 5,
+  "title": "Кто владеет ключом 60?",
+  "kind": "2d",
+  "durationMs": 25560,
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "transparent"
+  }
+}

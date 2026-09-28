@@ -1,0 +1,12 @@
+{
+  "id": "p01-a09-virtual-remove",
+  "part": 1,
+  "order": 9,
+  "title": "Участки получают разные соседи",
+  "kind": "2d",
+  "durationMs": 18520,
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "transparent"
+  }
+}

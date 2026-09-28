@@ -1,0 +1,12 @@
+{
+  "id": "p01-a08-virtual-nodes",
+  "part": 1,
+  "order": 8,
+  "title": "Одна нода — несколько точек",
+  "kind": "2d",
+  "durationMs": 19220,
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "transparent"
+  }
+}

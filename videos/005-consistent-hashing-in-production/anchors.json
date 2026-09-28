@@ -8,5 +8,16 @@
   "intro-remove-node": 52830,
   "intro-consequences": 54240,
   "intro-speech-end": 59480,
-  "intro-experiment-end": 60000
+  "intro-experiment-end": 60000,
+  "p01-a01-shard-choice-start": 80880,
+  "p01-a02-modulo-route-start": 107780,
+  "p01-a03-modulo-change-start": 124820,
+  "p01-a04-ring-space-start": 162200,
+  "p01-a05-ring-lookup-start": 184320,
+  "p01-a06-ring-add-start": 209880,
+  "p01-a07-ring-remove-start": 232040,
+  "p01-a08-virtual-nodes-start": 265600,
+  "p01-a09-virtual-remove-start": 284820,
+  "p01-a10-virtual-add-start": 303340,
+  "p01-a11-algorithm-boundary-start": 312920
 }

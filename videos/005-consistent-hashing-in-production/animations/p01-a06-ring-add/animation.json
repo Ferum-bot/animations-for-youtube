@@ -1,0 +1,12 @@
+{
+  "id": "p01-a06-ring-add",
+  "part": 1,
+  "order": 6,
+  "title": "Добавили ноду — изменился один участок",
+  "kind": "2d",
+  "durationMs": 22160,
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "transparent"
+  }
+}

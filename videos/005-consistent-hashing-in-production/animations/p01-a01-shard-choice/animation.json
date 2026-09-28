@@ -1,0 +1,12 @@
+{
+  "id": "p01-a01-shard-choice",
+  "part": 1,
+  "order": 1,
+  "title": "Как выбрать шард?",
+  "kind": "2d",
+  "durationMs": 26900,
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "transparent"
+  }
+}

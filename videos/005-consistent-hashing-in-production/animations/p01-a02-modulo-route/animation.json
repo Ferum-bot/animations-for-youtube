@@ -1,0 +1,12 @@
+{
+  "id": "p01-a02-modulo-route",
+  "part": 1,
+  "order": 2,
+  "title": "Один ключ — один шард",
+  "kind": "2d",
+  "durationMs": 17040,
+  "defaultProps": {
+    "withAudio": true,
+    "previewBackground": "transparent"
+  }
+}
