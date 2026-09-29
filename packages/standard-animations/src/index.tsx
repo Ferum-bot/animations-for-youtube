@@ -1,6 +1,8 @@
 import React from 'react';
 import {Composition} from 'remotion';
 import {Subscribe, subscribeDefaultProps} from './Subscribe';
+import {WaitingClock} from './waiting-clock/WaitingClock';
+import {calculateClockMetadata, waitingClockPresets} from './waiting-clock/config';
 import {
   ChapterDivider,
   delegationDividerDefaultProps,
@@ -9,6 +11,9 @@ import {
 
 export {Subscribe, subscribeDefaultProps} from './Subscribe';
 export type {SubscribePlacement, SubscribeProps} from './Subscribe';
+export {WaitingClock} from './waiting-clock/WaitingClock';
+export {waitingClockDefaultProps} from './waiting-clock/config';
+export type {WaitingClockPlayback, WaitingClockProps} from './waiting-clock/types';
 export {
   ChapterDivider,
   delegationDividerDefaultProps,
@@ -24,6 +29,17 @@ const standardCanvas = {
 
 export const StandardCompositions: React.FC = () => (
   <>
+    {waitingClockPresets.map(({id, props}) => (
+      <Composition
+        key={id}
+        id={id}
+        component={WaitingClock}
+        {...standardCanvas}
+        durationInFrames={300}
+        defaultProps={props}
+        calculateMetadata={calculateClockMetadata}
+      />
+    ))}
     <Composition
       id="Standard-Subscribe"
       component={Subscribe}
