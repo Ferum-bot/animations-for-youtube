@@ -67,3 +67,12 @@ const durationMs = 12000;
 используйте loop; склейка overlay-вариантов создаст промежуточные затухания.
 MOV для CapCut экспортируется только по отдельному запросу через утверждённый
 в проекте pipeline ProRes 4444 с premultiplied alpha и проверкой готового файла.
+
+```bash
+task render:capcut COMPOSITION=Standard-Waiting-Clock-Light-Loop
+task render:capcut COMPOSITION=Standard-Waiting-Clock-Dark-Loop
+```
+
+Файлы появятся в `renders/standard/`. Путь можно задать через `OUTPUT=...`.
+Команда проверяет альфу закодированного MOV; повторная независимая проверка:
+`task qa:capcut-alpha INPUT=путь/к/файлу.mov`.

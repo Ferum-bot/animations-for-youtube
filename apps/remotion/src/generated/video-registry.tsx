@@ -112,6 +112,7 @@ import Animation105P01A08VirtualNodes from '../../../../videos/005-consistent-ha
 import Animation106P01A09VirtualRemove from '../../../../videos/005-consistent-hashing-in-production/animations/p01-a09-virtual-remove/Composition';
 import Animation107P01A10VirtualAdd from '../../../../videos/005-consistent-hashing-in-production/animations/p01-a10-virtual-add/Composition';
 import Animation108P01A11AlgorithmBoundary from '../../../../videos/005-consistent-hashing-in-production/animations/p01-a11-algorithm-boundary/Composition';
+import Animation109P02A01TopologyHandoff from '../../../../videos/005-consistent-hashing-in-production/animations/p02-a01-topology-handoff/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -283,6 +284,7 @@ const V005ConsistentHashingInProductionComponents: Record<string, TimelineCompon
   "p01-a09-virtual-remove": Animation106P01A09VirtualRemove,
   "p01-a10-virtual-add": Animation107P01A10VirtualAdd,
   "p01-a11-algorithm-boundary": Animation108P01A11AlgorithmBoundary,
+  "p02-a01-topology-handoff": Animation109P02A01TopologyHandoff,
 };
 
 const V005ConsistentHashingInProductionOverlay: React.FC = () => (
@@ -1374,6 +1376,17 @@ export const GeneratedVideoCompositions: React.FC = () => (
           fps={30}
           durationInFrames={511}
           defaultProps={{"withAudio":true,"previewBackground":"transparent"}}
+        />
+      </Folder>
+      <Folder name="P-02">
+        <Composition
+          id="Video-005-consistent-hashing-in-production-p02-a01-topology-handoff"
+          component={Animation109P02A01TopologyHandoff}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={2580}
+          defaultProps={{"withAudio":false,"previewBackground":"transparent"}}
         />
       </Folder>
       <Composition

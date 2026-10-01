@@ -1,0 +1,14 @@
+{
+  "id": "p02-a01-topology-handoff",
+  "part": 2,
+  "order": 1,
+  "title": "Смена топологии: prepare → migrate → commit",
+  "kind": "2d",
+  "durationMs": 86000,
+  "sourceAudio": {
+    "file": "generated/005-consistent-hashing-in-production/final-topology-handoff.wav",
+    "sourceStartMs": 2853000,
+    "sourceEndMs": 2939000
+  },
+  "defaultProps": { "withAudio": false, "previewBackground": "transparent" }
+}

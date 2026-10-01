@@ -30,12 +30,12 @@ tasks:
 
   capcut:
     desc: ProRes 4444 с согласованным RGB и альфой для CapCut macOS
-    requires:
-      vars: [VIDEO, ANIMATION]
     deps: [':generate']
     cmds:
       - >-
-        node scripts/render-capcut.mjs --video "{{.VIDEO}}" --animation "{{.ANIMATION}}"
+        node scripts/render-capcut.mjs
+        {{if .COMPOSITION}}--composition "{{.COMPOSITION}}"
+        {{else}}--video "{{.VIDEO}}" --animation "{{.ANIMATION}}"{{end}}
         --props '{"withAudio":false,"previewBackground":"transparent"}'
         {{if .OUTPUT}}--output "{{.OUTPUT}}"{{end}}
 
