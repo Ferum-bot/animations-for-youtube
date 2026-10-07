@@ -1,0 +1,14 @@
+{
+  "id": "p01-a01-docker-run",
+  "part": 1,
+  "order": 1,
+  "title": "Docker: запуск пользовательского кода",
+  "kind": "2d",
+  "durationMs": 18340,
+  "defaultProps": {
+    "themeId": "paper",
+    "motionProfile": "calm",
+    "previewBackground": "transparent",
+    "withAudio": false
+  }
+}

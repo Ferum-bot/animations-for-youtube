@@ -113,6 +113,8 @@ import Animation106P01A09VirtualRemove from '../../../../videos/005-consistent-h
 import Animation107P01A10VirtualAdd from '../../../../videos/005-consistent-hashing-in-production/animations/p01-a10-virtual-add/Composition';
 import Animation108P01A11AlgorithmBoundary from '../../../../videos/005-consistent-hashing-in-production/animations/p01-a11-algorithm-boundary/Composition';
 import Animation109P02A01TopologyHandoff from '../../../../videos/005-consistent-hashing-in-production/animations/p02-a01-topology-handoff/Composition';
+import Animation110P01A01DockerRun from '../../../../videos/006-leetcode/animations/p01-a01-docker-run/Composition';
+import Animation111P01A02DockerFlags from '../../../../videos/006-leetcode/animations/p01-a02-docker-flags/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -293,6 +295,20 @@ const V005ConsistentHashingInProductionOverlay: React.FC = () => (
     audio={"generated/005-consistent-hashing-in-production/audio.wav"}
     components={V005ConsistentHashingInProductionComponents}
     timeline={[{"id":"show-p00-a01-production-experiment","animation":"p00-a01-production-experiment","anchor":"intro-experiment-start","offsetMs":0,"durationMs":27480,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a01-shard-choice","animation":"p01-a01-shard-choice","anchor":"p01-a01-shard-choice-start","offsetMs":0,"durationMs":26900,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a02-modulo-route","animation":"p01-a02-modulo-route","anchor":"p01-a02-modulo-route-start","offsetMs":0,"durationMs":17040,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a03-modulo-change","animation":"p01-a03-modulo-change","anchor":"p01-a03-modulo-change-start","offsetMs":0,"durationMs":37380,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a04-ring-space","animation":"p01-a04-ring-space","anchor":"p01-a04-ring-space-start","offsetMs":0,"durationMs":22120,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a05-ring-lookup","animation":"p01-a05-ring-lookup","anchor":"p01-a05-ring-lookup-start","offsetMs":0,"durationMs":25560,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a06-ring-add","animation":"p01-a06-ring-add","anchor":"p01-a06-ring-add-start","offsetMs":0,"durationMs":22160,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a07-ring-remove","animation":"p01-a07-ring-remove","anchor":"p01-a07-ring-remove-start","offsetMs":0,"durationMs":33560,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a08-virtual-nodes","animation":"p01-a08-virtual-nodes","anchor":"p01-a08-virtual-nodes-start","offsetMs":0,"durationMs":19220,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a09-virtual-remove","animation":"p01-a09-virtual-remove","anchor":"p01-a09-virtual-remove-start","offsetMs":0,"durationMs":18520,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a10-virtual-add","animation":"p01-a10-virtual-add","anchor":"p01-a10-virtual-add-start","offsetMs":0,"durationMs":9580,"props":{"withAudio":false,"previewBackground":"transparent"}},{"id":"show-p01-a11-algorithm-boundary","animation":"p01-a11-algorithm-boundary","anchor":"p01-a11-algorithm-boundary-start","offsetMs":0,"durationMs":17040,"props":{"withAudio":false,"previewBackground":"transparent"}}]}
+  />
+);
+
+const V006LeetcodeComponents: Record<string, TimelineComponent> = {
+  "p01-a01-docker-run": Animation110P01A01DockerRun,
+  "p01-a02-docker-flags": Animation111P01A02DockerFlags,
+};
+
+const V006LeetcodeOverlay: React.FC = () => (
+  <TimelineOverlay
+    anchors={{"docker-overview":875740,"docker-driver":884980,"docker-overview-end":894080,"docker-flags":929340,"docker-network":935020,"docker-memory":939240,"docker-cpus":940120,"docker-pids":940680,"docker-resource-limits":941600,"docker-memory-meaning":942420,"docker-cpus-meaning":943000,"docker-pids-meaning":943460,"docker-readonly":951740,"docker-user":952160,"docker-readonly-meaning":954480,"docker-user-meaning":955840,"docker-remove":958780,"docker-end":962240}}
+    audio={null}
+    components={V006LeetcodeComponents}
+    timeline={[{"id":"show-p01-a01-docker-run","animation":"p01-a01-docker-run","anchor":"docker-overview","offsetMs":0,"durationMs":18340,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a02-docker-flags","animation":"p01-a02-docker-flags","anchor":"docker-flags","offsetMs":0,"durationMs":32900,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}}]}
   />
 );
 
@@ -1396,6 +1412,36 @@ export const GeneratedVideoCompositions: React.FC = () => (
         height={1440}
         fps={30}
         durationInFrames={10183}
+      />
+    </Folder>
+    <Folder name="V-006-leetcode">
+      <Folder name="P-01">
+        <Composition
+          id="Video-006-leetcode-p01-a01-docker-run"
+          component={Animation110P01A01DockerRun}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={550}
+          defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}}
+        />
+        <Composition
+          id="Video-006-leetcode-p01-a02-docker-flags"
+          component={Animation111P01A02DockerFlags}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={987}
+          defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}}
+        />
+      </Folder>
+      <Composition
+        id="Video-006-leetcode-Overlay"
+        component={V006LeetcodeOverlay}
+        width={2560}
+        height={1440}
+        fps={30}
+        durationInFrames={109668}
       />
     </Folder>
   </>

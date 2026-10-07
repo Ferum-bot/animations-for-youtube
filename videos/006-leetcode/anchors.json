@@ -1,0 +1,20 @@
+{
+  "docker-overview": 875740,
+  "docker-driver": 884980,
+  "docker-overview-end": 894080,
+  "docker-flags": 929340,
+  "docker-network": 935020,
+  "docker-memory": 939240,
+  "docker-cpus": 940120,
+  "docker-pids": 940680,
+  "docker-resource-limits": 941600,
+  "docker-memory-meaning": 942420,
+  "docker-cpus-meaning": 943000,
+  "docker-pids-meaning": 943460,
+  "docker-readonly": 951740,
+  "docker-user": 952160,
+  "docker-readonly-meaning": 954480,
+  "docker-user-meaning": 955840,
+  "docker-remove": 958780,
+  "docker-end": 962240
+}

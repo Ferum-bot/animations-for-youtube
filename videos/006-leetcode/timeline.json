@@ -1,0 +1,28 @@
+[
+  {
+    "id": "show-p01-a01-docker-run",
+    "animation": "p01-a01-docker-run",
+    "anchor": "docker-overview",
+    "offsetMs": 0,
+    "durationMs": 18340,
+    "props": {
+      "themeId": "paper",
+      "motionProfile": "calm",
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p01-a02-docker-flags",
+    "animation": "p01-a02-docker-flags",
+    "anchor": "docker-flags",
+    "offsetMs": 0,
+    "durationMs": 32900,
+    "props": {
+      "themeId": "paper",
+      "motionProfile": "calm",
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  }
+]

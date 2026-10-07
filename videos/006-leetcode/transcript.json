@@ -1,0 +1,704 @@
+[
+  {
+    "id": "segment-0630",
+    "startMs": 860540,
+    "endMs": 861340,
+    "text": "мы кладем драйвер"
+  },
+  {
+    "id": "segment-0631",
+    "startMs": 861340,
+    "endMs": 862000,
+    "text": "для этого языка,"
+  },
+  {
+    "id": "segment-0632",
+    "startMs": 862120,
+    "endMs": 862860,
+    "text": "тест задачи."
+  },
+  {
+    "id": "segment-0633",
+    "startMs": 863460,
+    "endMs": 864320,
+    "text": "Тест он скачивает"
+  },
+  {
+    "id": "segment-0634",
+    "startMs": 864320,
+    "endMs": 865560,
+    "text": "из объектного хранилища,"
+  },
+  {
+    "id": "segment-0635",
+    "startMs": 865620,
+    "endMs": 866860,
+    "text": "как мы уже обсуждали."
+  },
+  {
+    "id": "segment-0636",
+    "startMs": 867380,
+    "endMs": 867840,
+    "text": "После чего"
+  },
+  {
+    "id": "segment-0637",
+    "startMs": 867840,
+    "endMs": 869280,
+    "text": "мы запускаем контейнер"
+  },
+  {
+    "id": "segment-0638",
+    "startMs": 869280,
+    "endMs": 870400,
+    "text": "из образа"
+  },
+  {
+    "id": "segment-0639",
+    "startMs": 870400,
+    "endMs": 871060,
+    "text": "нужного языка"
+  },
+  {
+    "id": "segment-0640",
+    "startMs": 871060,
+    "endMs": 872300,
+    "text": "и подключаем туда"
+  },
+  {
+    "id": "segment-0641",
+    "startMs": 872300,
+    "endMs": 872700,
+    "text": "и подключаем туда папку"
+  },
+  {
+    "id": "segment-0642",
+    "startMs": 872700,
+    "endMs": 874540,
+    "text": "только на чтение."
+  },
+  {
+    "id": "segment-0643",
+    "startMs": 875740,
+    "endMs": 876360,
+    "text": "В целом,"
+  },
+  {
+    "id": "segment-0644",
+    "startMs": 876400,
+    "endMs": 877220,
+    "text": "вы даже можете увидеть"
+  },
+  {
+    "id": "segment-0645",
+    "startMs": 877220,
+    "endMs": 878400,
+    "text": "пример запуска"
+  },
+  {
+    "id": "segment-0646",
+    "startMs": 878400,
+    "endMs": 879460,
+    "text": "контейнера"
+  },
+  {
+    "id": "segment-0647",
+    "startMs": 879460,
+    "endMs": 880520,
+    "text": "у себя на экране."
+  },
+  {
+    "id": "segment-0648",
+    "startMs": 880680,
+    "endMs": 881200,
+    "text": "Отдельно мы"
+  },
+  {
+    "id": "segment-0649",
+    "startMs": 881200,
+    "endMs": 882040,
+    "text": "чуть позже"
+  },
+  {
+    "id": "segment-0650",
+    "startMs": 882040,
+    "endMs": 883500,
+    "text": "разберем все параметры,"
+  },
+  {
+    "id": "segment-0651",
+    "startMs": 883620,
+    "endMs": 884220,
+    "text": "которые тут есть."
+  },
+  {
+    "id": "segment-0652",
+    "startMs": 884980,
+    "endMs": 885480,
+    "text": "Драйвер"
+  },
+  {
+    "id": "segment-0653",
+    "startMs": 885480,
+    "endMs": 886240,
+    "text": "внутри по очереди"
+  },
+  {
+    "id": "segment-0654",
+    "startMs": 886240,
+    "endMs": 887480,
+    "text": "вызывает функцию"
+  },
+  {
+    "id": "segment-0655",
+    "startMs": 887480,
+    "endMs": 887960,
+    "text": "пользователя"
+  },
+  {
+    "id": "segment-0656",
+    "startMs": 887960,
+    "endMs": 888700,
+    "text": "на каждом тесте,"
+  },
+  {
+    "id": "segment-0657",
+    "startMs": 888920,
+    "endMs": 889540,
+    "text": "печатает"
+  },
+  {
+    "id": "segment-0658",
+    "startMs": 889540,
+    "endMs": 890440,
+    "text": "в std-out"
+  },
+  {
+    "id": "segment-0659",
+    "startMs": 890440,
+    "endMs": 891380,
+    "text": "JSON с ответом"
+  },
+  {
+    "id": "segment-0660",
+    "startMs": 891380,
+    "endMs": 891980,
+    "text": "и также"
+  },
+  {
+    "id": "segment-0661",
+    "startMs": 891980,
+    "endMs": 892380,
+    "text": "временем,"
+  },
+  {
+    "id": "segment-0662",
+    "startMs": 892500,
+    "endMs": 893240,
+    "text": "которое все заняло."
+  },
+  {
+    "id": "segment-0663",
+    "startMs": 894080,
+    "endMs": 894680,
+    "text": "После чего"
+  },
+  {
+    "id": "segment-0664",
+    "startMs": 894680,
+    "endMs": 895700,
+    "text": "мы ждем с таймаутом,"
+  },
+  {
+    "id": "segment-0665",
+    "startMs": 895820,
+    "endMs": 896400,
+    "text": "пока прогонятся"
+  },
+  {
+    "id": "segment-0666",
+    "startMs": 896400,
+    "endMs": 897000,
+    "text": "все тесты."
+  },
+  {
+    "id": "segment-0667",
+    "startMs": 897500,
+    "endMs": 898460,
+    "text": "Если контейнер"
+  },
+  {
+    "id": "segment-0668",
+    "startMs": 898460,
+    "endMs": 899120,
+    "text": "не завершился"
+  },
+  {
+    "id": "segment-0669",
+    "startMs": 899120,
+    "endMs": 899540,
+    "text": "за лимит,"
+  },
+  {
+    "id": "segment-0670",
+    "startMs": 899600,
+    "endMs": 900400,
+    "text": "который мы указали,"
+  },
+  {
+    "id": "segment-0671",
+    "startMs": 900680,
+    "endMs": 901420,
+    "text": "сервер сделает"
+  },
+  {
+    "id": "segment-0672",
+    "startMs": 901420,
+    "endMs": 901980,
+    "text": "Docker kill"
+  },
+  {
+    "id": "segment-0673",
+    "startMs": 901980,
+    "endMs": 903040,
+    "text": "и ставит"
+  },
+  {
+    "id": "segment-0674",
+    "startMs": 903040,
+    "endMs": 903900,
+    "text": "TLE ошибку,"
+  },
+  {
+    "id": "segment-0675",
+    "startMs": 903960,
+    "endMs": 904120,
+    "text": "то есть"
+  },
+  {
+    "id": "segment-0676",
+    "startMs": 904120,
+    "endMs": 904940,
+    "text": "превышение времени"
+  },
+  {
+    "id": "segment-0677",
+    "startMs": 904940,
+    "endMs": 905400,
+    "text": "ожидания."
+  },
+  {
+    "id": "segment-0678",
+    "startMs": 906020,
+    "endMs": 906720,
+    "text": "А если процесс"
+  },
+  {
+    "id": "segment-0679",
+    "startMs": 906720,
+    "endMs": 907440,
+    "text": "убит за превышение"
+  },
+  {
+    "id": "segment-0680",
+    "startMs": 907440,
+    "endMs": 907840,
+    "text": "памяти"
+  },
+  {
+    "id": "segment-0681",
+    "startMs": 907840,
+    "endMs": 908460,
+    "text": "MLE"
+  },
+  {
+    "id": "segment-0682",
+    "startMs": 908460,
+    "endMs": 909400,
+    "text": "и ближе"
+  },
+  {
+    "id": "segment-0683",
+    "startMs": 909400,
+    "endMs": 910140,
+    "text": "упал с ошибкой,"
+  },
+  {
+    "id": "segment-0684",
+    "startMs": 910240,
+    "endMs": 910880,
+    "text": "то это"
+  },
+  {
+    "id": "segment-0685",
+    "startMs": 910880,
+    "endMs": 911440,
+    "text": "RE."
+  },
+  {
+    "id": "segment-0686",
+    "startMs": 912240,
+    "endMs": 913060,
+    "text": "Также у нас"
+  },
+  {
+    "id": "segment-0687",
+    "startMs": 913060,
+    "endMs": 913680,
+    "text": "есть отдельный"
+  },
+  {
+    "id": "segment-0688",
+    "startMs": 913680,
+    "endMs": 914100,
+    "text": "компонент,"
+  },
+  {
+    "id": "segment-0689",
+    "startMs": 914260,
+    "endMs": 914980,
+    "text": "который называется"
+  },
+  {
+    "id": "segment-0690",
+    "startMs": 914980,
+    "endMs": 915520,
+    "text": "Checker."
+  },
+  {
+    "id": "segment-0691",
+    "startMs": 916200,
+    "endMs": 917200,
+    "text": "Сервис сравнивает"
+  },
+  {
+    "id": "segment-0692",
+    "startMs": 917200,
+    "endMs": 918140,
+    "text": "вывод драйвера"
+  },
+  {
+    "id": "segment-0693",
+    "startMs": 918140,
+    "endMs": 919180,
+    "text": "с эталонными ответами,"
+  },
+  {
+    "id": "segment-0694",
+    "startMs": 919500,
+    "endMs": 920500,
+    "text": "формирует вердикт"
+  },
+  {
+    "id": "segment-0695",
+    "startMs": 920500,
+    "endMs": 921120,
+    "text": "и удаляет"
+  },
+  {
+    "id": "segment-0696",
+    "startMs": 921120,
+    "endMs": 921900,
+    "text": "временную папку."
+  },
+  {
+    "id": "segment-0697",
+    "startMs": 922520,
+    "endMs": 923140,
+    "text": "Вердикт"
+  },
+  {
+    "id": "segment-0698",
+    "startMs": 923140,
+    "endMs": 923880,
+    "text": "уходит обратно"
+  },
+  {
+    "id": "segment-0699",
+    "startMs": 923880,
+    "endMs": 924500,
+    "text": "API-серверу,"
+  },
+  {
+    "id": "segment-0700",
+    "startMs": 924840,
+    "endMs": 925220,
+    "text": "тот пиш"
+  },
+  {
+    "id": "segment-0701",
+    "startMs": 925220,
+    "endMs": 925700,
+    "text": "submit"
+  },
+  {
+    "id": "segment-0702",
+    "startMs": 925700,
+    "endMs": 926700,
+    "text": "в пазу"
+  },
+  {
+    "id": "segment-0703",
+    "startMs": 926700,
+    "endMs": 927260,
+    "text": "и также"
+  },
+  {
+    "id": "segment-0704",
+    "startMs": 927260,
+    "endMs": 928420,
+    "text": "отвечает клиенту."
+  },
+  {
+    "id": "segment-0705",
+    "startMs": 929340,
+    "endMs": 930480,
+    "text": "Что означает"
+  },
+  {
+    "id": "segment-0706",
+    "startMs": 930480,
+    "endMs": 930860,
+    "text": "флаги,"
+  },
+  {
+    "id": "segment-0707",
+    "startMs": 930980,
+    "endMs": 931840,
+    "text": "которые мы разбирали"
+  },
+  {
+    "id": "segment-0708",
+    "startMs": 931840,
+    "endMs": 933480,
+    "text": "в кадре только что,"
+  },
+  {
+    "id": "segment-0709",
+    "startMs": 933620,
+    "endMs": 933960,
+    "text": "которые увидели"
+  },
+  {
+    "id": "segment-0710",
+    "startMs": 933960,
+    "endMs": 934500,
+    "text": "на экране?"
+  },
+  {
+    "id": "segment-0711",
+    "startMs": 935020,
+    "endMs": 935720,
+    "text": "Network dunk"
+  },
+  {
+    "id": "segment-0712",
+    "startMs": 935720,
+    "endMs": 936220,
+    "text": "это"
+  },
+  {
+    "id": "segment-0713",
+    "startMs": 936220,
+    "endMs": 937060,
+    "text": "Network non,"
+  },
+  {
+    "id": "segment-0714",
+    "startMs": 937200,
+    "endMs": 937920,
+    "text": "этого кода нет,"
+  },
+  {
+    "id": "segment-0715",
+    "startMs": 938200,
+    "endMs": 938880,
+    "text": "никакой сети,"
+  },
+  {
+    "id": "segment-0716",
+    "startMs": 939240,
+    "endMs": 939840,
+    "text": "memory,"
+  },
+  {
+    "id": "segment-0717",
+    "startMs": 940120,
+    "endMs": 940680,
+    "text": "CPUs"
+  },
+  {
+    "id": "segment-0718",
+    "startMs": 940680,
+    "endMs": 941380,
+    "text": "и PIDs limit,"
+  },
+  {
+    "id": "segment-0719",
+    "startMs": 941600,
+    "endMs": 942420,
+    "text": "лимиты соответственно"
+  },
+  {
+    "id": "segment-0720",
+    "startMs": 942420,
+    "endMs": 942900,
+    "text": "на память,"
+  },
+  {
+    "id": "segment-0721",
+    "startMs": 943000,
+    "endMs": 943460,
+    "text": "процессор"
+  },
+  {
+    "id": "segment-0722",
+    "startMs": 943460,
+    "endMs": 944520,
+    "text": "и число процессов,"
+  },
+  {
+    "id": "segment-0723",
+    "startMs": 944660,
+    "endMs": 945540,
+    "text": "которые мы запускаем."
+  },
+  {
+    "id": "segment-0724",
+    "startMs": 946340,
+    "endMs": 946880,
+    "text": "Последний"
+  },
+  {
+    "id": "segment-0725",
+    "startMs": 946880,
+    "endMs": 947680,
+    "text": "защищает"
+  },
+  {
+    "id": "segment-0726",
+    "startMs": 947680,
+    "endMs": 948040,
+    "text": "от"
+  },
+  {
+    "id": "segment-0727",
+    "startMs": 948040,
+    "endMs": 948900,
+    "text": "форк бомбы,"
+  },
+  {
+    "id": "segment-0728",
+    "startMs": 949020,
+    "endMs": 949500,
+    "text": "которую нам"
+  },
+  {
+    "id": "segment-0729",
+    "startMs": 949500,
+    "endMs": 949860,
+    "text": "пользователи"
+  },
+  {
+    "id": "segment-0730",
+    "startMs": 949860,
+    "endMs": 950520,
+    "text": "могут заложить"
+  },
+  {
+    "id": "segment-0731",
+    "startMs": 950520,
+    "endMs": 951100,
+    "text": "на экран."
+  },
+  {
+    "id": "segment-0732",
+    "startMs": 951740,
+    "endMs": 952160,
+    "text": "Read only"
+  },
+  {
+    "id": "segment-0733",
+    "startMs": 952160,
+    "endMs": 952780,
+    "text": "и user"
+  },
+  {
+    "id": "segment-0734",
+    "startMs": 952780,
+    "endMs": 953940,
+    "text": "65534,"
+  },
+  {
+    "id": "segment-0735",
+    "startMs": 954480,
+    "endMs": 955140,
+    "text": "корень,"
+  },
+  {
+    "id": "segment-0736",
+    "startMs": 955140,
+    "endMs": 955840,
+    "text": "только на чтение"
+  },
+  {
+    "id": "segment-0737",
+    "startMs": 955840,
+    "endMs": 956960,
+    "text": "и неприлигированный"
+  },
+  {
+    "id": "segment-0738",
+    "startMs": 956960,
+    "endMs": 957500,
+    "text": "пользователь"
+  },
+  {
+    "id": "segment-0739",
+    "startMs": 957500,
+    "endMs": 957860,
+    "text": "nobody."
+  },
+  {
+    "id": "segment-0740",
+    "startMs": 958780,
+    "endMs": 959300,
+    "text": "А минус"
+  },
+  {
+    "id": "segment-0741",
+    "startMs": 959300,
+    "endMs": 959540,
+    "text": "минус"
+  },
+  {
+    "id": "segment-0742",
+    "startMs": 959540,
+    "endMs": 959800,
+    "text": "рэм,"
+  },
+  {
+    "id": "segment-0743",
+    "startMs": 959920,
+    "endMs": 960200,
+    "text": "соответственно,"
+  },
+  {
+    "id": "segment-0744",
+    "startMs": 960200,
+    "endMs": 960800,
+    "text": "контейнер удаляет"
+  },
+  {
+    "id": "segment-0745",
+    "startMs": 960800,
+    "endMs": 961720,
+    "text": "сразу по завершению."
+  },
+  {
+    "id": "segment-0746",
+    "startMs": 962540,
+    "endMs": 963400,
+    "text": "У этой схемы,"
+  }
+]
