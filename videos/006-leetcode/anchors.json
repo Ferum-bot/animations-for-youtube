@@ -16,5 +16,12 @@
   "docker-readonly-meaning": 954480,
   "docker-user-meaning": 955840,
   "docker-remove": 958780,
-  "docker-end": 962240
+  "docker-end": 962240,
+  "monaco-intro": 573860,
+  "monaco-open-source": 581560,
+  "monaco-name": 584500,
+  "monaco-show-editor": 586140,
+  "monaco-vscode": 588480,
+  "monaco-links": 595080,
+  "monaco-end": 600160
 }

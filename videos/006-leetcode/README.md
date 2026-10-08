@@ -47,3 +47,37 @@ After changing the audio edit, revalidate the spoken anchors. The episode
 transcript currently contains the source segment needed by this animation.
 Run `task check` after edits. Use key PNG frames for visual QA; render an encoded
 CapCut master only when requested, through `task render:capcut` and its alpha QA.
+
+## Monaco Editor
+
+`Video-006-leetcode-p01-a03-monaco-editor` covers **09:33.860–10:00.160**
+(26.300 s). Its chronological placement precedes the Docker inserts; its ID
+preserves the existing composition IDs and records the third authored insert.
+
+The scene explicitly labels the authored Two Sum page as an example of embedding
+Monaco in a website. It shows an identified full-page screenshot of the official
+Monaco website, scrolls down to its editor examples, then enlarges the real editor and demonstrates
+completion of `seen.set(value, index)`. It uses the same light episode palette
+and leaves the upper-right webcam area free.
+
+Monaco 0.55.1, its TypeScript tokenizer, font and editor worker are bundled
+locally from the pinned npm dependency. A completion provider scoped to this
+demo model supplies the three relevant `Map` methods; Monaco renders and filters
+the actual suggestion widget. This is a focused editor demonstration, not a
+full TypeScript language server or a code-execution backend. The Run/Submit
+controls illustrate the surrounding product and do not execute code.
+
+`scene.ts` derives the code and cursor state from milliseconds. The editor waits
+for fonts and its suggestion DOM before releasing Remotion's render gate; timing
+does not depend on network latency, simulated keyboard speed or cursor blinking.
+Keep these readiness gates when extending the demo. Models and editors are
+disposed on unmount. The screenshot source is documented alongside the image
+in `apps/remotion/public/assets/006-leetcode/monaco/`.
+
+Set `withAudio: true` in Studio to hear the source excerpt. Regenerate it with:
+
+```sh
+ffmpeg -i /Users/mdpopov/Movies/CapCut/leet_code_audio.WAV \
+  -ss 573.860 -t 26.300 -ac 1 -ar 16000 -c:a pcm_s16le \
+  apps/remotion/public/generated/006-leetcode/p01-a03-monaco-editor.wav
+```

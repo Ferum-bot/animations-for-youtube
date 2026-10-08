@@ -115,6 +115,7 @@ import Animation108P01A11AlgorithmBoundary from '../../../../videos/005-consiste
 import Animation109P02A01TopologyHandoff from '../../../../videos/005-consistent-hashing-in-production/animations/p02-a01-topology-handoff/Composition';
 import Animation110P01A01DockerRun from '../../../../videos/006-leetcode/animations/p01-a01-docker-run/Composition';
 import Animation111P01A02DockerFlags from '../../../../videos/006-leetcode/animations/p01-a02-docker-flags/Composition';
+import Animation112P01A03MonacoEditor from '../../../../videos/006-leetcode/animations/p01-a03-monaco-editor/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -301,14 +302,15 @@ const V005ConsistentHashingInProductionOverlay: React.FC = () => (
 const V006LeetcodeComponents: Record<string, TimelineComponent> = {
   "p01-a01-docker-run": Animation110P01A01DockerRun,
   "p01-a02-docker-flags": Animation111P01A02DockerFlags,
+  "p01-a03-monaco-editor": Animation112P01A03MonacoEditor,
 };
 
 const V006LeetcodeOverlay: React.FC = () => (
   <TimelineOverlay
-    anchors={{"docker-overview":875740,"docker-driver":884980,"docker-overview-end":894080,"docker-flags":929340,"docker-network":935020,"docker-memory":939240,"docker-cpus":940120,"docker-pids":940680,"docker-resource-limits":941600,"docker-memory-meaning":942420,"docker-cpus-meaning":943000,"docker-pids-meaning":943460,"docker-readonly":951740,"docker-user":952160,"docker-readonly-meaning":954480,"docker-user-meaning":955840,"docker-remove":958780,"docker-end":962240}}
+    anchors={{"docker-overview":875740,"docker-driver":884980,"docker-overview-end":894080,"docker-flags":929340,"docker-network":935020,"docker-memory":939240,"docker-cpus":940120,"docker-pids":940680,"docker-resource-limits":941600,"docker-memory-meaning":942420,"docker-cpus-meaning":943000,"docker-pids-meaning":943460,"docker-readonly":951740,"docker-user":952160,"docker-readonly-meaning":954480,"docker-user-meaning":955840,"docker-remove":958780,"docker-end":962240,"monaco-intro":573860,"monaco-open-source":581560,"monaco-name":584500,"monaco-show-editor":586140,"monaco-vscode":588480,"monaco-links":595080,"monaco-end":600160}}
     audio={null}
     components={V006LeetcodeComponents}
-    timeline={[{"id":"show-p01-a01-docker-run","animation":"p01-a01-docker-run","anchor":"docker-overview","offsetMs":0,"durationMs":18340,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a02-docker-flags","animation":"p01-a02-docker-flags","anchor":"docker-flags","offsetMs":0,"durationMs":32900,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}}]}
+    timeline={[{"id":"show-p01-a03-monaco-editor","animation":"p01-a03-monaco-editor","anchor":"monaco-intro","offsetMs":0,"durationMs":26300,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a01-docker-run","animation":"p01-a01-docker-run","anchor":"docker-overview","offsetMs":0,"durationMs":18340,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a02-docker-flags","animation":"p01-a02-docker-flags","anchor":"docker-flags","offsetMs":0,"durationMs":32900,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}}]}
   />
 );
 
@@ -1432,6 +1434,15 @@ export const GeneratedVideoCompositions: React.FC = () => (
           height={1440}
           fps={30}
           durationInFrames={987}
+          defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}}
+        />
+        <Composition
+          id="Video-006-leetcode-p01-a03-monaco-editor"
+          component={Animation112P01A03MonacoEditor}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={789}
           defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}}
         />
       </Folder>

@@ -1,5 +1,18 @@
 [
   {
+    "id": "show-p01-a03-monaco-editor",
+    "animation": "p01-a03-monaco-editor",
+    "anchor": "monaco-intro",
+    "offsetMs": 0,
+    "durationMs": 26300,
+    "props": {
+      "themeId": "paper",
+      "motionProfile": "calm",
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  },
+  {
     "id": "show-p01-a01-docker-run",
     "animation": "p01-a01-docker-run",
     "anchor": "docker-overview",

@@ -1,0 +1,14 @@
+{
+  "id": "p01-a03-monaco-editor",
+  "part": 1,
+  "order": 3,
+  "title": "Monaco: редактор в браузере",
+  "kind": "2d",
+  "durationMs": 26300,
+  "defaultProps": {
+    "themeId": "paper",
+    "motionProfile": "calm",
+    "previewBackground": "transparent",
+    "withAudio": false
+  }
+}

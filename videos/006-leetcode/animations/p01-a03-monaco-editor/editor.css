@@ -1,0 +1,9 @@
+.leetcode-monaco .monaco-editor,
+.leetcode-monaco .monaco-editor * {
+  animation: none !important;
+  transition: none !important;
+}
+
+.leetcode-monaco .monaco-editor .suggest-widget {
+  border-radius: 4px;
+}
