@@ -116,6 +116,10 @@ import Animation109P02A01TopologyHandoff from '../../../../videos/005-consistent
 import Animation110P01A01DockerRun from '../../../../videos/006-leetcode/animations/p01-a01-docker-run/Composition';
 import Animation111P01A02DockerFlags from '../../../../videos/006-leetcode/animations/p01-a02-docker-flags/Composition';
 import Animation112P01A03MonacoEditor from '../../../../videos/006-leetcode/animations/p01-a03-monaco-editor/Composition';
+import Animation113P01A04LeaderboardSql from '../../../../videos/006-leetcode/animations/p01-a04-leaderboard-sql/Composition';
+import Animation114P02A01IsolateLifecycle from '../../../../videos/006-leetcode/animations/p02-a01-isolate-lifecycle/Composition';
+import Animation115P02A02IsolateLimits from '../../../../videos/006-leetcode/animations/p02-a02-isolate-limits/Composition';
+import Animation116P02A03GvisorRunsc from '../../../../videos/006-leetcode/animations/p02-a03-gvisor-runsc/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -303,14 +307,18 @@ const V006LeetcodeComponents: Record<string, TimelineComponent> = {
   "p01-a01-docker-run": Animation110P01A01DockerRun,
   "p01-a02-docker-flags": Animation111P01A02DockerFlags,
   "p01-a03-monaco-editor": Animation112P01A03MonacoEditor,
+  "p01-a04-leaderboard-sql": Animation113P01A04LeaderboardSql,
+  "p02-a01-isolate-lifecycle": Animation114P02A01IsolateLifecycle,
+  "p02-a02-isolate-limits": Animation115P02A02IsolateLimits,
+  "p02-a03-gvisor-runsc": Animation116P02A03GvisorRunsc,
 };
 
 const V006LeetcodeOverlay: React.FC = () => (
   <TimelineOverlay
-    anchors={{"docker-overview":875740,"docker-driver":884980,"docker-overview-end":894080,"docker-flags":929340,"docker-network":935020,"docker-memory":939240,"docker-cpus":940120,"docker-pids":940680,"docker-resource-limits":941600,"docker-memory-meaning":942420,"docker-cpus-meaning":943000,"docker-pids-meaning":943460,"docker-readonly":951740,"docker-user":952160,"docker-readonly-meaning":954480,"docker-user-meaning":955840,"docker-remove":958780,"docker-end":962240,"monaco-intro":573860,"monaco-open-source":581560,"monaco-name":584500,"monaco-show-editor":586140,"monaco-vscode":588480,"monaco-links":595080,"monaco-end":600160}}
+    anchors={{"docker-overview":875740,"docker-driver":884980,"docker-overview-end":894080,"docker-flags":929340,"docker-network":935020,"docker-memory":939240,"docker-cpus":940120,"docker-pids":940680,"docker-resource-limits":941600,"docker-memory-meaning":942420,"docker-cpus-meaning":943000,"docker-pids-meaning":943460,"docker-readonly":951740,"docker-user":952160,"docker-readonly-meaning":954480,"docker-user-meaning":955840,"docker-remove":958780,"docker-end":962240,"monaco-intro":573860,"monaco-open-source":581560,"monaco-name":584500,"monaco-show-editor":586140,"monaco-vscode":588480,"monaco-links":595080,"monaco-end":600160,"leaderboard-sql":1105960,"leaderboard-select":1112100,"leaderboard-aggregates":1114500,"leaderboard-source":1116660,"leaderboard-contest":1118780,"leaderboard-verdict":1120120,"leaderboard-group":1121900,"leaderboard-order":1122740,"leaderboard-page":1123520,"leaderboard-limit":1125980,"leaderboard-offset":1126740,"leaderboard-sql-end":1129300,"isolate-overview":1718560,"isolate-init":1722760,"isolate-limits":1724940,"isolate-run":1725560,"isolate-cleanup":1727440,"isolate-overview-end":1728620,"isolate-flags":1741720,"isolate-cpu-time":1743280,"isolate-wall-time":1745820,"isolate-memory":1749700,"isolate-processes":1751460,"isolate-compare-time":1756480,"isolate-limits-hold":1760560,"isolate-flags-end":1764580,"gvisor-runsc":1972320,"gvisor-runtime":1973920,"gvisor-one-option":1978160,"gvisor-example":1979760,"gvisor-runsc-end":1983320}}
     audio={null}
     components={V006LeetcodeComponents}
-    timeline={[{"id":"show-p01-a03-monaco-editor","animation":"p01-a03-monaco-editor","anchor":"monaco-intro","offsetMs":0,"durationMs":26300,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a01-docker-run","animation":"p01-a01-docker-run","anchor":"docker-overview","offsetMs":0,"durationMs":18340,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a02-docker-flags","animation":"p01-a02-docker-flags","anchor":"docker-flags","offsetMs":0,"durationMs":32900,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}}]}
+    timeline={[{"id":"show-p01-a03-monaco-editor","animation":"p01-a03-monaco-editor","anchor":"monaco-intro","offsetMs":0,"durationMs":26300,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a01-docker-run","animation":"p01-a01-docker-run","anchor":"docker-overview","offsetMs":0,"durationMs":18340,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a02-docker-flags","animation":"p01-a02-docker-flags","anchor":"docker-flags","offsetMs":0,"durationMs":32900,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a04-leaderboard-sql","animation":"p01-a04-leaderboard-sql","anchor":"leaderboard-sql","offsetMs":0,"durationMs":23340,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a01-isolate-lifecycle","animation":"p02-a01-isolate-lifecycle","anchor":"isolate-overview","offsetMs":0,"durationMs":10060,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a02-isolate-limits","animation":"p02-a02-isolate-limits","anchor":"isolate-flags","offsetMs":0,"durationMs":22860,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a03-gvisor-runsc","animation":"p02-a03-gvisor-runsc","anchor":"gvisor-runsc","offsetMs":0,"durationMs":11000,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}}]}
   />
 );
 
@@ -1443,6 +1451,44 @@ export const GeneratedVideoCompositions: React.FC = () => (
           height={1440}
           fps={30}
           durationInFrames={789}
+          defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}}
+        />
+        <Composition
+          id="Video-006-leetcode-p01-a04-leaderboard-sql"
+          component={Animation113P01A04LeaderboardSql}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={700}
+          defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}}
+        />
+      </Folder>
+      <Folder name="P-02">
+        <Composition
+          id="Video-006-leetcode-p02-a01-isolate-lifecycle"
+          component={Animation114P02A01IsolateLifecycle}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={302}
+          defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}}
+        />
+        <Composition
+          id="Video-006-leetcode-p02-a02-isolate-limits"
+          component={Animation115P02A02IsolateLimits}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={686}
+          defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}}
+        />
+        <Composition
+          id="Video-006-leetcode-p02-a03-gvisor-runsc"
+          component={Animation116P02A03GvisorRunsc}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={330}
           defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}}
         />
       </Folder>

@@ -1,0 +1,14 @@
+{
+  "id": "p02-a02-isolate-limits",
+  "part": 2,
+  "order": 2,
+  "title": "Isolate: ограничения запуска",
+  "kind": "2d",
+  "durationMs": 22860,
+  "defaultProps": {
+    "themeId": "paper",
+    "motionProfile": "calm",
+    "previewBackground": "transparent",
+    "withAudio": false
+  }
+}

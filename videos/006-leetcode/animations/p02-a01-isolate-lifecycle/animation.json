@@ -1,0 +1,14 @@
+{
+  "id": "p02-a01-isolate-lifecycle",
+  "part": 2,
+  "order": 1,
+  "title": "Isolate: создание, запуск и очистка",
+  "kind": "2d",
+  "durationMs": 10060,
+  "defaultProps": {
+    "themeId": "paper",
+    "motionProfile": "calm",
+    "previewBackground": "transparent",
+    "withAudio": false
+  }
+}

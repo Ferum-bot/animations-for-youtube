@@ -1,0 +1,14 @@
+{
+  "id": "p02-a03-gvisor-runsc",
+  "part": 2,
+  "order": 3,
+  "title": "gVisor: Docker с runsc",
+  "kind": "2d",
+  "durationMs": 11000,
+  "defaultProps": {
+    "themeId": "paper",
+    "motionProfile": "calm",
+    "previewBackground": "transparent",
+    "withAudio": false
+  }
+}

@@ -37,5 +37,57 @@
       "previewBackground": "transparent",
       "withAudio": false
     }
+  },
+  {
+    "id": "show-p01-a04-leaderboard-sql",
+    "animation": "p01-a04-leaderboard-sql",
+    "anchor": "leaderboard-sql",
+    "offsetMs": 0,
+    "durationMs": 23340,
+    "props": {
+      "themeId": "paper",
+      "motionProfile": "calm",
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p02-a01-isolate-lifecycle",
+    "animation": "p02-a01-isolate-lifecycle",
+    "anchor": "isolate-overview",
+    "offsetMs": 0,
+    "durationMs": 10060,
+    "props": {
+      "themeId": "paper",
+      "motionProfile": "calm",
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p02-a02-isolate-limits",
+    "animation": "p02-a02-isolate-limits",
+    "anchor": "isolate-flags",
+    "offsetMs": 0,
+    "durationMs": 22860,
+    "props": {
+      "themeId": "paper",
+      "motionProfile": "calm",
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p02-a03-gvisor-runsc",
+    "animation": "p02-a03-gvisor-runsc",
+    "anchor": "gvisor-runsc",
+    "offsetMs": 0,
+    "durationMs": 11000,
+    "props": {
+      "themeId": "paper",
+      "motionProfile": "calm",
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
   }
 ]

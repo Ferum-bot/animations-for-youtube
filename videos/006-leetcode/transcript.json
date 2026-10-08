@@ -862,5 +862,425 @@
     "startMs": 962540,
     "endMs": 963400,
     "text": "У этой схемы,"
+  },
+  {
+    "id": "segment-0920",
+    "startMs": 1105960,
+    "endMs": 1107000,
+    "text": "Вот такой SQL"
+  },
+  {
+    "id": "segment-0921",
+    "startMs": 1107000,
+    "endMs": 1108040,
+    "text": "у нас будет,"
+  },
+  {
+    "id": "segment-0922",
+    "startMs": 1108120,
+    "endMs": 1109000,
+    "text": "вы его сейчас увидите"
+  },
+  {
+    "id": "segment-0923",
+    "startMs": 1109000,
+    "endMs": 1109780,
+    "text": "в понятном"
+  },
+  {
+    "id": "segment-0924",
+    "startMs": 1109780,
+    "endMs": 1110500,
+    "text": "презентабельном виде"
+  },
+  {
+    "id": "segment-0925",
+    "startMs": 1110500,
+    "endMs": 1111180,
+    "text": "все на экране."
+  },
+  {
+    "id": "segment-0926",
+    "startMs": 1111700,
+    "endMs": 1112040,
+    "text": "Соответственно,"
+  },
+  {
+    "id": "segment-0927",
+    "startMs": 1112100,
+    "endMs": 1113020,
+    "text": "мы тут в селекте"
+  },
+  {
+    "id": "segment-0928",
+    "startMs": 1113020,
+    "endMs": 1113780,
+    "text": "запрашиваем"
+  },
+  {
+    "id": "segment-0929",
+    "startMs": 1113780,
+    "endMs": 1114500,
+    "text": "пользователя"
+  },
+  {
+    "id": "segment-0930",
+    "startMs": 1114500,
+    "endMs": 1115740,
+    "text": "и все агрегации."
+  },
+  {
+    "id": "segment-0931",
+    "startMs": 1116660,
+    "endMs": 1117640,
+    "text": "Мы берем"
+  },
+  {
+    "id": "segment-0932",
+    "startMs": 1117640,
+    "endMs": 1118100,
+    "text": "только то,"
+  },
+  {
+    "id": "segment-0933",
+    "startMs": 1118160,
+    "endMs": 1118780,
+    "text": "что нам интересно"
+  },
+  {
+    "id": "segment-0934",
+    "startMs": 1118780,
+    "endMs": 1120120,
+    "text": "из нужного контеста"
+  },
+  {
+    "id": "segment-0935",
+    "startMs": 1120120,
+    "endMs": 1120960,
+    "text": "с нужным вердиктом."
+  },
+  {
+    "id": "segment-0936",
+    "startMs": 1121460,
+    "endMs": 1121900,
+    "text": "Мы это все"
+  },
+  {
+    "id": "segment-0937",
+    "startMs": 1121900,
+    "endMs": 1122500,
+    "text": "группируем,"
+  },
+  {
+    "id": "segment-0938",
+    "startMs": 1122740,
+    "endMs": 1123520,
+    "text": "ставим ordering"
+  },
+  {
+    "id": "segment-0939",
+    "startMs": 1123520,
+    "endMs": 1125300,
+    "text": "и выдаем"
+  },
+  {
+    "id": "segment-0940",
+    "startMs": 1125300,
+    "endMs": 1125860,
+    "text": "постранично,"
+  },
+  {
+    "id": "segment-0941",
+    "startMs": 1125980,
+    "endMs": 1126740,
+    "text": "то есть с limit 50"
+  },
+  {
+    "id": "segment-0942",
+    "startMs": 1126740,
+    "endMs": 1127640,
+    "text": "и offset"
+  },
+  {
+    "id": "segment-0943",
+    "startMs": 1127640,
+    "endMs": 1128800,
+    "text": "по странице."
+  },
+  {
+    "id": "segment-1794",
+    "startMs": 1718560,
+    "endMs": 1718680,
+    "text": "Для"
+  },
+  {
+    "id": "segment-1795",
+    "startMs": 1718680,
+    "endMs": 1719040,
+    "text": "примера,"
+  },
+  {
+    "id": "segment-1796",
+    "startMs": 1719040,
+    "endMs": 1719440,
+    "text": "вы сейчас"
+  },
+  {
+    "id": "segment-1797",
+    "startMs": 1719440,
+    "endMs": 1719900,
+    "text": "увидите"
+  },
+  {
+    "id": "segment-1798",
+    "startMs": 1719900,
+    "endMs": 1720760,
+    "text": "на экране"
+  },
+  {
+    "id": "segment-1799",
+    "startMs": 1720760,
+    "endMs": 1720920,
+    "text": "три"
+  },
+  {
+    "id": "segment-1800",
+    "startMs": 1720920,
+    "endMs": 1721380,
+    "text": "команды."
+  },
+  {
+    "id": "segment-1801",
+    "startMs": 1721980,
+    "endMs": 1722420,
+    "text": "Соответственно,"
+  },
+  {
+    "id": "segment-1802",
+    "startMs": 1722620,
+    "endMs": 1722760,
+    "text": "она"
+  },
+  {
+    "id": "segment-1803",
+    "startMs": 1722760,
+    "endMs": 1723440,
+    "text": "создает"
+  },
+  {
+    "id": "segment-1804",
+    "startMs": 1723440,
+    "endMs": 1724200,
+    "text": "песочницу,"
+  },
+  {
+    "id": "segment-1805",
+    "startMs": 1724500,
+    "endMs": 1724940,
+    "text": "она ее"
+  },
+  {
+    "id": "segment-1806",
+    "startMs": 1724940,
+    "endMs": 1725560,
+    "text": "ограничивает"
+  },
+  {
+    "id": "segment-1807",
+    "startMs": 1725560,
+    "endMs": 1726300,
+    "text": "и запускает,"
+  },
+  {
+    "id": "segment-1808",
+    "startMs": 1726700,
+    "endMs": 1727040,
+    "text": "а также"
+  },
+  {
+    "id": "segment-1809",
+    "startMs": 1727040,
+    "endMs": 1727440,
+    "text": "потом"
+  },
+  {
+    "id": "segment-1810",
+    "startMs": 1727440,
+    "endMs": 1728120,
+    "text": "стирает."
+  },
+  {
+    "id": "isolate-flags-001",
+    "startMs": 1741720,
+    "endMs": 1742940,
+    "text": "Что значит флаги в команде?"
+  },
+  {
+    "id": "isolate-flags-002",
+    "startMs": 1743280,
+    "endMs": 1745480,
+    "text": "Минус-минус-тайм — это лимит процессора на времени,"
+  },
+  {
+    "id": "isolate-flags-003",
+    "startMs": 1745820,
+    "endMs": 1749080,
+    "text": "минус-минус-волтайм — лимит по обычным часам, которые у нас есть."
+  },
+  {
+    "id": "isolate-flags-004",
+    "startMs": 1749700,
+    "endMs": 1751320,
+    "text": "Минус-мем — это память в килобайтов,"
+  },
+  {
+    "id": "isolate-flags-005",
+    "startMs": 1751460,
+    "endMs": 1755020,
+    "text": "а минус-минус-процессов — это сколько процессов можно создать дочерних."
+  },
+  {
+    "id": "isolate-flags-006",
+    "startMs": 1756480,
+    "endMs": 1760560,
+    "text": "Опять же, чем цепу время отличается от времени по часам так называемых,"
+  },
+  {
+    "id": "isolate-flags-007",
+    "startMs": 1760560,
+    "endMs": 1764580,
+    "text": "мы обсудим чуть позже, пока просто примем наверно."
+  },
+  {
+    "id": "segment-2208",
+    "startMs": 1972320,
+    "endMs": 1972480,
+    "text": "Его"
+  },
+  {
+    "id": "segment-2209",
+    "startMs": 1972480,
+    "endMs": 1972740,
+    "text": "можно"
+  },
+  {
+    "id": "segment-2210",
+    "startMs": 1972740,
+    "endMs": 1973200,
+    "text": "подключить"
+  },
+  {
+    "id": "segment-2211",
+    "startMs": 1973200,
+    "endMs": 1973640,
+    "text": "к докеру"
+  },
+  {
+    "id": "segment-2212",
+    "startMs": 1973640,
+    "endMs": 1973920,
+    "text": "как"
+  },
+  {
+    "id": "segment-2213",
+    "startMs": 1973920,
+    "endMs": 1974520,
+    "text": "альтернативный"
+  },
+  {
+    "id": "segment-2214",
+    "startMs": 1974520,
+    "endMs": 1974900,
+    "text": "runtime"
+  },
+  {
+    "id": "segment-2215",
+    "startMs": 1974900,
+    "endMs": 1975740,
+    "text": "под названием"
+  },
+  {
+    "id": "segment-2216",
+    "startMs": 1975740,
+    "endMs": 1976520,
+    "text": "Run"
+  },
+  {
+    "id": "segment-2217",
+    "startMs": 1976520,
+    "endMs": 1976880,
+    "text": "Skin."
+  },
+  {
+    "id": "segment-2218",
+    "startMs": 1977080,
+    "endMs": 1977260,
+    "text": "Тоже"
+  },
+  {
+    "id": "segment-2219",
+    "startMs": 1977260,
+    "endMs": 1977740,
+    "text": "контейнер,"
+  },
+  {
+    "id": "segment-2220",
+    "startMs": 1978160,
+    "endMs": 1978920,
+    "text": "лишь"
+  },
+  {
+    "id": "segment-2221",
+    "startMs": 1978920,
+    "endMs": 1979120,
+    "text": "одна"
+  },
+  {
+    "id": "segment-2222",
+    "startMs": 1979120,
+    "endMs": 1979360,
+    "text": "новая"
+  },
+  {
+    "id": "segment-2223",
+    "startMs": 1979360,
+    "endMs": 1979620,
+    "text": "опция."
+  },
+  {
+    "id": "segment-2224",
+    "startMs": 1979760,
+    "endMs": 1979940,
+    "text": "Пример"
+  },
+  {
+    "id": "segment-2225",
+    "startMs": 1979940,
+    "endMs": 1980380,
+    "text": "запуска"
+  },
+  {
+    "id": "segment-2226",
+    "startMs": 1980380,
+    "endMs": 1980880,
+    "text": "вы можете"
+  },
+  {
+    "id": "segment-2227",
+    "startMs": 1980880,
+    "endMs": 1981140,
+    "text": "видеть"
+  },
+  {
+    "id": "segment-2228",
+    "startMs": 1981140,
+    "endMs": 1981460,
+    "text": "сейчас"
+  },
+  {
+    "id": "segment-2229",
+    "startMs": 1981460,
+    "endMs": 1982460,
+    "text": "на экране."
   }
 ]

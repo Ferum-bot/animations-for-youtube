@@ -1,0 +1,14 @@
+{
+  "id": "p01-a04-leaderboard-sql",
+  "part": 1,
+  "order": 4,
+  "title": "SQL: считаем лидерборд",
+  "kind": "2d",
+  "durationMs": 23340,
+  "defaultProps": {
+    "themeId": "paper",
+    "motionProfile": "calm",
+    "previewBackground": "transparent",
+    "withAudio": false
+  }
+}
