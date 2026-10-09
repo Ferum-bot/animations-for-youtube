@@ -89,5 +89,31 @@
       "previewBackground": "transparent",
       "withAudio": false
     }
+  },
+  {
+    "id": "show-p02-a04-isolate-settings",
+    "animation": "p02-a04-isolate-settings",
+    "anchor": "isolate-settings",
+    "offsetMs": 0,
+    "durationMs": 9340,
+    "props": {
+      "themeId": "paper",
+      "motionProfile": "calm",
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p02-a05-redis-leaderboard",
+    "animation": "p02-a05-redis-leaderboard",
+    "anchor": "redis-commands",
+    "offsetMs": 0,
+    "durationMs": 7820,
+    "props": {
+      "themeId": "paper",
+      "motionProfile": "calm",
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
   }
 ]

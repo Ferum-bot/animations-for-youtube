@@ -54,5 +54,13 @@
   "gvisor-runtime": 1973920,
   "gvisor-one-option": 1978160,
   "gvisor-example": 1979760,
-  "gvisor-runsc-end": 1983320
+  "gvisor-runsc-end": 1983320,
+  "isolate-settings": 2743820,
+  "isolate-settings-pause": 2747580,
+  "isolate-settings-end": 2753160,
+  "redis-commands": 2970700,
+  "redis-add": 2972960,
+  "redis-range": 2974920,
+  "redis-rank": 2976320,
+  "redis-commands-end": 2978520
 }

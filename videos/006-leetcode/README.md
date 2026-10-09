@@ -168,3 +168,62 @@ ffmpeg -i /Users/mdpopov/Movies/CapCut/leet_code_audio.WAV \
   -ss 1972.320 -t 11.000 -ac 1 -ar 16000 -c:a pcm_s16le \
   apps/remotion/public/generated/006-leetcode/p02-a03-gvisor-runsc.wav
 ```
+
+## Isolate worker settings
+
+`Video-006-leetcode-p02-a04-isolate-settings` covers **45:43.820–45:53.160**
+(9.340 s, rounded to 280 frames). It displays all six worker settings together
+for pausing, with a 400 ms entrance and 500 ms exit in the calm motion profile.
+The pause hint appears at the spoken anchor **45:47.580**; rows never blur,
+scroll or change size. The panel occupies x=330..2230, y=414..1294 and preserves
+the upper-right webcam area.
+
+`settings.ts` separates reference content from the table layout. These are host
+configuration policies, not Isolate command-line flags, and are never executed.
+The compact wording follows the [Isolate reproducibility guidance](https://www.ucw.cz/isolate/isolate.1.html#_reproducibility).
+The THP row includes enabled/defrag and khugepaged/defrag; its base path appears
+under the table. The ASLR note records the security tradeoff. CPU affinity is
+paired with a dedicated physical core: pinning alone does not reserve it, and
+SMT siblings must be considered when allocating workers. The performance
+governor is not described as a guarantee of a fixed hardware frequency.
+
+Regenerate the optional Studio audio:
+
+```sh
+ffmpeg -i /Users/mdpopov/Movies/CapCut/leet_code_audio.WAV \
+  -ss 2743.820 -t 9.340 -ac 1 -ar 16000 -c:a pcm_s16le \
+  apps/remotion/public/generated/006-leetcode/p02-a04-isolate-settings.wav
+```
+
+## Redis leaderboard commands
+
+`Video-006-leetcode-p02-a05-redis-leaderboard` covers **49:30.700–49:38.520**
+(7.820 s, rounded to 235 frames). It preserves the author's three Redis templates
+and highlights whole commands by 30% in spoken order: ZADD, ZRANGE, ZREVRANK.
+Comments become synchronized captions. The preceding score explanation remains
+available as a static reference underneath. Commands are displayed, never run.
+
+`ZADD` adds or updates one member's already calculated score; it does not count
+solved problems itself. Duplicate Accepted events must not inflate the upstream
+solved count. `ZRANGE ... 0 49 REV WITHSCORES` requires Redis 6.2+ and requests
+up to 50 members in descending score order. Equal scores use reverse
+lexicographical member ordering with REV. `ZREVRANK` is zero-based; add one for
+a present member's displayed ordinal, and handle an absent member separately.
+An equal-score shared place is a product rule, not automatic ZREVRANK behavior.
+
+The score equation uses mathematical notation rather than executable `^` syntax.
+The weight must exceed the penalty range to preserve solved-count priority;
+integer scores must remain within ±2^53 for exact double representation.
+The static note makes both constraints explicit.
+
+Sources: [ZADD](https://redis.io/docs/latest/commands/zadd/),
+[ZRANGE](https://redis.io/docs/latest/commands/zrange/),
+[ZREVRANK](https://redis.io/docs/latest/commands/zrevrank/).
+
+Regenerate the optional Studio audio:
+
+```sh
+ffmpeg -i /Users/mdpopov/Movies/CapCut/leet_code_audio.WAV \
+  -ss 2970.700 -t 7.820 -ac 1 -ar 16000 -c:a pcm_s16le \
+  apps/remotion/public/generated/006-leetcode/p02-a05-redis-leaderboard.wav
+```

@@ -1,0 +1,14 @@
+{
+  "id": "p02-a04-isolate-settings",
+  "part": 2,
+  "order": 4,
+  "title": "Isolate: настройки воркера",
+  "kind": "2d",
+  "durationMs": 9340,
+  "defaultProps": {
+    "themeId": "paper",
+    "motionProfile": "calm",
+    "previewBackground": "transparent",
+    "withAudio": false
+  }
+}

@@ -1282,5 +1282,137 @@
     "startMs": 1981460,
     "endMs": 1982460,
     "text": "на экране."
+  },
+  {
+    "id": "segment-3285",
+    "startMs": 2743820,
+    "endMs": 2744500,
+    "text": "Я могу"
+  },
+  {
+    "id": "segment-3286",
+    "startMs": 2744500,
+    "endMs": 2745200,
+    "text": "вам сейчас"
+  },
+  {
+    "id": "segment-3287",
+    "startMs": 2745200,
+    "endMs": 2746040,
+    "text": "увидеть на экране"
+  },
+  {
+    "id": "segment-3288",
+    "startMs": 2746040,
+    "endMs": 2746360,
+    "text": "список"
+  },
+  {
+    "id": "segment-3289",
+    "startMs": 2746360,
+    "endMs": 2746780,
+    "text": "параметров,"
+  },
+  {
+    "id": "segment-3290",
+    "startMs": 2747580,
+    "endMs": 2748140,
+    "text": "может поставить"
+  },
+  {
+    "id": "segment-3291",
+    "startMs": 2748140,
+    "endMs": 2749260,
+    "text": "на паузу,"
+  },
+  {
+    "id": "segment-3292",
+    "startMs": 2749820,
+    "endMs": 2750140,
+    "text": "на что"
+  },
+  {
+    "id": "segment-3293",
+    "startMs": 2750140,
+    "endMs": 2750560,
+    "text": "они делают,"
+  },
+  {
+    "id": "segment-3294",
+    "startMs": 2750660,
+    "endMs": 2751100,
+    "text": "как их можно"
+  },
+  {
+    "id": "segment-3295",
+    "startMs": 2751100,
+    "endMs": 2751520,
+    "text": "настраивать,"
+  },
+  {
+    "id": "segment-3296",
+    "startMs": 2751600,
+    "endMs": 2752180,
+    "text": "останавливать сейчас"
+  },
+  {
+    "id": "segment-3297",
+    "startMs": 2752180,
+    "endMs": 2752500,
+    "text": "на них"
+  },
+  {
+    "id": "segment-3298",
+    "startMs": 2752500,
+    "endMs": 2753160,
+    "text": "не будем."
+  },
+  {
+    "id": "segment-3646",
+    "startMs": 2970700,
+    "endMs": 2971420,
+    "text": "Пример команд"
+  },
+  {
+    "id": "segment-3647",
+    "startMs": 2971420,
+    "endMs": 2971880,
+    "text": "вы также"
+  },
+  {
+    "id": "segment-3648",
+    "startMs": 2971880,
+    "endMs": 2972420,
+    "text": "можете увидеть"
+  },
+  {
+    "id": "segment-3649",
+    "startMs": 2972420,
+    "endMs": 2972960,
+    "text": "на экране"
+  },
+  {
+    "id": "segment-3650",
+    "startMs": 2972960,
+    "endMs": 2974720,
+    "text": "с добавлением,"
+  },
+  {
+    "id": "segment-3651",
+    "startMs": 2974920,
+    "endMs": 2975220,
+    "text": "с range"
+  },
+  {
+    "id": "segment-3652",
+    "startMs": 2975220,
+    "endMs": 2976320,
+    "text": "и получением"
+  },
+  {
+    "id": "segment-3653",
+    "startMs": 2976320,
+    "endMs": 2977260,
+    "text": "свое место."
   }
 ]
