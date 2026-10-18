@@ -134,6 +134,12 @@ import Animation127P00A09ChapterSingleCluster from '../../../../videos/007-just-
 import Animation128P00A10ChapterConclusion from '../../../../videos/007-just-use-postgres/animations/p00-a10-chapter-conclusion/Composition';
 import Animation129P01A01JustUsePostgres from '../../../../videos/007-just-use-postgres/animations/p01-a01-just-use-postgres/Composition';
 import Animation130P01A02TrendHistory from '../../../../videos/007-just-use-postgres/animations/p01-a02-trend-history/Composition';
+import Animation131P02A01JsonbDocuments from '../../../../videos/007-just-use-postgres/animations/p02-a01-jsonb-documents/Composition';
+import Animation132P03A01FullTextSearch from '../../../../videos/007-just-use-postgres/animations/p03-a01-full-text-search/Composition';
+import Animation133P04A01PostgresCache from '../../../../videos/007-just-use-postgres/animations/p04-a01-postgres-cache/Composition';
+import Animation134P05A01PostgresQueue from '../../../../videos/007-just-use-postgres/animations/p05-a01-postgres-queue/Composition';
+import Animation135P06A01ListenNotify from '../../../../videos/007-just-use-postgres/animations/p06-a01-listen-notify/Composition';
+import Animation136P07A01OneTransaction from '../../../../videos/007-just-use-postgres/animations/p07-a01-one-transaction/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -351,11 +357,17 @@ const V007JustUsePostgresComponents: Record<string, TimelineComponent> = {
   "p00-a10-chapter-conclusion": Animation128P00A10ChapterConclusion,
   "p01-a01-just-use-postgres": Animation129P01A01JustUsePostgres,
   "p01-a02-trend-history": Animation130P01A02TrendHistory,
+  "p02-a01-jsonb-documents": Animation131P02A01JsonbDocuments,
+  "p03-a01-full-text-search": Animation132P03A01FullTextSearch,
+  "p04-a01-postgres-cache": Animation133P04A01PostgresCache,
+  "p05-a01-postgres-queue": Animation134P05A01PostgresQueue,
+  "p06-a01-listen-notify": Animation135P06A01ListenNotify,
+  "p07-a01-one-transaction": Animation136P07A01OneTransaction,
 };
 
 const V007JustUsePostgresOverlay: React.FC = () => (
   <TimelineOverlay
-    anchors={{"p01-a01-just-use-postgres-start":0,"p01-a02-trend-history-start":30300}}
+    anchors={{"p01-a01-just-use-postgres-start":0,"p01-a02-trend-history-start":30300,"p02-a01-jsonb-documents-start":143500,"p03-a01-full-text-search-start":252000,"p04-a01-postgres-cache-start":365500,"p05-a01-postgres-queue-start":475000,"p06-a01-listen-notify-start":607500,"p07-a01-one-transaction-start":709000}}
     audio={null}
     components={V007JustUsePostgresComponents}
     timeline={[]}
@@ -1669,6 +1681,72 @@ export const GeneratedVideoCompositions: React.FC = () => (
           height={1440}
           fps={30}
           durationInFrames={1650}
+          defaultProps={{"previewBackground":"footage","withAudio":true}}
+        />
+      </Folder>
+      <Folder name="P-02-MongoDB">
+        <Composition
+          id="Video-007-just-use-postgres-p02-a01-jsonb-documents"
+          component={Animation131P02A01JsonbDocuments}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={2736}
+          defaultProps={{"previewBackground":"footage","withAudio":true}}
+        />
+      </Folder>
+      <Folder name="P-03-Elasticsearch">
+        <Composition
+          id="Video-007-just-use-postgres-p03-a01-full-text-search"
+          component={Animation132P03A01FullTextSearch}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={3060}
+          defaultProps={{"previewBackground":"footage","withAudio":true}}
+        />
+      </Folder>
+      <Folder name="P-04-Redis">
+        <Composition
+          id="Video-007-just-use-postgres-p04-a01-postgres-cache"
+          component={Animation133P04A01PostgresCache}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={2730}
+          defaultProps={{"previewBackground":"footage","withAudio":true}}
+        />
+      </Folder>
+      <Folder name="P-05-Queues">
+        <Composition
+          id="Video-007-just-use-postgres-p05-a01-postgres-queue"
+          component={Animation134P05A01PostgresQueue}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={3192}
+          defaultProps={{"previewBackground":"footage","withAudio":true}}
+        />
+      </Folder>
+      <Folder name="P-06-PubSub">
+        <Composition
+          id="Video-007-just-use-postgres-p06-a01-listen-notify"
+          component={Animation135P06A01ListenNotify}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={2394}
+          defaultProps={{"previewBackground":"footage","withAudio":true}}
+        />
+      </Folder>
+      <Folder name="P-07-One-Transaction">
+        <Composition
+          id="Video-007-just-use-postgres-p07-a01-one-transaction"
+          component={Animation136P07A01OneTransaction}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={540}
           defaultProps={{"previewBackground":"footage","withAudio":true}}
         />
       </Folder>

@@ -1,0 +1,10 @@
+{
+  "id": "p03-a01-full-text-search",
+  "part": 3,
+  "order": 1,
+  "title": "Elasticsearch — индекс, полнотекстовый поиск и ограничения",
+  "kind": "2d",
+  "durationMs": 102000,
+  "studioFolder": "P-03-Elasticsearch",
+  "defaultProps": {"previewBackground": "footage", "withAudio": true}
+}

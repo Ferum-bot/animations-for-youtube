@@ -1,0 +1,10 @@
+{
+  "id": "p05-a01-postgres-queue",
+  "part": 5,
+  "order": 1,
+  "title": "Postgres вместо RabbitMQ — очередь задач",
+  "kind": "2d",
+  "durationMs": 106400,
+  "studioFolder": "P-05-Queues",
+  "defaultProps": {"previewBackground": "footage", "withAudio": true}
+}

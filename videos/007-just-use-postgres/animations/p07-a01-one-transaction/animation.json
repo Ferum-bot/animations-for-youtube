@@ -1,0 +1,13 @@
+{
+  "id": "p07-a01-one-transaction",
+  "part": 7,
+  "order": 1,
+  "title": "Одна транзакция на всё",
+  "kind": "2d",
+  "durationMs": 18000,
+  "studioFolder": "P-07-One-Transaction",
+  "defaultProps": {
+    "previewBackground": "footage",
+    "withAudio": true
+  }
+}

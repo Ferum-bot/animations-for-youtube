@@ -1,0 +1,13 @@
+{
+  "id": "p06-a01-listen-notify",
+  "part": 6,
+  "order": 1,
+  "title": "Postgres Pub/Sub — LISTEN и NOTIFY",
+  "kind": "2d",
+  "durationMs": 79800,
+  "studioFolder": "P-06-PubSub",
+  "defaultProps": {
+    "previewBackground": "footage",
+    "withAudio": true
+  }
+}

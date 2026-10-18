@@ -1,4 +1,10 @@
 {
   "p01-a01-just-use-postgres-start": 0,
-  "p01-a02-trend-history-start": 30300
+  "p01-a02-trend-history-start": 30300,
+  "p02-a01-jsonb-documents-start": 143500,
+  "p03-a01-full-text-search-start": 252000,
+  "p04-a01-postgres-cache-start": 365500,
+  "p05-a01-postgres-queue-start": 475000,
+  "p06-a01-listen-notify-start": 607500,
+  "p07-a01-one-transaction-start": 709000
 }

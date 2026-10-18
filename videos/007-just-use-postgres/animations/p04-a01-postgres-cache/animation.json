@@ -1,0 +1,10 @@
+{
+  "id": "p04-a01-postgres-cache",
+  "part": 4,
+  "order": 1,
+  "title": "Postgres вместо Redis — кэш и его ограничения",
+  "kind": "2d",
+  "durationMs": 91000,
+  "studioFolder": "P-04-Redis",
+  "defaultProps": {"previewBackground": "footage", "withAudio": true}
+}

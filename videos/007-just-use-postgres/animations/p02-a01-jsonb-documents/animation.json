@@ -1,0 +1,10 @@
+{
+  "id": "p02-a01-jsonb-documents",
+  "part": 2,
+  "order": 1,
+  "title": "JSONB — документы, поиск и ограничения",
+  "kind": "2d",
+  "durationMs": 91200,
+  "studioFolder": "P-02-MongoDB",
+  "defaultProps": {"previewBackground": "footage", "withAudio": true}
+}
