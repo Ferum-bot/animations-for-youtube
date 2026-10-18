@@ -1,0 +1,14 @@
+{
+  "id": "p01-a01-just-use-postgres",
+  "part": 1,
+  "order": 1,
+  "title": "Just Use Postgres — тезис и первые источники",
+  "kind": "2d",
+  "durationMs": 30300,
+  "studioFolder": "P-01-Intro",
+  "defaultProps": {
+    "themeId": "graphite",
+    "previewBackground": "footage",
+    "withAudio": true
+  }
+}

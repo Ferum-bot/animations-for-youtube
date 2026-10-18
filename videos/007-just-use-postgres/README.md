@@ -7,7 +7,7 @@ Run `task studio`, then open `Videos → V-007-just-use-postgres → P-00-Chapte
 The default uses `themeId: graphite` and `motionProfile: calm`: a soft charcoal
 background with warm, restrained headline luminance and quieter supporting text.
 `themeId: paper` retains the light variant. Local color overrides live in
-`shared/chapter-theme.ts`. Problem chapters use its muted terracotta signal token
+`shared/theme.ts`. Problem chapters use its muted terracotta signal token
 for the lead text; the conclusion deliberately has no description.
 
 Copy lives in `shared/chapters.ts`, frame-independent timing in
@@ -35,3 +35,7 @@ Technology marks are local monochrome SVG paths from [Simple Icons](https://gith
 [RabbitMQ](https://github.com/simple-icons/simple-icons/blob/develop/icons/rabbitmq.svg).
 `shared/TechnologyIcon.tsx` contains the authored fan-out symbol for the generic Pub/Sub pattern.
 No network requests are made during preview or rendering.
+
+Intro animations live under `P-01-Intro` with `p01-aNN` IDs. The edited duration
+includes all ten 4500 ms dividers. `shared/edit-timing.ts` maps narration positions
+to the current CapCut edit; refresh its boundaries after moving inserts.

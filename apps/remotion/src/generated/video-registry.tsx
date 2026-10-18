@@ -132,6 +132,8 @@ import Animation125P00A07ChapterMvccVacuum from '../../../../videos/007-just-use
 import Animation126P00A08ChapterListenNotify from '../../../../videos/007-just-use-postgres/animations/p00-a08-chapter-listen-notify/Composition';
 import Animation127P00A09ChapterSingleCluster from '../../../../videos/007-just-use-postgres/animations/p00-a09-chapter-single-cluster/Composition';
 import Animation128P00A10ChapterConclusion from '../../../../videos/007-just-use-postgres/animations/p00-a10-chapter-conclusion/Composition';
+import Animation129P01A01JustUsePostgres from '../../../../videos/007-just-use-postgres/animations/p01-a01-just-use-postgres/Composition';
+import Animation130P01A02TrendHistory from '../../../../videos/007-just-use-postgres/animations/p01-a02-trend-history/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -347,11 +349,13 @@ const V007JustUsePostgresComponents: Record<string, TimelineComponent> = {
   "p00-a08-chapter-listen-notify": Animation126P00A08ChapterListenNotify,
   "p00-a09-chapter-single-cluster": Animation127P00A09ChapterSingleCluster,
   "p00-a10-chapter-conclusion": Animation128P00A10ChapterConclusion,
+  "p01-a01-just-use-postgres": Animation129P01A01JustUsePostgres,
+  "p01-a02-trend-history": Animation130P01A02TrendHistory,
 };
 
 const V007JustUsePostgresOverlay: React.FC = () => (
   <TimelineOverlay
-    anchors={{}}
+    anchors={{"p01-a01-just-use-postgres-start":0,"p01-a02-trend-history-start":30300}}
     audio={null}
     components={V007JustUsePostgresComponents}
     timeline={[]}
@@ -1648,13 +1652,33 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"themeId":"graphite","motionProfile":"calm"}}
         />
       </Folder>
+      <Folder name="P-01-Intro">
+        <Composition
+          id="Video-007-just-use-postgres-p01-a01-just-use-postgres"
+          component={Animation129P01A01JustUsePostgres}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={909}
+          defaultProps={{"themeId":"graphite","previewBackground":"footage","withAudio":true}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p01-a02-trend-history"
+          component={Animation130P01A02TrendHistory}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1650}
+          defaultProps={{"previewBackground":"footage","withAudio":true}}
+        />
+      </Folder>
       <Composition
         id="Video-007-just-use-postgres-Overlay"
         component={V007JustUsePostgresOverlay}
         width={2560}
         height={1440}
         fps={30}
-        durationInFrames={44213}
+        durationInFrames={45563}
       />
     </Folder>
   </>

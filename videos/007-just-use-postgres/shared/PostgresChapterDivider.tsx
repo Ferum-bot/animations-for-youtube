@@ -1,7 +1,7 @@
 import React from 'react';
 import {AbsoluteFill, useCurrentFrame, useVideoConfig} from 'remotion';
 import type {ThemeId} from '@channel/theme';
-import {getChapterTheme} from './chapter-theme';
+import {getPostgresTheme} from './theme';
 import type {MotionProfile} from '@channel/motion-core';
 import {getChapter} from './chapters';
 import {TechnologyIcon} from './TechnologyIcon';
@@ -21,7 +21,7 @@ export const PostgresChapterDivider: React.FC<ChapterDividerProps & {
 }> = ({chapterNumber, themeId = 'graphite', motionProfile = 'calm'}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
-  const theme = getChapterTheme(themeId);
+  const theme = getPostgresTheme(themeId);
   const chapter = getChapter(chapterNumber);
   const motion = getChapterMotion(frame * 1000 / fps, motionProfile);
 

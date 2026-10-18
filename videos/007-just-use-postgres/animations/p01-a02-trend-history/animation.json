@@ -1,0 +1,13 @@
+{
+  "id": "p01-a02-trend-history",
+  "part": 1,
+  "order": 2,
+  "title": "История тренда — 2022–2026",
+  "kind": "2d",
+  "durationMs": 55000,
+  "studioFolder": "P-01-Intro",
+  "defaultProps": {
+    "previewBackground": "footage",
+    "withAudio": true
+  }
+}
