@@ -1,0 +1,13 @@
+{
+  "id": "p00-a07-chapter-mvcc-vacuum",
+  "part": 0,
+  "order": 7,
+  "title": "Проблема: MVCC и VACUUM",
+  "kind": "2d",
+  "durationMs": 4500,
+  "studioFolder": "P-00-Chapters",
+  "defaultProps": {
+    "themeId": "graphite",
+    "motionProfile": "calm"
+  }
+}

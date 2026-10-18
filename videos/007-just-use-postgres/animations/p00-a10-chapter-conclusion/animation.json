@@ -1,0 +1,13 @@
+{
+  "id": "p00-a10-chapter-conclusion",
+  "part": 0,
+  "order": 10,
+  "title": "Выводы",
+  "kind": "2d",
+  "durationMs": 4500,
+  "studioFolder": "P-00-Chapters",
+  "defaultProps": {
+    "themeId": "graphite",
+    "motionProfile": "calm"
+  }
+}

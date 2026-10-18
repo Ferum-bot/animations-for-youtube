@@ -1,0 +1,13 @@
+{
+  "id": "p00-a06-chapter-transaction",
+  "part": 0,
+  "order": 6,
+  "title": "Одна транзакция на всё",
+  "kind": "2d",
+  "durationMs": 4500,
+  "studioFolder": "P-00-Chapters",
+  "defaultProps": {
+    "themeId": "graphite",
+    "motionProfile": "calm"
+  }
+}

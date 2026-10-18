@@ -1,0 +1,13 @@
+{
+  "id": "p00-a02-chapter-elasticsearch",
+  "part": 0,
+  "order": 2,
+  "title": "Postgres вместо Elasticsearch",
+  "kind": "2d",
+  "durationMs": 4500,
+  "studioFolder": "P-00-Chapters",
+  "defaultProps": {
+    "themeId": "graphite",
+    "motionProfile": "calm"
+  }
+}

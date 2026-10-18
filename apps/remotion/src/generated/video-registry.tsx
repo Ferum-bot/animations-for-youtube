@@ -122,6 +122,16 @@ import Animation115P02A02IsolateLimits from '../../../../videos/006-leetcode/ani
 import Animation116P02A03GvisorRunsc from '../../../../videos/006-leetcode/animations/p02-a03-gvisor-runsc/Composition';
 import Animation117P02A04IsolateSettings from '../../../../videos/006-leetcode/animations/p02-a04-isolate-settings/Composition';
 import Animation118P02A05RedisLeaderboard from '../../../../videos/006-leetcode/animations/p02-a05-redis-leaderboard/Composition';
+import Animation119P00A01ChapterMongodb from '../../../../videos/007-just-use-postgres/animations/p00-a01-chapter-mongodb/Composition';
+import Animation120P00A02ChapterElasticsearch from '../../../../videos/007-just-use-postgres/animations/p00-a02-chapter-elasticsearch/Composition';
+import Animation121P00A03ChapterRedis from '../../../../videos/007-just-use-postgres/animations/p00-a03-chapter-redis/Composition';
+import Animation122P00A04ChapterRabbitmq from '../../../../videos/007-just-use-postgres/animations/p00-a04-chapter-rabbitmq/Composition';
+import Animation123P00A05ChapterPubsub from '../../../../videos/007-just-use-postgres/animations/p00-a05-chapter-pubsub/Composition';
+import Animation124P00A06ChapterTransaction from '../../../../videos/007-just-use-postgres/animations/p00-a06-chapter-transaction/Composition';
+import Animation125P00A07ChapterMvccVacuum from '../../../../videos/007-just-use-postgres/animations/p00-a07-chapter-mvcc-vacuum/Composition';
+import Animation126P00A08ChapterListenNotify from '../../../../videos/007-just-use-postgres/animations/p00-a08-chapter-listen-notify/Composition';
+import Animation127P00A09ChapterSingleCluster from '../../../../videos/007-just-use-postgres/animations/p00-a09-chapter-single-cluster/Composition';
+import Animation128P00A10ChapterConclusion from '../../../../videos/007-just-use-postgres/animations/p00-a10-chapter-conclusion/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -323,6 +333,28 @@ const V006LeetcodeOverlay: React.FC = () => (
     audio={null}
     components={V006LeetcodeComponents}
     timeline={[{"id":"show-p01-a03-monaco-editor","animation":"p01-a03-monaco-editor","anchor":"monaco-intro","offsetMs":0,"durationMs":26300,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a01-docker-run","animation":"p01-a01-docker-run","anchor":"docker-overview","offsetMs":0,"durationMs":18340,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a02-docker-flags","animation":"p01-a02-docker-flags","anchor":"docker-flags","offsetMs":0,"durationMs":32900,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a04-leaderboard-sql","animation":"p01-a04-leaderboard-sql","anchor":"leaderboard-sql","offsetMs":0,"durationMs":23340,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a01-isolate-lifecycle","animation":"p02-a01-isolate-lifecycle","anchor":"isolate-overview","offsetMs":0,"durationMs":10060,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a02-isolate-limits","animation":"p02-a02-isolate-limits","anchor":"isolate-flags","offsetMs":0,"durationMs":22860,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a03-gvisor-runsc","animation":"p02-a03-gvisor-runsc","anchor":"gvisor-runsc","offsetMs":0,"durationMs":11000,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a04-isolate-settings","animation":"p02-a04-isolate-settings","anchor":"isolate-settings","offsetMs":0,"durationMs":9340,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a05-redis-leaderboard","animation":"p02-a05-redis-leaderboard","anchor":"redis-commands","offsetMs":0,"durationMs":7820,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}}]}
+  />
+);
+
+const V007JustUsePostgresComponents: Record<string, TimelineComponent> = {
+  "p00-a01-chapter-mongodb": Animation119P00A01ChapterMongodb,
+  "p00-a02-chapter-elasticsearch": Animation120P00A02ChapterElasticsearch,
+  "p00-a03-chapter-redis": Animation121P00A03ChapterRedis,
+  "p00-a04-chapter-rabbitmq": Animation122P00A04ChapterRabbitmq,
+  "p00-a05-chapter-pubsub": Animation123P00A05ChapterPubsub,
+  "p00-a06-chapter-transaction": Animation124P00A06ChapterTransaction,
+  "p00-a07-chapter-mvcc-vacuum": Animation125P00A07ChapterMvccVacuum,
+  "p00-a08-chapter-listen-notify": Animation126P00A08ChapterListenNotify,
+  "p00-a09-chapter-single-cluster": Animation127P00A09ChapterSingleCluster,
+  "p00-a10-chapter-conclusion": Animation128P00A10ChapterConclusion,
+};
+
+const V007JustUsePostgresOverlay: React.FC = () => (
+  <TimelineOverlay
+    anchors={{}}
+    audio={null}
+    components={V007JustUsePostgresComponents}
+    timeline={[]}
   />
 );
 
@@ -1521,6 +1553,108 @@ export const GeneratedVideoCompositions: React.FC = () => (
         height={1440}
         fps={30}
         durationInFrames={109668}
+      />
+    </Folder>
+    <Folder name="V-007-just-use-postgres">
+      <Folder name="P-00-Chapters">
+        <Composition
+          id="Video-007-just-use-postgres-p00-a01-chapter-mongodb"
+          component={Animation119P00A01ChapterMongodb}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={135}
+          defaultProps={{"themeId":"graphite","motionProfile":"calm"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p00-a02-chapter-elasticsearch"
+          component={Animation120P00A02ChapterElasticsearch}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={135}
+          defaultProps={{"themeId":"graphite","motionProfile":"calm"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p00-a03-chapter-redis"
+          component={Animation121P00A03ChapterRedis}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={135}
+          defaultProps={{"themeId":"graphite","motionProfile":"calm"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p00-a04-chapter-rabbitmq"
+          component={Animation122P00A04ChapterRabbitmq}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={135}
+          defaultProps={{"themeId":"graphite","motionProfile":"calm"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p00-a05-chapter-pubsub"
+          component={Animation123P00A05ChapterPubsub}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={135}
+          defaultProps={{"themeId":"graphite","motionProfile":"calm"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p00-a06-chapter-transaction"
+          component={Animation124P00A06ChapterTransaction}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={135}
+          defaultProps={{"themeId":"graphite","motionProfile":"calm"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p00-a07-chapter-mvcc-vacuum"
+          component={Animation125P00A07ChapterMvccVacuum}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={135}
+          defaultProps={{"themeId":"graphite","motionProfile":"calm"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p00-a08-chapter-listen-notify"
+          component={Animation126P00A08ChapterListenNotify}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={135}
+          defaultProps={{"themeId":"graphite","motionProfile":"calm"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p00-a09-chapter-single-cluster"
+          component={Animation127P00A09ChapterSingleCluster}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={135}
+          defaultProps={{"themeId":"graphite","motionProfile":"calm"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p00-a10-chapter-conclusion"
+          component={Animation128P00A10ChapterConclusion}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={135}
+          defaultProps={{"themeId":"graphite","motionProfile":"calm"}}
+        />
+      </Folder>
+      <Composition
+        id="Video-007-just-use-postgres-Overlay"
+        component={V007JustUsePostgresOverlay}
+        width={2560}
+        height={1440}
+        fps={30}
+        durationInFrames={44213}
       />
     </Folder>
   </>

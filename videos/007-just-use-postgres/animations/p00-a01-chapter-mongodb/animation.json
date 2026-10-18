@@ -1,0 +1,13 @@
+{
+  "id": "p00-a01-chapter-mongodb",
+  "part": 0,
+  "order": 1,
+  "title": "Postgres вместо MongoDB",
+  "kind": "2d",
+  "durationMs": 4500,
+  "studioFolder": "P-00-Chapters",
+  "defaultProps": {
+    "themeId": "graphite",
+    "motionProfile": "calm"
+  }
+}

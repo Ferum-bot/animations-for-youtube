@@ -1,0 +1,13 @@
+{
+  "id": "p00-a04-chapter-rabbitmq",
+  "part": 0,
+  "order": 4,
+  "title": "Postgres вместо RabbitMQ",
+  "kind": "2d",
+  "durationMs": 4500,
+  "studioFolder": "P-00-Chapters",
+  "defaultProps": {
+    "themeId": "graphite",
+    "motionProfile": "calm"
+  }
+}

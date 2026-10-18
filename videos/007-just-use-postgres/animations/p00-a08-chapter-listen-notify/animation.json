@@ -1,0 +1,13 @@
+{
+  "id": "p00-a08-chapter-listen-notify",
+  "part": 0,
+  "order": 8,
+  "title": "Проблема: LISTEN/NOTIFY",
+  "kind": "2d",
+  "durationMs": 4500,
+  "studioFolder": "P-00-Chapters",
+  "defaultProps": {
+    "themeId": "graphite",
+    "motionProfile": "calm"
+  }
+}

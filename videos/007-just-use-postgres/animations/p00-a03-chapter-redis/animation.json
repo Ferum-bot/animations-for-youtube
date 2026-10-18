@@ -1,0 +1,13 @@
+{
+  "id": "p00-a03-chapter-redis",
+  "part": 0,
+  "order": 3,
+  "title": "Postgres вместо Redis",
+  "kind": "2d",
+  "durationMs": 4500,
+  "studioFolder": "P-00-Chapters",
+  "defaultProps": {
+    "themeId": "graphite",
+    "motionProfile": "calm"
+  }
+}

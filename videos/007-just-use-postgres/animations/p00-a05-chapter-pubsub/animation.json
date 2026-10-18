@@ -1,0 +1,13 @@
+{
+  "id": "p00-a05-chapter-pubsub",
+  "part": 0,
+  "order": 5,
+  "title": "Postgres вместо Pub/Sub",
+  "kind": "2d",
+  "durationMs": 4500,
+  "studioFolder": "P-00-Chapters",
+  "defaultProps": {
+    "themeId": "graphite",
+    "motionProfile": "calm"
+  }
+}
