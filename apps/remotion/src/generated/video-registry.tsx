@@ -140,6 +140,9 @@ import Animation133P04A01PostgresCache from '../../../../videos/007-just-use-pos
 import Animation134P05A01PostgresQueue from '../../../../videos/007-just-use-postgres/animations/p05-a01-postgres-queue/Composition';
 import Animation135P06A01ListenNotify from '../../../../videos/007-just-use-postgres/animations/p06-a01-listen-notify/Composition';
 import Animation136P07A01OneTransaction from '../../../../videos/007-just-use-postgres/animations/p07-a01-one-transaction/Composition';
+import Animation137P08A01MvccVacuum from '../../../../videos/007-just-use-postgres/animations/p08-a01-mvcc-vacuum/Composition';
+import Animation138P09A01ListenNotifyLock from '../../../../videos/007-just-use-postgres/animations/p09-a01-listen-notify-lock/Composition';
+import Animation139P10A01QuoScaling from '../../../../videos/007-just-use-postgres/animations/p10-a01-quo-scaling/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -363,11 +366,14 @@ const V007JustUsePostgresComponents: Record<string, TimelineComponent> = {
   "p05-a01-postgres-queue": Animation134P05A01PostgresQueue,
   "p06-a01-listen-notify": Animation135P06A01ListenNotify,
   "p07-a01-one-transaction": Animation136P07A01OneTransaction,
+  "p08-a01-mvcc-vacuum": Animation137P08A01MvccVacuum,
+  "p09-a01-listen-notify-lock": Animation138P09A01ListenNotifyLock,
+  "p10-a01-quo-scaling": Animation139P10A01QuoScaling,
 };
 
 const V007JustUsePostgresOverlay: React.FC = () => (
   <TimelineOverlay
-    anchors={{"p01-a01-just-use-postgres-start":0,"p01-a02-trend-history-start":30300,"p02-a01-jsonb-documents-start":143500,"p03-a01-full-text-search-start":252000,"p04-a01-postgres-cache-start":365500,"p05-a01-postgres-queue-start":475000,"p06-a01-listen-notify-start":607500,"p07-a01-one-transaction-start":709000}}
+    anchors={{"p01-a01-just-use-postgres-start":0,"p01-a02-trend-history-start":30300,"p02-a01-jsonb-documents-start":143500,"p03-a01-full-text-search-start":252000,"p04-a01-postgres-cache-start":365500,"p05-a01-postgres-queue-start":475000,"p06-a01-listen-notify-start":607500,"p07-a01-one-transaction-start":709000,"p08-a01-mvcc-vacuum-start":747500,"p09-a01-listen-notify-lock-start":1078000,"p10-a01-quo-scaling-start":1311500}}
     audio={null}
     components={V007JustUsePostgresComponents}
     timeline={[]}
@@ -1747,6 +1753,39 @@ export const GeneratedVideoCompositions: React.FC = () => (
           height={1440}
           fps={30}
           durationInFrames={540}
+          defaultProps={{"previewBackground":"footage","withAudio":true}}
+        />
+      </Folder>
+      <Folder name="P-08-MVCC-VACUUM">
+        <Composition
+          id="Video-007-just-use-postgres-p08-a01-mvcc-vacuum"
+          component={Animation137P08A01MvccVacuum}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={9468}
+          defaultProps={{"previewBackground":"footage","withAudio":true}}
+        />
+      </Folder>
+      <Folder name="P-09-LISTEN-NOTIFY-LOCK">
+        <Composition
+          id="Video-007-just-use-postgres-p09-a01-listen-notify-lock"
+          component={Animation138P09A01ListenNotifyLock}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={4586}
+          defaultProps={{"previewBackground":"footage","withAudio":true}}
+        />
+      </Folder>
+      <Folder name="P-10-QUO-SCALING">
+        <Composition
+          id="Video-007-just-use-postgres-p10-a01-quo-scaling"
+          component={Animation139P10A01QuoScaling}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={2460}
           defaultProps={{"previewBackground":"footage","withAudio":true}}
         />
       </Folder>

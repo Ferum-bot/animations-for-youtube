@@ -1,0 +1,10 @@
+{
+  "id": "p08-a01-mvcc-vacuum",
+  "part": 8,
+  "order": 1,
+  "title": "Проблема: MVCC и VACUUM",
+  "kind": "2d",
+  "durationMs": 315600,
+  "studioFolder": "P-08-MVCC-VACUUM",
+  "defaultProps": {"previewBackground": "footage", "withAudio": true}
+}

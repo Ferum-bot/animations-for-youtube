@@ -1,0 +1,10 @@
+{
+  "id": "p10-a01-quo-scaling",
+  "part": 10,
+  "order": 1,
+  "title": "Проблема: единственный кластер — Quo и предел записи",
+  "kind": "2d",
+  "durationMs": 82000,
+  "studioFolder": "P-10-QUO-SCALING",
+  "defaultProps": {"previewBackground": "footage", "withAudio": true}
+}

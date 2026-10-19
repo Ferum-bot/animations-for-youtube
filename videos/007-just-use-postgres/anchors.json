@@ -6,5 +6,8 @@
   "p04-a01-postgres-cache-start": 365500,
   "p05-a01-postgres-queue-start": 475000,
   "p06-a01-listen-notify-start": 607500,
-  "p07-a01-one-transaction-start": 709000
+  "p07-a01-one-transaction-start": 709000,
+  "p08-a01-mvcc-vacuum-start": 747500,
+  "p09-a01-listen-notify-lock-start": 1078000,
+  "p10-a01-quo-scaling-start": 1311500
 }

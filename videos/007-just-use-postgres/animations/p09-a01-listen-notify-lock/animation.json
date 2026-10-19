@@ -1,0 +1,10 @@
+{
+  "id": "p09-a01-listen-notify-lock",
+  "part": 9,
+  "order": 1,
+  "title": "Проблема: LISTEN/NOTIFY — один общий лок",
+  "kind": "2d",
+  "durationMs": 152867,
+  "studioFolder": "P-09-LISTEN-NOTIFY-LOCK",
+  "defaultProps": {"previewBackground": "footage", "withAudio": true}
+}
