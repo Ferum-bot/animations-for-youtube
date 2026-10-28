@@ -1,0 +1,67 @@
+[
+  {
+    "id": "show-p01-a01-database-schema",
+    "animation": "p01-a01-database-schema",
+    "anchor": "schema-start",
+    "offsetMs": 0,
+    "durationMs": 102000,
+    "props": {
+      "themeId": "paper",
+      "motionProfile": "calm",
+      "previewBackground": "transparent",
+      "withAudio": true
+    }
+  },
+  {
+    "id": "show-p01-a02-device-tokens",
+    "animation": "p01-a02-device-tokens",
+    "anchor": "device-tokens-start",
+    "offsetMs": 0,
+    "durationMs": 30000,
+    "props": {
+      "themeId": "paper",
+      "motionProfile": "calm",
+      "previewBackground": "transparent",
+      "withAudio": true
+    }
+  },
+  {
+    "id": "show-p01-a03-scheduled-query",
+    "animation": "p01-a03-scheduled-query",
+    "anchor": "scheduled-query-start",
+    "offsetMs": 0,
+    "durationMs": 16000,
+    "props": {
+      "themeId": "paper",
+      "motionProfile": "calm",
+      "previewBackground": "transparent",
+      "withAudio": true
+    }
+  },
+  {
+    "id": "show-p01-a04-campaign-tables",
+    "animation": "p01-a04-campaign-tables",
+    "anchor": "campaign-tables-start",
+    "offsetMs": 0,
+    "durationMs": 25000,
+    "props": {
+      "themeId": "paper",
+      "motionProfile": "calm",
+      "previewBackground": "transparent",
+      "withAudio": true
+    }
+  },
+  {
+    "id": "show-p01-a05-preferences",
+    "animation": "p01-a05-preferences",
+    "anchor": "preferences-start",
+    "offsetMs": 0,
+    "durationMs": 25000,
+    "props": {
+      "themeId": "paper",
+      "motionProfile": "calm",
+      "previewBackground": "transparent",
+      "withAudio": true
+    }
+  }
+]

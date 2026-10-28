@@ -1,0 +1,24 @@
+{
+  "project": "1028",
+  "draftPath": "/Users/mdpopov/Movies/CapCut/User Data/Projects/com.lveditor.draft/1028/draft_info.json",
+  "draftSha256": "78c593cc064732909a20c916bb6e23d3758da505b7144306b7842a75bd2cbc59",
+  "fps": 30,
+  "sourceAudioStartMs": 1046833,
+  "sourceAudioEndMs": 1076833,
+  "timelineStartMs": 1021433,
+  "timelineEndMs": 1051433,
+  "timelineStartTimecode": "00:17:01:13",
+  "timelineEndTimecode": "00:17:31:13",
+  "sourceAudioToTimelineOffsetMs": -25400,
+  "alignment": {
+    "method": "Waveform correlation at both scene boundaries, verified against current CapCut audio segment source/target ranges. Placement rounded to the 30 fps frame grid; persisted milliseconds rounded to integer.",
+    "matchedOffsetRangeMs": [
+      -25405.083,
+      -25399.833
+    ],
+    "audioSourceStartMs": 601099.999,
+    "audioTargetStartMs": 688666.666,
+    "audioSegmentDurationMs": 687700,
+    "speed": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "p01-a04-campaign-tables",
+  "part": 1,
+  "order": 4,
+  "title": "Таблицы campaigns и segments",
+  "kind": "2d",
+  "durationMs": 25000,
+  "defaultProps": {
+    "themeId": "paper",
+    "motionProfile": "calm",
+    "previewBackground": "transparent",
+    "withAudio": true
+  }
+}

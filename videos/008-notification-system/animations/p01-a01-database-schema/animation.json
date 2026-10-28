@@ -1,0 +1,14 @@
+{
+  "id": "p01-a01-database-schema",
+  "part": 1,
+  "order": 1,
+  "title": "Схема данных: users и notifications",
+  "kind": "2d",
+  "durationMs": 102000,
+  "defaultProps": {
+    "themeId": "paper",
+    "motionProfile": "calm",
+    "previewBackground": "transparent",
+    "withAudio": true
+  }
+}

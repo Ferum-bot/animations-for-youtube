@@ -1,0 +1,14 @@
+{
+  "id": "p01-a02-device-tokens",
+  "part": 1,
+  "order": 2,
+  "title": "Таблица device_tokens",
+  "kind": "2d",
+  "durationMs": 30000,
+  "defaultProps": {
+    "themeId": "paper",
+    "motionProfile": "calm",
+    "previewBackground": "transparent",
+    "withAudio": true
+  }
+}

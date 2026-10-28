@@ -143,6 +143,11 @@ import Animation136P07A01OneTransaction from '../../../../videos/007-just-use-po
 import Animation137P08A01MvccVacuum from '../../../../videos/007-just-use-postgres/animations/p08-a01-mvcc-vacuum/Composition';
 import Animation138P09A01ListenNotifyLock from '../../../../videos/007-just-use-postgres/animations/p09-a01-listen-notify-lock/Composition';
 import Animation139P10A01QuoScaling from '../../../../videos/007-just-use-postgres/animations/p10-a01-quo-scaling/Composition';
+import Animation140P01A01DatabaseSchema from '../../../../videos/008-notification-system/animations/p01-a01-database-schema/Composition';
+import Animation141P01A02DeviceTokens from '../../../../videos/008-notification-system/animations/p01-a02-device-tokens/Composition';
+import Animation142P01A03ScheduledQuery from '../../../../videos/008-notification-system/animations/p01-a03-scheduled-query/Composition';
+import Animation143P01A04CampaignTables from '../../../../videos/008-notification-system/animations/p01-a04-campaign-tables/Composition';
+import Animation144P01A05Preferences from '../../../../videos/008-notification-system/animations/p01-a05-preferences/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -377,6 +382,23 @@ const V007JustUsePostgresOverlay: React.FC = () => (
     audio={null}
     components={V007JustUsePostgresComponents}
     timeline={[]}
+  />
+);
+
+const V008NotificationSystemComponents: Record<string, TimelineComponent> = {
+  "p01-a01-database-schema": Animation140P01A01DatabaseSchema,
+  "p01-a02-device-tokens": Animation141P01A02DeviceTokens,
+  "p01-a03-scheduled-query": Animation142P01A03ScheduledQuery,
+  "p01-a04-campaign-tables": Animation143P01A04CampaignTables,
+  "p01-a05-preferences": Animation144P01A05Preferences,
+};
+
+const V008NotificationSystemOverlay: React.FC = () => (
+  <TimelineOverlay
+    anchors={{"schema-start":836600,"schema-users":844360,"schema-notifications":851100,"schema-id":856940,"schema-uuid":858400,"schema-user-id":873220,"schema-channel":878880,"schema-category":881840,"schema-priority":890240,"schema-template":900520,"schema-params":904380,"schema-normalization":909000,"schema-status":920240,"schema-times":925940,"schema-provider":931560,"schema-resolved":936940,"schema-end":938600,"device-tokens-start":1021433,"device-tokens-name":1026300,"device-tokens-user":1028000,"device-tokens-platform":1029480,"device-tokens-token":1038560,"device-tokens-active":1039740,"device-tokens-last-seen":1042380,"device-tokens-deactivate":1046080,"device-tokens-resolved":1049160,"device-tokens-end":1051433,"scheduled-query-start":1097967,"scheduled-query-select":1101560,"scheduled-query-status":1102660,"scheduled-query-due":1104100,"scheduled-query-limit":1106720,"scheduled-query-resolved":1109060,"scheduled-query-end":1113967,"campaign-tables-start":1138667,"campaign-tables-id":1143260,"campaign-tables-segment-id":1144620,"campaign-tables-message":1145720,"campaign-tables-params":1147120,"campaign-tables-send-at":1147880,"campaign-tables-status":1151520,"campaign-tables-segments":1153980,"campaign-tables-membership-id":1156120,"campaign-tables-user":1158140,"campaign-tables-resolved":1160020,"campaign-tables-end":1163667,"preferences-start":1224967,"preferences-name":1227620,"preferences-definition":1229800,"preferences-user":1233780,"preferences-options":1234640,"preferences-quiet":1242320,"preferences-resolved":1247880,"preferences-end":1249967}}
+    audio={null}
+    components={V008NotificationSystemComponents}
+    timeline={[{"id":"show-p01-a01-database-schema","animation":"p01-a01-database-schema","anchor":"schema-start","offsetMs":0,"durationMs":102000,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p01-a02-device-tokens","animation":"p01-a02-device-tokens","anchor":"device-tokens-start","offsetMs":0,"durationMs":30000,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p01-a03-scheduled-query","animation":"p01-a03-scheduled-query","anchor":"scheduled-query-start","offsetMs":0,"durationMs":16000,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p01-a04-campaign-tables","animation":"p01-a04-campaign-tables","anchor":"campaign-tables-start","offsetMs":0,"durationMs":25000,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p01-a05-preferences","animation":"p01-a05-preferences","anchor":"preferences-start","offsetMs":0,"durationMs":25000,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}]}
   />
 );
 
@@ -1796,6 +1818,63 @@ export const GeneratedVideoCompositions: React.FC = () => (
         height={1440}
         fps={30}
         durationInFrames={45563}
+      />
+    </Folder>
+    <Folder name="V-008-notification-system">
+      <Folder name="P-01">
+        <Composition
+          id="Video-008-notification-system-p01-a01-database-schema"
+          component={Animation140P01A01DatabaseSchema}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={3060}
+          defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}
+        />
+        <Composition
+          id="Video-008-notification-system-p01-a02-device-tokens"
+          component={Animation141P01A02DeviceTokens}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={900}
+          defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}
+        />
+        <Composition
+          id="Video-008-notification-system-p01-a03-scheduled-query"
+          component={Animation142P01A03ScheduledQuery}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={480}
+          defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}
+        />
+        <Composition
+          id="Video-008-notification-system-p01-a04-campaign-tables"
+          component={Animation143P01A04CampaignTables}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={750}
+          defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}
+        />
+        <Composition
+          id="Video-008-notification-system-p01-a05-preferences"
+          component={Animation144P01A05Preferences}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={750}
+          defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}
+        />
+      </Folder>
+      <Composition
+        id="Video-008-notification-system-Overlay"
+        component={V008NotificationSystemOverlay}
+        width={2560}
+        height={1440}
+        fps={30}
+        durationInFrames={111475}
       />
     </Folder>
   </>

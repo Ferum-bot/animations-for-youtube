@@ -1,0 +1,30 @@
+{
+  "project": "1028",
+  "draftPath": "/Users/mdpopov/Movies/CapCut/User Data/Projects/com.lveditor.draft/1028/draft_info.json",
+  "draftSha256": "cd482d30c3276f68e6e092f1a1622413aed263519c050505e62c0310e00da4e6",
+  "fps": 30,
+  "sourceAudioStartMs": 862000,
+  "sourceAudioEndMs": 964000,
+  "timelineStartMs": 836600,
+  "timelineEndMs": 938600,
+  "timelineStartTimecode": "00:13:56:18",
+  "timelineEndTimecode": "00:15:38:18",
+  "sourceAudioToTimelineOffsetMs": -25400,
+  "scope": "Verified only for this schema scene, not a global offset for the episode.",
+  "audioSegment": {
+    "materialId": "822E2066-46D3-4455-A53A-89F89760E283",
+    "path": "/Users/mdpopov/Desktop/notification_system/2026-10-28 13-04-15.mp4",
+    "sourceStartMs": 601099.999,
+    "targetStartMs": 688666.666,
+    "durationMs": 687700,
+    "speed": 1
+  },
+  "alignment": {
+    "method": "Seven 4-second waveform matches across the schema interval; source/target segment mapping; placement rounded to the 30 fps frame grid.",
+    "matchedOffsetRangeMs": [
+      -25405.208,
+      -25398.333
+    ],
+    "sceneSourceMediaStartMs": 749033.333
+  }
+}

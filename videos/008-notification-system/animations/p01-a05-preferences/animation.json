@@ -1,0 +1,14 @@
+{
+  "id": "p01-a05-preferences",
+  "part": 1,
+  "order": 5,
+  "title": "Таблица preferences",
+  "kind": "2d",
+  "durationMs": 25000,
+  "defaultProps": {
+    "themeId": "paper",
+    "motionProfile": "calm",
+    "previewBackground": "transparent",
+    "withAudio": true
+  }
+}

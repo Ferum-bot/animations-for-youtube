@@ -1,0 +1,14 @@
+{
+  "id": "p01-a03-scheduled-query",
+  "part": 1,
+  "order": 3,
+  "title": "SQL: выборка отложенных уведомлений",
+  "kind": "2d",
+  "durationMs": 16000,
+  "defaultProps": {
+    "themeId": "paper",
+    "motionProfile": "calm",
+    "previewBackground": "transparent",
+    "withAudio": true
+  }
+}

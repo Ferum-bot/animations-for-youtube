@@ -1,0 +1,17 @@
+{
+  "id": "008-notification-system",
+  "title": "Notification System: system design",
+  "width": 2560,
+  "height": 1440,
+  "fps": 30,
+  "durationMs": 3715833,
+  "audio": null,
+  "source": {
+    "originalAudioPath": "/Users/mdpopov/Movies/CapCut/notification_system_audio.WAV",
+    "originalAudioSha256": "2242acdaa479b2418bec8b68955accfa8e93f0d3c22e91fb5ec69a194df5b1a6",
+    "materialsPath": "/Users/mdpopov/Desktop/notification_system/notification-system-materials.pdf",
+    "materialsSha256": "c5a34bec3c6ed898ccb401ef4ac434aa2442da19f186a1527877383a0e28163d",
+    "precedence": "Recorded narration takes priority over the materials.",
+    "timingBasis": "CapCut project 1028; scene intervals verified against waveform-aligned audio track source/target ranges. Each animation records its mapping."
+  }
+}
