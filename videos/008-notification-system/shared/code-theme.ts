@@ -1,7 +1,7 @@
 import {getTheme} from '@channel/theme';
 
-/** Episode-local light SQL editor, following JetBrains' classic light syntax. */
-export const sqlTheme = {
+/** Episode-local code editor, following JetBrains' classic light syntax. */
+export const codeTheme = {
   ...getTheme('paper'),
   surface: '#E9EDF2',
   text: '#202020',

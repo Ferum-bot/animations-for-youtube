@@ -1,0 +1,14 @@
+{
+  "id": "p02-a06-provider-errors",
+  "part": 2,
+  "order": 6,
+  "title": "Ошибки провайдеров: повторяемые и терминальные",
+  "kind": "2d",
+  "durationMs": 17900,
+  "defaultProps": {
+    "themeId": "paper",
+    "motionProfile": "calm",
+    "previewBackground": "transparent",
+    "withAudio": true
+  }
+}

@@ -1,4 +1,4 @@
-import type {SqlLine} from '../../shared/SqlEditor';
+import type {CodeLine} from '../../shared/CodeEditor';
 
 // Materials p. 9, adapted to narration: segment_id replaces segment_sql.
 // UUID identifiers stay consistent with the previously shown schema.
@@ -12,7 +12,7 @@ export const campaigns = [
   {text: '    send_at    TIMESTAMPTZ NOT NULL DEFAULT now(),', field: 'send_at'},
   {text: "    status     TEXT NOT NULL DEFAULT 'scheduled'", field: 'status'},
   {text: ');', field: null},
-] as const satisfies readonly SqlLine[];
+] as const satisfies readonly CodeLine[];
 
 // Narrated membership table. A segment has multiple users, so its ID is not
 // independently unique and campaigns.segment_id cannot reference it as a FK.
@@ -22,6 +22,6 @@ export const segments = [
   {text: '    user_id    UUID NOT NULL REFERENCES users(id),', field: 'segment-user'},
   {text: '    PRIMARY KEY (segment_id, user_id)', field: null},
   {text: ');', field: null},
-] as const satisfies readonly SqlLine[];
+] as const satisfies readonly CodeLine[];
 
 export type CampaignField = Exclude<typeof campaigns[number]['field'] | typeof segments[number]['field'], null>;

@@ -1,0 +1,14 @@
+{
+  "id": "p03-a03-capacity-table",
+  "part": 3,
+  "order": 3,
+  "title": "Нагрузка и параллелизм отправки",
+  "kind": "2d",
+  "durationMs": 17400,
+  "defaultProps": {
+    "themeId": "paper",
+    "motionProfile": "calm",
+    "previewBackground": "transparent",
+    "withAudio": true
+  }
+}

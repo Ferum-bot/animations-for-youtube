@@ -1,0 +1,14 @@
+{
+  "id": "p02-a01-producer-settings",
+  "part": 2,
+  "order": 1,
+  "title": "Kafka: настройки producer и topic",
+  "kind": "2d",
+  "durationMs": 45500,
+  "defaultProps": {
+    "themeId": "paper",
+    "motionProfile": "calm",
+    "previewBackground": "transparent",
+    "withAudio": true
+  }
+}

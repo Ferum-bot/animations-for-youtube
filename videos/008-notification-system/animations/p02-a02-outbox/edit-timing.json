@@ -1,0 +1,20 @@
+{
+  "project": "1028",
+  "draftPath": "/Users/mdpopov/Movies/CapCut/User Data/Projects/com.lveditor.draft/1028/draft_info.json",
+  "draftSha256": "a81b1ef3c4183a88a4974eea62ccde38d370156d8524450b399b989942a54ac5",
+  "fps": 30,
+  "sourceAudioStartMs": 1621933,
+  "sourceAudioEndMs": 1668933,
+  "timelineStartMs": 1596533,
+  "timelineEndMs": 1643533,
+  "timelineStartTimecode": "00:26:36:16",
+  "timelineEndTimecode": "00:27:23:16",
+  "sourceAudioToTimelineOffsetMs": -25400,
+  "alignment": {
+    "method": "Current CapCut audio track matches the waveform-aligned snapshot. Scene lies entirely in one unchanged speed-1 segment; spoken cues use raw Whisper offsets. Boundaries rounded to 30 fps; persisted milliseconds rounded to integers.",
+    "audioSourceStartMs": 1323999.999,
+    "audioTargetStartMs": 1376366.666,
+    "audioSegmentDurationMs": 749000,
+    "speed": 1
+  }
+}

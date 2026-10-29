@@ -550,5 +550,3461 @@
     "startMs": 1272420,
     "endMs": 1273280,
     "text": "и модифицировать."
+  },
+  {
+    "id": "producer-settings-752",
+    "startMs": 1515580,
+    "endMs": 1516800,
+    "text": "Там есть три параметра,"
+  },
+  {
+    "id": "producer-settings-753",
+    "startMs": 1517060,
+    "endMs": 1517820,
+    "text": "которые определяют,"
+  },
+  {
+    "id": "producer-settings-754",
+    "startMs": 1517940,
+    "endMs": 1518800,
+    "text": "что ты получишь"
+  },
+  {
+    "id": "producer-settings-755",
+    "startMs": 1518800,
+    "endMs": 1519680,
+    "text": "какие гарантии"
+  },
+  {
+    "id": "producer-settings-756",
+    "startMs": 1519680,
+    "endMs": 1520760,
+    "text": "перед акком"
+  },
+  {
+    "id": "producer-settings-757",
+    "startMs": 1520760,
+    "endMs": 1521260,
+    "text": "от Kafka."
+  },
+  {
+    "id": "producer-settings-758",
+    "startMs": 1522120,
+    "endMs": 1523100,
+    "text": "Ты их можешь увидеть"
+  },
+  {
+    "id": "producer-settings-759",
+    "startMs": 1523100,
+    "endMs": 1524000,
+    "text": "сейчас снова на экране."
+  },
+  {
+    "id": "producer-settings-760",
+    "startMs": 1524320,
+    "endMs": 1524840,
+    "text": "Во-первых,"
+  },
+  {
+    "id": "producer-settings-761",
+    "startMs": 1524940,
+    "endMs": 1525680,
+    "text": "это acts all."
+  },
+  {
+    "id": "producer-settings-762",
+    "startMs": 1525900,
+    "endMs": 1526240,
+    "text": "Это значит,"
+  },
+  {
+    "id": "producer-settings-763",
+    "startMs": 1526360,
+    "endMs": 1527260,
+    "text": "что надо ждать подтверждения"
+  },
+  {
+    "id": "producer-settings-764",
+    "startMs": 1527260,
+    "endMs": 1527720,
+    "text": "от всех"
+  },
+  {
+    "id": "producer-settings-765",
+    "startMs": 1527720,
+    "endMs": 1528680,
+    "text": "in-sync реплик"
+  },
+  {
+    "id": "producer-settings-766",
+    "startMs": 1528680,
+    "endMs": 1529680,
+    "text": "по умолчанию."
+  },
+  {
+    "id": "producer-settings-767",
+    "startMs": 1530480,
+    "endMs": 1531080,
+    "text": "Кроме того,"
+  },
+  {
+    "id": "producer-settings-768",
+    "startMs": 1531400,
+    "endMs": 1532220,
+    "text": "нам нужно включить"
+  },
+  {
+    "id": "producer-settings-769",
+    "startMs": 1532220,
+    "endMs": 1532820,
+    "text": "enable и"
+  },
+  {
+    "id": "producer-settings-770",
+    "startMs": 1532820,
+    "endMs": 1533420,
+    "text": "to-tend true,"
+  },
+  {
+    "id": "producer-settings-771",
+    "startMs": 1533920,
+    "endMs": 1534240,
+    "text": "чтобы"
+  },
+  {
+    "id": "producer-settings-772",
+    "startMs": 1534240,
+    "endMs": 1536080,
+    "text": "была дедубликация"
+  },
+  {
+    "id": "producer-settings-773",
+    "startMs": 1536080,
+    "endMs": 1537280,
+    "text": "retrieve продюсера."
+  },
+  {
+    "id": "producer-settings-774",
+    "startMs": 1537880,
+    "endMs": 1538260,
+    "text": "У нас нужно"
+  },
+  {
+    "id": "producer-settings-775",
+    "startMs": 1538260,
+    "endMs": 1538540,
+    "text": "настроить"
+  },
+  {
+    "id": "producer-settings-776",
+    "startMs": 1538540,
+    "endMs": 1539380,
+    "text": "application factor"
+  },
+  {
+    "id": "producer-settings-777",
+    "startMs": 1539380,
+    "endMs": 1540200,
+    "text": "и нам нужно"
+  },
+  {
+    "id": "producer-settings-778",
+    "startMs": 1540200,
+    "endMs": 1540680,
+    "text": "настроить"
+  },
+  {
+    "id": "producer-settings-779",
+    "startMs": 1540680,
+    "endMs": 1541120,
+    "text": "минимальный"
+  },
+  {
+    "id": "producer-settings-780",
+    "startMs": 1541120,
+    "endMs": 1541840,
+    "text": "in-sync реплику."
+  },
+  {
+    "id": "producer-settings-781",
+    "startMs": 1542320,
+    "endMs": 1542800,
+    "text": "По умолчанию"
+  },
+  {
+    "id": "producer-settings-782",
+    "startMs": 1542800,
+    "endMs": 1543000,
+    "text": "там,"
+  },
+  {
+    "id": "producer-settings-783",
+    "startMs": 1543180,
+    "endMs": 1543440,
+    "text": "если что,"
+  },
+  {
+    "id": "producer-settings-784",
+    "startMs": 1543520,
+    "endMs": 1543960,
+    "text": "единичка,"
+  },
+  {
+    "id": "producer-settings-785",
+    "startMs": 1544140,
+    "endMs": 1544560,
+    "text": "и тогда"
+  },
+  {
+    "id": "producer-settings-786",
+    "startMs": 1544560,
+    "endMs": 1545460,
+    "text": "acts all"
+  },
+  {
+    "id": "producer-settings-787",
+    "startMs": 1545460,
+    "endMs": 1546260,
+    "text": "вырождаются"
+  },
+  {
+    "id": "producer-settings-788",
+    "startMs": 1546260,
+    "endMs": 1547340,
+    "text": "только в один лидер."
+  },
+  {
+    "id": "producer-settings-789",
+    "startMs": 1547460,
+    "endMs": 1548140,
+    "text": "Тут надо ставить"
+  },
+  {
+    "id": "producer-settings-790",
+    "startMs": 1548140,
+    "endMs": 1548740,
+    "text": "хотя бы два."
+  },
+  {
+    "id": "producer-settings-791",
+    "startMs": 1549900,
+    "endMs": 1550540,
+    "text": "В целом,"
+  },
+  {
+    "id": "producer-settings-792",
+    "startMs": 1550580,
+    "endMs": 1551340,
+    "text": "это все надо настраивать,"
+  },
+  {
+    "id": "producer-settings-793",
+    "startMs": 1551400,
+    "endMs": 1552100,
+    "text": "это все нужно помнить"
+  },
+  {
+    "id": "producer-settings-794",
+    "startMs": 1552100,
+    "endMs": 1553600,
+    "text": "и это нужно знать."
+  },
+  {
+    "id": "producer-settings-795",
+    "startMs": 1554220,
+    "endMs": 1554540,
+    "text": "При этом,"
+  },
+  {
+    "id": "producer-settings-796",
+    "startMs": 1554640,
+    "endMs": 1555580,
+    "text": "если мы это все правильно настроим,"
+  },
+  {
+    "id": "producer-settings-797",
+    "startMs": 1555640,
+    "endMs": 1555900,
+    "text": "в целом,"
+  },
+  {
+    "id": "producer-settings-798",
+    "startMs": 1555960,
+    "endMs": 1556520,
+    "text": "гарантии можем"
+  },
+  {
+    "id": "producer-settings-799",
+    "startMs": 1556520,
+    "endMs": 1557360,
+    "text": "считать даже честную,"
+  },
+  {
+    "id": "producer-settings-800",
+    "startMs": 1557640,
+    "endMs": 1558560,
+    "text": "запись переживет"
+  },
+  {
+    "id": "producer-settings-801",
+    "startMs": 1558560,
+    "endMs": 1559560,
+    "text": "потерю одного брокера,"
+  },
+  {
+    "id": "producer-settings-802",
+    "startMs": 1559600,
+    "endMs": 1560400,
+    "text": "это уже хоть что-то."
+  },
+  {
+    "startMs": 1621940,
+    "endMs": 1622820,
+    "text": "Таблицу Outbox",
+    "id": "outbox-863"
+  },
+  {
+    "startMs": 1622820,
+    "endMs": 1623580,
+    "text": "ты можешь сейчас",
+    "id": "outbox-864"
+  },
+  {
+    "startMs": 1623580,
+    "endMs": 1624000,
+    "text": "увидеть также",
+    "id": "outbox-865"
+  },
+  {
+    "startMs": 1624000,
+    "endMs": 1624660,
+    "text": "на своем экране.",
+    "id": "outbox-866"
+  },
+  {
+    "startMs": 1624880,
+    "endMs": 1625840,
+    "text": "Она достаточно простая,",
+    "id": "outbox-867"
+  },
+  {
+    "startMs": 1625980,
+    "endMs": 1626300,
+    "text": "там есть",
+    "id": "outbox-868"
+  },
+  {
+    "startMs": 1626300,
+    "endMs": 1626880,
+    "text": "идентификатор,",
+    "id": "outbox-869"
+  },
+  {
+    "startMs": 1627900,
+    "endMs": 1628760,
+    "text": "есть notification ID,",
+    "id": "outbox-870"
+  },
+  {
+    "startMs": 1628900,
+    "endMs": 1629680,
+    "text": "который нам прислали,",
+    "id": "outbox-871"
+  },
+  {
+    "startMs": 1629960,
+    "endMs": 1630680,
+    "text": "topic, payload",
+    "id": "outbox-872"
+  },
+  {
+    "startMs": 1630680,
+    "endMs": 1632020,
+    "text": "и некоторые",
+    "id": "outbox-873"
+  },
+  {
+    "startMs": 1632020,
+    "endMs": 1632720,
+    "text": "системные поля.",
+    "id": "outbox-874"
+  },
+  {
+    "startMs": 1633480,
+    "endMs": 1633900,
+    "text": "Соответственно,",
+    "id": "outbox-875"
+  },
+  {
+    "startMs": 1634420,
+    "endMs": 1635100,
+    "text": "вставка выглядит",
+    "id": "outbox-876"
+  },
+  {
+    "startMs": 1635100,
+    "endMs": 1636240,
+    "text": "как одна транзакция,",
+    "id": "outbox-877"
+  },
+  {
+    "startMs": 1636600,
+    "endMs": 1637460,
+    "text": "с двумя insert'ами.",
+    "id": "outbox-878"
+  },
+  {
+    "startMs": 1637860,
+    "endMs": 1638700,
+    "text": "Это в нотификации,",
+    "id": "outbox-879"
+  },
+  {
+    "startMs": 1638800,
+    "endMs": 1639140,
+    "text": "в Outbox",
+    "id": "outbox-880"
+  },
+  {
+    "startMs": 1639140,
+    "endMs": 1640160,
+    "text": "также видишься в экране,",
+    "id": "outbox-881"
+  },
+  {
+    "startMs": 1640180,
+    "endMs": 1641140,
+    "text": "здесь ничего сложного.",
+    "id": "outbox-882"
+  },
+  {
+    "startMs": 1642140,
+    "endMs": 1643180,
+    "text": "По выборке",
+    "id": "outbox-883"
+  },
+  {
+    "startMs": 1643180,
+    "endMs": 1645140,
+    "text": "тоже достаточно простой цикл.",
+    "id": "outbox-884"
+  },
+  {
+    "startMs": 1645480,
+    "endMs": 1647100,
+    "text": "Мы просто в цикле повторяем",
+    "id": "outbox-885"
+  },
+  {
+    "startMs": 1647100,
+    "endMs": 1647920,
+    "text": "поиск",
+    "id": "outbox-886"
+  },
+  {
+    "startMs": 1647920,
+    "endMs": 1648560,
+    "text": "всех",
+    "id": "outbox-887"
+  },
+  {
+    "startMs": 1648560,
+    "endMs": 1649660,
+    "text": "записей",
+    "id": "outbox-888"
+  },
+  {
+    "startMs": 1649660,
+    "endMs": 1650320,
+    "text": "в Outbox,",
+    "id": "outbox-889"
+  },
+  {
+    "startMs": 1650520,
+    "endMs": 1652220,
+    "text": "которые еще не опубликованы",
+    "id": "outbox-890"
+  },
+  {
+    "startMs": 1652220,
+    "endMs": 1653580,
+    "text": "и обязательно пишем",
+    "id": "outbox-891"
+  },
+  {
+    "startMs": 1653580,
+    "endMs": 1654020,
+    "text": "for update",
+    "id": "outbox-892"
+  },
+  {
+    "startMs": 1654020,
+    "endMs": 1654660,
+    "text": "skip blocket,",
+    "id": "outbox-893"
+  },
+  {
+    "startMs": 1654860,
+    "endMs": 1655500,
+    "text": "чтобы мы повесили",
+    "id": "outbox-894"
+  },
+  {
+    "startMs": 1655500,
+    "endMs": 1656820,
+    "text": "update и чтобы не сражаться,",
+    "id": "outbox-895"
+  },
+  {
+    "startMs": 1657480,
+    "endMs": 1657820,
+    "text": "не ждать",
+    "id": "outbox-896"
+  },
+  {
+    "startMs": 1657820,
+    "endMs": 1658520,
+    "text": "разные воркеры",
+    "id": "outbox-897"
+  },
+  {
+    "startMs": 1658520,
+    "endMs": 1659340,
+    "text": "при масштабировании.",
+    "id": "outbox-898"
+  },
+  {
+    "startMs": 1659560,
+    "endMs": 1660400,
+    "text": "Это стандартный",
+    "id": "outbox-899"
+  },
+  {
+    "startMs": 1660400,
+    "endMs": 1661120,
+    "text": "абсолютно подход,",
+    "id": "outbox-900"
+  },
+  {
+    "startMs": 1661640,
+    "endMs": 1662360,
+    "text": "очень базовый,",
+    "id": "outbox-901"
+  },
+  {
+    "startMs": 1662560,
+    "endMs": 1663420,
+    "text": "с ним сталкиваются",
+    "id": "outbox-902"
+  },
+  {
+    "startMs": 1663420,
+    "endMs": 1663940,
+    "text": "буквально",
+    "id": "outbox-903"
+  },
+  {
+    "startMs": 1663940,
+    "endMs": 1664860,
+    "text": "очень часто",
+    "id": "outbox-904"
+  },
+  {
+    "startMs": 1664860,
+    "endMs": 1666320,
+    "text": "базовый прием,",
+    "id": "outbox-905"
+  },
+  {
+    "startMs": 1666520,
+    "endMs": 1667060,
+    "text": "который должен знать",
+    "id": "outbox-906"
+  },
+  {
+    "startMs": 1667060,
+    "endMs": 1667680,
+    "text": "каждый инженер.",
+    "id": "outbox-907"
+  },
+  {
+    "startMs": 1737920,
+    "endMs": 1738680,
+    "text": "Глобально это все",
+    "id": "postgres-queue-980"
+  },
+  {
+    "startMs": 1738680,
+    "endMs": 1739320,
+    "text": "может выглядеть",
+    "id": "postgres-queue-981"
+  },
+  {
+    "startMs": 1739320,
+    "endMs": 1740080,
+    "text": "как",
+    "id": "postgres-queue-982"
+  },
+  {
+    "startMs": 1740080,
+    "endMs": 1742180,
+    "text": "такой запрос.",
+    "id": "postgres-queue-983"
+  },
+  {
+    "startMs": 1742940,
+    "endMs": 1743380,
+    "text": "Соответственно,",
+    "id": "postgres-queue-984"
+  },
+  {
+    "startMs": 1743560,
+    "endMs": 1744200,
+    "text": "вы можете увидеть",
+    "id": "postgres-queue-985"
+  },
+  {
+    "startMs": 1744200,
+    "endMs": 1745380,
+    "text": "это на экране.",
+    "id": "postgres-queue-986"
+  },
+  {
+    "startMs": 1745760,
+    "endMs": 1746160,
+    "text": "Skip Lock",
+    "id": "postgres-queue-987"
+  },
+  {
+    "startMs": 1746160,
+    "endMs": 1746980,
+    "text": "отлично работает",
+    "id": "postgres-queue-988"
+  },
+  {
+    "startMs": 1746980,
+    "endMs": 1748620,
+    "text": "и у этого",
+    "id": "postgres-queue-989"
+  },
+  {
+    "startMs": 1748620,
+    "endMs": 1749440,
+    "text": "есть даже плюсы.",
+    "id": "postgres-queue-990"
+  },
+  {
+    "startMs": 1749540,
+    "endMs": 1749780,
+    "text": "Во-первых,",
+    "id": "postgres-queue-991"
+  },
+  {
+    "startMs": 1749860,
+    "endMs": 1750780,
+    "text": "это всегда одна система.",
+    "id": "postgres-queue-992"
+  },
+  {
+    "startMs": 1751240,
+    "endMs": 1751760,
+    "text": "У нас нет",
+    "id": "postgres-queue-993"
+  },
+  {
+    "startMs": 1751760,
+    "endMs": 1752620,
+    "text": "доп. точки отказа,",
+    "id": "postgres-queue-994"
+  },
+  {
+    "startMs": 1752760,
+    "endMs": 1753560,
+    "text": "у нас транзакции",
+    "id": "postgres-queue-995"
+  },
+  {
+    "startMs": 1753560,
+    "endMs": 1754060,
+    "text": "с коробки,",
+    "id": "postgres-queue-996"
+  },
+  {
+    "startMs": 1887600,
+    "endMs": 1887820,
+    "text": "Иногда",
+    "id": "consumer-settings-1134"
+  },
+  {
+    "startMs": 1887820,
+    "endMs": 1888500,
+    "text": "нужно",
+    "id": "consumer-settings-1135"
+  },
+  {
+    "startMs": 1888500,
+    "endMs": 1889660,
+    "text": "модифицировать параметры,",
+    "id": "consumer-settings-1136"
+  },
+  {
+    "startMs": 1889860,
+    "endMs": 1890700,
+    "text": "их вы также можете",
+    "id": "consumer-settings-1137"
+  },
+  {
+    "startMs": 1890700,
+    "endMs": 1891340,
+    "text": "увидеть на экране,",
+    "id": "consumer-settings-1138"
+  },
+  {
+    "startMs": 1891440,
+    "endMs": 1891760,
+    "text": "ставить",
+    "id": "consumer-settings-1139"
+  },
+  {
+    "startMs": 1891760,
+    "endMs": 1892920,
+    "text": "enable auto commit false,",
+    "id": "consumer-settings-1140"
+  },
+  {
+    "startMs": 1894060,
+    "endMs": 1894580,
+    "text": "а ставить",
+    "id": "consumer-settings-1141"
+  },
+  {
+    "startMs": 1894580,
+    "endMs": 1894880,
+    "text": "также",
+    "id": "consumer-settings-1142"
+  },
+  {
+    "startMs": 1894880,
+    "endMs": 1895640,
+    "text": "max pull records",
+    "id": "consumer-settings-1143"
+  },
+  {
+    "startMs": 1895640,
+    "endMs": 1896380,
+    "text": "я обычно ставлю",
+    "id": "consumer-settings-1144"
+  },
+  {
+    "startMs": 1896380,
+    "endMs": 1897060,
+    "text": "в районе 50,",
+    "id": "consumer-settings-1145"
+  },
+  {
+    "startMs": 1897680,
+    "endMs": 1898760,
+    "text": "чтобы пачки были меньше,",
+    "id": "consumer-settings-1146"
+  },
+  {
+    "startMs": 1899040,
+    "endMs": 1899740,
+    "text": "чтобы было меньше",
+    "id": "consumer-settings-1147"
+  },
+  {
+    "startMs": 1899740,
+    "endMs": 1901220,
+    "text": "повторов",
+    "id": "consumer-settings-1148"
+  },
+  {
+    "startMs": 1901220,
+    "endMs": 1901760,
+    "text": "при крэше.",
+    "id": "consumer-settings-1149"
+  },
+  {
+    "startMs": 1976120,
+    "endMs": 1976760,
+    "text": "Есть также",
+    "id": "consumer-liveness-1231"
+  },
+  {
+    "startMs": 1976760,
+    "endMs": 1977340,
+    "text": "вот такой список",
+    "id": "consumer-liveness-1232"
+  },
+  {
+    "startMs": 1977340,
+    "endMs": 1977760,
+    "text": "настроек,",
+    "id": "consumer-liveness-1233"
+  },
+  {
+    "startMs": 1977840,
+    "endMs": 1978760,
+    "text": "которые я взял",
+    "id": "consumer-liveness-1234"
+  },
+  {
+    "startMs": 1978760,
+    "endMs": 1979260,
+    "text": "с своего",
+    "id": "consumer-liveness-1235"
+  },
+  {
+    "startMs": 1979260,
+    "endMs": 1980800,
+    "text": "предыдущего проекта,",
+    "id": "consumer-liveness-1236"
+  },
+  {
+    "startMs": 1981180,
+    "endMs": 1981600,
+    "text": "очень часто",
+    "id": "consumer-liveness-1237"
+  },
+  {
+    "startMs": 1981600,
+    "endMs": 1982280,
+    "text": "их использую,",
+    "id": "consumer-liveness-1238"
+  },
+  {
+    "startMs": 1982920,
+    "endMs": 1983580,
+    "text": "описание вы также",
+    "id": "consumer-liveness-1239"
+  },
+  {
+    "startMs": 1983580,
+    "endMs": 1984100,
+    "text": "можете увидеть,",
+    "id": "consumer-liveness-1240"
+  },
+  {
+    "startMs": 1984180,
+    "endMs": 1984840,
+    "text": "зачем они нужны,",
+    "id": "consumer-liveness-1241"
+  },
+  {
+    "startMs": 1985340,
+    "endMs": 1986180,
+    "text": "зачем они нужны,",
+    "id": "consumer-liveness-1242"
+  },
+  {
+    "startMs": 1986480,
+    "endMs": 1987600,
+    "text": "очень полезная штука.",
+    "id": "consumer-liveness-1243"
+  },
+  {
+    "startMs": 2007360,
+    "endMs": 2007960,
+    "text": "вот список",
+    "id": "provider-errors-1269"
+  },
+  {
+    "startMs": 2007960,
+    "endMs": 2008420,
+    "text": "примеров",
+    "id": "provider-errors-1270"
+  },
+  {
+    "startMs": 2008420,
+    "endMs": 2008860,
+    "text": "котов,",
+    "id": "provider-errors-1271"
+  },
+  {
+    "startMs": 2008940,
+    "endMs": 2009360,
+    "text": "которые можно",
+    "id": "provider-errors-1272"
+  },
+  {
+    "startMs": 2009360,
+    "endMs": 2009840,
+    "text": "ретриить,",
+    "id": "provider-errors-1273"
+  },
+  {
+    "startMs": 2010360,
+    "endMs": 2010860,
+    "text": "а есть также",
+    "id": "provider-errors-1274"
+  },
+  {
+    "startMs": 2010860,
+    "endMs": 2011820,
+    "text": "некоторые терминальные",
+    "id": "provider-errors-1275"
+  },
+  {
+    "startMs": 2011820,
+    "endMs": 2012220,
+    "text": "ошибки,",
+    "id": "provider-errors-1276"
+  },
+  {
+    "startMs": 2012360,
+    "endMs": 2012900,
+    "text": "которые ретриить",
+    "id": "provider-errors-1277"
+  },
+  {
+    "startMs": 2012900,
+    "endMs": 2013360,
+    "text": "нет смысла,",
+    "id": "provider-errors-1278"
+  },
+  {
+    "startMs": 2013440,
+    "endMs": 2013960,
+    "text": "тоже пример",
+    "id": "provider-errors-1279"
+  },
+  {
+    "startMs": 2013960,
+    "endMs": 2014300,
+    "text": "вы видите",
+    "id": "provider-errors-1280"
+  },
+  {
+    "startMs": 2014300,
+    "endMs": 2014980,
+    "text": "в своем экране.",
+    "id": "provider-errors-1281"
+  },
+  {
+    "startMs": 2015840,
+    "endMs": 2016600,
+    "text": "Обязательно при этом",
+    "id": "provider-errors-1282"
+  },
+  {
+    "startMs": 2016600,
+    "endMs": 2017040,
+    "text": "использовать",
+    "id": "provider-errors-1283"
+  },
+  {
+    "startMs": 2017040,
+    "endMs": 2017940,
+    "text": "Backoff и Jitter,",
+    "id": "provider-errors-1284"
+  },
+  {
+    "startMs": 2018480,
+    "endMs": 2019400,
+    "text": "чтобы не",
+    "id": "provider-errors-1285"
+  },
+  {
+    "startMs": 2019400,
+    "endMs": 2020080,
+    "text": "заваливать",
+    "id": "provider-errors-1286"
+  },
+  {
+    "startMs": 2020080,
+    "endMs": 2021240,
+    "text": "запросами",
+    "id": "provider-errors-1287"
+  },
+  {
+    "startMs": 2021240,
+    "endMs": 2022060,
+    "text": "наших провайдеров,",
+    "id": "provider-errors-1288"
+  },
+  {
+    "startMs": 2022160,
+    "endMs": 2023000,
+    "text": "они это очень любят",
+    "id": "provider-errors-1289"
+  },
+  {
+    "startMs": 2023000,
+    "endMs": 2023780,
+    "text": "и могут нас",
+    "id": "provider-errors-1290"
+  },
+  {
+    "startMs": 2023780,
+    "endMs": 2024420,
+    "text": "за это банить.",
+    "id": "provider-errors-1291"
+  },
+  {
+    "startMs": 2074120,
+    "endMs": 2074480,
+    "text": "вот так,",
+    "id": "retry-topics-1344"
+  },
+  {
+    "startMs": 2074560,
+    "endMs": 2074860,
+    "text": "вы можете",
+    "id": "retry-topics-1345"
+  },
+  {
+    "startMs": 2074860,
+    "endMs": 2075400,
+    "text": "видеть на своем",
+    "id": "retry-topics-1346"
+  },
+  {
+    "startMs": 2075400,
+    "endMs": 2075780,
+    "text": "экране,",
+    "id": "retry-topics-1347"
+  },
+  {
+    "startMs": 2075880,
+    "endMs": 2076180,
+    "text": "когда у нас",
+    "id": "retry-topics-1348"
+  },
+  {
+    "startMs": 2076180,
+    "endMs": 2076480,
+    "text": "есть",
+    "id": "retry-topics-1349"
+  },
+  {
+    "startMs": 2076480,
+    "endMs": 2077840,
+    "text": "несколько топиков,",
+    "id": "retry-topics-1350"
+  },
+  {
+    "startMs": 2078040,
+    "endMs": 2078280,
+    "text": "у нас",
+    "id": "retry-topics-1351"
+  },
+  {
+    "startMs": 2078280,
+    "endMs": 2078780,
+    "text": "добавляется",
+    "id": "retry-topics-1352"
+  },
+  {
+    "startMs": 2078780,
+    "endMs": 2079160,
+    "text": "просто",
+    "id": "retry-topics-1353"
+  },
+  {
+    "startMs": 2079160,
+    "endMs": 2079920,
+    "text": "саб название",
+    "id": "retry-topics-1354"
+  },
+  {
+    "startMs": 2079920,
+    "endMs": 2080520,
+    "text": "с ретриями,",
+    "id": "retry-topics-1355"
+  },
+  {
+    "startMs": 2081000,
+    "endMs": 2081360,
+    "text": "а в конце",
+    "id": "retry-topics-1356"
+  },
+  {
+    "startMs": 2081360,
+    "endMs": 2082000,
+    "text": "нам еще и важно",
+    "id": "retry-topics-1357"
+  },
+  {
+    "startMs": 2082000,
+    "endMs": 2082420,
+    "text": "добавлять",
+    "id": "retry-topics-1358"
+  },
+  {
+    "startMs": 2082420,
+    "endMs": 2083040,
+    "text": "DLQ.",
+    "id": "retry-topics-1359"
+  },
+  {
+    "startMs": 2083740,
+    "endMs": 2084420,
+    "text": "Про него важно",
+    "id": "retry-topics-1360"
+  },
+  {
+    "startMs": 2084420,
+    "endMs": 2085080,
+    "text": "точно не забывать,",
+    "id": "retry-topics-1361"
+  },
+  {
+    "startMs": 2085240,
+    "endMs": 2085600,
+    "text": "потому что",
+    "id": "retry-topics-1362"
+  },
+  {
+    "startMs": 2085600,
+    "endMs": 2086200,
+    "text": "обязательно будут",
+    "id": "retry-topics-1363"
+  },
+  {
+    "startMs": 2086200,
+    "endMs": 2086600,
+    "text": "моменты,",
+    "id": "retry-topics-1364"
+  },
+  {
+    "startMs": 2086760,
+    "endMs": 2087300,
+    "text": "когда какое-нибудь",
+    "id": "retry-topics-1365"
+  },
+  {
+    "startMs": 2087300,
+    "endMs": 2088180,
+    "text": "единственное сообщение",
+    "id": "retry-topics-1366"
+  },
+  {
+    "startMs": 2088180,
+    "endMs": 2089340,
+    "text": "все равно не отправится,",
+    "id": "retry-topics-1367"
+  },
+  {
+    "startMs": 2089420,
+    "endMs": 2090140,
+    "text": "нужно ее вручную",
+    "id": "retry-topics-1368"
+  },
+  {
+    "startMs": 2090140,
+    "endMs": 2090600,
+    "text": "разбирать.",
+    "id": "retry-topics-1369"
+  },
+  {
+    "startMs": 2091520,
+    "endMs": 2092280,
+    "text": "это делать",
+    "id": "retry-topics-1370"
+  },
+  {
+    "startMs": 2092280,
+    "endMs": 2093020,
+    "text": "невероятно важно,",
+    "id": "retry-topics-1371"
+  },
+  {
+    "startMs": 2093380,
+    "endMs": 2094140,
+    "text": "очень много людей",
+    "id": "retry-topics-1372"
+  },
+  {
+    "startMs": 2094140,
+    "endMs": 2094820,
+    "text": "про это забывают,",
+    "id": "retry-topics-1373"
+  },
+  {
+    "startMs": 2094940,
+    "endMs": 2095280,
+    "text": "прошу,",
+    "id": "retry-topics-1374"
+  },
+  {
+    "startMs": 2095340,
+    "endMs": 2095760,
+    "text": "не забывай,",
+    "id": "retry-topics-1375"
+  },
+  {
+    "startMs": 2095840,
+    "endMs": 2096180,
+    "text": "пожалуйста,",
+    "id": "retry-topics-1376"
+  },
+  {
+    "startMs": 2096240,
+    "endMs": 2096800,
+    "text": "ты про это.",
+    "id": "retry-topics-1377"
+  },
+  {
+    "startMs": 2110920,
+    "endMs": 2111600,
+    "text": "Это можно",
+    "id": "sweeper-1397"
+  },
+  {
+    "startMs": 2111600,
+    "endMs": 2112280,
+    "text": "делать очень просто,",
+    "id": "sweeper-1398"
+  },
+  {
+    "startMs": 2112400,
+    "endMs": 2112640,
+    "text": "например,",
+    "id": "sweeper-1399"
+  },
+  {
+    "startMs": 2112720,
+    "endMs": 2113400,
+    "text": "вот такой SQL,",
+    "id": "sweeper-1400"
+  },
+  {
+    "startMs": 2113500,
+    "endMs": 2113900,
+    "text": "как будто видишь",
+    "id": "sweeper-1401"
+  },
+  {
+    "startMs": 2113900,
+    "endMs": 2114520,
+    "text": "на самом экране,",
+    "id": "sweeper-1402"
+  },
+  {
+    "startMs": 2114640,
+    "endMs": 2115360,
+    "text": "там раз в минуту",
+    "id": "sweeper-1403"
+  },
+  {
+    "startMs": 2115360,
+    "endMs": 2115640,
+    "text": "мы будем",
+    "id": "sweeper-1404"
+  },
+  {
+    "startMs": 2115640,
+    "endMs": 2115880,
+    "text": "обновлять",
+    "id": "sweeper-1405"
+  },
+  {
+    "startMs": 2115880,
+    "endMs": 2116520,
+    "text": "длинификации",
+    "id": "sweeper-1406"
+  },
+  {
+    "startMs": 2116520,
+    "endMs": 2117500,
+    "text": "и ставить",
+    "id": "sweeper-1407"
+  },
+  {
+    "startMs": 2117500,
+    "endMs": 2117820,
+    "text": "статус",
+    "id": "sweeper-1408"
+  },
+  {
+    "startMs": 2117820,
+    "endMs": 2118240,
+    "text": "accepted,",
+    "id": "sweeper-1409"
+  },
+  {
+    "startMs": 2118500,
+    "endMs": 2118880,
+    "text": "обновлять",
+    "id": "sweeper-1410"
+  },
+  {
+    "startMs": 2118880,
+    "endMs": 2119400,
+    "text": "попытки,",
+    "id": "sweeper-1411"
+  },
+  {
+    "startMs": 2119960,
+    "endMs": 2120660,
+    "text": "если он в статус",
+    "id": "sweeper-1412"
+  },
+  {
+    "startMs": 2120660,
+    "endMs": 2121040,
+    "text": "sending,",
+    "id": "sweeper-1413"
+  },
+  {
+    "startMs": 2121260,
+    "endMs": 2121540,
+    "text": "например,",
+    "id": "sweeper-1414"
+  },
+  {
+    "startMs": 2121740,
+    "endMs": 2122540,
+    "text": "там больше",
+    "id": "sweeper-1415"
+  },
+  {
+    "startMs": 2122540,
+    "endMs": 2123140,
+    "text": "пяти минут,",
+    "id": "sweeper-1416"
+  },
+  {
+    "startMs": 2123380,
+    "endMs": 2124240,
+    "text": "значение можно",
+    "id": "sweeper-1417"
+  },
+  {
+    "startMs": 2124240,
+    "endMs": 2124700,
+    "text": "динамически",
+    "id": "sweeper-1418"
+  },
+  {
+    "startMs": 2124700,
+    "endMs": 2125400,
+    "text": "конфигурировать.",
+    "id": "sweeper-1419"
+  },
+  {
+    "startMs": 2126260,
+    "endMs": 2126540,
+    "text": "Это,",
+    "id": "sweeper-1420"
+  },
+  {
+    "startMs": 2126800,
+    "endMs": 2126940,
+    "text": "да,",
+    "id": "sweeper-1421"
+  },
+  {
+    "startMs": 2127080,
+    "endMs": 2127660,
+    "text": "породить дубль,",
+    "id": "sweeper-1422"
+  },
+  {
+    "startMs": 2127780,
+    "endMs": 2128420,
+    "text": "это нужно явно",
+    "id": "sweeper-1423"
+  },
+  {
+    "startMs": 2128420,
+    "endMs": 2129280,
+    "text": "знать и проговаривать,",
+    "id": "sweeper-1424"
+  },
+  {
+    "startMs": 2129860,
+    "endMs": 2131080,
+    "text": "но мы это",
+    "id": "sweeper-1425"
+  },
+  {
+    "startMs": 2131080,
+    "endMs": 2131840,
+    "text": "делаем намеренно,",
+    "id": "sweeper-1426"
+  },
+  {
+    "startMs": 2132040,
+    "endMs": 2132920,
+    "text": "нам важнее отправить",
+    "id": "sweeper-1427"
+  },
+  {
+    "startMs": 2132920,
+    "endMs": 2133260,
+    "text": "два раза,",
+    "id": "sweeper-1428"
+  },
+  {
+    "startMs": 2133380,
+    "endMs": 2134300,
+    "text": "чем вообще не отправить.",
+    "id": "sweeper-1429"
+  },
+  {
+    "startMs": 2385300,
+    "endMs": 2385720,
+    "text": "Это будет",
+    "id": "channel-priority-matrix-1712"
+  },
+  {
+    "startMs": 2385720,
+    "endMs": 2386020,
+    "text": "выглядеть",
+    "id": "channel-priority-matrix-1713"
+  },
+  {
+    "startMs": 2386020,
+    "endMs": 2386200,
+    "text": "как,",
+    "id": "channel-priority-matrix-1714"
+  },
+  {
+    "startMs": 2386440,
+    "endMs": 2386540,
+    "text": "например,",
+    "id": "channel-priority-matrix-1715"
+  },
+  {
+    "startMs": 2386620,
+    "endMs": 2387320,
+    "text": "такая табличка,",
+    "id": "channel-priority-matrix-1716"
+  },
+  {
+    "startMs": 2387560,
+    "endMs": 2387900,
+    "text": "соответственно,",
+    "id": "channel-priority-matrix-1717"
+  },
+  {
+    "startMs": 2387980,
+    "endMs": 2388160,
+    "text": "у нас",
+    "id": "channel-priority-matrix-1718"
+  },
+  {
+    "startMs": 2388160,
+    "endMs": 2388580,
+    "text": "по P0",
+    "id": "channel-priority-matrix-1719"
+  },
+  {
+    "startMs": 2388580,
+    "endMs": 2389060,
+    "text": "и по PUSHу",
+    "id": "channel-priority-matrix-1720"
+  },
+  {
+    "startMs": 2389060,
+    "endMs": 2390380,
+    "text": "будут отдельные",
+    "id": "channel-priority-matrix-1721"
+  },
+  {
+    "startMs": 2390380,
+    "endMs": 2392260,
+    "text": "папики,",
+    "id": "channel-priority-matrix-1722"
+  },
+  {
+    "startMs": 2392660,
+    "endMs": 2393300,
+    "text": "отдельный топик,",
+    "id": "channel-priority-matrix-1723"
+  },
+  {
+    "startMs": 2393440,
+    "endMs": 2393820,
+    "text": "у него будет",
+    "id": "channel-priority-matrix-1724"
+  },
+  {
+    "startMs": 2393820,
+    "endMs": 2394180,
+    "text": "отдельные",
+    "id": "channel-priority-matrix-1725"
+  },
+  {
+    "startMs": 2394180,
+    "endMs": 2394560,
+    "text": "воркеры,",
+    "id": "channel-priority-matrix-1726"
+  },
+  {
+    "startMs": 2395040,
+    "endMs": 2395360,
+    "text": "это все",
+    "id": "channel-priority-matrix-1727"
+  },
+  {
+    "startMs": 2395360,
+    "endMs": 2395820,
+    "text": "преобразует",
+    "id": "channel-priority-matrix-1728"
+  },
+  {
+    "startMs": 2395820,
+    "endMs": 2396220,
+    "text": "в такую",
+    "id": "channel-priority-matrix-1729"
+  },
+  {
+    "startMs": 2396220,
+    "endMs": 2396760,
+    "text": "табличку.",
+    "id": "channel-priority-matrix-1730"
+  },
+  {
+    "startMs": 2398400,
+    "endMs": 2399200,
+    "text": "Почему я делаю",
+    "id": "channel-priority-matrix-1731"
+  },
+  {
+    "startMs": 2399200,
+    "endMs": 2399400,
+    "text": "так?",
+    "id": "channel-priority-matrix-1732"
+  },
+  {
+    "startMs": 2399500,
+    "endMs": 2399900,
+    "text": "Потому что",
+    "id": "channel-priority-matrix-1733"
+  },
+  {
+    "startMs": 2399900,
+    "endMs": 2400260,
+    "text": "медленный",
+    "id": "channel-priority-matrix-1734"
+  },
+  {
+    "startMs": 2400260,
+    "endMs": 2400520,
+    "text": "почтовый",
+    "id": "channel-priority-matrix-1735"
+  },
+  {
+    "startMs": 2400520,
+    "endMs": 2400860,
+    "text": "провайдер",
+    "id": "channel-priority-matrix-1736"
+  },
+  {
+    "startMs": 2400860,
+    "endMs": 2401300,
+    "text": "не должен",
+    "id": "channel-priority-matrix-1737"
+  },
+  {
+    "startMs": 2401300,
+    "endMs": 2401720,
+    "text": "тормозить",
+    "id": "channel-priority-matrix-1738"
+  },
+  {
+    "startMs": 2401720,
+    "endMs": 2401960,
+    "text": "вообще",
+    "id": "channel-priority-matrix-1739"
+  },
+  {
+    "startMs": 2401960,
+    "endMs": 2402200,
+    "text": "весь",
+    "id": "channel-priority-matrix-1740"
+  },
+  {
+    "startMs": 2402200,
+    "endMs": 2402460,
+    "text": "пуш.",
+    "id": "channel-priority-matrix-1741"
+  },
+  {
+    "startMs": 2403660,
+    "endMs": 2404160,
+    "text": "И не только.",
+    "id": "channel-priority-matrix-1742"
+  },
+  {
+    "startMs": 2406260,
+    "endMs": 2406760,
+    "text": "Главное,",
+    "id": "channel-priority-matrix-1743"
+  },
+  {
+    "startMs": 2407160,
+    "endMs": 2407780,
+    "text": "еще важно,",
+    "id": "channel-priority-matrix-1744"
+  },
+  {
+    "startMs": 2407960,
+    "endMs": 2408360,
+    "text": "чтобы OTP",
+    "id": "channel-priority-matrix-1745"
+  },
+  {
+    "startMs": 2408360,
+    "endMs": 2409400,
+    "text": "по SMS",
+    "id": "channel-priority-matrix-1746"
+  },
+  {
+    "startMs": 2409400,
+    "endMs": 2410020,
+    "text": "не вставал",
+    "id": "channel-priority-matrix-1747"
+  },
+  {
+    "startMs": 2410020,
+    "endMs": 2410320,
+    "text": "в целом",
+    "id": "channel-priority-matrix-1748"
+  },
+  {
+    "startMs": 2410320,
+    "endMs": 2411140,
+    "text": "за SMS-компанией,",
+    "id": "channel-priority-matrix-1749"
+  },
+  {
+    "startMs": 2411680,
+    "endMs": 2412020,
+    "text": "в будущем",
+    "id": "channel-priority-matrix-1750"
+  },
+  {
+    "startMs": 2412020,
+    "endMs": 2412500,
+    "text": "у нас будет",
+    "id": "channel-priority-matrix-1751"
+  },
+  {
+    "startMs": 2412500,
+    "endMs": 2413180,
+    "text": "у провайдеров",
+    "id": "channel-priority-matrix-1752"
+  },
+  {
+    "startMs": 2413180,
+    "endMs": 2413940,
+    "text": "разные бюджеты",
+    "id": "channel-priority-matrix-1753"
+  },
+  {
+    "startMs": 2413940,
+    "endMs": 2414240,
+    "text": "тоже,",
+    "id": "channel-priority-matrix-1754"
+  },
+  {
+    "startMs": 2414740,
+    "endMs": 2415620,
+    "text": "это решение,",
+    "id": "channel-priority-matrix-1755"
+  },
+  {
+    "startMs": 2415660,
+    "endMs": 2415960,
+    "text": "оно более",
+    "id": "channel-priority-matrix-1756"
+  },
+  {
+    "startMs": 2415960,
+    "endMs": 2416620,
+    "text": "масштабируется.",
+    "id": "channel-priority-matrix-1757"
+  },
+  {
+    "startMs": 2417180,
+    "endMs": 2417740,
+    "text": "Получаем мы",
+    "id": "channel-priority-matrix-1758"
+  },
+  {
+    "startMs": 2417740,
+    "endMs": 2418140,
+    "text": "суммарно",
+    "id": "channel-priority-matrix-1759"
+  },
+  {
+    "startMs": 2418140,
+    "endMs": 2418380,
+    "text": "где-то",
+    "id": "channel-priority-matrix-1760"
+  },
+  {
+    "startMs": 2418380,
+    "endMs": 2419100,
+    "text": "9 топиков,",
+    "id": "channel-priority-matrix-1761"
+  },
+  {
+    "startMs": 2419300,
+    "endMs": 2420000,
+    "text": "это больше,",
+    "id": "channel-priority-matrix-1762"
+  },
+  {
+    "startMs": 2420180,
+    "endMs": 2420720,
+    "text": "но это вообще",
+    "id": "channel-priority-matrix-1763"
+  },
+  {
+    "startMs": 2420720,
+    "endMs": 2421200,
+    "text": "для Кавки",
+    "id": "channel-priority-matrix-1764"
+  },
+  {
+    "startMs": 2421200,
+    "endMs": 2421520,
+    "text": "все еще",
+    "id": "channel-priority-matrix-1765"
+  },
+  {
+    "startMs": 2421520,
+    "endMs": 2421840,
+    "text": "ничего.",
+    "id": "channel-priority-matrix-1766"
+  },
+  {
+    "startMs": 2430280,
+    "endMs": 2431060,
+    "text": "Можно взять",
+    "id": "capacity-table-1774"
+  },
+  {
+    "startMs": 2431060,
+    "endMs": 2431480,
+    "text": "вот такую",
+    "id": "capacity-table-1775"
+  },
+  {
+    "startMs": 2431480,
+    "endMs": 2431920,
+    "text": "вот тоже",
+    "id": "capacity-table-1776"
+  },
+  {
+    "startMs": 2431920,
+    "endMs": 2432420,
+    "text": "табличку",
+    "id": "capacity-table-1777"
+  },
+  {
+    "startMs": 2432420,
+    "endMs": 2433500,
+    "text": "с тем,",
+    "id": "capacity-table-1778"
+  },
+  {
+    "startMs": 2433580,
+    "endMs": 2433980,
+    "text": "с какой у нас",
+    "id": "capacity-table-1779"
+  },
+  {
+    "startMs": 2433980,
+    "endMs": 2434460,
+    "text": "будет поток",
+    "id": "capacity-table-1780"
+  },
+  {
+    "startMs": 2434460,
+    "endMs": 2434800,
+    "text": "пикеш,",
+    "id": "capacity-table-1781"
+  },
+  {
+    "startMs": 2434900,
+    "endMs": 2435460,
+    "text": "дается время",
+    "id": "capacity-table-1782"
+  },
+  {
+    "startMs": 2435460,
+    "endMs": 2435840,
+    "text": "выжива,",
+    "id": "capacity-table-1783"
+  },
+  {
+    "startMs": 2435920,
+    "endMs": 2436320,
+    "text": "сколько у нас",
+    "id": "capacity-table-1784"
+  },
+  {
+    "startMs": 2436320,
+    "endMs": 2436700,
+    "text": "может быть",
+    "id": "capacity-table-1785"
+  },
+  {
+    "startMs": 2436700,
+    "endMs": 2437100,
+    "text": "инфлайт",
+    "id": "capacity-table-1786"
+  },
+  {
+    "startMs": 2437100,
+    "endMs": 2437640,
+    "text": "запросов",
+    "id": "capacity-table-1787"
+  },
+  {
+    "startMs": 2437640,
+    "endMs": 2438640,
+    "text": "и примерно",
+    "id": "capacity-table-1788"
+  },
+  {
+    "startMs": 2438640,
+    "endMs": 2439160,
+    "text": "партиции",
+    "id": "capacity-table-1789"
+  },
+  {
+    "startMs": 2439160,
+    "endMs": 2439540,
+    "text": "умноженной",
+    "id": "capacity-table-1790"
+  },
+  {
+    "startMs": 2439540,
+    "endMs": 2440140,
+    "text": "конкуренции.",
+    "id": "capacity-table-1791"
+  },
+  {
+    "startMs": 2441500,
+    "endMs": 2441720,
+    "text": "В целом,",
+    "id": "capacity-table-1792"
+  },
+  {
+    "startMs": 2441780,
+    "endMs": 2442300,
+    "text": "этот брокер",
+    "id": "capacity-table-1793"
+  },
+  {
+    "startMs": 2442300,
+    "endMs": 2442940,
+    "text": "все выдержит,",
+    "id": "capacity-table-1794"
+  },
+  {
+    "startMs": 2443020,
+    "endMs": 2443280,
+    "text": "даже,",
+    "id": "capacity-table-1795"
+  },
+  {
+    "startMs": 2443380,
+    "endMs": 2443900,
+    "text": "как говорится,",
+    "id": "capacity-table-1796"
+  },
+  {
+    "startMs": 2444140,
+    "endMs": 2444900,
+    "text": "не увидит,",
+    "id": "capacity-table-1797"
+  },
+  {
+    "startMs": 2445100,
+    "endMs": 2445680,
+    "text": "абсолютно",
+    "id": "capacity-table-1798"
+  },
+  {
+    "startMs": 2445680,
+    "endMs": 2446380,
+    "text": "минимальная",
+    "id": "capacity-table-1799"
+  },
+  {
+    "startMs": 2446380,
+    "endMs": 2446900,
+    "text": "нагрузка.",
+    "id": "capacity-table-1800"
+  },
+  {
+    "startMs": 2593880,
+    "endMs": 2594520,
+    "text": "Давай теперь",
+    "id": "latency-budget-1977"
+  },
+  {
+    "startMs": 2594520,
+    "endMs": 2595200,
+    "text": "еще посмотрим,",
+    "id": "latency-budget-1978"
+  },
+  {
+    "startMs": 2595380,
+    "endMs": 2595760,
+    "text": "куда мы",
+    "id": "latency-budget-1979"
+  },
+  {
+    "startMs": 2595760,
+    "endMs": 2596120,
+    "text": "вообще",
+    "id": "latency-budget-1980"
+  },
+  {
+    "startMs": 2596120,
+    "endMs": 2597240,
+    "text": "тратим",
+    "id": "latency-budget-1981"
+  },
+  {
+    "startMs": 2597240,
+    "endMs": 2597720,
+    "text": "наш бюджет",
+    "id": "latency-budget-1982"
+  },
+  {
+    "startMs": 2597720,
+    "endMs": 2598360,
+    "text": "5 секунд",
+    "id": "latency-budget-1983"
+  },
+  {
+    "startMs": 2598360,
+    "endMs": 2599420,
+    "text": "для высокоприоритетных.",
+    "id": "latency-budget-1984"
+  },
+  {
+    "startMs": 2599900,
+    "endMs": 2600320,
+    "text": "Прием",
+    "id": "latency-budget-1985"
+  },
+  {
+    "startMs": 2600320,
+    "endMs": 2601080,
+    "text": "плюс транзакция",
+    "id": "latency-budget-1986"
+  },
+  {
+    "startMs": 2601080,
+    "endMs": 2601720,
+    "text": "в бокс",
+    "id": "latency-budget-1987"
+  },
+  {
+    "startMs": 2601720,
+    "endMs": 2602460,
+    "text": "я бы оценил",
+    "id": "latency-budget-1988"
+  },
+  {
+    "startMs": 2602460,
+    "endMs": 2603940,
+    "text": "в 95-ом",
+    "id": "latency-budget-1989"
+  },
+  {
+    "startMs": 2603940,
+    "endMs": 2604420,
+    "text": "персентиле,",
+    "id": "latency-budget-1990"
+  },
+  {
+    "startMs": 2604500,
+    "endMs": 2604700,
+    "text": "где-то",
+    "id": "latency-budget-1991"
+  },
+  {
+    "startMs": 2604700,
+    "endMs": 2605340,
+    "text": "в 100 миллисекунд,",
+    "id": "latency-budget-1992"
+  },
+  {
+    "startMs": 2605800,
+    "endMs": 2606800,
+    "text": "на самом деле он будет работать",
+    "id": "latency-budget-1993"
+  },
+  {
+    "startMs": 2606800,
+    "endMs": 2607660,
+    "text": "за 20-30,",
+    "id": "latency-budget-1994"
+  },
+  {
+    "startMs": 2608320,
+    "endMs": 2609500,
+    "text": "это я все беру",
+    "id": "latency-budget-1995"
+  },
+  {
+    "startMs": 2609500,
+    "endMs": 2610080,
+    "text": "из личного опыта,",
+    "id": "latency-budget-1996"
+  },
+  {
+    "startMs": 2610140,
+    "endMs": 2611100,
+    "text": "из-за их личного наблюдения.",
+    "id": "latency-budget-1997"
+  },
+  {
+    "startMs": 2611320,
+    "endMs": 2611940,
+    "text": "У нас там есть",
+    "id": "latency-budget-1998"
+  },
+  {
+    "startMs": 2611940,
+    "endMs": 2612260,
+    "text": "индекс",
+    "id": "latency-budget-1999"
+  },
+  {
+    "startMs": 2612260,
+    "endMs": 2612460,
+    "text": "по",
+    "id": "latency-budget-2000"
+  },
+  {
+    "startMs": 2612460,
+    "endMs": 2613060,
+    "text": "доп.нтк,",
+    "id": "latency-budget-2001"
+  },
+  {
+    "startMs": 2613280,
+    "endMs": 2614380,
+    "text": "чтобы откидывать",
+    "id": "latency-budget-2002"
+  },
+  {
+    "startMs": 2614380,
+    "endMs": 2614920,
+    "text": "повторы",
+    "id": "latency-budget-2003"
+  },
+  {
+    "startMs": 2614920,
+    "endMs": 2615560,
+    "text": "со стороны",
+    "id": "latency-budget-2004"
+  },
+  {
+    "startMs": 2615560,
+    "endMs": 2615980,
+    "text": "upstream",
+    "id": "latency-budget-2005"
+  },
+  {
+    "startMs": 2615980,
+    "endMs": 2616500,
+    "text": "стримов,",
+    "id": "latency-budget-2006"
+  },
+  {
+    "startMs": 2616980,
+    "endMs": 2617640,
+    "text": "и транзакция у нас",
+    "id": "latency-budget-2007"
+  },
+  {
+    "startMs": 2617640,
+    "endMs": 2618260,
+    "text": "очень маленькая,",
+    "id": "latency-budget-2008"
+  },
+  {
+    "startMs": 2618440,
+    "endMs": 2619380,
+    "text": "ты ее на своем экране",
+    "id": "latency-budget-2009"
+  },
+  {
+    "startMs": 2619380,
+    "endMs": 2619600,
+    "text": "видел.",
+    "id": "latency-budget-2010"
+  },
+  {
+    "startMs": 2620560,
+    "endMs": 2621220,
+    "text": "Следующий у нас",
+    "id": "latency-budget-2011"
+  },
+  {
+    "startMs": 2621220,
+    "endMs": 2621800,
+    "text": "переход из",
+    "id": "latency-budget-2012"
+  },
+  {
+    "startMs": 2621800,
+    "endMs": 2622520,
+    "text": "отбокса в Kafka,",
+    "id": "latency-budget-2013"
+  },
+  {
+    "startMs": 2622640,
+    "endMs": 2623160,
+    "text": "у нас есть какой-то",
+    "id": "latency-budget-2014"
+  },
+  {
+    "startMs": 2623160,
+    "endMs": 2623500,
+    "text": "воркер,",
+    "id": "latency-budget-2015"
+  },
+  {
+    "startMs": 2623580,
+    "endMs": 2624340,
+    "text": "который все достает,",
+    "id": "latency-budget-2016"
+  },
+  {
+    "startMs": 2624920,
+    "endMs": 2626100,
+    "text": "это может работать",
+    "id": "latency-budget-2017"
+  },
+  {
+    "startMs": 2626100,
+    "endMs": 2626860,
+    "text": "как очень быстро,",
+    "id": "latency-budget-2018"
+  },
+  {
+    "startMs": 2626980,
+    "endMs": 2627720,
+    "text": "так и относительно",
+    "id": "latency-budget-2019"
+  },
+  {
+    "startMs": 2627720,
+    "endMs": 2628180,
+    "text": "не быстро.",
+    "id": "latency-budget-2020"
+  },
+  {
+    "startMs": 2628480,
+    "endMs": 2629120,
+    "text": "Я бы это оценил",
+    "id": "latency-budget-2021"
+  },
+  {
+    "startMs": 2629120,
+    "endMs": 2630300,
+    "text": "от 50 до",
+    "id": "latency-budget-2022"
+  },
+  {
+    "startMs": 2630300,
+    "endMs": 2631540,
+    "text": "там 300 миллисекунд.",
+    "id": "latency-budget-2023"
+  },
+  {
+    "startMs": 2632020,
+    "endMs": 2632320,
+    "text": "Во-первых,",
+    "id": "latency-budget-2024"
+  },
+  {
+    "startMs": 2632420,
+    "endMs": 2632920,
+    "text": "мы там можем",
+    "id": "latency-budget-2025"
+  },
+  {
+    "startMs": 2632920,
+    "endMs": 2633760,
+    "text": "применить паттерн",
+    "id": "latency-budget-2026"
+  },
+  {
+    "startMs": 2635800,
+    "endMs": 2635980,
+    "text": "или быть,",
+    "id": "latency-budget-2027"
+  },
+  {
+    "startMs": 2636080,
+    "endMs": 2636660,
+    "text": "прости господи,",
+    "id": "latency-budget-2028"
+  },
+  {
+    "startMs": 2636720,
+    "endMs": 2637140,
+    "text": "дебензиум.",
+    "id": "latency-budget-2029"
+  },
+  {
+    "startMs": 2637640,
+    "endMs": 2638280,
+    "text": "В лучшем случае",
+    "id": "latency-budget-2030"
+  },
+  {
+    "startMs": 2638280,
+    "endMs": 2638940,
+    "text": "обычный",
+    "id": "latency-budget-2031"
+  },
+  {
+    "startMs": 2638940,
+    "endMs": 2639820,
+    "text": "по-линкс-воркера",
+    "id": "latency-budget-2032"
+  },
+  {
+    "startMs": 2639820,
+    "endMs": 2640720,
+    "text": "он,",
+    "id": "latency-budget-2033"
+  },
+  {
+    "startMs": 2640980,
+    "endMs": 2641160,
+    "text": "возможно,",
+    "id": "latency-budget-2034"
+  },
+  {
+    "startMs": 2641300,
+    "endMs": 2642080,
+    "text": "тоже закроет,",
+    "id": "latency-budget-2035"
+  },
+  {
+    "startMs": 2642720,
+    "endMs": 2643100,
+    "text": "поместится",
+    "id": "latency-budget-2036"
+  },
+  {
+    "startMs": 2643100,
+    "endMs": 2643580,
+    "text": "в наш бюджет",
+    "id": "latency-budget-2037"
+  },
+  {
+    "startMs": 2643580,
+    "endMs": 2644120,
+    "text": "5 секунд.",
+    "id": "latency-budget-2038"
+  },
+  {
+    "startMs": 2644880,
+    "endMs": 2645300,
+    "text": "Следующий",
+    "id": "latency-budget-2039"
+  },
+  {
+    "startMs": 2645300,
+    "endMs": 2645760,
+    "text": "это лаг",
+    "id": "latency-budget-2040"
+  },
+  {
+    "startMs": 2645760,
+    "endMs": 2646340,
+    "text": "консюма",
+    "id": "latency-budget-2041"
+  },
+  {
+    "startMs": 2646340,
+    "endMs": 2647640,
+    "text": "в топике",
+    "id": "latency-budget-2042"
+  },
+  {
+    "startMs": 2647640,
+    "endMs": 2648220,
+    "text": "с панолем.",
+    "id": "latency-budget-2043"
+  },
+  {
+    "startMs": 2649140,
+    "endMs": 2649360,
+    "text": "Тут",
+    "id": "latency-budget-2044"
+  },
+  {
+    "startMs": 2649360,
+    "endMs": 2649920,
+    "text": "я бы это",
+    "id": "latency-budget-2045"
+  },
+  {
+    "startMs": 2649920,
+    "endMs": 2650620,
+    "text": "сверху оценил",
+    "id": "latency-budget-2046"
+  },
+  {
+    "startMs": 2650620,
+    "endMs": 2651780,
+    "text": "до 500 миллисекунд.",
+    "id": "latency-budget-2047"
+  },
+  {
+    "startMs": 2652460,
+    "endMs": 2653060,
+    "text": "Тут важно,",
+    "id": "latency-budget-2048"
+  },
+  {
+    "startMs": 2653200,
+    "endMs": 2653480,
+    "text": "это наш",
+    "id": "latency-budget-2049"
+  },
+  {
+    "startMs": 2653480,
+    "endMs": 2654080,
+    "text": "главный сло,",
+    "id": "latency-budget-2050"
+  },
+  {
+    "startMs": 2654200,
+    "endMs": 2655140,
+    "text": "нам нужно считать",
+    "id": "latency-budget-2051"
+  },
+  {
+    "startMs": 2655140,
+    "endMs": 2655940,
+    "text": "метрики,",
+    "id": "latency-budget-2052"
+  },
+  {
+    "startMs": 2657040,
+    "endMs": 2657720,
+    "text": "вешать алерты,",
+    "id": "latency-budget-2053"
+  },
+  {
+    "startMs": 2658280,
+    "endMs": 2658860,
+    "text": "но оно будет",
+    "id": "latency-budget-2054"
+  },
+  {
+    "startMs": 2658860,
+    "endMs": 2659520,
+    "text": "работать все равно",
+    "id": "latency-budget-2055"
+  },
+  {
+    "startMs": 2659520,
+    "endMs": 2660260,
+    "text": "достаточно быстро.",
+    "id": "latency-budget-2056"
+  },
+  {
+    "startMs": 2661460,
+    "endMs": 2662160,
+    "text": "Следующий у нас",
+    "id": "latency-budget-2057"
+  },
+  {
+    "startMs": 2662160,
+    "endMs": 2662600,
+    "text": "шаг,",
+    "id": "latency-budget-2058"
+  },
+  {
+    "startMs": 2662740,
+    "endMs": 2663320,
+    "text": "это некоторые",
+    "id": "latency-budget-2059"
+  },
+  {
+    "startMs": 2663320,
+    "endMs": 2663920,
+    "text": "оркестраторы,",
+    "id": "latency-budget-2060"
+  },
+  {
+    "startMs": 2664040,
+    "endMs": 2664700,
+    "text": "потому что нам нужно",
+    "id": "latency-budget-2061"
+  },
+  {
+    "startMs": 2664700,
+    "endMs": 2665360,
+    "text": "достать персональный",
+    "id": "latency-budget-2062"
+  },
+  {
+    "startMs": 2665360,
+    "endMs": 2666240,
+    "text": "пользователь настройки,",
+    "id": "latency-budget-2063"
+  },
+  {
+    "startMs": 2666480,
+    "endMs": 2667260,
+    "text": "что-то проверить.",
+    "id": "latency-budget-2064"
+  },
+  {
+    "startMs": 2667720,
+    "endMs": 2668420,
+    "text": "Это все мы будем",
+    "id": "latency-budget-2065"
+  },
+  {
+    "startMs": 2668420,
+    "endMs": 2669120,
+    "text": "засовывать потом",
+    "id": "latency-budget-2066"
+  },
+  {
+    "startMs": 2669120,
+    "endMs": 2669680,
+    "text": "в радио с кэш,",
+    "id": "latency-budget-2067"
+  },
+  {
+    "startMs": 2669760,
+    "endMs": 2670300,
+    "text": "тут оно тоже",
+    "id": "latency-budget-2068"
+  },
+  {
+    "startMs": 2670300,
+    "endMs": 2671460,
+    "text": "до 50 миллисекунд",
+    "id": "latency-budget-2069"
+  },
+  {
+    "startMs": 2671460,
+    "endMs": 2671940,
+    "text": "у нас в целом",
+    "id": "latency-budget-2070"
+  },
+  {
+    "startMs": 2671940,
+    "endMs": 2672440,
+    "text": "занимает.",
+    "id": "latency-budget-2071"
+  },
+  {
+    "startMs": 2673700,
+    "endMs": 2674540,
+    "text": "У нас еще",
+    "id": "latency-budget-2072"
+  },
+  {
+    "startMs": 2674540,
+    "endMs": 2675300,
+    "text": "возможно будет",
+    "id": "latency-budget-2073"
+  },
+  {
+    "startMs": 2675300,
+    "endMs": 2675580,
+    "text": "лаг",
+    "id": "latency-budget-2074"
+  },
+  {
+    "startMs": 2675580,
+    "endMs": 2676420,
+    "text": "в очереди",
+    "id": "latency-budget-2075"
+  },
+  {
+    "startMs": 2676420,
+    "endMs": 2676940,
+    "text": "посредственной",
+    "id": "latency-budget-2076"
+  },
+  {
+    "startMs": 2676940,
+    "endMs": 2677340,
+    "text": "отправки,",
+    "id": "latency-budget-2077"
+  },
+  {
+    "startMs": 2677600,
+    "endMs": 2678340,
+    "text": "но опять ставим",
+    "id": "latency-budget-2078"
+  },
+  {
+    "startMs": 2678340,
+    "endMs": 2679240,
+    "text": "500 миллисекунд,",
+    "id": "latency-budget-2079"
+  },
+  {
+    "startMs": 2679460,
+    "endMs": 2679860,
+    "text": "этого нам",
+    "id": "latency-budget-2080"
+  },
+  {
+    "startMs": 2679860,
+    "endMs": 2680540,
+    "text": "прям с головой",
+    "id": "latency-budget-2081"
+  },
+  {
+    "startMs": 2680540,
+    "endMs": 2681140,
+    "text": "хватит практически",
+    "id": "latency-budget-2082"
+  },
+  {
+    "startMs": 2681140,
+    "endMs": 2681520,
+    "text": "всегда.",
+    "id": "latency-budget-2083"
+  },
+  {
+    "startMs": 2682300,
+    "endMs": 2682940,
+    "text": "Вызов провайдера",
+    "id": "latency-budget-2084"
+  },
+  {
+    "startMs": 2682940,
+    "endMs": 2683900,
+    "text": "считаем до 500",
+    "id": "latency-budget-2085"
+  },
+  {
+    "startMs": 2683900,
+    "endMs": 2684440,
+    "text": "миллисекунд,",
+    "id": "latency-budget-2086"
+  },
+  {
+    "startMs": 2684540,
+    "endMs": 2685260,
+    "text": "в среднем оно будет",
+    "id": "latency-budget-2087"
+  },
+  {
+    "startMs": 2685260,
+    "endMs": 2686300,
+    "text": "работать за 200-250,",
+    "id": "latency-budget-2088"
+  },
+  {
+    "startMs": 2686640,
+    "endMs": 2687440,
+    "text": "я по своим проектам",
+    "id": "latency-budget-2089"
+  },
+  {
+    "startMs": 2687440,
+    "endMs": 2687880,
+    "text": "посмотрел",
+    "id": "latency-budget-2090"
+  },
+  {
+    "startMs": 2687880,
+    "endMs": 2689100,
+    "text": "95%",
+    "id": "latency-budget-2091"
+  },
+  {
+    "startMs": 2689100,
+    "endMs": 2689880,
+    "text": "и это вообще работает",
+    "id": "latency-budget-2092"
+  },
+  {
+    "startMs": 2689880,
+    "endMs": 2690720,
+    "text": "где-то за 100-110.",
+    "id": "latency-budget-2093"
+  },
+  {
+    "startMs": 2691520,
+    "endMs": 2691960,
+    "text": "Суммарно",
+    "id": "latency-budget-2094"
+  },
+  {
+    "startMs": 2691960,
+    "endMs": 2692560,
+    "text": "в норме у нас",
+    "id": "latency-budget-2095"
+  },
+  {
+    "startMs": 2692560,
+    "endMs": 2693520,
+    "text": "оно занимает",
+    "id": "latency-budget-2096"
+  },
+  {
+    "startMs": 2693520,
+    "endMs": 2694640,
+    "text": "до полутора секунд,",
+    "id": "latency-budget-2097"
+  },
+  {
+    "startMs": 2695000,
+    "endMs": 2695840,
+    "text": "при этом у нас",
+    "id": "latency-budget-2098"
+  },
+  {
+    "startMs": 2695840,
+    "endMs": 2696340,
+    "text": "есть запас",
+    "id": "latency-budget-2099"
+  },
+  {
+    "startMs": 2696340,
+    "endMs": 2697540,
+    "text": "примерно в 3,5 секунды,",
+    "id": "latency-budget-2100"
+  },
+  {
+    "startMs": 2698100,
+    "endMs": 2698940,
+    "text": "этого нам хватит",
+    "id": "latency-budget-2101"
+  },
+  {
+    "startMs": 2698940,
+    "endMs": 2700080,
+    "text": "на один ретрий",
+    "id": "latency-budget-2102"
+  },
+  {
+    "startMs": 2700080,
+    "endMs": 2700820,
+    "text": "с быков",
+    "id": "latency-budget-2103"
+  },
+  {
+    "startMs": 2700820,
+    "endMs": 2701460,
+    "text": "в пару секунд,",
+    "id": "latency-budget-2104"
+  },
+  {
+    "startMs": 2701540,
+    "endMs": 2702080,
+    "text": "то есть мы даже",
+    "id": "latency-budget-2105"
+  },
+  {
+    "startMs": 2702080,
+    "endMs": 2702880,
+    "text": "успеем переключиться",
+    "id": "latency-budget-2106"
+  },
+  {
+    "startMs": 2702880,
+    "endMs": 2703460,
+    "text": "на второй канал",
+    "id": "latency-budget-2107"
+  },
+  {
+    "startMs": 2703460,
+    "endMs": 2704620,
+    "text": "в случае приоритетных задач.",
+    "id": "latency-budget-2108"
+  },
+  {
+    "startMs": 2800420,
+    "endMs": 2800700,
+    "text": "пример,"
+  },
+  {
+    "startMs": 2800780,
+    "endMs": 2801360,
+    "text": "как ты можешь сделать,"
+  },
+  {
+    "startMs": 2801440,
+    "endMs": 2801900,
+    "text": "ты видишь сейчас"
+  },
+  {
+    "startMs": 2801900,
+    "endMs": 2802360,
+    "text": "на экране,"
+  },
+  {
+    "startMs": 2802780,
+    "endMs": 2803660,
+    "text": "мы создаем просто"
+  },
+  {
+    "startMs": 2803660,
+    "endMs": 2804540,
+    "text": "generic таблицу,"
+  },
+  {
+    "startMs": 2804620,
+    "endMs": 2805220,
+    "text": "в которой будут идти"
+  },
+  {
+    "startMs": 2805220,
+    "endMs": 2806060,
+    "text": "все сквельки,"
+  },
+  {
+    "startMs": 2806260,
+    "endMs": 2806940,
+    "text": "и которые даже будут"
+  },
+  {
+    "startMs": 2806940,
+    "endMs": 2807260,
+    "text": "не знать,"
+  },
+  {
+    "startMs": 2807340,
+    "endMs": 2807900,
+    "text": "что у нас там есть"
+  },
+  {
+    "startMs": 2807900,
+    "endMs": 2808600,
+    "text": "вообще-то временные"
+  },
+  {
+    "startMs": 2808600,
+    "endMs": 2809140,
+    "text": "партиции."
+  },
+  {
+    "startMs": 2809780,
+    "endMs": 2810340,
+    "text": "Также создаем"
+  },
+  {
+    "startMs": 2810340,
+    "endMs": 2811500,
+    "text": "партиции по дню,"
+  },
+  {
+    "startMs": 2811760,
+    "endMs": 2812200,
+    "text": "например,"
+  },
+  {
+    "startMs": 2812880,
+    "endMs": 2813940,
+    "text": "нам нужен механизм,"
+  },
+  {
+    "startMs": 2814040,
+    "endMs": 2814640,
+    "text": "который это будет делать"
+  },
+  {
+    "startMs": 2814640,
+    "endMs": 2815320,
+    "text": "автоматически,"
+  },
+  {
+    "startMs": 2815560,
+    "endMs": 2816180,
+    "text": "создавать,"
+  },
+  {
+    "startMs": 2816300,
+    "endMs": 2817120,
+    "text": "который будет автоматически"
+  },
+  {
+    "startMs": 2817120,
+    "endMs": 2817780,
+    "text": "очищать старые."
+  },
+  {
+    "startMs": 2818240,
+    "endMs": 2818800,
+    "text": "Это все можно"
+  },
+  {
+    "startMs": 2818800,
+    "endMs": 2820000,
+    "text": "написать на гошке"
+  },
+  {
+    "startMs": 2820000,
+    "endMs": 2821060,
+    "text": "за один вечер,"
+  },
+  {
+    "startMs": 2821620,
+    "endMs": 2822060,
+    "text": "клоуд вам"
+  },
+  {
+    "startMs": 2822060,
+    "endMs": 2822820,
+    "text": "это все сгенерит"
+  },
+  {
+    "startMs": 2822820,
+    "endMs": 2824240,
+    "text": "вообще еще быстрее,"
+  },
+  {
+    "startMs": 2824400,
+    "endMs": 2824820,
+    "text": "нужно только"
+  },
+  {
+    "startMs": 2824820,
+    "endMs": 2825760,
+    "text": "это все очень аккуратно"
+  },
+  {
+    "startMs": 2825760,
+    "endMs": 2826060,
+    "text": "сделать."
+  },
+  {
+    "startMs": 2826720,
+    "endMs": 2826980,
+    "text": "Соответственно,"
+  },
+  {
+    "startMs": 2827000,
+    "endMs": 2827460,
+    "text": "этот механизм"
+  },
+  {
+    "startMs": 2827460,
+    "endMs": 2828020,
+    "text": "позволяет,"
+  },
+  {
+    "startMs": 2828160,
+    "endMs": 2828500,
+    "text": "во-первых,"
+  },
+  {
+    "startMs": 2828680,
+    "endMs": 2829640,
+    "text": "не думать о том,"
+  },
+  {
+    "startMs": 2829740,
+    "endMs": 2830520,
+    "text": "что таблица распухнет,"
+  },
+  {
+    "startMs": 2830600,
+    "endMs": 2831180,
+    "text": "потому что она будет"
+  },
+  {
+    "startMs": 2831180,
+    "endMs": 2831740,
+    "text": "очищаться"
+  },
+  {
+    "startMs": 2831740,
+    "endMs": 2833320,
+    "text": "раз в сутки,"
+  },
+  {
+    "startMs": 2833380,
+    "endMs": 2833640,
+    "text": "например."
+  },
+  {
+    "startMs": 2834180,
+    "endMs": 2834700,
+    "text": "При этом у нас"
+  },
+  {
+    "startMs": 2834700,
+    "endMs": 2835380,
+    "text": "за сутки"
+  },
+  {
+    "startMs": 2835380,
+    "endMs": 2835860,
+    "text": "хранятся"
+  },
+  {
+    "startMs": 2835860,
+    "endMs": 2836460,
+    "text": "все дополнительные"
+  },
+  {
+    "startMs": 2836460,
+    "endMs": 2836780,
+    "text": "си кей,"
+  },
+  {
+    "startMs": 2836920,
+    "endMs": 2837640,
+    "text": "у нас индексы"
+  },
+  {
+    "startMs": 2837640,
+    "endMs": 2838460,
+    "text": "в каждой партиции,"
+  },
+  {
+    "startMs": 2838520,
+    "endMs": 2839780,
+    "text": "они физически отдельные,"
+  },
+  {
+    "startMs": 2839880,
+    "endMs": 2840800,
+    "text": "они пухнуть не будут,"
+  },
+  {
+    "startMs": 2841220,
+    "endMs": 2841580,
+    "text": "точнее,"
+  },
+  {
+    "startMs": 2841640,
+    "endMs": 2842060,
+    "text": "будут расти"
+  },
+  {
+    "startMs": 2842060,
+    "endMs": 2843120,
+    "text": "до какого-то"
+  },
+  {
+    "startMs": 2843120,
+    "endMs": 2844580,
+    "text": "совершенно приемлемого вида,"
+  },
+  {
+    "startMs": 2844860,
+    "endMs": 2845740,
+    "text": "а потом мы будем"
+  },
+  {
+    "startMs": 2845740,
+    "endMs": 2846540,
+    "text": "просто все вместе"
+  },
+  {
+    "startMs": 2846540,
+    "endMs": 2847400,
+    "text": "очищать."
+  },
+  {
+    "startMs": 2848120,
+    "endMs": 2848520,
+    "text": "А из кода"
+  },
+  {
+    "startMs": 2848520,
+    "endMs": 2849220,
+    "text": "это будут обычные"
+  },
+  {
+    "startMs": 2849220,
+    "endMs": 2849620,
+    "text": "скверики,"
+  },
+  {
+    "startMs": 2849740,
+    "endMs": 2850340,
+    "text": "которые даже будут"
+  },
+  {
+    "startMs": 2850340,
+    "endMs": 2850880,
+    "text": "не знать о том,"
+  },
+  {
+    "startMs": 2850980,
+    "endMs": 2851780,
+    "text": "что у нас есть партиции."
+  },
+  {
+    "startMs": 2852540,
+    "endMs": 2853500,
+    "text": "Великолепный механизм,"
+  },
+  {
+    "startMs": 2853660,
+    "endMs": 2854100,
+    "text": "очень хочу,"
+  },
+  {
+    "startMs": 2854300,
+    "endMs": 2855000,
+    "text": "чтобы вы об этом знали"
+  },
+  {
+    "startMs": 2855000,
+    "endMs": 2855920,
+    "text": "и им всегда пользовались."
+  },
+  {
+    "startMs": 3022820,
+    "endMs": 3023200,
+    "text": "Во-первых,"
+  },
+  {
+    "startMs": 3023500,
+    "endMs": 3024440,
+    "text": "нам нужно сделать"
+  },
+  {
+    "startMs": 3024440,
+    "endMs": 3026340,
+    "text": "таблицу таймеров"
+  },
+  {
+    "startMs": 3026340,
+    "endMs": 3028080,
+    "text": "в подсказе"
+  },
+  {
+    "startMs": 3028080,
+    "endMs": 3030040,
+    "text": "вместо обычного выбора."
+  },
+  {
+    "startMs": 3030620,
+    "endMs": 3031520,
+    "text": "Как она будет выглядеть,"
+  },
+  {
+    "startMs": 3031560,
+    "endMs": 3031760,
+    "text": "ты видишь,"
+  },
+  {
+    "startMs": 3031800,
+    "endMs": 3032380,
+    "text": "что на экране."
+  },
+  {
+    "startMs": 3033000,
+    "endMs": 3033420,
+    "text": "Соответственно,"
+  },
+  {
+    "startMs": 3033600,
+    "endMs": 3034340,
+    "text": "что мы тут видим?"
+  },
+  {
+    "startMs": 3034840,
+    "endMs": 3035540,
+    "text": "У нас есть"
+  },
+  {
+    "startMs": 3035540,
+    "endMs": 3036900,
+    "text": "обязательные партиции"
+  },
+  {
+    "startMs": 3036900,
+    "endMs": 3038160,
+    "text": "по дню."
+  },
+  {
+    "startMs": 3038500,
+    "endMs": 3039280,
+    "text": "Тут это"
+  },
+  {
+    "startMs": 3039280,
+    "endMs": 3040080,
+    "text": "строки"
+  },
+  {
+    "startMs": 3040080,
+    "endMs": 3040880,
+    "text": "по минутам"
+  },
+  {
+    "startMs": 3040880,
+    "endMs": 3041900,
+    "text": "и несколько"
+  },
+  {
+    "startMs": 3041900,
+    "endMs": 3042600,
+    "text": "независимых"
+  },
+  {
+    "startMs": 3042600,
+    "endMs": 3043200,
+    "text": "полеров"
+  },
+  {
+    "startMs": 3043200,
+    "endMs": 3043640,
+    "text": "по"
+  },
+  {
+    "startMs": 3043640,
+    "endMs": 3044620,
+    "text": "швардам."
+  },
+  {
+    "startMs": 3044620,
+    "endMs": 3045160,
+    "text": "Соответственно,"
+  },
+  {
+    "startMs": 3045240,
+    "endMs": 3045900,
+    "text": "партиции у нас"
+  },
+  {
+    "startMs": 3045900,
+    "endMs": 3047080,
+    "text": "также partition by range,"
+  },
+  {
+    "startMs": 3047180,
+    "endMs": 3047640,
+    "text": "тот же самый,"
+  },
+  {
+    "startMs": 3047760,
+    "endMs": 3048320,
+    "text": "что мы используем"
+  },
+  {
+    "startMs": 3048320,
+    "endMs": 3048960,
+    "text": "для отбокса."
+  },
+  {
+    "startMs": 3049800,
+    "endMs": 3050460,
+    "text": "По сути,"
+  },
+  {
+    "startMs": 3050560,
+    "endMs": 3051160,
+    "text": "срабатывание"
+  },
+  {
+    "startMs": 3051160,
+    "endMs": 3051940,
+    "text": "таймера"
+  },
+  {
+    "startMs": 3051940,
+    "endMs": 3052560,
+    "text": "это просто"
+  },
+  {
+    "startMs": 3052560,
+    "endMs": 3053120,
+    "text": "публикация"
+  },
+  {
+    "startMs": 3053120,
+    "endMs": 3053660,
+    "text": "и давление"
+  },
+  {
+    "startMs": 3053660,
+    "endMs": 3054200,
+    "text": "в топик"
+  },
+  {
+    "startMs": 3054200,
+    "endMs": 3054460,
+    "text": "по"
+  },
+  {
+    "startMs": 3054460,
+    "endMs": 3055900,
+    "text": "приоритету."
+  },
+  {
+    "startMs": 3057380,
+    "endMs": 3058180,
+    "text": "Все это будет"
+  },
+  {
+    "startMs": 3058180,
+    "endMs": 3058700,
+    "text": "делать также"
+  },
+  {
+    "startMs": 3058700,
+    "endMs": 3059120,
+    "text": "отдельные"
+  },
+  {
+    "startMs": 3059120,
+    "endMs": 3059660,
+    "text": "кронворкеры,"
+  },
+  {
+    "startMs": 3059780,
+    "endMs": 3060300,
+    "text": "которые теперь"
+  },
+  {
+    "startMs": 3060300,
+    "endMs": 3061220,
+    "text": "мы сможем"
+  },
+  {
+    "startMs": 3061220,
+    "endMs": 3062040,
+    "text": "масштабировать."
+  },
+  {
+    "startMs": 3062780,
+    "endMs": 3063620,
+    "text": "Давай посмотрим,"
+  },
+  {
+    "startMs": 3064220,
+    "endMs": 3065720,
+    "text": "как это будет"
+  },
+  {
+    "startMs": 3065720,
+    "endMs": 3066220,
+    "text": "вообще"
+  },
+  {
+    "startMs": 3066220,
+    "endMs": 3067120,
+    "text": "работать"
+  },
+  {
+    "startMs": 3067120,
+    "endMs": 3067900,
+    "text": "на пальцах,"
+  },
+  {
+    "startMs": 3068120,
+    "endMs": 3068620,
+    "text": "как это будет"
+  },
+  {
+    "startMs": 3068620,
+    "endMs": 3069260,
+    "text": "вообще работать"
+  },
+  {
+    "startMs": 3069260,
+    "endMs": 3071220,
+    "text": "один воркер."
+  },
+  {
+    "startMs": 3071760,
+    "endMs": 3072080,
+    "text": "Во-первых,"
+  },
+  {
+    "startMs": 3072160,
+    "endMs": 3072760,
+    "text": "у нас происходит"
+  },
+  {
+    "startMs": 3072760,
+    "endMs": 3073160,
+    "text": "захват."
+  },
+  {
+    "startMs": 3073480,
+    "endMs": 3074120,
+    "text": "Это одна"
+  },
+  {
+    "startMs": 3074120,
+    "endMs": 3074600,
+    "text": "короткая"
+  },
+  {
+    "startMs": 3074600,
+    "endMs": 3075220,
+    "text": "транзакция,"
+  },
+  {
+    "startMs": 3075460,
+    "endMs": 3076000,
+    "text": "ты ее можешь"
+  },
+  {
+    "startMs": 3076000,
+    "endMs": 3076720,
+    "text": "увидеть на экране"
+  },
+  {
+    "startMs": 3076720,
+    "endMs": 3077580,
+    "text": "и затем"
+  },
+  {
+    "startMs": 3077580,
+    "endMs": 3078260,
+    "text": "обновление"
+  },
+  {
+    "startMs": 3078260,
+    "endMs": 3079000,
+    "text": "по этим строкам."
+  },
+  {
+    "startMs": 3079560,
+    "endMs": 3079840,
+    "text": "Соответственно,"
+  },
+  {
+    "startMs": 3079900,
+    "endMs": 3080360,
+    "text": "мы берем"
+  },
+  {
+    "startMs": 3080360,
+    "endMs": 3081040,
+    "text": "due минуты"
+  },
+  {
+    "startMs": 3081040,
+    "endMs": 3081260,
+    "text": "меньше"
+  },
+  {
+    "startMs": 3081260,
+    "endMs": 3081500,
+    "text": "равно"
+  },
+  {
+    "startMs": 3081500,
+    "endMs": 3082140,
+    "text": "без нижней"
+  },
+  {
+    "startMs": 3082140,
+    "endMs": 3082600,
+    "text": "границы,"
+  },
+  {
+    "startMs": 3082780,
+    "endMs": 3083640,
+    "text": "чтобы подхватывать"
+  },
+  {
+    "startMs": 3083640,
+    "endMs": 3084220,
+    "text": "те,"
+  },
+  {
+    "startMs": 3084400,
+    "endMs": 3084940,
+    "text": "что зависли."
+  },
+  {
+    "startMs": 3085760,
+    "endMs": 3086200,
+    "text": "Соответственно,"
+  },
+  {
+    "startMs": 3086280,
+    "endMs": 3086620,
+    "text": "skip lock"
+  },
+  {
+    "startMs": 3086620,
+    "endMs": 3087340,
+    "text": "исключает у нас"
+  },
+  {
+    "startMs": 3087340,
+    "endMs": 3087900,
+    "text": "гонку двух"
+  },
+  {
+    "startMs": 3087900,
+    "endMs": 3088220,
+    "text": "полеров"
+  },
+  {
+    "startMs": 3088220,
+    "endMs": 3089380,
+    "text": "за одну строку,"
+  },
+  {
+    "startMs": 3089480,
+    "endMs": 3090220,
+    "text": "а"
+  },
+  {
+    "startMs": 3090220,
+    "endMs": 3090480,
+    "text": "client"
+  },
+  {
+    "startMs": 3090480,
+    "endMs": 3090800,
+    "text": "add"
+  },
+  {
+    "startMs": 3090800,
+    "endMs": 3091440,
+    "text": "с ETL"
+  },
+  {
+    "startMs": 3091440,
+    "endMs": 3092160,
+    "text": "это повторный"
+  },
+  {
+    "startMs": 3092160,
+    "endMs": 3092480,
+    "text": "захват"
+  },
+  {
+    "startMs": 3092480,
+    "endMs": 3092780,
+    "text": "в течение"
+  },
+  {
+    "startMs": 3092780,
+    "endMs": 3093200,
+    "text": "двух минут,"
+  },
+  {
+    "startMs": 3093280,
+    "endMs": 3093840,
+    "text": "если воркер,"
+  },
+  {
+    "startMs": 3093920,
+    "endMs": 3094120,
+    "text": "например,"
+  },
+  {
+    "startMs": 3094240,
+    "endMs": 3094800,
+    "text": "просто завис."
   }
 ]

@@ -1,0 +1,14 @@
+{
+  "id": "p02-a05-consumer-liveness",
+  "part": 2,
+  "order": 5,
+  "title": "Kafka consumer: таймауты, heartbeat и static membership",
+  "kind": "2d",
+  "durationMs": 12600,
+  "defaultProps": {
+    "themeId": "paper",
+    "motionProfile": "calm",
+    "previewBackground": "transparent",
+    "withAudio": true
+  }
+}

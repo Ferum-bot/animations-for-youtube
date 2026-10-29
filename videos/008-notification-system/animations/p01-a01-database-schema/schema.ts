@@ -1,4 +1,4 @@
-import type {SqlLine} from '../../shared/SqlEditor';
+import type {CodeLine} from '../../shared/CodeEditor';
 
 // Complete DDL from materials p. 9. Narration overrides BIGSERIAL/BIGINT
 // with UUIDv7 and adds optional provider metadata. Indexes stay as documented.
@@ -10,7 +10,7 @@ export const users = [
   {text: '    -- IANA: Europe/Moscow', field: 'timezone'},
   {text: "    timezone TEXT NOT NULL DEFAULT 'UTC'", field: 'timezone'},
   {text: ');', field: null},
-] as const satisfies readonly SqlLine[];
+] as const satisfies readonly CodeLine[];
 
 export const notifications = [
   {text: 'CREATE TABLE notifications (', field: null},
@@ -35,7 +35,7 @@ export const notifications = [
   {text: '', field: null},
   {text: 'CREATE INDEX notifications_user', field: null},
   {text: '    ON notifications (user_id, created_at DESC);', field: null},
-] as const satisfies readonly SqlLine[];
+] as const satisfies readonly CodeLine[];
 
 export type UserField = Exclude<typeof users[number]['field'], null>;
 export type NotificationField = Exclude<typeof notifications[number]['field'], null>;

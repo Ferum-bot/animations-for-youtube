@@ -1,0 +1,14 @@
+{
+  "id": "p02-a07-retry-topics",
+  "part": 2,
+  "order": 7,
+  "title": "Retry-топики и DLQ",
+  "kind": "2d",
+  "durationMs": 23334,
+  "defaultProps": {
+    "themeId": "paper",
+    "motionProfile": "calm",
+    "previewBackground": "transparent",
+    "withAudio": true
+  }
+}

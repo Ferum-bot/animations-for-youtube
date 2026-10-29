@@ -1,0 +1,14 @@
+{
+  "id": "p02-a02-outbox",
+  "part": 2,
+  "order": 2,
+  "title": "Transactional outbox: таблица, транзакция, relay",
+  "kind": "2d",
+  "durationMs": 47000,
+  "defaultProps": {
+    "themeId": "paper",
+    "motionProfile": "calm",
+    "previewBackground": "transparent",
+    "withAudio": true
+  }
+}

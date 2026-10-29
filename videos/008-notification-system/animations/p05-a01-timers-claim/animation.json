@@ -1,0 +1,14 @@
+{
+  "id": "p05-a01-timers-claim",
+  "part": 5,
+  "order": 1,
+  "title": "Таймеры и SQL захвата",
+  "kind": "2d",
+  "durationMs": 72367,
+  "defaultProps": {
+    "themeId": "paper",
+    "motionProfile": "calm",
+    "previewBackground": "transparent",
+    "withAudio": true
+  }
+}

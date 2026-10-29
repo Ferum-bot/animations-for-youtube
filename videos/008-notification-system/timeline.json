@@ -63,5 +63,174 @@
       "previewBackground": "transparent",
       "withAudio": true
     }
+  },
+  {
+    "id": "show-p02-a01-producer-settings",
+    "animation": "p02-a01-producer-settings",
+    "anchor": "producer-settings-start",
+    "offsetMs": 0,
+    "durationMs": 45500,
+    "props": {
+      "themeId": "paper",
+      "motionProfile": "calm",
+      "previewBackground": "transparent",
+      "withAudio": true
+    }
+  },
+  {
+    "id": "show-p02-a02-outbox",
+    "animation": "p02-a02-outbox",
+    "anchor": "outbox-start",
+    "offsetMs": 0,
+    "durationMs": 47000,
+    "props": {
+      "themeId": "paper",
+      "motionProfile": "calm",
+      "previewBackground": "transparent",
+      "withAudio": true
+    }
+  },
+  {
+    "id": "show-p02-a03-postgres-queue",
+    "animation": "p02-a03-postgres-queue",
+    "anchor": "postgres-queue-start",
+    "offsetMs": 0,
+    "durationMs": 16700,
+    "props": {
+      "themeId": "paper",
+      "motionProfile": "calm",
+      "previewBackground": "transparent",
+      "withAudio": true
+    }
+  },
+  {
+    "id": "show-p02-a04-consumer-settings",
+    "animation": "p02-a04-consumer-settings",
+    "anchor": "consumer-settings-start",
+    "offsetMs": 0,
+    "durationMs": 15000,
+    "props": {
+      "themeId": "paper",
+      "motionProfile": "calm",
+      "previewBackground": "transparent",
+      "withAudio": true
+    }
+  },
+  {
+    "id": "show-p02-a05-consumer-liveness",
+    "animation": "p02-a05-consumer-liveness",
+    "anchor": "consumer-liveness-start",
+    "offsetMs": 0,
+    "durationMs": 12600,
+    "props": {
+      "themeId": "paper",
+      "motionProfile": "calm",
+      "previewBackground": "transparent",
+      "withAudio": true
+    }
+  },
+  {
+    "id": "show-p02-a06-provider-errors",
+    "animation": "p02-a06-provider-errors",
+    "anchor": "provider-errors-start",
+    "offsetMs": 0,
+    "durationMs": 17900,
+    "props": {
+      "themeId": "paper",
+      "motionProfile": "calm",
+      "previewBackground": "transparent",
+      "withAudio": true
+    }
+  },
+  {
+    "id": "show-p02-a07-retry-topics",
+    "animation": "p02-a07-retry-topics",
+    "anchor": "retry-topics-start",
+    "offsetMs": 0,
+    "durationMs": 23334,
+    "props": {
+      "themeId": "paper",
+      "motionProfile": "calm",
+      "previewBackground": "transparent",
+      "withAudio": true
+    }
+  },
+  {
+    "id": "show-p02-a08-sweeper",
+    "animation": "p02-a08-sweeper",
+    "anchor": "sweeper-start",
+    "offsetMs": 0,
+    "durationMs": 24134,
+    "props": {
+      "themeId": "paper",
+      "motionProfile": "calm",
+      "previewBackground": "transparent",
+      "withAudio": true
+    }
+  },
+  {
+    "id": "show-p03-a02-channel-priority-matrix",
+    "animation": "p03-a02-channel-priority-matrix",
+    "anchor": "channel-priority-matrix-start",
+    "offsetMs": 0,
+    "durationMs": 37300,
+    "props": {
+      "themeId": "paper",
+      "motionProfile": "calm",
+      "previewBackground": "transparent",
+      "withAudio": true
+    }
+  },
+  {
+    "id": "show-p03-a03-capacity-table",
+    "animation": "p03-a03-capacity-table",
+    "anchor": "capacity-table-start",
+    "offsetMs": 0,
+    "durationMs": 17400,
+    "props": {
+      "themeId": "paper",
+      "motionProfile": "calm",
+      "previewBackground": "transparent",
+      "withAudio": true
+    }
+  },
+  {
+    "id": "show-p03-a05-latency-budget",
+    "animation": "p03-a05-latency-budget",
+    "anchor": "latency-budget-start",
+    "offsetMs": 0,
+    "durationMs": 111500,
+    "props": {
+      "themeId": "paper",
+      "motionProfile": "calm",
+      "previewBackground": "transparent",
+      "withAudio": true
+    }
+  },
+  {
+    "id": "show-p04-a01-outbox-partitions",
+    "animation": "p04-a01-outbox-partitions",
+    "anchor": "outbox-partitions-start",
+    "offsetMs": 0,
+    "durationMs": 55967,
+    "props": {
+      "themeId": "paper",
+      "motionProfile": "calm",
+      "previewBackground": "transparent",
+      "withAudio": true
+    }
+  },
+  {
+    "id": "show-p05-a01-timers-claim",
+    "animation": "p05-a01-timers-claim",
+    "anchor": "timers-claim-start",
+    "offsetMs": 0,
+    "durationMs": 72367,
+    "props": {
+      "themeId": "paper",
+      "motionProfile": "calm",
+      "previewBackground": "transparent",
+      "withAudio": true
+    }
   }
 ]

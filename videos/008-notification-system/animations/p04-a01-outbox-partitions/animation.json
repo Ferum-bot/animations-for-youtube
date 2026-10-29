@@ -1,0 +1,14 @@
+{
+  "id": "p04-a01-outbox-partitions",
+  "part": 4,
+  "order": 1,
+  "title": "Суточные партиции outbox",
+  "kind": "2d",
+  "durationMs": 55967,
+  "defaultProps": {
+    "themeId": "paper",
+    "motionProfile": "calm",
+    "previewBackground": "transparent",
+    "withAudio": true
+  }
+}

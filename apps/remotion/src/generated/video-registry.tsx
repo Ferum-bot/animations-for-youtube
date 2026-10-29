@@ -148,6 +148,19 @@ import Animation141P01A02DeviceTokens from '../../../../videos/008-notification-
 import Animation142P01A03ScheduledQuery from '../../../../videos/008-notification-system/animations/p01-a03-scheduled-query/Composition';
 import Animation143P01A04CampaignTables from '../../../../videos/008-notification-system/animations/p01-a04-campaign-tables/Composition';
 import Animation144P01A05Preferences from '../../../../videos/008-notification-system/animations/p01-a05-preferences/Composition';
+import Animation145P02A01ProducerSettings from '../../../../videos/008-notification-system/animations/p02-a01-producer-settings/Composition';
+import Animation146P02A02Outbox from '../../../../videos/008-notification-system/animations/p02-a02-outbox/Composition';
+import Animation147P02A03PostgresQueue from '../../../../videos/008-notification-system/animations/p02-a03-postgres-queue/Composition';
+import Animation148P02A04ConsumerSettings from '../../../../videos/008-notification-system/animations/p02-a04-consumer-settings/Composition';
+import Animation149P02A05ConsumerLiveness from '../../../../videos/008-notification-system/animations/p02-a05-consumer-liveness/Composition';
+import Animation150P02A06ProviderErrors from '../../../../videos/008-notification-system/animations/p02-a06-provider-errors/Composition';
+import Animation151P02A07RetryTopics from '../../../../videos/008-notification-system/animations/p02-a07-retry-topics/Composition';
+import Animation152P02A08Sweeper from '../../../../videos/008-notification-system/animations/p02-a08-sweeper/Composition';
+import Animation153P03A02ChannelPriorityMatrix from '../../../../videos/008-notification-system/animations/p03-a02-channel-priority-matrix/Composition';
+import Animation154P03A03CapacityTable from '../../../../videos/008-notification-system/animations/p03-a03-capacity-table/Composition';
+import Animation155P03A05LatencyBudget from '../../../../videos/008-notification-system/animations/p03-a05-latency-budget/Composition';
+import Animation156P04A01OutboxPartitions from '../../../../videos/008-notification-system/animations/p04-a01-outbox-partitions/Composition';
+import Animation157P05A01TimersClaim from '../../../../videos/008-notification-system/animations/p05-a01-timers-claim/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -391,14 +404,27 @@ const V008NotificationSystemComponents: Record<string, TimelineComponent> = {
   "p01-a03-scheduled-query": Animation142P01A03ScheduledQuery,
   "p01-a04-campaign-tables": Animation143P01A04CampaignTables,
   "p01-a05-preferences": Animation144P01A05Preferences,
+  "p02-a01-producer-settings": Animation145P02A01ProducerSettings,
+  "p02-a02-outbox": Animation146P02A02Outbox,
+  "p02-a03-postgres-queue": Animation147P02A03PostgresQueue,
+  "p02-a04-consumer-settings": Animation148P02A04ConsumerSettings,
+  "p02-a05-consumer-liveness": Animation149P02A05ConsumerLiveness,
+  "p02-a06-provider-errors": Animation150P02A06ProviderErrors,
+  "p02-a07-retry-topics": Animation151P02A07RetryTopics,
+  "p02-a08-sweeper": Animation152P02A08Sweeper,
+  "p03-a02-channel-priority-matrix": Animation153P03A02ChannelPriorityMatrix,
+  "p03-a03-capacity-table": Animation154P03A03CapacityTable,
+  "p03-a05-latency-budget": Animation155P03A05LatencyBudget,
+  "p04-a01-outbox-partitions": Animation156P04A01OutboxPartitions,
+  "p05-a01-timers-claim": Animation157P05A01TimersClaim,
 };
 
 const V008NotificationSystemOverlay: React.FC = () => (
   <TimelineOverlay
-    anchors={{"schema-start":836600,"schema-users":844360,"schema-notifications":851100,"schema-id":856940,"schema-uuid":858400,"schema-user-id":873220,"schema-channel":878880,"schema-category":881840,"schema-priority":890240,"schema-template":900520,"schema-params":904380,"schema-normalization":909000,"schema-status":920240,"schema-times":925940,"schema-provider":931560,"schema-resolved":936940,"schema-end":938600,"device-tokens-start":1021433,"device-tokens-name":1026300,"device-tokens-user":1028000,"device-tokens-platform":1029480,"device-tokens-token":1038560,"device-tokens-active":1039740,"device-tokens-last-seen":1042380,"device-tokens-deactivate":1046080,"device-tokens-resolved":1049160,"device-tokens-end":1051433,"scheduled-query-start":1097967,"scheduled-query-select":1101560,"scheduled-query-status":1102660,"scheduled-query-due":1104100,"scheduled-query-limit":1106720,"scheduled-query-resolved":1109060,"scheduled-query-end":1113967,"campaign-tables-start":1138667,"campaign-tables-id":1143260,"campaign-tables-segment-id":1144620,"campaign-tables-message":1145720,"campaign-tables-params":1147120,"campaign-tables-send-at":1147880,"campaign-tables-status":1151520,"campaign-tables-segments":1153980,"campaign-tables-membership-id":1156120,"campaign-tables-user":1158140,"campaign-tables-resolved":1160020,"campaign-tables-end":1163667,"preferences-start":1224967,"preferences-name":1227620,"preferences-definition":1229800,"preferences-user":1233780,"preferences-options":1234640,"preferences-quiet":1242320,"preferences-resolved":1247880,"preferences-end":1249967}}
+    anchors={{"schema-start":836600,"schema-users":844360,"schema-notifications":851100,"schema-id":856940,"schema-uuid":858400,"schema-user-id":873220,"schema-channel":878880,"schema-category":881840,"schema-priority":890240,"schema-template":900520,"schema-params":904380,"schema-normalization":909000,"schema-status":920240,"schema-times":925940,"schema-provider":931560,"schema-resolved":936940,"schema-end":938600,"device-tokens-start":1021433,"device-tokens-name":1026300,"device-tokens-user":1028000,"device-tokens-platform":1029480,"device-tokens-token":1038560,"device-tokens-active":1039740,"device-tokens-last-seen":1042380,"device-tokens-deactivate":1046080,"device-tokens-resolved":1049160,"device-tokens-end":1051433,"scheduled-query-start":1097967,"scheduled-query-select":1101560,"scheduled-query-status":1102660,"scheduled-query-due":1104100,"scheduled-query-limit":1106720,"scheduled-query-resolved":1109060,"scheduled-query-end":1113967,"campaign-tables-start":1138667,"campaign-tables-id":1143260,"campaign-tables-segment-id":1144620,"campaign-tables-message":1145720,"campaign-tables-params":1147120,"campaign-tables-send-at":1147880,"campaign-tables-status":1151520,"campaign-tables-segments":1153980,"campaign-tables-membership-id":1156120,"campaign-tables-user":1158140,"campaign-tables-resolved":1160020,"campaign-tables-end":1163667,"preferences-start":1224967,"preferences-name":1227620,"preferences-definition":1229800,"preferences-user":1233780,"preferences-options":1234640,"preferences-quiet":1242320,"preferences-resolved":1247880,"preferences-end":1249967,"producer-settings-start":1490167,"producer-settings-acks":1499540,"producer-settings-idempotence":1506000,"producer-settings-replication":1512480,"producer-settings-min-isr":1514800,"producer-settings-default":1516920,"producer-settings-leader":1519160,"producer-settings-quorum":1522060,"producer-settings-hold":1524500,"producer-settings-durability":1528820,"producer-settings-resolved":1534200,"producer-settings-end":1535667,"outbox-start":1596533,"outbox-id":1600900,"outbox-notification-id":1602500,"outbox-message":1604560,"outbox-system-fields":1606620,"outbox-transaction":1608080,"outbox-transaction-boundary":1609020,"outbox-two-inserts":1611200,"outbox-insert-notification":1612460,"outbox-insert-outbox":1613400,"outbox-accepted":1614780,"outbox-relay":1616740,"outbox-cycle":1620080,"outbox-select":1621700,"outbox-unpublished":1625120,"outbox-skip-locked":1628180,"outbox-relay-hold":1642280,"outbox-end":1643533,"postgres-queue-start":1712533,"postgres-queue-skip-locked":1720360,"postgres-queue-one-system":1724460,"postgres-queue-atomic-claim":1727360,"postgres-queue-resolved":1728660,"postgres-queue-end":1729233,"consumer-settings-start":1862200,"consumer-settings-manual-commit":1866360,"consumer-settings-batch-size":1869480,"consumer-settings-replay":1872280,"consumer-settings-resolved":1876360,"consumer-settings-end":1877200,"consumer-liveness-start":1950733,"consumer-liveness-values":1951360,"consumer-liveness-explanations":1957520,"consumer-liveness-resolved":1962200,"consumer-liveness-end":1963333,"provider-errors-start":1981967,"provider-errors-retryable":1982560,"provider-errors-terminal":1985460,"provider-errors-backoff":1991640,"provider-errors-resolved":1999020,"provider-errors-end":1999867,"retry-topics-start":2048733,"retry-topics-retries":2051080,"retry-topics-dlq":2057020,"retry-topics-manual":2064020,"retry-topics-end":2072067,"sweeper-start":2085533,"sweeper-cadence":2089240,"sweeper-table":2090480,"sweeper-accepted":2092100,"sweeper-attempts":2093480,"sweeper-sending":2095260,"sweeper-timeout":2096340,"sweeper-duplicate":2101680,"sweeper-end":2109667,"channel-priority-matrix-start":2359900,"channel-priority-matrix-push-topic":2362760,"channel-priority-matrix-push-workers":2368420,"channel-priority-matrix-overview":2371360,"channel-priority-matrix-email":2374500,"channel-priority-matrix-push-isolated":2375460,"channel-priority-matrix-sms-otp":2382560,"channel-priority-matrix-sms-bulk":2384920,"channel-priority-matrix-senders":2387100,"channel-priority-matrix-total":2392980,"channel-priority-matrix-end":2397200,"capacity-table-start":2404867,"capacity-table-peak":2408580,"capacity-table-call-time":2409500,"capacity-table-in-flight":2411300,"capacity-table-parallelism":2413240,"capacity-table-resolved":2416100,"capacity-table-end":2422267,"latency-budget-start":2568467,"latency-budget-goal":2572320,"latency-budget-ingest":2574500,"latency-budget-ingest-note":2586540,"latency-budget-relay":2596400,"latency-budget-main-lag":2619900,"latency-budget-orchestrator":2637920,"latency-budget-channel-lag":2649900,"latency-budget-provider":2656900,"latency-budget-provider-observation":2662480,"latency-budget-normal":2666120,"latency-budget-reserve":2670440,"latency-budget-retry":2673540,"latency-budget-fallback":2676680,"latency-budget-end":2679967,"outbox-partitions-start":2775033,"outbox-partitions-parent":2777380,"outbox-partitions-range":2782500,"outbox-partitions-switch":2784380,"outbox-partitions-day":2784980,"outbox-partitions-automation":2787480,"outbox-partitions-cleanup":2790900,"outbox-partitions-hold":2800660,"outbox-partitions-retention":2804340,"outbox-partitions-indexes":2811520,"outbox-partitions-clear":2819460,"outbox-partitions-return":2822720,"outbox-partitions-queries":2823320,"outbox-partitions-resolved":2827140,"outbox-partitions-end":2831000,"timers-claim-start":2997433,"timers-claim-table":2999040,"timers-claim-day":3010140,"timers-claim-minute":3014680,"timers-claim-shards":3016500,"timers-claim-range":3019840,"timers-claim-topic":3027160,"timers-claim-workers":3033300,"timers-claim-hold":3037380,"timers-claim-switch":3046200,"timers-claim-transaction":3048080,"timers-claim-update":3052180,"timers-claim-overdue":3054500,"timers-claim-lock":3060880,"timers-claim-lease":3064820,"timers-claim-end":3069800}}
     audio={null}
     components={V008NotificationSystemComponents}
-    timeline={[{"id":"show-p01-a01-database-schema","animation":"p01-a01-database-schema","anchor":"schema-start","offsetMs":0,"durationMs":102000,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p01-a02-device-tokens","animation":"p01-a02-device-tokens","anchor":"device-tokens-start","offsetMs":0,"durationMs":30000,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p01-a03-scheduled-query","animation":"p01-a03-scheduled-query","anchor":"scheduled-query-start","offsetMs":0,"durationMs":16000,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p01-a04-campaign-tables","animation":"p01-a04-campaign-tables","anchor":"campaign-tables-start","offsetMs":0,"durationMs":25000,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p01-a05-preferences","animation":"p01-a05-preferences","anchor":"preferences-start","offsetMs":0,"durationMs":25000,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}]}
+    timeline={[{"id":"show-p01-a01-database-schema","animation":"p01-a01-database-schema","anchor":"schema-start","offsetMs":0,"durationMs":102000,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p01-a02-device-tokens","animation":"p01-a02-device-tokens","anchor":"device-tokens-start","offsetMs":0,"durationMs":30000,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p01-a03-scheduled-query","animation":"p01-a03-scheduled-query","anchor":"scheduled-query-start","offsetMs":0,"durationMs":16000,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p01-a04-campaign-tables","animation":"p01-a04-campaign-tables","anchor":"campaign-tables-start","offsetMs":0,"durationMs":25000,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p01-a05-preferences","animation":"p01-a05-preferences","anchor":"preferences-start","offsetMs":0,"durationMs":25000,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p02-a01-producer-settings","animation":"p02-a01-producer-settings","anchor":"producer-settings-start","offsetMs":0,"durationMs":45500,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p02-a02-outbox","animation":"p02-a02-outbox","anchor":"outbox-start","offsetMs":0,"durationMs":47000,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p02-a03-postgres-queue","animation":"p02-a03-postgres-queue","anchor":"postgres-queue-start","offsetMs":0,"durationMs":16700,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p02-a04-consumer-settings","animation":"p02-a04-consumer-settings","anchor":"consumer-settings-start","offsetMs":0,"durationMs":15000,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p02-a05-consumer-liveness","animation":"p02-a05-consumer-liveness","anchor":"consumer-liveness-start","offsetMs":0,"durationMs":12600,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p02-a06-provider-errors","animation":"p02-a06-provider-errors","anchor":"provider-errors-start","offsetMs":0,"durationMs":17900,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p02-a07-retry-topics","animation":"p02-a07-retry-topics","anchor":"retry-topics-start","offsetMs":0,"durationMs":23334,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p02-a08-sweeper","animation":"p02-a08-sweeper","anchor":"sweeper-start","offsetMs":0,"durationMs":24134,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p03-a02-channel-priority-matrix","animation":"p03-a02-channel-priority-matrix","anchor":"channel-priority-matrix-start","offsetMs":0,"durationMs":37300,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p03-a03-capacity-table","animation":"p03-a03-capacity-table","anchor":"capacity-table-start","offsetMs":0,"durationMs":17400,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p03-a05-latency-budget","animation":"p03-a05-latency-budget","anchor":"latency-budget-start","offsetMs":0,"durationMs":111500,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p04-a01-outbox-partitions","animation":"p04-a01-outbox-partitions","anchor":"outbox-partitions-start","offsetMs":0,"durationMs":55967,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p05-a01-timers-claim","animation":"p05-a01-timers-claim","anchor":"timers-claim-start","offsetMs":0,"durationMs":72367,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}]}
   />
 );
 
@@ -1865,6 +1891,131 @@ export const GeneratedVideoCompositions: React.FC = () => (
           height={1440}
           fps={30}
           durationInFrames={750}
+          defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}
+        />
+      </Folder>
+      <Folder name="P-02">
+        <Composition
+          id="Video-008-notification-system-p02-a01-producer-settings"
+          component={Animation145P02A01ProducerSettings}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1365}
+          defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}
+        />
+        <Composition
+          id="Video-008-notification-system-p02-a02-outbox"
+          component={Animation146P02A02Outbox}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1410}
+          defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}
+        />
+        <Composition
+          id="Video-008-notification-system-p02-a03-postgres-queue"
+          component={Animation147P02A03PostgresQueue}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={501}
+          defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}
+        />
+        <Composition
+          id="Video-008-notification-system-p02-a04-consumer-settings"
+          component={Animation148P02A04ConsumerSettings}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={450}
+          defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}
+        />
+        <Composition
+          id="Video-008-notification-system-p02-a05-consumer-liveness"
+          component={Animation149P02A05ConsumerLiveness}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={378}
+          defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}
+        />
+        <Composition
+          id="Video-008-notification-system-p02-a06-provider-errors"
+          component={Animation150P02A06ProviderErrors}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={537}
+          defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}
+        />
+        <Composition
+          id="Video-008-notification-system-p02-a07-retry-topics"
+          component={Animation151P02A07RetryTopics}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={700}
+          defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}
+        />
+        <Composition
+          id="Video-008-notification-system-p02-a08-sweeper"
+          component={Animation152P02A08Sweeper}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={724}
+          defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}
+        />
+      </Folder>
+      <Folder name="P-03">
+        <Composition
+          id="Video-008-notification-system-p03-a02-channel-priority-matrix"
+          component={Animation153P03A02ChannelPriorityMatrix}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1119}
+          defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}
+        />
+        <Composition
+          id="Video-008-notification-system-p03-a03-capacity-table"
+          component={Animation154P03A03CapacityTable}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={522}
+          defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}
+        />
+        <Composition
+          id="Video-008-notification-system-p03-a05-latency-budget"
+          component={Animation155P03A05LatencyBudget}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={3345}
+          defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}
+        />
+      </Folder>
+      <Folder name="P-04">
+        <Composition
+          id="Video-008-notification-system-p04-a01-outbox-partitions"
+          component={Animation156P04A01OutboxPartitions}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1679}
+          defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}
+        />
+      </Folder>
+      <Folder name="P-05">
+        <Composition
+          id="Video-008-notification-system-p05-a01-timers-claim"
+          component={Animation157P05A01TimersClaim}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={2171}
           defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}
         />
       </Folder>
