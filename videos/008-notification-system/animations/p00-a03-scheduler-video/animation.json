@@ -1,0 +1,14 @@
+{
+  "id": "p00-a03-scheduler-video",
+  "part": 0,
+  "order": 3,
+  "title": "Видео про Job Scheduler",
+  "kind": "2d",
+  "durationMs": 9500,
+  "defaultProps": {
+    "themeId": "graphite",
+    "motionProfile": "calm",
+    "previewBackground": "transparent",
+    "withAudio": true
+  }
+}

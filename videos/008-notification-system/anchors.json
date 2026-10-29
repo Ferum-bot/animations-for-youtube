@@ -183,5 +183,11 @@
   "timers-claim-overdue": 3054500,
   "timers-claim-lock": 3060880,
   "timers-claim-lease": 3064820,
-  "timers-claim-end": 3069800
+  "timers-claim-end": 3069800,
+  "p00-a01-sharding-video-start": 799633,
+  "p00-a01-sharding-video-end": 806000,
+  "p00-a02-postgres-video-start": 1701367,
+  "p00-a02-postgres-video-end": 1712533,
+  "p00-a03-scheduler-video-start": 2976467,
+  "p00-a03-scheduler-video-end": 2985967
 }

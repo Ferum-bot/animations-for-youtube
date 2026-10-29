@@ -3,6 +3,7 @@ import {AbsoluteFill, interpolateColors, staticFile, useCurrentFrame, useVideoCo
 import {Audio} from '@remotion/media';
 import {fadeEnvelope, smoothProgress, type MotionProfile} from '@channel/motion-core';
 import {getTheme, type ChannelTheme, type ThemeId} from '@channel/theme';
+import {overlayTransitions} from './overlay-transitions';
 
 export type OverlayProps = {
   readonly themeId?: ThemeId;
@@ -10,12 +11,6 @@ export type OverlayProps = {
   readonly previewBackground?: 'transparent' | 'light' | 'dark';
   readonly withAudio?: boolean;
 };
-
-const transitions = {
-  calm: {enterMs: 400, exitMs: 500},
-  technical: {enterMs: 300, exitMs: 400},
-  energetic: {enterMs: 200, exitMs: 300},
-} as const satisfies Record<MotionProfile, {readonly enterMs: number; readonly exitMs: number}>;
 
 /** QHD overlay lifecycle; appearance and motion speed are independent. */
 export const OverlayStage: React.FC<OverlayProps & {
@@ -26,7 +21,7 @@ export const OverlayStage: React.FC<OverlayProps & {
   const frame = useCurrentFrame();
   const {fps, durationInFrames} = useVideoConfig();
   const timeMs = frame * 1000 / fps;
-  const timing = transitions[motionProfile];
+  const timing = overlayTransitions[motionProfile];
   const opacity = fadeEnvelope({frame, durationInFrames,
     enterFrames: Math.round(timing.enterMs * fps / 1000),
     exitFrames: Math.round(timing.exitMs * fps / 1000)});

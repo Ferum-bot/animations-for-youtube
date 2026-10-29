@@ -1,0 +1,14 @@
+{
+  "id": "p00-a02-postgres-video",
+  "part": 0,
+  "order": 2,
+  "title": "Видео про Postgres",
+  "kind": "2d",
+  "durationMs": 11166,
+  "defaultProps": {
+    "themeId": "graphite",
+    "motionProfile": "calm",
+    "previewBackground": "transparent",
+    "withAudio": true
+  }
+}

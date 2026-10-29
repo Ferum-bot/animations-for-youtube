@@ -1,0 +1,16 @@
+{
+  "project": "1028",
+  "draftPath": "/Users/mdpopov/Movies/CapCut/User Data/Projects/com.lveditor.draft/1028/draft_info.json",
+  "draftSha256": "49cbcd8a2ad0017d356b25e9b9b3e739f899f25cad2273119a5f4833f60e98c6",
+  "fps": 30,
+  "sourceAudioStartMs": 3001867,
+  "sourceAudioEndMs": 3011367,
+  "timelineStartMs": 2976467,
+  "timelineEndMs": 2985967,
+  "timelineStartTimecode": "00:49:36:14",
+  "timelineEndTimecode": "00:49:45:29",
+  "sourceAudioToTimelineOffsetMs": -25400,
+  "alignment": {
+    "method": "Waveform-aligned spoken reference; audio track ranges verified unchanged against CapCut project 1028 snapshot. Boundaries rounded to 30 fps."
+  }
+}

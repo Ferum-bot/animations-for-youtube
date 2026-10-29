@@ -1,0 +1,14 @@
+{
+  "id": "p00-a01-sharding-video",
+  "part": 0,
+  "order": 1,
+  "title": "Видео про шардирование",
+  "kind": "2d",
+  "durationMs": 6367,
+  "defaultProps": {
+    "themeId": "graphite",
+    "motionProfile": "calm",
+    "previewBackground": "transparent",
+    "withAudio": true
+  }
+}
