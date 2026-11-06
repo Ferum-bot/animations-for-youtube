@@ -1,0 +1,10 @@
+{
+  "id": "p01-a03-history-consistency",
+  "part": 1,
+  "order": 3,
+  "title": "История Cassandra — восстановимый индекс и выбор хранилища",
+  "kind": "2d",
+  "durationMs": 55866.666667,
+  "studioFolder": "P-01-History",
+  "defaultProps": {"previewBackground": "photo", "withAudio": true}
+}

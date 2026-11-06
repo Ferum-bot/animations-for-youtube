@@ -1,0 +1,10 @@
+{
+  "id": "p01-a02-history-index",
+  "part": 1,
+  "order": 2,
+  "title": "История Cassandra — зачем понадобился поисковый индекс",
+  "kind": "2d",
+  "durationMs": 117300,
+  "studioFolder": "P-01-History",
+  "defaultProps": {"previewBackground": "photo", "withAudio": true}
+}

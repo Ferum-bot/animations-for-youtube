@@ -22,10 +22,54 @@
     }
   },
   {
+    "id": "show-p01-a01-history-origins",
+    "animation": "p01-a01-history-origins",
+    "anchor": "chapter-history",
+    "offsetMs": 4500,
+    "durationMs": 49866.666667,
+    "props": {
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p01-a02-history-index",
+    "animation": "p01-a02-history-index",
+    "anchor": "chapter-history",
+    "offsetMs": 54366.666667,
+    "durationMs": 117300,
+    "props": {
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p01-a03-history-consistency",
+    "animation": "p01-a03-history-consistency",
+    "anchor": "chapter-history",
+    "offsetMs": 196800.000333,
+    "durationMs": 55866.666667,
+    "props": {
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p01-a04-history-launch",
+    "animation": "p01-a04-history-launch",
+    "anchor": "chapter-history",
+    "offsetMs": 252666.667,
+    "durationMs": 26200,
+    "props": {
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  },
+  {
     "id": "show-p02-a00-chapter-architecture",
     "animation": "p02-a00-chapter-architecture",
     "anchor": "chapter-architecture",
-    "offsetMs": 0,
+    "offsetMs": 4500,
     "durationMs": 4500,
     "props": {
       "themeId": "graphite",

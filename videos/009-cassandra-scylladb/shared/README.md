@@ -8,3 +8,4 @@
 
 Keep this system local until another episode needs the same contract. Existing
 standard and Postgres dividers have different visual/timing contracts.
+- `editorial-v2/`: decoded source images and bounded gestures; see its README. Explanatory drawings follow `docs/style/PLAIN_EXPLANATION.md` and retain the chapter palette.

@@ -1,0 +1,13 @@
+{
+  "id": "p01-a01-history-origins",
+  "part": 1,
+  "order": 1,
+  "title": "История Cassandra — авторы, источники и Inbox Search",
+  "kind": "2d",
+  "durationMs": 49866.666667,
+  "studioFolder": "P-01-History",
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  }
+}

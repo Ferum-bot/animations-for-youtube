@@ -1,0 +1,10 @@
+{
+  "id": "p01-a04-history-launch",
+  "part": 1,
+  "order": 4,
+  "title": "История Cassandra — запуск и первые результаты",
+  "kind": "2d",
+  "durationMs": 26200,
+  "studioFolder": "P-01-History",
+  "defaultProps": {"previewBackground": "photo", "withAudio": true}
+}

@@ -1,6 +1,11 @@
 # Cassandra / ScyllaDB
 
 Read the root `AGENTS.md` and `docs/style/ANIMATION_GUIDE.md` before any work.
+Read `docs/style/PLAIN_EXPLANATION.md` for explanatory scenes. The user approved
+simple paper-like drawings, concrete examples and real source pages on 2026-11-07.
+The full-screen history fragment uses this simple drawing direction with the SAME
+graphite / cream / cobalt palette as chapter dividers. Do not return to a light
+background or to the rejected slide-like layout.
 The user selected the first implemented study: dark geometric chapter dividers.
 Keep its Manrope typography, three cobalt planes, masking and motion unchanged
 unless requested. Four chapter compositions share this implementation; rejected

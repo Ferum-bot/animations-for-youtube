@@ -9,20 +9,8 @@ export const scene = {
   exitMs: 300,
 } as const;
 
-export type QuoteLine = {
-  readonly text: string;
-  readonly x: number;
-  readonly y: number;
-  readonly width: number;
-  readonly height: number;
-};
-
-export type Highlight = {
-  readonly startMs: number;
-  readonly endMs: number;
-  readonly fontSize?: number;
-  readonly lines: readonly QuoteLine[];
-};
+export type {Highlight, QuoteLine} from '../../shared/source-documents/QuoteHighlight';
+import type {Highlight} from '../../shared/source-documents/QuoteHighlight';
 
 export type Clipping = {
   readonly crop: CropId;

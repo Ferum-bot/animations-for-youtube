@@ -9,6 +9,16 @@ binding for subsequent agents. Apply its acceptance gates, not just its palette.
 Current explicit user instructions take precedence. Preserve existing approved
 episodes and all eight historical references; do not restyle them proactively.
 
+For explanatory animation, also read the mandatory
+[plain illustration rules and references](docs/style/PLAIN_EXPLANATION.md).
+The user approved this direction on 2026-11-07: Common Craft, Maggie Appleton,
+Julia Evans, with Nicky Case and Red Blob Games supporting causal motion.
+Prefer concrete, simple drawings and sparse labels, using the same graphite /
+cream / cobalt palette as the approved chapter dividers (not a light paper theme). The rejected slide-like
+history draft is not a visual reference. Chapter dividers keep their own direction. In full-screen animations, source
+websites fill the entire frame without an outer border; scroll to and highlight
+the exact passage supporting the current narration.
+
 ## Non-negotiable operating rules
 
 These rules apply to every task in this repository unless the user explicitly overrides one in the current request.

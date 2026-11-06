@@ -166,9 +166,13 @@ import Animation159P04A01OutboxPartitions from '../../../../videos/008-notificat
 import Animation160P05A01TimersClaim from '../../../../videos/008-notification-system/animations/p05-a01-timers-claim/Composition';
 import Animation161P00A01IntroSources from '../../../../videos/009-cassandra-scylladb/animations/p00-a01-intro-sources/Composition';
 import Animation162P01A00ChapterHistory from '../../../../videos/009-cassandra-scylladb/animations/p01-a00-chapter-history/Composition';
-import Animation163P02A00ChapterArchitecture from '../../../../videos/009-cassandra-scylladb/animations/p02-a00-chapter-architecture/Composition';
-import Animation164P03A00ChapterScylladb from '../../../../videos/009-cassandra-scylladb/animations/p03-a00-chapter-scylladb/Composition';
-import Animation165P04A00ChapterChoice from '../../../../videos/009-cassandra-scylladb/animations/p04-a00-chapter-choice/Composition';
+import Animation163P01A01HistoryOrigins from '../../../../videos/009-cassandra-scylladb/animations/p01-a01-history-origins/Composition';
+import Animation164P01A02HistoryIndex from '../../../../videos/009-cassandra-scylladb/animations/p01-a02-history-index/Composition';
+import Animation165P01A03HistoryConsistency from '../../../../videos/009-cassandra-scylladb/animations/p01-a03-history-consistency/Composition';
+import Animation166P01A04HistoryLaunch from '../../../../videos/009-cassandra-scylladb/animations/p01-a04-history-launch/Composition';
+import Animation167P02A00ChapterArchitecture from '../../../../videos/009-cassandra-scylladb/animations/p02-a00-chapter-architecture/Composition';
+import Animation168P03A00ChapterScylladb from '../../../../videos/009-cassandra-scylladb/animations/p03-a00-chapter-scylladb/Composition';
+import Animation169P04A00ChapterChoice from '../../../../videos/009-cassandra-scylladb/animations/p04-a00-chapter-choice/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -442,9 +446,13 @@ const V008NotificationSystemOverlay: React.FC = () => (
 const V009CassandraScylladbComponents: Record<string, TimelineComponent> = {
   "p00-a01-intro-sources": Animation161P00A01IntroSources,
   "p01-a00-chapter-history": Animation162P01A00ChapterHistory,
-  "p02-a00-chapter-architecture": Animation163P02A00ChapterArchitecture,
-  "p03-a00-chapter-scylladb": Animation164P03A00ChapterScylladb,
-  "p04-a00-chapter-choice": Animation165P04A00ChapterChoice,
+  "p01-a01-history-origins": Animation163P01A01HistoryOrigins,
+  "p01-a02-history-index": Animation164P01A02HistoryIndex,
+  "p01-a03-history-consistency": Animation165P01A03HistoryConsistency,
+  "p01-a04-history-launch": Animation166P01A04HistoryLaunch,
+  "p02-a00-chapter-architecture": Animation167P02A00ChapterArchitecture,
+  "p03-a00-chapter-scylladb": Animation168P03A00ChapterScylladb,
+  "p04-a00-chapter-choice": Animation169P04A00ChapterChoice,
 };
 
 const V009CassandraScylladbOverlay: React.FC = () => (
@@ -452,7 +460,7 @@ const V009CassandraScylladbOverlay: React.FC = () => (
     anchors={{"intro-start":41500,"chapter-history":105333.333,"chapter-architecture":379700,"chapter-scylladb":1157900,"chapter-choice":1589866.666}}
     audio={null}
     components={V009CassandraScylladbComponents}
-    timeline={[{"id":"show-p00-a01-intro-sources","animation":"p00-a01-intro-sources","anchor":"intro-start","offsetMs":0,"durationMs":41700,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a00-chapter-history","animation":"p01-a00-chapter-history","anchor":"chapter-history","offsetMs":0,"durationMs":4500,"props":{"themeId":"graphite","motionProfile":"calm"}},{"id":"show-p02-a00-chapter-architecture","animation":"p02-a00-chapter-architecture","anchor":"chapter-architecture","offsetMs":0,"durationMs":4500,"props":{"themeId":"graphite","motionProfile":"calm"}},{"id":"show-p03-a00-chapter-scylladb","animation":"p03-a00-chapter-scylladb","anchor":"chapter-scylladb","offsetMs":0,"durationMs":4500,"props":{"themeId":"graphite","motionProfile":"calm"}},{"id":"show-p04-a00-chapter-choice","animation":"p04-a00-chapter-choice","anchor":"chapter-choice","offsetMs":0,"durationMs":4500,"props":{"themeId":"graphite","motionProfile":"calm"}}]}
+    timeline={[{"id":"show-p00-a01-intro-sources","animation":"p00-a01-intro-sources","anchor":"intro-start","offsetMs":0,"durationMs":41700,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a00-chapter-history","animation":"p01-a00-chapter-history","anchor":"chapter-history","offsetMs":0,"durationMs":4500,"props":{"themeId":"graphite","motionProfile":"calm"}},{"id":"show-p01-a01-history-origins","animation":"p01-a01-history-origins","anchor":"chapter-history","offsetMs":4500,"durationMs":49866.666667,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a02-history-index","animation":"p01-a02-history-index","anchor":"chapter-history","offsetMs":54366.666667,"durationMs":117300,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a03-history-consistency","animation":"p01-a03-history-consistency","anchor":"chapter-history","offsetMs":196800.000333,"durationMs":55866.666667,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a04-history-launch","animation":"p01-a04-history-launch","anchor":"chapter-history","offsetMs":252666.667,"durationMs":26200,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a00-chapter-architecture","animation":"p02-a00-chapter-architecture","anchor":"chapter-architecture","offsetMs":4500,"durationMs":4500,"props":{"themeId":"graphite","motionProfile":"calm"}},{"id":"show-p03-a00-chapter-scylladb","animation":"p03-a00-chapter-scylladb","anchor":"chapter-scylladb","offsetMs":0,"durationMs":4500,"props":{"themeId":"graphite","motionProfile":"calm"}},{"id":"show-p04-a00-chapter-choice","animation":"p04-a00-chapter-choice","anchor":"chapter-choice","offsetMs":0,"durationMs":4500,"props":{"themeId":"graphite","motionProfile":"calm"}}]}
   />
 );
 
@@ -2098,7 +2106,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p02-a00-chapter-architecture"
-          component={Animation163P02A00ChapterArchitecture}
+          component={Animation167P02A00ChapterArchitecture}
           width={2560}
           height={1440}
           fps={30}
@@ -2107,7 +2115,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p03-a00-chapter-scylladb"
-          component={Animation164P03A00ChapterScylladb}
+          component={Animation168P03A00ChapterScylladb}
           width={2560}
           height={1440}
           fps={30}
@@ -2116,7 +2124,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p04-a00-chapter-choice"
-          component={Animation165P04A00ChapterChoice}
+          component={Animation169P04A00ChapterChoice}
           width={2560}
           height={1440}
           fps={30}
@@ -2132,6 +2140,44 @@ export const GeneratedVideoCompositions: React.FC = () => (
           height={1440}
           fps={30}
           durationInFrames={1251}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+      </Folder>
+      <Folder name="P-01-History">
+        <Composition
+          id="Video-009-cassandra-scylladb-p01-a01-history-origins"
+          component={Animation163P01A01HistoryOrigins}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1496}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p01-a02-history-index"
+          component={Animation164P01A02HistoryIndex}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={3519}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p01-a03-history-consistency"
+          component={Animation165P01A03HistoryConsistency}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1676}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p01-a04-history-launch"
+          component={Animation166P01A04HistoryLaunch}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={786}
           defaultProps={{"previewBackground":"photo","withAudio":true}}
         />
       </Folder>
