@@ -1,0 +1,13 @@
+{
+  "id": "p04-a00-chapter-choice",
+  "part": 4,
+  "order": 0,
+  "title": "04. Когда брать Cassandra/ScyllaDB",
+  "kind": "2d",
+  "durationMs": 4500,
+  "studioFolder": "P-00-Chapters",
+  "defaultProps": {
+    "themeId": "graphite",
+    "motionProfile": "calm"
+  }
+}

@@ -164,6 +164,11 @@ import Animation157P03A03CapacityTable from '../../../../videos/008-notification
 import Animation158P03A05LatencyBudget from '../../../../videos/008-notification-system/animations/p03-a05-latency-budget/Composition';
 import Animation159P04A01OutboxPartitions from '../../../../videos/008-notification-system/animations/p04-a01-outbox-partitions/Composition';
 import Animation160P05A01TimersClaim from '../../../../videos/008-notification-system/animations/p05-a01-timers-claim/Composition';
+import Animation161P00A01IntroSources from '../../../../videos/009-cassandra-scylladb/animations/p00-a01-intro-sources/Composition';
+import Animation162P01A00ChapterHistory from '../../../../videos/009-cassandra-scylladb/animations/p01-a00-chapter-history/Composition';
+import Animation163P02A00ChapterArchitecture from '../../../../videos/009-cassandra-scylladb/animations/p02-a00-chapter-architecture/Composition';
+import Animation164P03A00ChapterScylladb from '../../../../videos/009-cassandra-scylladb/animations/p03-a00-chapter-scylladb/Composition';
+import Animation165P04A00ChapterChoice from '../../../../videos/009-cassandra-scylladb/animations/p04-a00-chapter-choice/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -431,6 +436,23 @@ const V008NotificationSystemOverlay: React.FC = () => (
     audio={null}
     components={V008NotificationSystemComponents}
     timeline={[{"id":"show-p00-a01-sharding-video","animation":"p00-a01-sharding-video","anchor":"p00-a01-sharding-video-start","offsetMs":0,"durationMs":6367,"props":{"themeId":"graphite","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p01-a01-database-schema","animation":"p01-a01-database-schema","anchor":"schema-start","offsetMs":0,"durationMs":102000,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p01-a02-device-tokens","animation":"p01-a02-device-tokens","anchor":"device-tokens-start","offsetMs":0,"durationMs":30000,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p01-a03-scheduled-query","animation":"p01-a03-scheduled-query","anchor":"scheduled-query-start","offsetMs":0,"durationMs":16000,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p01-a04-campaign-tables","animation":"p01-a04-campaign-tables","anchor":"campaign-tables-start","offsetMs":0,"durationMs":25000,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p01-a05-preferences","animation":"p01-a05-preferences","anchor":"preferences-start","offsetMs":0,"durationMs":25000,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p02-a01-producer-settings","animation":"p02-a01-producer-settings","anchor":"producer-settings-start","offsetMs":0,"durationMs":45500,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p02-a02-outbox","animation":"p02-a02-outbox","anchor":"outbox-start","offsetMs":0,"durationMs":47000,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p00-a02-postgres-video","animation":"p00-a02-postgres-video","anchor":"p00-a02-postgres-video-start","offsetMs":0,"durationMs":11166,"props":{"themeId":"graphite","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p02-a03-postgres-queue","animation":"p02-a03-postgres-queue","anchor":"postgres-queue-start","offsetMs":0,"durationMs":16700,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p02-a04-consumer-settings","animation":"p02-a04-consumer-settings","anchor":"consumer-settings-start","offsetMs":0,"durationMs":15000,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p02-a05-consumer-liveness","animation":"p02-a05-consumer-liveness","anchor":"consumer-liveness-start","offsetMs":0,"durationMs":12600,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p02-a06-provider-errors","animation":"p02-a06-provider-errors","anchor":"provider-errors-start","offsetMs":0,"durationMs":17900,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p02-a07-retry-topics","animation":"p02-a07-retry-topics","anchor":"retry-topics-start","offsetMs":0,"durationMs":23334,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p02-a08-sweeper","animation":"p02-a08-sweeper","anchor":"sweeper-start","offsetMs":0,"durationMs":24134,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p03-a02-channel-priority-matrix","animation":"p03-a02-channel-priority-matrix","anchor":"channel-priority-matrix-start","offsetMs":0,"durationMs":37300,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p03-a03-capacity-table","animation":"p03-a03-capacity-table","anchor":"capacity-table-start","offsetMs":0,"durationMs":17400,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p03-a05-latency-budget","animation":"p03-a05-latency-budget","anchor":"latency-budget-start","offsetMs":0,"durationMs":111500,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p04-a01-outbox-partitions","animation":"p04-a01-outbox-partitions","anchor":"outbox-partitions-start","offsetMs":0,"durationMs":55967,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p00-a03-scheduler-video","animation":"p00-a03-scheduler-video","anchor":"p00-a03-scheduler-video-start","offsetMs":0,"durationMs":9500,"props":{"themeId":"graphite","motionProfile":"calm","previewBackground":"transparent","withAudio":true}},{"id":"show-p05-a01-timers-claim","animation":"p05-a01-timers-claim","anchor":"timers-claim-start","offsetMs":0,"durationMs":72367,"props":{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}]}
+  />
+);
+
+const V009CassandraScylladbComponents: Record<string, TimelineComponent> = {
+  "p00-a01-intro-sources": Animation161P00A01IntroSources,
+  "p01-a00-chapter-history": Animation162P01A00ChapterHistory,
+  "p02-a00-chapter-architecture": Animation163P02A00ChapterArchitecture,
+  "p03-a00-chapter-scylladb": Animation164P03A00ChapterScylladb,
+  "p04-a00-chapter-choice": Animation165P04A00ChapterChoice,
+};
+
+const V009CassandraScylladbOverlay: React.FC = () => (
+  <TimelineOverlay
+    anchors={{"intro-start":41500,"chapter-history":105333.333,"chapter-architecture":379700,"chapter-scylladb":1157900,"chapter-choice":1589866.666}}
+    audio={null}
+    components={V009CassandraScylladbComponents}
+    timeline={[{"id":"show-p00-a01-intro-sources","animation":"p00-a01-intro-sources","anchor":"intro-start","offsetMs":0,"durationMs":41700,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a00-chapter-history","animation":"p01-a00-chapter-history","anchor":"chapter-history","offsetMs":0,"durationMs":4500,"props":{"themeId":"graphite","motionProfile":"calm"}},{"id":"show-p02-a00-chapter-architecture","animation":"p02-a00-chapter-architecture","anchor":"chapter-architecture","offsetMs":0,"durationMs":4500,"props":{"themeId":"graphite","motionProfile":"calm"}},{"id":"show-p03-a00-chapter-scylladb","animation":"p03-a00-chapter-scylladb","anchor":"chapter-scylladb","offsetMs":0,"durationMs":4500,"props":{"themeId":"graphite","motionProfile":"calm"}},{"id":"show-p04-a00-chapter-choice","animation":"p04-a00-chapter-choice","anchor":"chapter-choice","offsetMs":0,"durationMs":4500,"props":{"themeId":"graphite","motionProfile":"calm"}}]}
   />
 );
 
@@ -2061,6 +2083,65 @@ export const GeneratedVideoCompositions: React.FC = () => (
         height={1440}
         fps={30}
         durationInFrames={111475}
+      />
+    </Folder>
+    <Folder name="V-009-cassandra-scylladb">
+      <Folder name="P-00-Chapters">
+        <Composition
+          id="Video-009-cassandra-scylladb-p01-a00-chapter-history"
+          component={Animation162P01A00ChapterHistory}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={135}
+          defaultProps={{"themeId":"graphite","motionProfile":"calm"}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p02-a00-chapter-architecture"
+          component={Animation163P02A00ChapterArchitecture}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={135}
+          defaultProps={{"themeId":"graphite","motionProfile":"calm"}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p03-a00-chapter-scylladb"
+          component={Animation164P03A00ChapterScylladb}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={135}
+          defaultProps={{"themeId":"graphite","motionProfile":"calm"}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p04-a00-chapter-choice"
+          component={Animation165P04A00ChapterChoice}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={135}
+          defaultProps={{"themeId":"graphite","motionProfile":"calm"}}
+        />
+      </Folder>
+      <Folder name="P-00-Intro">
+        <Composition
+          id="Video-009-cassandra-scylladb-p00-a01-intro-sources"
+          component={Animation161P00A01IntroSources}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1251}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+      </Folder>
+      <Composition
+        id="Video-009-cassandra-scylladb-Overlay"
+        component={V009CassandraScylladbOverlay}
+        width={2560}
+        height={1440}
+        fps={30}
+        durationInFrames={54952}
       />
     </Folder>
   </>

@@ -2,6 +2,13 @@
 
 Read this file before changing motion code.
 
+Read [the mandatory animation guide](docs/style/ANIMATION_GUIDE.md) before designing,
+implementing, or reviewing any new animation. The user selected the MKBHD / Posy /
+Ben Marriott reference directions on 2026-11-06 and explicitly made this guide
+binding for subsequent agents. Apply its acceptance gates, not just its palette.
+Current explicit user instructions take precedence. Preserve existing approved
+episodes and all eight historical references; do not restyle them proactively.
+
 ## Non-negotiable operating rules
 
 These rules apply to every task in this repository unless the user explicitly overrides one in the current request.
@@ -36,7 +43,8 @@ The intended tone is authored, calm, editorial, technically literate, and occasi
 - `examples/animations/` contains eight canonical visual references. Preserve all eight unless the user explicitly requests removal.
 - `apps/remotion/src/generated/video-registry.tsx` is generated. Never edit it by hand; run `task generate`.
 - Generated renders and ingested audio are not source and must not be committed.
-- `docs/style/motion-design-youtube-research-ru.pdf` is the canonical research document for the user's visual direction.
+- `docs/style/ANIMATION_GUIDE.md` is the binding visual/motion direction for new work.
+- `docs/style/motion-design-youtube-research-ru.pdf` is historical research. Where its suggestions differ from the newer animation guide, follow the guide.
 
 ## Architecture rules
 

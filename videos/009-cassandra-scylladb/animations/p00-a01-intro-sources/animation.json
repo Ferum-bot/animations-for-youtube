@@ -1,0 +1,13 @@
+{
+  "id": "p00-a01-intro-sources",
+  "part": 0,
+  "order": 1,
+  "title": "Вступление — источники Netflix, Uber, Discord, Ozon, ОК, МТС и Т-Банка",
+  "kind": "2d",
+  "durationMs": 41700,
+  "studioFolder": "P-00-Intro",
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  }
+}

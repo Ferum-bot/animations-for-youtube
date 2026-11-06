@@ -1,0 +1,13 @@
+{
+  "id": "p01-a00-chapter-history",
+  "part": 1,
+  "order": 0,
+  "title": "01. История появления Cassandra",
+  "kind": "2d",
+  "durationMs": 4500,
+  "studioFolder": "P-00-Chapters",
+  "defaultProps": {
+    "themeId": "graphite",
+    "motionProfile": "calm"
+  }
+}

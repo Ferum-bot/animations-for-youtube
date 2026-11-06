@@ -1,0 +1,13 @@
+{
+  "id": "p02-a00-chapter-architecture",
+  "part": 2,
+  "order": 0,
+  "title": "02. Архитектура Cassandra",
+  "kind": "2d",
+  "durationMs": 4500,
+  "studioFolder": "P-00-Chapters",
+  "defaultProps": {
+    "themeId": "graphite",
+    "motionProfile": "calm"
+  }
+}
