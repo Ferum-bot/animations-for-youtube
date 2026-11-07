@@ -177,5 +177,15 @@
       "themeId": "graphite",
       "motionProfile": "calm"
     }
+  },
+  {
+    "id": "show-p04-a02-choice-in-production",
+    "animation": "p04-a02-choice-in-production",
+    "anchor": "chapter-choice",
+    "offsetMs": 41233.334,
+    "durationMs": 105166.667,
+    "props": {
+      "withAudio": false
+    }
   }
 ]

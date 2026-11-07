@@ -1,31 +1,12 @@
-import type {SourceRect} from '@channel/motion-v2';
+import {articlePages, type PageShot} from '../../shared/source-reading/article';
 import type {SourceCaptionText} from '../../shared/source-reading/SourceCaption';
 import documents from './documents.json';
 
 type Page = keyof typeof documents;
-type Beat = {
-  readonly at: number;
-  readonly highlights: readonly SourceRect[];
-  readonly caption?: SourceCaptionText;
-};
-type Reading<P extends Page> = {
-  readonly at: number;
-  readonly mark: keyof (typeof documents)[P]['marks'];
-  readonly caption?: SourceCaptionText;
-};
-type PageShot = {readonly kind: 'page'; readonly at: number; readonly id: Page; readonly beats: readonly Beat[]};
 type FigureShot = {readonly kind: 'figure'; readonly at: number; readonly id: 'discord-figure' | 'bench-figure'; readonly caption: SourceCaptionText};
-export type Shot = PageShot | FigureShot;
+export type Shot = PageShot<Page> | FigureShot;
 
-// Each beat is local to its source strip; a new strip is an editorial cut.
-function page<P extends Page>(at: number, id: P, readings: readonly Reading<P>[] = []): PageShot {
-  const marks: Readonly<Record<string, readonly SourceRect[]>> = documents[id].marks;
-  return {kind: 'page', at, id, beats: readings.map(({at, mark, caption}) => {
-    const highlights = marks[String(mark)];
-    if (!highlights) throw Error('Missing source selection: ' + String(mark));
-    return {at, caption, highlights};
-  })};
-}
+const page = articlePages(documents);
 
 const note = (credit: string, line: string, original?: string): SourceCaptionText => ({credit, lines: [line], original});
 const first = 'OCTO · Первый тест, декабрь 2015';

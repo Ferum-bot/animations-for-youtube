@@ -1,0 +1,276 @@
+{
+  "bo-advice": {
+    "width": 1376,
+    "height": 1213,
+    "marks": {
+      "section": [
+        {
+          "x": 188,
+          "y": 330.58,
+          "width": 468.41,
+          "height": 40
+        }
+      ],
+      "scale": [
+        {
+          "x": 693.61,
+          "y": 550.8,
+          "width": 371.55,
+          "height": 23
+        }
+      ],
+      "cost": [
+        {
+          "x": 1073.41,
+          "y": 550.8,
+          "width": 111.67,
+          "height": 23
+        },
+        {
+          "x": 188,
+          "y": 585.8,
+          "width": 351.91,
+          "height": 23
+        }
+      ]
+    }
+  },
+  "bo-cover": {
+    "width": 1440,
+    "height": 810,
+    "marks": {}
+  },
+  "doc-cover": {
+    "width": 1440,
+    "height": 810,
+    "marks": {}
+  },
+  "doc-motivation": {
+    "width": 1060,
+    "height": 951,
+    "marks": {
+      "dev": [
+        {
+          "x": 688.53,
+          "y": 354.64,
+          "width": 146.81,
+          "height": 19
+        },
+        {
+          "x": 152,
+          "y": 378.64,
+          "width": 89.13,
+          "height": 19
+        }
+      ],
+      "architecture": [
+        {
+          "x": 746.88,
+          "y": 378.64,
+          "width": 120.41,
+          "height": 19
+        },
+        {
+          "x": 152,
+          "y": 402.64,
+          "width": 176,
+          "height": 19
+        }
+      ],
+      "operations": [
+        {
+          "x": 152,
+          "y": 330.64,
+          "width": 317.45,
+          "height": 19
+        }
+      ],
+      "engine": [
+        {
+          "x": 270.39,
+          "y": 466.64,
+          "width": 497.84,
+          "height": 19
+        }
+      ]
+    }
+  },
+  "netflix-conclusion": {
+    "width": 1060,
+    "height": 1091,
+    "marks": {
+      "heading": [
+        {
+          "x": 190,
+          "y": 330.16,
+          "width": 119.55,
+          "height": 31
+        }
+      ],
+      "solve": [
+        {
+          "x": 304.11,
+          "y": 568.23,
+          "width": 313.56,
+          "height": 25
+        }
+      ],
+      "expert": [
+        {
+          "x": 190,
+          "y": 600.23,
+          "width": 275.56,
+          "height": 25
+        }
+      ]
+    }
+  },
+  "netflix-cover": {
+    "width": 1440,
+    "height": 810,
+    "marks": {}
+  },
+  "netflix-friction": {
+    "width": 1060,
+    "height": 1013,
+    "marks": {
+      "consistency": [
+        {
+          "x": 743.48,
+          "y": 330.06,
+          "width": 108.48,
+          "height": 25
+        },
+        {
+          "x": 190,
+          "y": 362.06,
+          "width": 245.41,
+          "height": 25
+        }
+      ],
+      "wide": [
+        {
+          "x": 761.22,
+          "y": 458.06,
+          "width": 59.45,
+          "height": 25
+        },
+        {
+          "x": 190,
+          "y": 490.06,
+          "width": 86.69,
+          "height": 25
+        }
+      ],
+      "items": [
+        {
+          "x": 573.91,
+          "y": 490.06,
+          "width": 169.78,
+          "height": 25
+        }
+      ],
+      "pages": [
+        {
+          "x": 792.17,
+          "y": 490.06,
+          "width": 40.47,
+          "height": 25
+        },
+        {
+          "x": 190,
+          "y": 522.06,
+          "width": 179.92,
+          "height": 25
+        }
+      ]
+    }
+  },
+  "uber-cover": {
+    "width": 1440,
+    "height": 810,
+    "marks": {}
+  },
+  "uber-replace": {
+    "width": 1060,
+    "height": 1171,
+    "marks": {
+      "heading": [
+        {
+          "x": 152,
+          "y": 330.06,
+          "width": 491.7,
+          "height": 43
+        }
+      ],
+      "stuck": [
+        {
+          "x": 192,
+          "y": 661.94,
+          "width": 250.8,
+          "height": 19
+        }
+      ],
+      "add": [
+        {
+          "x": 192,
+          "y": 685.94,
+          "width": 260.08,
+          "height": 19
+        }
+      ]
+    }
+  },
+  "uber-workloads": {
+    "width": 1060,
+    "height": 839,
+    "marks": {
+      "scope": [
+        {
+          "x": 257.41,
+          "y": 330.59,
+          "width": 467.13,
+          "height": 19
+        }
+      ],
+      "read": [
+        {
+          "x": 441.38,
+          "y": 330.59,
+          "width": 94.86,
+          "height": 19
+        }
+      ],
+      "mixed": [
+        {
+          "x": 558.59,
+          "y": 330.59,
+          "width": 44.81,
+          "height": 19
+        }
+      ],
+      "write": [
+        {
+          "x": 625.77,
+          "y": 330.59,
+          "width": 98.77,
+          "height": 19
+        }
+      ],
+      "unique": [
+        {
+          "x": 804.77,
+          "y": 330.59,
+          "width": 98.78,
+          "height": 19
+        },
+        {
+          "x": 152,
+          "y": 354.59,
+          "width": 216.7,
+          "height": 19
+        }
+      ]
+    }
+  }
+}

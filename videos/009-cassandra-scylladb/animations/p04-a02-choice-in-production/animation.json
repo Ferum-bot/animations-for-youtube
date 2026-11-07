@@ -1,0 +1,13 @@
+{
+  "id": "p04-a02-choice-in-production",
+  "part": 4,
+  "order": 2,
+  "title": "Когда брать Cassandra/ScyllaDB — Бо Ингрэм, Uber и Netflix",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 105166.667,
+  "studioFolder": "P-04-Choice",
+  "defaultProps": {
+    "withAudio": true
+  }
+}
