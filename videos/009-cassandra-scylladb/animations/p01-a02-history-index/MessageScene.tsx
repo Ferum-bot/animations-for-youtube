@@ -1,6 +1,5 @@
+import {arrive, mix, presence, v2Theme, Sheet, Slip} from '@channel/motion-v2';
 import React from 'react';
-import {arrive, mix, presence} from '../../shared/editorial-v2/motion';
-import {illustrationTheme, Sheet, Slip} from './Illustration';
 import {PodcastPage} from './PodcastPage';
 import {timing as t, type SceneProps} from './scene';
 
@@ -49,7 +48,7 @@ export const MessageScene: React.FC<SceneProps> = ({timeMs}) => {
       <g opacity={arrive(timeMs, t.message)} transform={`translate(${x} ${y}) scale(${scale})`}>
         <Sheet x={0} y={0} width={980} height={510}>
           <g opacity={arrive(timeMs, t.fields)}>
-            <text x={80} y={100} fontSize={30} fill={illustrationTheme.muted}>Анна → Иван · 09:41 · #42</text>
+            <text x={80} y={100} fontSize={30} fill={v2Theme.muted}>Анна → Иван · 09:41 · #42</text>
           </g>
           {words.map(word => <text key={word.text} x={word.x} y={word.y} fontSize={62} fontWeight={600}>{word.text}</text>)}
         </Sheet>

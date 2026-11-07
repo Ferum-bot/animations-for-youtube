@@ -1,5 +1,10 @@
 # Just Use Postgres episode rules
 
+The newer repository-wide v2 policy supersedes the visual implementation below
+for NEW scenes. Existing scenes retain their approved code-block treatment.
+Do not import this episode’s deprecated visual kit into new v2 work; preserve
+the clarity of examples while implementing new visuals through `@channel/motion-v2`.
+
 All subsequent code snippets, raw source listings, commands, and configuration
 examples in this episode use `shared/CodeSnippet.tsx`: a clearly separated dark
 rectangular surface, a thin visible border, consistent internal padding, and a

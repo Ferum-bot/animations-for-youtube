@@ -6,7 +6,8 @@
   "scripts": {
     "generate": "node scripts/generate-registry.mjs",
     "validate": "node scripts/validate-project.mjs",
-    "check": "pnpm generate && pnpm validate && pnpm --filter @channel/remotion check",
+    "check": "pnpm generate && pnpm validate && pnpm test && pnpm --filter @channel/remotion check",
+    "test": "node --test scripts/tests/*.test.mjs",
     "studio": "pnpm generate && pnpm --filter @channel/remotion studio",
     "compositions": "pnpm generate && pnpm --filter @channel/remotion compositions"
   },
@@ -15,7 +16,8 @@
     "@channel/design-system": "workspace:*",
     "@channel/motion-core": "workspace:*",
     "@channel/standard-animations": "workspace:*",
-    "@channel/theme": "workspace:*"
+    "@channel/theme": "workspace:*",
+    "@channel/motion-v2": "workspace:*"
   },
   "devDependencies": {
     "@react-three/fiber": "9.7.0",

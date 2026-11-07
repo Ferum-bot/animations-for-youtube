@@ -17,6 +17,9 @@ importers:
       '@channel/motion-core':
         specifier: workspace:*
         version: link:packages/motion-core
+      '@channel/motion-v2':
+        specifier: workspace:*
+        version: link:packages/motion-v2
       '@channel/standard-animations':
         specifier: workspace:*
         version: link:packages/standard-animations
@@ -81,6 +84,9 @@ importers:
       '@channel/motion-core':
         specifier: workspace:*
         version: link:../../packages/motion-core
+      '@channel/motion-v2':
+        specifier: workspace:*
+        version: link:../../packages/motion-v2
       '@channel/standard-animations':
         specifier: workspace:*
         version: link:../../packages/standard-animations
@@ -101,6 +107,24 @@ importers:
         version: link:../theme
 
   packages/motion-core: {}
+
+  packages/motion-v2:
+    dependencies:
+      '@channel/motion-core':
+        specifier: workspace:*
+        version: link:../motion-core
+      '@channel/theme':
+        specifier: workspace:*
+        version: link:../theme
+      '@remotion/media':
+        specifier: 4.0.515
+        version: 4.0.515(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      react:
+        specifier: 19.2.8
+        version: 19.2.8
+      remotion:
+        specifier: 4.0.515
+        version: 4.0.515(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
 
   packages/standard-animations:
     dependencies:

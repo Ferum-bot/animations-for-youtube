@@ -6,5 +6,9 @@
   "kind": "2d",
   "durationMs": 117300,
   "studioFolder": "P-01-History",
-  "defaultProps": {"previewBackground": "photo", "withAudio": true}
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  },
+  "designSystem": "v2"
 }

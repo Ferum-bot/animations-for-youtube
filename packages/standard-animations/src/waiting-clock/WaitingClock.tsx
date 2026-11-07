@@ -6,6 +6,7 @@ import {validateClockProps} from './config';
 import {getClockMotion} from './motion';
 import type {WaitingClockProps} from './types';
 
+/** @deprecated Legacy visual API. New work uses @channel/motion-v2. Keep existing consumers intact. */
 export const WaitingClock: React.FC<WaitingClockProps> = (props) => {
   const frame = useCurrentFrame();
   const {fps, durationInFrames, width, height} = useVideoConfig();

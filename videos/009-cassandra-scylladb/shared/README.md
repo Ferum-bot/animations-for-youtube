@@ -1,11 +1,14 @@
-# Episode-local chapter infrastructure
+# Cassandra: episode data and adapters
 
-- `chapters.ts`: chapter numbers and semantic title line breaks.
-- `GeometryChapterDivider.tsx`: the selected three-plane composition shared by all chapters.
-- `ChapterStage.tsx`: QHD stage, semantic theme and chapter label.
-- `font.ts`: bundled Manrope loading shared by chapters and typeset source quotations.
-- `chapter-motion.ts`: entrance profiles and eased millisecond timing.
+The current visual implementation is [@channel/motion-v2](../../../packages/motion-v2/README.md).
 
-Keep this system local until another episode needs the same contract. Existing
-standard and Postgres dividers have different visual/timing contracts.
-- `editorial-v2/`: decoded source images and bounded gestures; see its README. Explanatory drawings follow `docs/style/PLAIN_EXPLANATION.md` and retain the chapter palette.
+- `chapters.ts`: episode-owned numbers and semantic title line breaks.
+- `GeometryChapterDivider.tsx`: small adapter from chapter IDs to the v2 divider.
+- `PresenterPreview.tsx`: adapter from an episode media prefix to explicit v2 preview paths.
+- `font.ts`, `chapter-motion.ts`, `editorial-v2/*`: deprecated compatibility re-exports;
+  new code imports the package directly. There is no second copy of the implementation.
+- `source-documents/`: legacy clipping behavior retained for already approved intro/origins.
+  New full-screen sources use v2 `SourcePage`; source coordinates and citations stay local.
+
+Do not restore local copies of the shared library. Keep scripts, sources, narration
+anchors and scene-specific layouts inside this episode.

@@ -1,7 +1,5 @@
-import React, {useId} from 'react';
-import {arrive, mix, presence} from '../../shared/editorial-v2/motion';
-import {illustrationTheme as theme} from '../../shared/editorial-v2/illustration';
-import {SourceImage} from '../../shared/editorial-v2/primitives';
+import {arrive, mix, presence, v2Theme as theme, SourcePage} from '@channel/motion-v2';
+import React from 'react';
 import {asset, timing as t, type SceneProps} from './scene';
 
 // Native 1280px capture. Whole-word boxes on the original two wrapped excerpts.
@@ -14,22 +12,15 @@ const highlights = {
 } as const;
 
 export const QuoteScene: React.FC<SceneProps> = ({timeMs}) => {
-  const blurId = useId();
   const scroll = arrive(timeMs, t.scroll, 800);
   const message = timeMs >= t.selectMessage;
   const focus = message ? arrive(timeMs, t.focusMessage, 350) :
     presence(timeMs, t.focusReindex, t.selectMessage, 250);
   const selection = arrive(timeMs, message ? t.selectMessage : t.selectReindex, 220) * (1 - focus);
-  const y = -mix(0, 7200, scroll) * 2;
   return <g opacity={presence(timeMs, t.podcast, t.alternatives, 200)}>
-    <defs><filter id={blurId}><feGaussianBlur stdDeviation={focus * 3} /></filter></defs>
-    <g filter={`url(#${blurId})`}>
-      <SourceImage src={asset('heavybit-scroll.jpg')} x={0} y={y} width={2560} height={16000} />
-      {(message ? highlights.message : highlights.reindex).map(line =>
-        <rect key={line.y} x={line.x * 2} y={line.y * 2 + y}
-          width={line.width * 2 * selection} height={line.height * 2}
-          fill={theme.primary} opacity={0.5} />)}
-    </g>
+    <SourcePage src={asset('heavybit-scroll.jpg')} sourceWidth={1280} sourceHeight={8000}
+      scrollY={mix(0, 7200, scroll)} highlights={message ? highlights.message : highlights.reindex}
+      selection={selection} blur={focus * 3} />
     <g opacity={focus}>
       <rect width={2560} height={1440} fill={theme.background} opacity={0.9} />
       <text x={320} y={430} fontSize={42}>Karthik Ranganathan · EnterpriseReady #35</text>

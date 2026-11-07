@@ -1,9 +1,6 @@
+import {arrive, presence, SourceImage, easing, progress, v2Theme} from '@channel/motion-v2';
 import React, {useId} from 'react';
-import {arrive, presence} from '../../shared/editorial-v2/motion';
-import {SourceImage} from '../../shared/editorial-v2/primitives';
 import {asset} from './scene';
-import {chapterEasing, chapterProgress} from '../../shared/chapter-motion';
-import {illustrationTheme} from './Illustration';
 
 type QuoteKind = 'ownership' | 'cost';
 
@@ -21,7 +18,7 @@ const sourcePage = {
 const ScrollToCost: React.FC<{readonly timeMs: number; readonly startMs: number; readonly focus: number}> =
   ({timeMs, startMs, focus}) => {
     const scale = 2560 / sourcePage.width;
-    const scroll = chapterProgress(timeMs, startMs + 1000, startMs + 2600, chapterEasing.transform);
+    const scroll = progress(timeMs, startMs + 1000, startMs + 2600, easing.transform);
     const selection = arrive(timeMs, startMs + 2700, 300);
     return <g transform={`translate(0 ${-sourcePage.targetScrollY * scale * scroll})`}>
       <SourceImage src={asset('heavybit-scroll.jpg')} x={0} y={0}
@@ -29,7 +26,7 @@ const ScrollToCost: React.FC<{readonly timeMs: number; readonly startMs: number;
       <g opacity={selection * (1 - focus)}>
         {sourcePage.costLines.map(line => <rect key={line.y} x={(line.x - 3) * scale}
           y={(line.y - 2) * scale} width={(line.width + 6) * scale * selection}
-          height={(line.height + 4) * scale} fill={illustrationTheme.primary} opacity={0.5} />)}
+          height={(line.height + 4) * scale} fill={v2Theme.primary} opacity={0.5} />)}
       </g>
     </g>;
   };
@@ -60,7 +57,7 @@ export const PodcastPage: React.FC<{
         <SourceImage src={asset('heavybit-transcript.jpg')} x={0} y={0} width={2560} height={1440} fit="cover" />}
     </g>
     <g opacity={focus}>
-      <rect width={2560} height={1440} fill={illustrationTheme.background} opacity={0.92} />
+      <rect width={2560} height={1440} fill={v2Theme.background} opacity={0.92} />
       <text x={340} y={375} fontSize={42}>EnterpriseReady #35 · Karthik Ranganathan</text>
       <g opacity={1 - translated} fontSize={82} fontWeight={600}>
         {quotes[quote].map((line, i) => <text key={line} x={340} y={665 + i * 120}>{line}</text>)}
@@ -68,9 +65,9 @@ export const PodcastPage: React.FC<{
       {translateAtMs === undefined ? null : <g opacity={translated}>
         <text x={340} y={665} fontSize={88} fontWeight={650}>«Экономически невыгодно</text>
         <text x={340} y={785} fontSize={88} fontWeight={650}>и кошмар в эксплуатации»</text>
-        <text x={340} y={900} fontSize={36} fill={illustrationTheme.muted}>Перевод</text>
+        <text x={340} y={900} fontSize={36} fill={v2Theme.muted}>Перевод</text>
       </g>}
-      <text x={340} y={1150} fontSize={34} fill={illustrationTheme.muted}>heavybit.com · 13 апреля 2021</text>
+      <text x={340} y={1150} fontSize={34} fill={v2Theme.muted}>heavybit.com · 13 апреля 2021</text>
     </g>
   </g>;
 };

@@ -467,7 +467,7 @@ const V009CassandraScylladbOverlay: React.FC = () => (
 export const GeneratedVideoCompositions: React.FC = () => (
   <>
     <Folder name="V-000-demo-microservices">
-      <Folder name="P-01">
+      <Folder name="Deprecated-P-01">
         <Composition
           id="Video-000-demo-microservices-p01-a01-request-flow"
           component={Animation0P01A01RequestFlow}
@@ -497,7 +497,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       />
     </Folder>
     <Folder name="V-001-network-dns">
-      <Folder name="P-00">
+      <Folder name="Deprecated-P-00">
         <Composition
           id="Video-001-network-dns-p00-a01-episode-agenda"
           component={Animation2P00A01EpisodeAgenda}
@@ -517,7 +517,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{}}
         />
       </Folder>
-      <Folder name="P-01">
+      <Folder name="Deprecated-P-01">
         <Composition
           id="Video-001-network-dns-p01-a00-chapter-divider"
           component={Animation4P01A00ChapterDivider}
@@ -564,7 +564,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"themeId":"graphite","transparent":true}}
         />
       </Folder>
-      <Folder name="P-02">
+      <Folder name="Deprecated-P-02">
         <Composition
           id="Video-001-network-dns-p02-a00-chapter-divider"
           component={Animation9P02A00ChapterDivider}
@@ -701,7 +701,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"themeId":"graphite","transparent":true}}
         />
       </Folder>
-      <Folder name="P-03">
+      <Folder name="Deprecated-P-03">
         <Composition
           id="Video-001-network-dns-p03-a00-chapter-divider"
           component={Animation24P03A00ChapterDivider}
@@ -865,7 +865,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"themeId":"graphite","transparent":true}}
         />
       </Folder>
-      <Folder name="P-04">
+      <Folder name="Deprecated-P-04">
         <Composition
           id="Video-001-network-dns-p04-a00-chapter-divider"
           component={Animation42P04A00ChapterDivider}
@@ -895,7 +895,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       />
     </Folder>
     <Folder name="V-002-redis-distributed-cache">
-      <Folder name="P-01">
+      <Folder name="Deprecated-P-01">
         <Composition
           id="Video-002-redis-distributed-cache-p01-a01-lru-two-structures"
           component={Animation44P01A01LruTwoStructures}
@@ -916,7 +916,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       />
     </Folder>
     <Folder name="V-003-http">
-      <Folder name="P-00">
+      <Folder name="Deprecated-P-00">
         <Composition
           id="Video-003-http-p00-a01-episode-agenda"
           component={Animation45P00A01EpisodeAgenda}
@@ -945,7 +945,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{}}
         />
       </Folder>
-      <Folder name="P-01-Perehody">
+      <Folder name="Deprecated-P-01-Perehody">
         <Composition
           id="Video-003-http-p01-a00-chapter-divider"
           component={Animation48P01A00ChapterDivider}
@@ -1037,7 +1037,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{}}
         />
       </Folder>
-      <Folder name="P-02-Chto-takoe-HTTP">
+      <Folder name="Deprecated-P-02-Chto-takoe-HTTP">
         <Composition
           id="Video-003-http-p01-a01-request-response"
           component={Animation49P01A01RequestResponse}
@@ -1075,7 +1075,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{}}
         />
       </Folder>
-      <Folder name="P-03-Anatomiya-HTTP">
+      <Folder name="Deprecated-P-03-Anatomiya-HTTP">
         <Composition
           id="Video-003-http-p02-a01-message-anatomy"
           component={Animation54P02A01MessageAnatomy}
@@ -1086,7 +1086,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"withAudio":true,"previewBackground":"presenter"}}
         />
       </Folder>
-      <Folder name="P-04-Metody-HTTP">
+      <Folder name="Deprecated-P-04-Metody-HTTP">
         <Composition
           id="Video-003-http-p03-a01-method-catalog"
           component={Animation56P03A01MethodCatalog}
@@ -1133,7 +1133,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{}}
         />
       </Folder>
-      <Folder name="P-05-Kody-sostoyaniya">
+      <Folder name="Deprecated-P-05-Kody-sostoyaniya">
         <Composition
           id="Video-003-http-p04-a01-status-families"
           component={Animation62P04A01StatusFamilies}
@@ -1171,7 +1171,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{}}
         />
       </Folder>
-      <Folder name="P-06-Zagolovki-HTTP">
+      <Folder name="Deprecated-P-06-Zagolovki-HTTP">
         <Composition
           id="Video-003-http-p05-a01-header-groups"
           component={Animation67P05A01HeaderGroups}
@@ -1218,7 +1218,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{}}
         />
       </Folder>
-      <Folder name="P-07-Granitsy-soobshcheniya">
+      <Folder name="Deprecated-P-07-Granitsy-soobshcheniya">
         <Composition
           id="Video-003-http-p06-a01-message-boundary"
           component={Animation73P06A01MessageBoundary}
@@ -1256,7 +1256,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{}}
         />
       </Folder>
-      <Folder name="P-08-HTTP-1-0-i-1-1">
+      <Folder name="Deprecated-P-08-HTTP-1-0-i-1-1">
         <Composition
           id="Video-003-http-p07-a01-short-connections"
           component={Animation78P07A01ShortConnections}
@@ -1294,7 +1294,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{}}
         />
       </Folder>
-      <Folder name="P-09-HTTP-2-i-3">
+      <Folder name="Deprecated-P-09-HTTP-2-i-3">
         <Composition
           id="Video-003-http-p08-a01-binary-multiplexing"
           component={Animation83P08A01BinaryMultiplexing}
@@ -1332,7 +1332,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{}}
         />
       </Folder>
-      <Folder name="P-10-Ot-koda-do-provoda">
+      <Folder name="Deprecated-P-10-Ot-koda-do-provoda">
         <Composition
           id="Video-003-http-p09-a01-code-to-wire"
           component={Animation88P09A01CodeToWire}
@@ -1352,7 +1352,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{}}
         />
       </Folder>
-      <Folder name="P-11-Chto-vazhno-zapomnit">
+      <Folder name="Deprecated-P-11-Chto-vazhno-zapomnit">
         <Composition
           id="Video-003-http-p10-a01-built-to-evolve"
           component={Animation91P10A01BuiltToEvolve}
@@ -1373,7 +1373,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       />
     </Folder>
     <Folder name="V-004-ozon-flash-sale">
-      <Folder name="P-02">
+      <Folder name="Deprecated-P-02">
         <Composition
           id="Video-004-ozon-flash-sale-p02-a01-postgres-reservation"
           component={Animation92P02A01PostgresReservation}
@@ -1384,7 +1384,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"themeId":"paper","backgroundOpacity":1,"withAudio":false,"previewBackground":"transparent"}}
         />
       </Folder>
-      <Folder name="P-03">
+      <Folder name="Deprecated-P-03">
         <Composition
           id="Video-004-ozon-flash-sale-p03-a01-redis-lua-reservation"
           component={Animation93P03A01RedisLuaReservation}
@@ -1404,7 +1404,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"themeId":"paper","backgroundOpacity":1,"withAudio":false,"previewBackground":"transparent"}}
         />
       </Folder>
-      <Folder name="P-04">
+      <Folder name="Deprecated-P-04">
         <Composition
           id="Video-004-ozon-flash-sale-p04-a01-reservation-sweeper"
           component={Animation95P04A01ReservationSweeper}
@@ -1434,7 +1434,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       />
     </Folder>
     <Folder name="V-005-consistent-hashing-in-production">
-      <Folder name="P-00">
+      <Folder name="Deprecated-P-00">
         <Composition
           id="Video-005-consistent-hashing-in-production-p00-a01-production-experiment"
           component={Animation97P00A01ProductionExperiment}
@@ -1445,7 +1445,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"withAudio":true,"previewBackground":"transparent"}}
         />
       </Folder>
-      <Folder name="P-01">
+      <Folder name="Deprecated-P-01">
         <Composition
           id="Video-005-consistent-hashing-in-production-p01-a01-shard-choice"
           component={Animation98P01A01ShardChoice}
@@ -1546,7 +1546,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"withAudio":true,"previewBackground":"transparent"}}
         />
       </Folder>
-      <Folder name="P-02">
+      <Folder name="Deprecated-P-02">
         <Composition
           id="Video-005-consistent-hashing-in-production-p02-a01-topology-handoff"
           component={Animation109P02A01TopologyHandoff}
@@ -1567,7 +1567,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       />
     </Folder>
     <Folder name="V-006-leetcode">
-      <Folder name="P-01">
+      <Folder name="Deprecated-P-01">
         <Composition
           id="Video-006-leetcode-p01-a01-docker-run"
           component={Animation110P01A01DockerRun}
@@ -1605,7 +1605,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":false}}
         />
       </Folder>
-      <Folder name="P-02">
+      <Folder name="Deprecated-P-02">
         <Composition
           id="Video-006-leetcode-p02-a01-isolate-lifecycle"
           component={Animation114P02A01IsolateLifecycle}
@@ -1662,7 +1662,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       />
     </Folder>
     <Folder name="V-007-just-use-postgres">
-      <Folder name="P-00-Chapters">
+      <Folder name="Deprecated-P-00-Chapters">
         <Composition
           id="Video-007-just-use-postgres-p00-a01-chapter-mongodb"
           component={Animation119P00A01ChapterMongodb}
@@ -1754,7 +1754,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"themeId":"graphite","motionProfile":"calm"}}
         />
       </Folder>
-      <Folder name="P-01-Intro">
+      <Folder name="Deprecated-P-01-Intro">
         <Composition
           id="Video-007-just-use-postgres-p01-a01-just-use-postgres"
           component={Animation129P01A01JustUsePostgres}
@@ -1774,7 +1774,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"previewBackground":"footage","withAudio":true}}
         />
       </Folder>
-      <Folder name="P-02-MongoDB">
+      <Folder name="Deprecated-P-02-MongoDB">
         <Composition
           id="Video-007-just-use-postgres-p02-a01-jsonb-documents"
           component={Animation131P02A01JsonbDocuments}
@@ -1785,7 +1785,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"previewBackground":"footage","withAudio":true}}
         />
       </Folder>
-      <Folder name="P-03-Elasticsearch">
+      <Folder name="Deprecated-P-03-Elasticsearch">
         <Composition
           id="Video-007-just-use-postgres-p03-a01-full-text-search"
           component={Animation132P03A01FullTextSearch}
@@ -1796,7 +1796,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"previewBackground":"footage","withAudio":true}}
         />
       </Folder>
-      <Folder name="P-04-Redis">
+      <Folder name="Deprecated-P-04-Redis">
         <Composition
           id="Video-007-just-use-postgres-p04-a01-postgres-cache"
           component={Animation133P04A01PostgresCache}
@@ -1807,7 +1807,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"previewBackground":"footage","withAudio":true}}
         />
       </Folder>
-      <Folder name="P-05-Queues">
+      <Folder name="Deprecated-P-05-Queues">
         <Composition
           id="Video-007-just-use-postgres-p05-a01-postgres-queue"
           component={Animation134P05A01PostgresQueue}
@@ -1818,7 +1818,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"previewBackground":"footage","withAudio":true}}
         />
       </Folder>
-      <Folder name="P-06-PubSub">
+      <Folder name="Deprecated-P-06-PubSub">
         <Composition
           id="Video-007-just-use-postgres-p06-a01-listen-notify"
           component={Animation135P06A01ListenNotify}
@@ -1829,7 +1829,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"previewBackground":"footage","withAudio":true}}
         />
       </Folder>
-      <Folder name="P-07-One-Transaction">
+      <Folder name="Deprecated-P-07-One-Transaction">
         <Composition
           id="Video-007-just-use-postgres-p07-a01-one-transaction"
           component={Animation136P07A01OneTransaction}
@@ -1840,7 +1840,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"previewBackground":"footage","withAudio":true}}
         />
       </Folder>
-      <Folder name="P-08-MVCC-VACUUM">
+      <Folder name="Deprecated-P-08-MVCC-VACUUM">
         <Composition
           id="Video-007-just-use-postgres-p08-a01-mvcc-vacuum"
           component={Animation137P08A01MvccVacuum}
@@ -1851,7 +1851,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"previewBackground":"footage","withAudio":true}}
         />
       </Folder>
-      <Folder name="P-09-LISTEN-NOTIFY-LOCK">
+      <Folder name="Deprecated-P-09-LISTEN-NOTIFY-LOCK">
         <Composition
           id="Video-007-just-use-postgres-p09-a01-listen-notify-lock"
           component={Animation138P09A01ListenNotifyLock}
@@ -1862,7 +1862,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"previewBackground":"footage","withAudio":true}}
         />
       </Folder>
-      <Folder name="P-10-QUO-SCALING">
+      <Folder name="Deprecated-P-10-QUO-SCALING">
         <Composition
           id="Video-007-just-use-postgres-p10-a01-quo-scaling"
           component={Animation139P10A01QuoScaling}
@@ -1883,7 +1883,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       />
     </Folder>
     <Folder name="V-008-notification-system">
-      <Folder name="P-00">
+      <Folder name="Deprecated-P-00">
         <Composition
           id="Video-008-notification-system-p00-a01-sharding-video"
           component={Animation140P00A01ShardingVideo}
@@ -1912,7 +1912,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"themeId":"graphite","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}
         />
       </Folder>
-      <Folder name="P-01">
+      <Folder name="Deprecated-P-01">
         <Composition
           id="Video-008-notification-system-p01-a01-database-schema"
           component={Animation143P01A01DatabaseSchema}
@@ -1959,7 +1959,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}
         />
       </Folder>
-      <Folder name="P-02">
+      <Folder name="Deprecated-P-02">
         <Composition
           id="Video-008-notification-system-p02-a01-producer-settings"
           component={Animation148P02A01ProducerSettings}
@@ -2033,7 +2033,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}
         />
       </Folder>
-      <Folder name="P-03">
+      <Folder name="Deprecated-P-03">
         <Composition
           id="Video-008-notification-system-p03-a02-channel-priority-matrix"
           component={Animation156P03A02ChannelPriorityMatrix}
@@ -2062,7 +2062,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}
         />
       </Folder>
-      <Folder name="P-04">
+      <Folder name="Deprecated-P-04">
         <Composition
           id="Video-008-notification-system-p04-a01-outbox-partitions"
           component={Animation159P04A01OutboxPartitions}
@@ -2073,7 +2073,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"themeId":"paper","motionProfile":"calm","previewBackground":"transparent","withAudio":true}}
         />
       </Folder>
-      <Folder name="P-05">
+      <Folder name="Deprecated-P-05">
         <Composition
           id="Video-008-notification-system-p05-a01-timers-claim"
           component={Animation160P05A01TimersClaim}
@@ -2094,6 +2094,28 @@ export const GeneratedVideoCompositions: React.FC = () => (
       />
     </Folder>
     <Folder name="V-009-cassandra-scylladb">
+      <Folder name="Deprecated-P-00-Intro">
+        <Composition
+          id="Video-009-cassandra-scylladb-p00-a01-intro-sources"
+          component={Animation161P00A01IntroSources}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1251}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+      </Folder>
+      <Folder name="Deprecated-P-01-History">
+        <Composition
+          id="Video-009-cassandra-scylladb-p01-a01-history-origins"
+          component={Animation163P01A01HistoryOrigins}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1496}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+      </Folder>
       <Folder name="P-00-Chapters">
         <Composition
           id="Video-009-cassandra-scylladb-p01-a00-chapter-history"
@@ -2132,27 +2154,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"themeId":"graphite","motionProfile":"calm"}}
         />
       </Folder>
-      <Folder name="P-00-Intro">
-        <Composition
-          id="Video-009-cassandra-scylladb-p00-a01-intro-sources"
-          component={Animation161P00A01IntroSources}
-          width={2560}
-          height={1440}
-          fps={30}
-          durationInFrames={1251}
-          defaultProps={{"previewBackground":"photo","withAudio":true}}
-        />
-      </Folder>
       <Folder name="P-01-History">
-        <Composition
-          id="Video-009-cassandra-scylladb-p01-a01-history-origins"
-          component={Animation163P01A01HistoryOrigins}
-          width={2560}
-          height={1440}
-          fps={30}
-          durationInFrames={1496}
-          defaultProps={{"previewBackground":"photo","withAudio":true}}
-        />
         <Composition
           id="Video-009-cassandra-scylladb-p01-a02-history-index"
           component={Animation164P01A02HistoryIndex}

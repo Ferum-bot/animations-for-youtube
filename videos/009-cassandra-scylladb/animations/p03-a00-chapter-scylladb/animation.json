@@ -9,5 +9,6 @@
   "defaultProps": {
     "themeId": "graphite",
     "motionProfile": "calm"
-  }
+  },
+  "designSystem": "v2"
 }

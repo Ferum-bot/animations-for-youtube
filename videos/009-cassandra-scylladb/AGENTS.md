@@ -1,5 +1,10 @@
 # Cassandra / ScyllaDB
 
+New work uses `@channel/motion-v2`; read `packages/motion-v2/README.md`.
+The chapter implementation and accepted plain history scenes have moved there.
+Keep narration, source coordinates and chapter text local. Older intro/origins
+remain approved outputs but their visual kits are deprecated for new scenes.
+
 Read the root `AGENTS.md` and `docs/style/ANIMATION_GUIDE.md` before any work.
 Read `docs/style/PLAIN_EXPLANATION.md` for explanatory scenes. The user approved
 simple paper-like drawings, concrete examples and real source pages on 2026-11-07.

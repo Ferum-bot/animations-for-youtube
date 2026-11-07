@@ -13,6 +13,7 @@ export type SubscribeProps = {
   transparent: boolean;
 };
 
+/** @deprecated Legacy visual API. New work uses @channel/motion-v2. Keep existing consumers intact. */
 export const subscribeDefaultProps: SubscribeProps = {
   channelName: 'Матвей Попов',
   placement: 'bottom-right',
@@ -20,6 +21,7 @@ export const subscribeDefaultProps: SubscribeProps = {
   transparent: true,
 };
 
+/** @deprecated Legacy visual API. New work uses @channel/motion-v2. Keep existing consumers intact. */
 export const Subscribe: React.FC<SubscribeProps> = ({
   channelName,
   placement,

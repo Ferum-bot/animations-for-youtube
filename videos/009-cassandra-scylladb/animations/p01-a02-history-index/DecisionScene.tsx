@@ -1,6 +1,5 @@
+import {arrive, presence, MessageIcon, Pocket, Slip} from '@channel/motion-v2';
 import React from 'react';
-import {arrive, presence} from '../../shared/editorial-v2/motion';
-import {MessageIcon, Pocket, Slip} from './Illustration';
 import {PodcastPage} from './PodcastPage';
 import {timing as t, type SceneProps} from './scene';
 

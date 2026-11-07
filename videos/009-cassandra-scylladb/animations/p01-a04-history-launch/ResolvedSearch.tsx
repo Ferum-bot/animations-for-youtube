@@ -1,6 +1,5 @@
+import {arrive, mix, v2Theme as theme, Magnifier, MessageIcon} from '@channel/motion-v2';
 import React from 'react';
-import {arrive, mix} from '../../shared/editorial-v2/motion';
-import {illustrationTheme as theme, Magnifier, MessageIcon} from '../../shared/editorial-v2/illustration';
 import {scene, timing as t, type SceneProps} from './scene';
 
 export const ResolvedSearch: React.FC<SceneProps> = ({timeMs}) => {

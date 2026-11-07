@@ -41,7 +41,8 @@ for (const videoEntry of videoEntries) {
       `import ${identifier} from '../../../../videos/${video.id}/animations/${animation.id}/Composition';`,
     );
     componentPairs.push(`  ${JSON.stringify(animation.id)}: ${identifier},`);
-    const folderName = animation.studioFolder ?? `P-${formatIndex(animation.part)}`;
+    const baseFolder = animation.studioFolder ?? `P-${formatIndex(animation.part)}`;
+    const folderName = animation.designSystem === 'v2' ? baseFolder : `Deprecated-${baseFolder}`;
     const compositionRows = compositionRowsByFolder.get(folderName) ?? [];
     compositionRows.push(`        <Composition
           id=${JSON.stringify(`Video-${video.id}-${animation.id}`)}

@@ -8,6 +8,7 @@ const assertNever = (value: never): never => {
   throw new Error(`Unsupported chapter divider variant: ${String(value)}`);
 };
 
+/** @deprecated Legacy visual API. New work uses @channel/motion-v2. Keep existing consumers intact. */
 export const ChapterDivider: React.FC<ChapterDividerProps> = (props) => {
   const variant: ChapterDividerVariant = props.variant;
   let canvas: React.ReactNode;
@@ -34,6 +35,7 @@ export const ChapterDivider: React.FC<ChapterDividerProps> = (props) => {
   );
 };
 
+/** @deprecated Legacy visual API. New work uses @channel/motion-v2. Keep existing consumers intact. */
 export const delegationDividerDefaultProps = {
   chapterNumber: 3,
   titleLines: ['Путь одного', 'DNS-запроса'],
@@ -44,6 +46,7 @@ export const delegationDividerDefaultProps = {
   transparent: false,
 } as const satisfies ChapterDividerProps;
 
+/** @deprecated Legacy visual API. New work uses @channel/motion-v2. Keep existing consumers intact. */
 export const routeDividerDefaultProps = {
   chapterNumber: 5,
   titleLines: ['Безопасность', 'и приватность'],

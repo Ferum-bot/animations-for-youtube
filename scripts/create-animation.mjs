@@ -25,7 +25,8 @@ const animation = `p${String(part).padStart(2, '0')}-a${String(order).padStart(2
 const videoDirectory = path.resolve('videos', video);
 await access(path.join(videoDirectory, 'video.json'));
 const directory = path.join(videoDirectory, 'animations', animation);
-await mkdir(path.join(directory, 'assets'), {recursive: true});
+// Exclusive creation: never erase an approved scene on a repeated scaffold command.
+await mkdir(directory);
 const serializedTitle = JSON.stringify(title);
 
 await writeJson(path.join(directory, 'animation.json'), {
@@ -34,28 +35,30 @@ await writeJson(path.join(directory, 'animation.json'), {
   order,
   title,
   kind,
+  designSystem: 'v2',
   durationMs: 4000,
   defaultProps: {themeId: 'graphite', transparent: true},
 });
 
 const component = `import React from 'react';
-import {MotionStage} from '@channel/design-system';
-import type {ThemeId} from '@channel/design-system';
+import {SceneStage} from '@channel/motion-v2';
+import type {ThemeId} from '@channel/theme';
 
 type Props = {
-  themeId?: ThemeId;
-  transparent?: boolean;
+  readonly themeId?: ThemeId;
+  readonly transparent?: boolean;
 };
 
 const Composition: React.FC<Props> = ({
   themeId = 'graphite',
   transparent = true,
 }) => (
-  <MotionStage themeId={themeId} transparent={transparent}>
-    <div style={{position: 'absolute', left: 74, top: 74, fontSize: 56, fontWeight: 800}}>
+  <SceneStage label={${serializedTitle}} themeId={themeId} transparent={transparent}>
+    {/* Native QHD coordinates. Replace this placeholder with one concrete action. */}
+    <text x={160} y={240} fontSize={64} fontWeight={600}>
       {${serializedTitle}}
-    </div>
-  </MotionStage>
+    </text>
+  </SceneStage>
 );
 
 export default Composition;

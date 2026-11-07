@@ -1,0 +1,16 @@
+{
+  "name": "@channel/motion-v2",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.ts",
+  "dependencies": {
+    "@channel/theme": "workspace:*",
+    "@channel/motion-core": "workspace:*"
+  },
+  "peerDependencies": {
+    "react": "19.2.8",
+    "remotion": "4.0.515",
+    "@remotion/media": "4.0.515"
+  }
+}

@@ -1,7 +1,5 @@
+import {arrive, presence, v2Theme as theme, SourceImage} from '@channel/motion-v2';
 import React from 'react';
-import {arrive, presence} from '../../shared/editorial-v2/motion';
-import {illustrationTheme as theme} from '../../shared/editorial-v2/illustration';
-import {SourceImage} from '../../shared/editorial-v2/primitives';
 import {timing as t, type SceneProps} from './scene';
 
 export const InboxLaunch: React.FC<SceneProps> = ({timeMs}) => <g

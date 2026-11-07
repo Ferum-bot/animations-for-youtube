@@ -60,9 +60,9 @@ pnpm --filter @channel/remotion studio --port=3000
 ## Изменение реализации
 
 - `shared/chapters.ts` — номера и смысловые переносы названий.
-- `shared/GeometryChapterDivider.tsx` — общая постановка выбранного варианта.
-- `shared/ChapterStage.tsx` — сцена, локальный шрифт и тема.
-- `shared/chapter-motion.ts` — профили и фазы движения в миллисекундах.
+- `shared/GeometryChapterDivider.tsx` — адаптер названий к `@channel/motion-v2`.
+- `packages/motion-v2/` — постановка, QHD-сцена, общий Manrope и тема.
+- `shared/chapter-motion.ts` — deprecated re-export; новые сцены импортируют v2.
 - `animations/*/Composition.tsx` — отдельные точки входа глав.
 
 Props: `themeId` задаёт оформление; `motionProfile` — скорость входа.

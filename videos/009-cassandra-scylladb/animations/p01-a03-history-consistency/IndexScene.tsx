@@ -1,6 +1,5 @@
+import {arrive, mix, presence, v2Theme as theme, Magnifier, MessageIcon, Sheet, Slip} from '@channel/motion-v2';
 import React from 'react';
-import {arrive, mix, presence} from '../../shared/editorial-v2/motion';
-import {illustrationTheme as theme, Magnifier, MessageIcon, Sheet, Slip} from '../../shared/editorial-v2/illustration';
 import {timing as t, type SceneProps} from './scene';
 
 const IndexCopy: React.FC<{readonly y: number; readonly label: string; readonly progress: number}> =

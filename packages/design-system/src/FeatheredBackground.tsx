@@ -7,6 +7,7 @@ type Feather = {
 };
 
 /** Fade the background only; labels and diagram geometry remain sharp siblings. */
+/** @deprecated Legacy visual API. New work uses @channel/motion-v2. Keep existing consumers intact. */
 export const FeatheredBackground: React.FC<{
   readonly color: string;
   readonly feather?: Feather;

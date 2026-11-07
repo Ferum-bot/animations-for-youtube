@@ -1,7 +1,5 @@
+import {arrive, mix, presence, v2Theme as theme, Sheet, SourceImage} from '@channel/motion-v2';
 import React from 'react';
-import {arrive, mix, presence} from '../../shared/editorial-v2/motion';
-import {illustrationTheme as theme, Sheet} from '../../shared/editorial-v2/illustration';
-import {SourceImage} from '../../shared/editorial-v2/primitives';
 import {asset, timing as t, type SceneProps} from './scene';
 
 const ResearchLeaf: React.FC<{

@@ -2,6 +2,26 @@
 
 Read this file before changing motion code.
 
+## Current production system: v2
+
+All NEW animation code must use [`@channel/motion-v2`](packages/motion-v2/README.md).
+This supersedes earlier episode-local visual prescriptions for new scenes.
+The user approved the Cassandra chapter dividers and plain explanatory history
+scenes, then requested shared v2 promotion and deprecation of all other styles.
+`@channel/design-system`, `@channel/standard-animations`, older episode visual
+kits and all eight frozen examples are **deprecated for new work**, not deleted.
+Maintain their existing consumers without restyling or changing IDs/timing.
+`theme`, `motion-core`, `audio-sync`, Remotion integration and the CapCut export
+pipeline remain supported infrastructure; deprecation refers to visual approaches.
+
+Read `packages/motion-v2/README.md` before implementation. New metadata must set
+`designSystem: "v2"`; the scaffold already does this. `task check` enforces the
+boundary. `config/design-system-policy.json` lists existing legacy animations;
+never expand that exemption list to make new legacy work pass validation.
+After the user accepts a new approach, refactor it, move genuinely reusable
+components into v2, and preserve episode-specific narration/data locally.
+Verify old consumers visually before declaring the extraction complete.
+
 Read [the mandatory animation guide](docs/style/ANIMATION_GUIDE.md) before designing,
 implementing, or reviewing any new animation. The user selected the MKBHD / Posy /
 Ben Marriott reference directions on 2026-11-06 and explicitly made this guide
@@ -33,6 +53,8 @@ These rules apply to every task in this repository unless the user explicitly ov
 8. Deliver transparent CapCut overlays as QuickTime `ProRes 4444` with an alpha-capable pixel format. H.264/MP4 is preview-only and must not be used as the compositing master.
 9. CapCut macOS alpha exports must use `task render:capcut` (premultiplied RGB, converted once from original PNGs in 16-bit RGB). A `yuva` pixel format alone does not ensure correct compositing. Run `task qa:capcut-alpha INPUT=...` on the encoded MOV and inspect the feathered edge at 100% over light/dark footage, including entrance/exit. For a new export pipeline, verify it in CapCut before delivery; FFmpeg/PNG previews alone previously missed colored fringes. Keep generic straight-alpha exports separate for editors that expect them.
 
+10. After verification, delete all temporary artifacts created for the task, including QA screenshots, before/after frames, one-off test scripts, generated fixtures, logs, and scratch directories. This applies wherever they were created, including ignored directories and the system temp directory. Track the paths you create and verify cleanup before reporting completion. Preserve maintained tests and fixtures, production assets, and requested deliverables.
+
 ## Repository contents
 
 Present plans, storyboards, design proposals, research summaries, and progress reports in the conversation only. Do not save them or auxiliary analysis artifacts in this repository, including ignored directories. Repository additions should be implementation code and its required configuration/data, human-facing README instructions for running or extending the project, and important agent rules. Keep temporary analysis files outside the repository. Do not create planning folders, taste profiles, signal packets, or context reports as deliverables.
@@ -49,8 +71,9 @@ The intended tone is authored, calm, editorial, technically literate, and occasi
 - `videos/<video>/animations/<animation>/Composition.tsx` is the source for episode-specific animation code.
 - `videos/<video>/shared/` is local to one episode.
 - `packages/` contains reusable cross-episode libraries.
-- `packages/standard-animations/` contains reusable channel inserts.
-- `examples/animations/` contains eight canonical visual references. Preserve all eight unless the user explicitly requests removal.
+- `packages/motion-v2/` is the current reusable visual/animation library.
+- `packages/standard-animations/` contains deprecated compatibility inserts.
+- `examples/animations/` contains eight frozen historical references, deprecated for new work. Preserve all eight unless the user explicitly requests removal.
 - `apps/remotion/src/generated/video-registry.tsx` is generated. Never edit it by hand; run `task generate`.
 - Generated renders and ingested audio are not source and must not be committed.
 - `docs/style/ANIMATION_GUIDE.md` is the binding visual/motion direction for new work.
@@ -59,7 +82,7 @@ The intended tone is authored, calm, editorial, technically literate, and occasi
 ## Architecture rules
 
 1. Keep episode code vertical: video -> animations -> code for each animation.
-2. Start a component in the video's `shared/` folder. Promote it to `packages/ui` only after it has a stable cross-video use case.
+2. Start a component in the video's `shared/` folder. Promote accepted reusable contracts to `packages/motion-v2`; do not create a parallel UI library.
 3. Keep timing, theme, UI, audio synchronization, and rendering as separate concerns.
 4. Animation components receive serializable props. Do not read environment state or wall-clock time during rendering.
 5. All motion must be reconstructible from `useCurrentFrame()` and props. Never use unseeded randomness or R3F `useFrame()` for timeline state.
@@ -84,7 +107,8 @@ The intended tone is authored, calm, editorial, technically literate, and occasi
 
 ## Visual system
 
-2D editorial palette:
+Current v2 uses the graphite palette for both 2D and chapter dividers (see below).
+The old light 2D palette is retained only for compatibility:
 
 - paper `#F2EEE4`
 - ink `#111111`
@@ -93,7 +117,7 @@ The intended tone is authored, calm, editorial, technically literate, and occasi
 - green `#2F7D45`
 - wine `#2B1015`
 
-3D palette:
+Graphite palette (current v2; also available to historical 3D):
 
 - background `#090B0F`
 - cream `#F3EEE4`
@@ -135,7 +159,7 @@ Optional asynchronous continuation:
 
 Recommended overlay entrance: 6-12 frames. Recommended exit: 8-15 frames. Prefer changing opacity plus one restrained spatial property.
 
-## Reference compositions
+## Frozen reference compositions — deprecated for new work
 
 1. `EditorialPulse`: low-detail chapter opener.
 2. `TraceLanes`: tracing and latency lanes.
@@ -146,7 +170,8 @@ Recommended overlay entrance: 6-12 frames. Recommended exit: 8-15 frames. Prefer
 7. `ReplicationChamber3D`: WAL replication, failure, quorum, recovery.
 8. `EventMesh3D`: synchronous commit, async fan-out, compensation.
 
-Use 2D for most of an episode. Reserve complex 3D for roughly 10-15% of motion runtime so it remains special.
+Use the accepted v2 production scenes as references for new work. Prefer simple
+2D explanations; do not fill a quota with 3D or decorative motion.
 
 ## Commands
 

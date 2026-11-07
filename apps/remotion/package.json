@@ -12,7 +12,7 @@
     "@channel/audio-sync": "workspace:*",
     "@channel/design-system": "workspace:*",
     "@channel/motion-core": "workspace:*",
-    "@channel/standard-animations": "workspace:*"
+    "@channel/standard-animations": "workspace:*",
+    "@channel/motion-v2": "workspace:*"
   }
 }
-

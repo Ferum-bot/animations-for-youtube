@@ -1,5 +1,5 @@
 import React from 'react';
-import type {ChapterDividerProps} from '../../shared/ChapterStage';
+import type {ChapterDividerProps} from '@channel/motion-v2';
 import {GeometryChapterDivider} from '../../shared/GeometryChapterDivider';
 
 const Composition: React.FC<ChapterDividerProps> = (props) => (

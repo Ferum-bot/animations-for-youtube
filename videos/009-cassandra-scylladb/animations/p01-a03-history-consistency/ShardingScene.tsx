@@ -1,6 +1,5 @@
+import {arrive, mix, presence, v2Theme as theme, MessageIcon, Pocket, Slip} from '@channel/motion-v2';
 import React from 'react';
-import {arrive, mix, presence} from '../../shared/editorial-v2/motion';
-import {illustrationTheme as theme, MessageIcon, Pocket, Slip} from '../../shared/editorial-v2/illustration';
 import {timing as t, type SceneProps} from './scene';
 
 const UserRecord: React.FC<{readonly x: number; readonly y: number; readonly name: string}> = ({x, y, name}) =>

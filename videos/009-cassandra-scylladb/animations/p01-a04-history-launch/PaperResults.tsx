@@ -1,8 +1,5 @@
+import {easing, progress, arrive, mix, presence, v2Theme as theme, SourceImage} from '@channel/motion-v2';
 import React, {useId} from 'react';
-import {chapterEasing, chapterProgress} from '../../shared/chapter-motion';
-import {arrive, mix, presence} from '../../shared/editorial-v2/motion';
-import {illustrationTheme as theme} from '../../shared/editorial-v2/illustration';
-import {SourceImage} from '../../shared/editorial-v2/primitives';
 import {asset, timing as t, type SceneProps} from './scene';
 
 // Source coordinates are PDF points, not pixels of a particular rasterization.
@@ -16,11 +13,11 @@ const medianBoxes = [{x: 334, y: 496, width: 205, height: 12}] as const;
 export const PaperResults: React.FC<SceneProps> = ({timeMs}) => {
   const clipId = useId();
   const blurId = useId();
-  const expansion = chapterProgress(timeMs, t.expand, t.announcement, chapterEasing.transform);
+  const expansion = progress(timeMs, t.expand, t.announcement, easing.transform);
   const width = mix(1080, 2560, expansion);
   const height = mix(1000, 1440, expansion);
   const scale = width / 250;
-  const scroll = mix(190, 395, chapterProgress(timeMs, t.scrollResults, t.selectScale, chapterEasing.transform));
+  const scroll = mix(190, 395, progress(timeMs, t.scrollResults, t.selectScale, easing.transform));
   const latency = timeMs >= t.latency;
   const focus = latency ? arrive(timeMs, t.focusLatency, 280) : presence(timeMs, t.focusScale, t.latency, 250);
   const selection = arrive(timeMs, latency ? t.latency : t.selectScale, 200) * (1 - focus);

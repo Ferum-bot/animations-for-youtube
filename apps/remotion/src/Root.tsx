@@ -9,10 +9,10 @@ export const RemotionRoot: React.FC = () => (
     <Folder name="Videos">
       <GeneratedVideoCompositions />
     </Folder>
-    <Folder name="Standard">
+    <Folder name="Deprecated-Standard">
       <StandardCompositions />
     </Folder>
-    <Folder name="Examples">
+    <Folder name="Deprecated-Examples">
       <ExampleCompositions />
     </Folder>
   </>

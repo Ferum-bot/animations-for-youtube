@@ -2,11 +2,13 @@ import {createHash} from 'node:crypto';
 import {access, readFile, readdir} from 'node:fs/promises';
 import path from 'node:path';
 import {parseArgs, readJson} from './lib.mjs';
+import {createDesignPolicy} from './design-system-policy.mjs';
 
 const args = parseArgs(process.argv.slice(2));
 const requestedVideo = args.video;
 const errors = [];
 const warnings = [];
+const designPolicy = await createDesignPolicy();
 const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const numberedAnimationPattern = /^p(\d{2})-a(\d{2})-[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const videosRoot = path.resolve('videos');
@@ -85,10 +87,15 @@ for (const entry of entries) {
       await access(path.join(directory, 'animations', animationDirectory.name, 'Composition.tsx'));
     } catch {
       errors.push(`${entry.name}/${metadata.id}: Composition.tsx is missing`);
+      continue;
     }
+    await designPolicy.checkAnimation(entry.name, metadata, path.join(directory, 'animations', animationDirectory.name));
   }
 
   const cueIds = new Set();
+  for (const [name, timeMs] of Object.entries(anchors)) {
+    if (!Number.isFinite(timeMs) || timeMs < 0) errors.push(`${entry.name}/${name}: anchor must be a nonnegative finite millisecond value`);
+  }
   for (const cue of timeline) {
     if (cueIds.has(cue.id)) errors.push(`${entry.name}: duplicate timeline cue ${cue.id}`);
     cueIds.add(cue.id);
@@ -97,7 +104,10 @@ for (const entry of entries) {
     if (!Number.isFinite(cue.durationMs) || cue.durationMs <= 0) {
       errors.push(`${entry.name}/${cue.id}: durationMs must be positive`);
     }
-    const endMs = (anchors[cue.anchor] ?? 0) + cue.offsetMs + cue.durationMs;
+    if (!Number.isFinite(cue.offsetMs)) errors.push(`${entry.name}/${cue.id}: offsetMs must be finite`);
+    const startMs = (anchors[cue.anchor] ?? 0) + cue.offsetMs;
+    if (startMs < 0) errors.push(`${entry.name}/${cue.id}: cue starts before the video`);
+    const endMs = startMs + cue.durationMs;
     if (endMs > video.durationMs) errors.push(`${entry.name}/${cue.id}: cue ends after the video`);
   }
 
@@ -109,6 +119,8 @@ for (const entry of entries) {
   }
 }
 
+await designPolicy.checkLibrary();
+errors.push(...designPolicy.errors);
 for (const warning of warnings) console.warn(`warning: ${warning}`);
 if (errors.length > 0) {
   for (const error of errors) console.error(`error: ${error}`);

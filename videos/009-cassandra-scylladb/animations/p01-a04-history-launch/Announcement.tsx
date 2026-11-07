@@ -1,8 +1,5 @@
-import React, {useId} from 'react';
-import {chapterEasing, chapterProgress} from '../../shared/chapter-motion';
-import {arrive} from '../../shared/editorial-v2/motion';
-import {illustrationTheme as theme} from '../../shared/editorial-v2/illustration';
-import {SourceImage} from '../../shared/editorial-v2/primitives';
+import {easing, progress, arrive, v2Theme as theme, SourcePage} from '@channel/motion-v2';
+import React from 'react';
 import {asset, timing as t, type SceneProps} from './scene';
 
 // Whole words across two lines in the native 1280px browser capture.
@@ -12,18 +9,13 @@ const quoteLines = [
 ] as const;
 
 export const Announcement: React.FC<SceneProps> = ({timeMs}) => {
-  const blurId = useId();
   const focus = arrive(timeMs, t.focusSla, 300);
-  const scroll = chapterProgress(timeMs, t.scrollAnnouncement, t.selectSla, chapterEasing.transform);
-  const y = -2390 * 2 * scroll;
+  const scroll = progress(timeMs, t.scrollAnnouncement, t.selectSla, easing.transform);
   const selection = arrive(timeMs, t.selectSla, 220) * (1 - focus);
   return <g>
-    <defs><filter id={blurId}><feGaussianBlur stdDeviation={focus * 3} /></filter></defs>
-    <g filter={`url(#${blurId})`}>
-      <SourceImage src={asset('facebook-scroll.jpg')} x={0} y={y} width={2560} height={6800} />
-      {quoteLines.map(line => <rect key={line.y} x={line.x * 2} y={line.y * 2 + y}
-        width={line.width * 2 * selection} height={line.height * 2} fill={theme.primary} opacity={0.4} />)}
-    </g>
+    <SourcePage src={asset('facebook-scroll.jpg')} sourceWidth={1280} sourceHeight={3400}
+      scrollY={2390 * scroll} highlights={quoteLines} selection={selection}
+      highlightOpacity={0.4} blur={focus * 3} />
     <g opacity={focus}>
       <rect width={2560} height={1440} fill={theme.background} opacity={0.93} />
       <text x={280} y={365} fontSize={42}>Avinash Lakshman · 25 августа 2008</text>

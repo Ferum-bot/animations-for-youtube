@@ -10,6 +10,7 @@ export {FeatheredBackground} from './FeatheredBackground';
 
 export type StageTransitionMode = 'cut' | 'fade';
 
+/** @deprecated Legacy visual API. New work uses @channel/motion-v2. Keep existing consumers intact. */
 export const MotionStage: React.FC<{
   children: React.ReactNode;
   themeId?: ThemeId;
@@ -65,6 +66,7 @@ const StageSurface: React.FC<{
   );
 };
 
+/** @deprecated Legacy visual API. New work uses @channel/motion-v2. Keep existing consumers intact. */
 export const ServiceCard: React.FC<{
   label: string;
   detail?: string;
@@ -97,6 +99,7 @@ export const ServiceCard: React.FC<{
   );
 };
 
+/** @deprecated Legacy visual API. New work uses @channel/motion-v2. Keep existing consumers intact. */
 export const DataPacket: React.FC<{
   x: number;
   y: number;
@@ -115,6 +118,7 @@ export const DataPacket: React.FC<{
   );
 };
 
+/** @deprecated Legacy visual API. New work uses @channel/motion-v2. Keep existing consumers intact. */
 export const TechnicalLabel: React.FC<{children: React.ReactNode}> = ({children}) => {
   const theme = useChannelTheme();
   return <div style={{color: theme.muted, font: `16px ${theme.fontMono}`}}>{children}</div>;

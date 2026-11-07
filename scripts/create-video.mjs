@@ -10,6 +10,8 @@ if (!video) throw new Error('--video is required');
 assertSlug(video, 'video');
 
 const directory = path.resolve('videos', video);
+// Fail before writing any metadata if this video already exists.
+await mkdir(directory);
 await mkdir(path.join(directory, 'animations'), {recursive: true});
 await mkdir(path.join(directory, 'shared'), {recursive: true});
 await mkdir(path.join(directory, 'media'), {recursive: true});
@@ -33,7 +35,7 @@ await writeFile(
 );
 await writeFile(
   path.join(directory, 'shared', 'README.md'),
-  '# Video-local library\n\nPlace components used by multiple animations of this video here.\n',
+  '# Video-local library\n\nUse `@channel/motion-v2` for new visuals. Keep narration, source data and episode-specific components here. Read `packages/motion-v2/README.md` and the root style rules. Legacy visual libraries are deprecated for new work.\n',
   'utf8',
 );
 

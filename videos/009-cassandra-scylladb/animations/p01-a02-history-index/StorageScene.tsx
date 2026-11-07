@@ -1,6 +1,5 @@
+import {arrive, presence, MessageIcon, Pocket, Slip} from '@channel/motion-v2';
 import React from 'react';
-import {arrive, presence} from '../../shared/editorial-v2/motion';
-import {MessageIcon, Pocket, Slip} from './Illustration';
 import {timing as t, type SceneProps} from './scene';
 
 export const StorageScene: React.FC<SceneProps> = ({timeMs}) => <g opacity={presence(timeMs, t.storage, t.decision)}>
