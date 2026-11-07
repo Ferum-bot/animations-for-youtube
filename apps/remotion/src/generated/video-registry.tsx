@@ -178,7 +178,9 @@ import Animation171P02A04ReplicaQuorum from '../../../../videos/009-cassandra-sc
 import Animation172P02A05ReplicaRepair from '../../../../videos/009-cassandra-scylladb/animations/p02-a05-replica-repair/Composition';
 import Animation173P02A06StorageAndWorkload from '../../../../videos/009-cassandra-scylladb/animations/p02-a06-storage-and-workload/Composition';
 import Animation174P03A00ChapterScylladb from '../../../../videos/009-cassandra-scylladb/animations/p03-a00-chapter-scylladb/Composition';
-import Animation175P04A00ChapterChoice from '../../../../videos/009-cassandra-scylladb/animations/p04-a00-chapter-choice/Composition';
+import Animation175P03A02ScyllaOriginsEngine from '../../../../videos/009-cassandra-scylladb/animations/p03-a02-scylla-origins-engine/Composition';
+import Animation176P03A03ScyllaBenchmarks from '../../../../videos/009-cassandra-scylladb/animations/p03-a03-scylla-benchmarks/Composition';
+import Animation177P04A00ChapterChoice from '../../../../videos/009-cassandra-scylladb/animations/p04-a00-chapter-choice/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -464,7 +466,9 @@ const V009CassandraScylladbComponents: Record<string, TimelineComponent> = {
   "p02-a05-replica-repair": Animation172P02A05ReplicaRepair,
   "p02-a06-storage-and-workload": Animation173P02A06StorageAndWorkload,
   "p03-a00-chapter-scylladb": Animation174P03A00ChapterScylladb,
-  "p04-a00-chapter-choice": Animation175P04A00ChapterChoice,
+  "p03-a02-scylla-origins-engine": Animation175P03A02ScyllaOriginsEngine,
+  "p03-a03-scylla-benchmarks": Animation176P03A03ScyllaBenchmarks,
+  "p04-a00-chapter-choice": Animation177P04A00ChapterChoice,
 };
 
 const V009CassandraScylladbOverlay: React.FC = () => (
@@ -472,7 +476,7 @@ const V009CassandraScylladbOverlay: React.FC = () => (
     anchors={{"intro-start":41500,"chapter-history":105333.333,"chapter-architecture":379700,"chapter-scylladb":1157900,"chapter-choice":1589866.666}}
     audio={null}
     components={V009CassandraScylladbComponents}
-    timeline={[{"id":"show-p00-a01-intro-sources","animation":"p00-a01-intro-sources","anchor":"intro-start","offsetMs":0,"durationMs":41700,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a00-chapter-history","animation":"p01-a00-chapter-history","anchor":"chapter-history","offsetMs":0,"durationMs":4500,"props":{"themeId":"graphite","motionProfile":"calm"}},{"id":"show-p01-a01-history-origins","animation":"p01-a01-history-origins","anchor":"chapter-history","offsetMs":4500,"durationMs":49866.666667,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a02-history-index","animation":"p01-a02-history-index","anchor":"chapter-history","offsetMs":54366.666667,"durationMs":117300,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a03-history-consistency","animation":"p01-a03-history-consistency","anchor":"chapter-history","offsetMs":196800.000333,"durationMs":55866.666667,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a04-history-launch","animation":"p01-a04-history-launch","anchor":"chapter-history","offsetMs":252666.667,"durationMs":26200,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a00-chapter-architecture","animation":"p02-a00-chapter-architecture","anchor":"chapter-architecture","offsetMs":4500,"durationMs":4500,"props":{"themeId":"graphite","motionProfile":"calm"}},{"id":"show-p02-a01-postgres-replication","animation":"p02-a01-postgres-replication","anchor":"chapter-architecture","offsetMs":9000,"durationMs":123300,"props":{"withAudio":false}},{"id":"show-p02-a02-write-sharding","animation":"p02-a02-write-sharding","anchor":"chapter-architecture","offsetMs":132300,"durationMs":102000,"props":{"withAudio":false}},{"id":"show-p02-a03-chat-partition","animation":"p02-a03-chat-partition","anchor":"chapter-architecture","offsetMs":234300,"durationMs":115000,"props":{"withAudio":false}},{"id":"show-p02-a04-replica-quorum","animation":"p02-a04-replica-quorum","anchor":"chapter-architecture","offsetMs":349300,"durationMs":173000,"props":{"withAudio":false}},{"id":"show-p02-a05-replica-repair","animation":"p02-a05-replica-repair","anchor":"chapter-architecture","offsetMs":522300,"durationMs":107666.667,"props":{"withAudio":false}},{"id":"show-p02-a06-storage-and-workload","animation":"p02-a06-storage-and-workload","anchor":"chapter-architecture","offsetMs":629966.667,"durationMs":157233.333,"props":{"withAudio":false}},{"id":"show-p03-a00-chapter-scylladb","animation":"p03-a00-chapter-scylladb","anchor":"chapter-scylladb","offsetMs":9000,"durationMs":4500,"props":{"themeId":"graphite","motionProfile":"calm"}},{"id":"show-p04-a00-chapter-choice","animation":"p04-a00-chapter-choice","anchor":"chapter-choice","offsetMs":0,"durationMs":4500,"props":{"themeId":"graphite","motionProfile":"calm"}}]}
+    timeline={[{"id":"show-p00-a01-intro-sources","animation":"p00-a01-intro-sources","anchor":"intro-start","offsetMs":0,"durationMs":41700,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a00-chapter-history","animation":"p01-a00-chapter-history","anchor":"chapter-history","offsetMs":0,"durationMs":4500,"props":{"themeId":"graphite","motionProfile":"calm"}},{"id":"show-p01-a01-history-origins","animation":"p01-a01-history-origins","anchor":"chapter-history","offsetMs":4500,"durationMs":49866.666667,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a02-history-index","animation":"p01-a02-history-index","anchor":"chapter-history","offsetMs":54366.666667,"durationMs":117300,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a03-history-consistency","animation":"p01-a03-history-consistency","anchor":"chapter-history","offsetMs":196800.000333,"durationMs":55866.666667,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a04-history-launch","animation":"p01-a04-history-launch","anchor":"chapter-history","offsetMs":252666.667,"durationMs":26200,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a00-chapter-architecture","animation":"p02-a00-chapter-architecture","anchor":"chapter-architecture","offsetMs":4500,"durationMs":4500,"props":{"themeId":"graphite","motionProfile":"calm"}},{"id":"show-p02-a01-postgres-replication","animation":"p02-a01-postgres-replication","anchor":"chapter-architecture","offsetMs":9000,"durationMs":123300,"props":{"withAudio":false}},{"id":"show-p02-a02-write-sharding","animation":"p02-a02-write-sharding","anchor":"chapter-architecture","offsetMs":132300,"durationMs":102000,"props":{"withAudio":false}},{"id":"show-p02-a03-chat-partition","animation":"p02-a03-chat-partition","anchor":"chapter-architecture","offsetMs":234300,"durationMs":115000,"props":{"withAudio":false}},{"id":"show-p02-a04-replica-quorum","animation":"p02-a04-replica-quorum","anchor":"chapter-architecture","offsetMs":349300,"durationMs":173000,"props":{"withAudio":false}},{"id":"show-p02-a05-replica-repair","animation":"p02-a05-replica-repair","anchor":"chapter-architecture","offsetMs":522300,"durationMs":107666.667,"props":{"withAudio":false}},{"id":"show-p02-a06-storage-and-workload","animation":"p02-a06-storage-and-workload","anchor":"chapter-architecture","offsetMs":629966.667,"durationMs":157233.333,"props":{"withAudio":false}},{"id":"show-p03-a00-chapter-scylladb","animation":"p03-a00-chapter-scylladb","anchor":"chapter-scylladb","offsetMs":9000,"durationMs":4500,"props":{"themeId":"graphite","motionProfile":"calm"}},{"id":"show-p03-a02-scylla-origins-engine","animation":"p03-a02-scylla-origins-engine","anchor":"chapter-scylladb","offsetMs":114133.333,"durationMs":190100,"props":{"withAudio":false}},{"id":"show-p03-a03-scylla-benchmarks","animation":"p03-a03-scylla-benchmarks","anchor":"chapter-scylladb","offsetMs":313100,"durationMs":107000,"props":{"withAudio":false}},{"id":"show-p04-a00-chapter-choice","animation":"p04-a00-chapter-choice","anchor":"chapter-choice","offsetMs":0,"durationMs":4500,"props":{"themeId":"graphite","motionProfile":"calm"}}]}
   />
 );
 
@@ -2158,7 +2162,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p04-a00-chapter-choice"
-          component={Animation175P04A00ChapterChoice}
+          component={Animation177P04A00ChapterChoice}
           width={2560}
           height={1440}
           fps={30}
@@ -2248,6 +2252,26 @@ export const GeneratedVideoCompositions: React.FC = () => (
           height={1440}
           fps={30}
           durationInFrames={4717}
+          defaultProps={{"withAudio":true}}
+        />
+      </Folder>
+      <Folder name="P-03-ScyllaDB">
+        <Composition
+          id="Video-009-cassandra-scylladb-p03-a02-scylla-origins-engine"
+          component={Animation175P03A02ScyllaOriginsEngine}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={5703}
+          defaultProps={{"withAudio":true}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p03-a03-scylla-benchmarks"
+          component={Animation176P03A03ScyllaBenchmarks}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={3210}
           defaultProps={{"withAudio":true}}
         />
       </Folder>

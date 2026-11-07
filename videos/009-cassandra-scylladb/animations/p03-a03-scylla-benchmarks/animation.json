@@ -1,0 +1,13 @@
+{
+  "id": "p03-a03-scylla-benchmarks",
+  "part": 3,
+  "order": 3,
+  "title": "ScyllaDB на практике — OCTO, Discord и benchANT",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 107000,
+  "defaultProps": {
+    "withAudio": true
+  },
+  "studioFolder": "P-03-ScyllaDB"
+}

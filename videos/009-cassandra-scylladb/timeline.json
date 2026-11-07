@@ -148,6 +148,26 @@
     }
   },
   {
+    "id": "show-p03-a02-scylla-origins-engine",
+    "animation": "p03-a02-scylla-origins-engine",
+    "anchor": "chapter-scylladb",
+    "offsetMs": 114133.333,
+    "durationMs": 190100,
+    "props": {
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p03-a03-scylla-benchmarks",
+    "animation": "p03-a03-scylla-benchmarks",
+    "anchor": "chapter-scylladb",
+    "offsetMs": 313100,
+    "durationMs": 107000,
+    "props": {
+      "withAudio": false
+    }
+  },
+  {
     "id": "show-p04-a00-chapter-choice",
     "animation": "p04-a00-chapter-choice",
     "anchor": "chapter-choice",

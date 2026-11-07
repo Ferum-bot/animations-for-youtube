@@ -1,0 +1,13 @@
+{
+  "id": "p03-a02-scylla-origins-engine",
+  "part": 3,
+  "order": 2,
+  "title": "От Cassandra к ScyllaDB — история и устройство",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 190100,
+  "defaultProps": {
+    "withAudio": true
+  },
+  "studioFolder": "P-03-ScyllaDB"
+}

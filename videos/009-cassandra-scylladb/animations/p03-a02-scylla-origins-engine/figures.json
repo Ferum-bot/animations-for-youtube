@@ -1,0 +1,30 @@
+{
+  "founders": {
+    "width": 1096,
+    "height": 778
+  },
+  "paper": {
+    "width": 2473,
+    "height": 3200
+  },
+  "cpp": {
+    "width": 2125,
+    "height": 2750
+  },
+  "resource-map": {
+    "width": 1820,
+    "height": 970
+  },
+  "cluster-map": {
+    "width": 2572,
+    "height": 848
+  },
+  "nothing": {
+    "width": 1980,
+    "height": 1060
+  },
+  "scheduler": {
+    "width": 2125,
+    "height": 2750
+  }
+}
