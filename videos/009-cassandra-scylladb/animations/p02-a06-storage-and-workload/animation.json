@@ -1,0 +1,13 @@
+{
+  "id": "p02-a06-storage-and-workload",
+  "part": 2,
+  "order": 6,
+  "title": "Архитектура — от записи на диск до выбора базы",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 157233.333,
+  "defaultProps": {
+    "withAudio": true
+  },
+  "studioFolder": "P-02-Architecture"
+}

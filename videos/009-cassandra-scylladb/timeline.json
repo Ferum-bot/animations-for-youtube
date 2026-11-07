@@ -77,10 +77,70 @@
     }
   },
   {
+    "id": "show-p02-a01-postgres-replication",
+    "animation": "p02-a01-postgres-replication",
+    "anchor": "chapter-architecture",
+    "offsetMs": 9000,
+    "durationMs": 123300,
+    "props": {
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p02-a02-write-sharding",
+    "animation": "p02-a02-write-sharding",
+    "anchor": "chapter-architecture",
+    "offsetMs": 132300,
+    "durationMs": 102000,
+    "props": {
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p02-a03-chat-partition",
+    "animation": "p02-a03-chat-partition",
+    "anchor": "chapter-architecture",
+    "offsetMs": 234300,
+    "durationMs": 115000,
+    "props": {
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p02-a04-replica-quorum",
+    "animation": "p02-a04-replica-quorum",
+    "anchor": "chapter-architecture",
+    "offsetMs": 349300,
+    "durationMs": 173000,
+    "props": {
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p02-a05-replica-repair",
+    "animation": "p02-a05-replica-repair",
+    "anchor": "chapter-architecture",
+    "offsetMs": 522300,
+    "durationMs": 107666.667,
+    "props": {
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p02-a06-storage-and-workload",
+    "animation": "p02-a06-storage-and-workload",
+    "anchor": "chapter-architecture",
+    "offsetMs": 629966.667,
+    "durationMs": 157233.333,
+    "props": {
+      "withAudio": false
+    }
+  },
+  {
     "id": "show-p03-a00-chapter-scylladb",
     "animation": "p03-a00-chapter-scylladb",
     "anchor": "chapter-scylladb",
-    "offsetMs": 0,
+    "offsetMs": 9000,
     "durationMs": 4500,
     "props": {
       "themeId": "graphite",

@@ -1,0 +1,13 @@
+{
+  "id": "p02-a01-postgres-replication",
+  "part": 2,
+  "order": 1,
+  "title": "Архитектура — репликация PostgreSQL",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 123300,
+  "defaultProps": {
+    "withAudio": true
+  },
+  "studioFolder": "P-02-Architecture"
+}

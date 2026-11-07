@@ -1,0 +1,13 @@
+{
+  "id": "p02-a02-write-sharding",
+  "part": 2,
+  "order": 2,
+  "title": "Архитектура — от репликации к шардингу",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 102000,
+  "defaultProps": {
+    "withAudio": true
+  },
+  "studioFolder": "P-02-Architecture"
+}
