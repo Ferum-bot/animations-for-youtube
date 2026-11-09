@@ -1,0 +1,11 @@
+{
+  "id": "p02-a03-cassandra-chat-history",
+  "part": 2,
+  "order": 3,
+  "title": "Как Cassandra находит последние сообщения чата?",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 55800,
+  "defaultProps": {"withAudio": true},
+  "studioFolder": "P-02-Architecture-Shorts"
+}

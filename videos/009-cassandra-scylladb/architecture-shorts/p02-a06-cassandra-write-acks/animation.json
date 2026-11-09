@@ -1,0 +1,11 @@
+{
+  "id": "p02-a06-cassandra-write-acks",
+  "part": 2,
+  "order": 6,
+  "title": "Сколько реплик должны подтвердить запись в Cassandra?",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 42400,
+  "defaultProps": {"withAudio": true},
+  "studioFolder": "P-02-Architecture-Shorts"
+}

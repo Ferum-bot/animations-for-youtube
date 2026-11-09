@@ -1,0 +1,11 @@
+{
+  "id": "p02-a08-cassandra-last-write-wins",
+  "part": 2,
+  "order": 8,
+  "title": "В двух копиях одно значение, в третьей другое. Какое выберет Cassandra?",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 35200,
+  "defaultProps": {"withAudio": true},
+  "studioFolder": "P-02-Architecture-Shorts"
+}

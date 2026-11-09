@@ -1,0 +1,11 @@
+{
+  "id": "p02-a02-postgres-replica-ack",
+  "part": 2,
+  "order": 2,
+  "title": "Postgres ответил OK. Что на реплике?",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 54200,
+  "defaultProps": {"withAudio": true},
+  "studioFolder": "P-02-Architecture-Shorts"
+}

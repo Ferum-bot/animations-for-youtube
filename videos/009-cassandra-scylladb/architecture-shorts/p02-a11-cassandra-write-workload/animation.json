@@ -1,0 +1,7 @@
+{
+  "id": "p02-a11-cassandra-write-workload",
+  "part": 2, "order": 11,
+  "title": "Много записей — уже пора брать Cassandra?",
+  "kind": "2d", "designSystem": "v2", "durationMs": 59200,
+  "defaultProps": {"withAudio": true}, "studioFolder": "P-02-Architecture-Shorts"
+}

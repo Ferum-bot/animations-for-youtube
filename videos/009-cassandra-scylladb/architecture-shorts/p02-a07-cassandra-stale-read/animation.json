@@ -1,0 +1,11 @@
+{
+  "id": "p02-a07-cassandra-stale-read",
+  "part": 2,
+  "order": 7,
+  "title": "Запись прошла. Почему Cassandra вернула старое сообщение?",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 57600,
+  "defaultProps": {"withAudio": true},
+  "studioFolder": "P-02-Architecture-Shorts"
+}

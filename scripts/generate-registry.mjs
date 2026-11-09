@@ -1,3 +1,4 @@
+import {listAnimationDirectories} from './animation-directories.mjs';
 import {readdir, writeFile} from 'node:fs/promises';
 import path from 'node:path';
 import {msToFrames, readJson, toIdentifier} from './lib.mjs';
@@ -25,30 +26,27 @@ for (const videoEntry of videoEntries) {
   const video = await readJson(path.join(videoDirectory, 'video.json'));
   const anchors = await readJson(path.join(videoDirectory, 'anchors.json'));
   const timeline = await readJson(path.join(videoDirectory, 'timeline.json'));
-  const animationsDirectory = path.join(videoDirectory, 'animations');
-  const animationEntries = (await readdir(animationsDirectory, {withFileTypes: true}))
-    .filter((entry) => entry.isDirectory())
-    .sort((a, b) => a.name.localeCompare(b.name));
+  const animationEntries = await listAnimationDirectories(videoDirectory);
   const componentPairs = [];
   const compositionRowsByFolder = new Map();
 
   for (const animationEntry of animationEntries) {
-    const animationDirectory = path.join(animationsDirectory, animationEntry.name);
+    const animationDirectory = animationEntry.directory;
     const animation = await readJson(path.join(animationDirectory, 'animation.json'));
     const identifier = `Animation${importIndex}${toIdentifier(animation.id)}`;
     importIndex += 1;
     imports.push(
-      `import ${identifier} from '../../../../videos/${video.id}/animations/${animation.id}/Composition';`,
+      `import ${identifier} from '../../../../videos/${video.id}/${animationEntry.collection}/${animation.id}/Composition';`,
     );
-    componentPairs.push(`  ${JSON.stringify(animation.id)}: ${identifier},`);
+    if (!animationEntry.isShort) componentPairs.push(`  ${JSON.stringify(animation.id)}: ${identifier},`);
     const baseFolder = animation.studioFolder ?? `P-${formatIndex(animation.part)}`;
     const folderName = animation.designSystem === 'v2' ? baseFolder : `Deprecated-${baseFolder}`;
     const compositionRows = compositionRowsByFolder.get(folderName) ?? [];
     compositionRows.push(`        <Composition
           id=${JSON.stringify(`Video-${video.id}-${animation.id}`)}
           component={${identifier}}
-          width={${video.width}}
-          height={${video.height}}
+          width={${animationEntry.isShort ? 1080 : video.width}}
+          height={${animationEntry.isShort ? 1920 : video.height}}
           fps={${video.fps}}
           durationInFrames={${msToFrames(animation.durationMs, video.fps)}}
           defaultProps={${JSON.stringify(animation.defaultProps)}}

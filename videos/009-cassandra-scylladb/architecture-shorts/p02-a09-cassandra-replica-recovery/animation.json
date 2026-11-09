@@ -1,0 +1,11 @@
+{
+  "id": "p02-a09-cassandra-replica-recovery",
+  "part": 2,
+  "order": 9,
+  "title": "Как реплика Cassandra догоняет пропущенные записи?",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 59900,
+  "defaultProps": {"withAudio": true},
+  "studioFolder": "P-02-Architecture-Shorts"
+}

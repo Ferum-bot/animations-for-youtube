@@ -182,6 +182,17 @@ import Animation175P03A02ScyllaOriginsEngine from '../../../../videos/009-cassan
 import Animation176P03A03ScyllaBenchmarks from '../../../../videos/009-cassandra-scylladb/animations/p03-a03-scylla-benchmarks/Composition';
 import Animation177P04A00ChapterChoice from '../../../../videos/009-cassandra-scylladb/animations/p04-a00-chapter-choice/Composition';
 import Animation178P04A02ChoiceInProduction from '../../../../videos/009-cassandra-scylladb/animations/p04-a02-choice-in-production/Composition';
+import Animation179P02A01PostgresWriteReplicas from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a01-postgres-write-replicas/Composition';
+import Animation180P02A02PostgresReplicaAck from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a02-postgres-replica-ack/Composition';
+import Animation181P02A03CassandraChatHistory from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a03-cassandra-chat-history/Composition';
+import Animation182P02A04CassandraNewNode from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a04-cassandra-new-node/Composition';
+import Animation183P02A05CassandraCoordinator from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a05-cassandra-coordinator/Composition';
+import Animation184P02A06CassandraWriteAcks from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a06-cassandra-write-acks/Composition';
+import Animation185P02A07CassandraStaleRead from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a07-cassandra-stale-read/Composition';
+import Animation186P02A08CassandraLastWriteWins from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a08-cassandra-last-write-wins/Composition';
+import Animation187P02A09CassandraReplicaRecovery from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a09-cassandra-replica-recovery/Composition';
+import Animation188P02A10CassandraLocalWrite from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a10-cassandra-local-write/Composition';
+import Animation189P02A11CassandraWriteWorkload from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a11-cassandra-write-workload/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -2254,6 +2265,107 @@ export const GeneratedVideoCompositions: React.FC = () => (
           height={1440}
           fps={30}
           durationInFrames={4717}
+          defaultProps={{"withAudio":true}}
+        />
+      </Folder>
+      <Folder name="P-02-Architecture-Shorts">
+        <Composition
+          id="Video-009-cassandra-scylladb-p02-a01-postgres-write-replicas"
+          component={Animation179P02A01PostgresWriteReplicas}
+          width={1080}
+          height={1920}
+          fps={30}
+          durationInFrames={1548}
+          defaultProps={{"withAudio":true}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p02-a02-postgres-replica-ack"
+          component={Animation180P02A02PostgresReplicaAck}
+          width={1080}
+          height={1920}
+          fps={30}
+          durationInFrames={1626}
+          defaultProps={{"withAudio":true}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p02-a03-cassandra-chat-history"
+          component={Animation181P02A03CassandraChatHistory}
+          width={1080}
+          height={1920}
+          fps={30}
+          durationInFrames={1674}
+          defaultProps={{"withAudio":true}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p02-a04-cassandra-new-node"
+          component={Animation182P02A04CassandraNewNode}
+          width={1080}
+          height={1920}
+          fps={30}
+          durationInFrames={1446}
+          defaultProps={{"withAudio":true}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p02-a05-cassandra-coordinator"
+          component={Animation183P02A05CassandraCoordinator}
+          width={1080}
+          height={1920}
+          fps={30}
+          durationInFrames={1614}
+          defaultProps={{"withAudio":true}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p02-a06-cassandra-write-acks"
+          component={Animation184P02A06CassandraWriteAcks}
+          width={1080}
+          height={1920}
+          fps={30}
+          durationInFrames={1272}
+          defaultProps={{"withAudio":true}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p02-a07-cassandra-stale-read"
+          component={Animation185P02A07CassandraStaleRead}
+          width={1080}
+          height={1920}
+          fps={30}
+          durationInFrames={1728}
+          defaultProps={{"withAudio":true}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p02-a08-cassandra-last-write-wins"
+          component={Animation186P02A08CassandraLastWriteWins}
+          width={1080}
+          height={1920}
+          fps={30}
+          durationInFrames={1056}
+          defaultProps={{"withAudio":true}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p02-a09-cassandra-replica-recovery"
+          component={Animation187P02A09CassandraReplicaRecovery}
+          width={1080}
+          height={1920}
+          fps={30}
+          durationInFrames={1797}
+          defaultProps={{"withAudio":true}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p02-a10-cassandra-local-write"
+          component={Animation188P02A10CassandraLocalWrite}
+          width={1080}
+          height={1920}
+          fps={30}
+          durationInFrames={1290}
+          defaultProps={{"withAudio":true}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p02-a11-cassandra-write-workload"
+          component={Animation189P02A11CassandraWriteWorkload}
+          width={1080}
+          height={1920}
+          fps={30}
+          durationInFrames={1776}
           defaultProps={{"withAudio":true}}
         />
       </Folder>

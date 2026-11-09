@@ -1,0 +1,11 @@
+{
+  "id": "p02-a04-cassandra-new-node",
+  "part": 2,
+  "order": 4,
+  "title": "Что переезжает, когда в Cassandra добавляют сервер?",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 48200,
+  "defaultProps": {"withAudio": true},
+  "studioFolder": "P-02-Architecture-Shorts"
+}

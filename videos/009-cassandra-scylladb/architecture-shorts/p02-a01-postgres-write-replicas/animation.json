@@ -1,0 +1,11 @@
+{
+  "id": "p02-a01-postgres-write-replicas",
+  "part": 2,
+  "order": 1,
+  "title": "Почему реплика Postgres не ускоряет запись?",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 51600,
+  "defaultProps": {"withAudio": true},
+  "studioFolder": "P-02-Architecture-Shorts"
+}

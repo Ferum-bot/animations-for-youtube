@@ -1,3 +1,4 @@
+import {listAnimationDirectories} from './animation-directories.mjs';
 import {createHash} from 'node:crypto';
 import {access, readFile, readdir} from 'node:fs/promises';
 import path from 'node:path';
@@ -26,8 +27,8 @@ for (const entry of entries) {
   const anchors = await readJson(path.join(directory, 'anchors.json'));
   const timeline = await readJson(path.join(directory, 'timeline.json'));
   const transcript = await readJson(path.join(directory, 'transcript.json'));
-  const animationDirectories = (await readdir(path.join(directory, 'animations'), {withFileTypes: true}))
-    .filter((item) => item.isDirectory());
+  const animationDirectories = await listAnimationDirectories(directory);
+  const compositionIds = new Set();
   const animationIds = new Set();
   const animationPositions = new Set();
 
@@ -50,7 +51,7 @@ for (const entry of entries) {
   }
 
   for (const animationDirectory of animationDirectories) {
-    const metadata = await readJson(path.join(directory, 'animations', animationDirectory.name, 'animation.json'));
+    const metadata = await readJson(path.join(animationDirectory.directory, 'animation.json'));
     if (metadata.id !== animationDirectory.name) {
       errors.push(`${entry.name}/${animationDirectory.name}: animation id must match directory name`);
     }
@@ -74,7 +75,7 @@ for (const entry of entries) {
     if (expectedPrefix && !metadata.id.startsWith(expectedPrefix)) {
       errors.push(`${entry.name}/${metadata.id}: id prefix must match part and order metadata`);
     }
-    const position = `${metadata.part}:${metadata.order}`;
+    const position = `${animationDirectory.collection}:${metadata.part}:${metadata.order}`;
     if (animationPositions.has(position)) {
       errors.push(`${entry.name}/${metadata.id}: duplicate animation position ${position}`);
     }
@@ -82,14 +83,16 @@ for (const entry of entries) {
     if (!Number.isFinite(metadata.durationMs) || metadata.durationMs <= 0) {
       errors.push(`${entry.name}/${metadata.id}: durationMs must be positive`);
     }
-    animationIds.add(metadata.id);
+    if (compositionIds.has(metadata.id)) errors.push(`${entry.name}: duplicate composition id ${metadata.id}`);
+    compositionIds.add(metadata.id);
+    if (!animationDirectory.isShort) animationIds.add(metadata.id);
     try {
-      await access(path.join(directory, 'animations', animationDirectory.name, 'Composition.tsx'));
+      await access(path.join(animationDirectory.directory, 'Composition.tsx'));
     } catch {
       errors.push(`${entry.name}/${metadata.id}: Composition.tsx is missing`);
       continue;
     }
-    await designPolicy.checkAnimation(entry.name, metadata, path.join(directory, 'animations', animationDirectory.name));
+    await designPolicy.checkAnimation(entry.name, metadata, animationDirectory.directory);
   }
 
   const cueIds = new Set();

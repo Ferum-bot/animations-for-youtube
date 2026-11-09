@@ -1,0 +1,11 @@
+{
+  "id": "p02-a10-cassandra-local-write",
+  "part": 2,
+  "order": 10,
+  "title": "Что происходит с записью на одном узле Cassandra?",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 43000,
+  "defaultProps": {"withAudio": true},
+  "studioFolder": "P-02-Architecture-Shorts"
+}

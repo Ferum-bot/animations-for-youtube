@@ -1,0 +1,11 @@
+{
+  "id": "p02-a05-cassandra-coordinator",
+  "part": 2,
+  "order": 5,
+  "title": "Кто принимает запись, если в Cassandra нет главного сервера?",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 53800,
+  "defaultProps": {"withAudio": true},
+  "studioFolder": "P-02-Architecture-Shorts"
+}
