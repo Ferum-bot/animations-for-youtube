@@ -193,6 +193,20 @@ import Animation186P02A08CassandraLastWriteWins from '../../../../videos/009-cas
 import Animation187P02A09CassandraReplicaRecovery from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a09-cassandra-replica-recovery/Composition';
 import Animation188P02A10CassandraLocalWrite from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a10-cassandra-local-write/Composition';
 import Animation189P02A11CassandraWriteWorkload from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a11-cassandra-write-workload/Composition';
+import Animation190P01A01FacebookInboxSearch from '../../../../videos/009-cassandra-scylladb/history-shorts/p01-a01-facebook-inbox-search/Composition';
+import Animation191P01A02WhyNotMysql from '../../../../videos/009-cassandra-scylladb/history-shorts/p01-a02-why-not-mysql/Composition';
+import Animation192P01A03InboxIndexWrites from '../../../../videos/009-cassandra-scylladb/history-shorts/p01-a03-inbox-index-writes/Composition';
+import Animation193P01A04MissingSearchResult from '../../../../videos/009-cassandra-scylladb/history-shorts/p01-a04-missing-search-result/Composition';
+import Animation194P01A05WhyNotBigtableDynamo from '../../../../videos/009-cassandra-scylladb/history-shorts/p01-a05-why-not-bigtable-dynamo/Composition';
+import Animation195P01A06InboxSearchAtScale from '../../../../videos/009-cassandra-scylladb/history-shorts/p01-a06-inbox-search-at-scale/Composition';
+import Animation196P03A01GcPause from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a01-gc-pause/Composition';
+import Animation197P03A02ShardPerCore from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a02-shard-per-core/Composition';
+import Animation198P03A03OsvRedisCassandra from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a03-osv-redis-cassandra/Composition';
+import Animation199P03A04FamiliarCql from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a04-familiar-cql/Composition';
+import Animation200P03A05IoScheduler from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a05-io-scheduler/Composition';
+import Animation201P03A06OctoBenchmark from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a06-octo-benchmark/Composition';
+import Animation202P03A07DiscordMigration from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a07-discord-migration/Composition';
+import Animation203P03A08CassandraJava from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a08-cassandra-java/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -2212,6 +2226,62 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"previewBackground":"photo","withAudio":true}}
         />
       </Folder>
+      <Folder name="P-01-History-Shorts">
+        <Composition
+          id="Video-009-cassandra-scylladb-p01-a01-facebook-inbox-search"
+          component={Animation190P01A01FacebookInboxSearch}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1392}
+          defaultProps={{"withAudio":true}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p01-a02-why-not-mysql"
+          component={Animation191P01A02WhyNotMysql}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1446}
+          defaultProps={{"withAudio":true}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p01-a03-inbox-index-writes"
+          component={Animation192P01A03InboxIndexWrites}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1482}
+          defaultProps={{"withAudio":true}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p01-a04-missing-search-result"
+          component={Animation193P01A04MissingSearchResult}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1632}
+          defaultProps={{"withAudio":true}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p01-a05-why-not-bigtable-dynamo"
+          component={Animation194P01A05WhyNotBigtableDynamo}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1083}
+          defaultProps={{"withAudio":true}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p01-a06-inbox-search-at-scale"
+          component={Animation195P01A06InboxSearchAtScale}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={936}
+          defaultProps={{"withAudio":true}}
+        />
+      </Folder>
       <Folder name="P-02-Architecture">
         <Composition
           id="Video-009-cassandra-scylladb-p02-a01-postgres-replication"
@@ -2386,6 +2456,80 @@ export const GeneratedVideoCompositions: React.FC = () => (
           height={1440}
           fps={30}
           durationInFrames={3210}
+          defaultProps={{"withAudio":true}}
+        />
+      </Folder>
+      <Folder name="P-03-ScyllaDB-Shorts">
+        <Composition
+          id="Video-009-cassandra-scylladb-p03-a01-gc-pause"
+          component={Animation196P03A01GcPause}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1679}
+          defaultProps={{"withAudio":true}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p03-a02-shard-per-core"
+          component={Animation197P03A02ShardPerCore}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1637}
+          defaultProps={{"withAudio":true}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p03-a03-osv-redis-cassandra"
+          component={Animation198P03A03OsvRedisCassandra}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1515}
+          defaultProps={{"withAudio":true}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p03-a04-familiar-cql"
+          component={Animation199P03A04FamiliarCql}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1384}
+          defaultProps={{"withAudio":true}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p03-a05-io-scheduler"
+          component={Animation200P03A05IoScheduler}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={719}
+          defaultProps={{"withAudio":true}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p03-a06-octo-benchmark"
+          component={Animation201P03A06OctoBenchmark}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1177}
+          defaultProps={{"withAudio":true}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p03-a07-discord-migration"
+          component={Animation202P03A07DiscordMigration}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1633}
+          defaultProps={{"withAudio":true}}
+        />
+        <Composition
+          id="Video-009-cassandra-scylladb-p03-a08-cassandra-java"
+          component={Animation203P03A08CassandraJava}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1356}
           defaultProps={{"withAudio":true}}
         />
       </Folder>

@@ -1,0 +1,12 @@
+{
+  "id": "p03-a05-io-scheduler",
+  "part": 3,
+  "order": 5,
+  "title": "Как ScyllaDB делит диск между запросами и compaction?",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 23967,
+  "defaultProps": {"withAudio": true},
+  "studioFolder": "P-03-ScyllaDB-Shorts"
+}

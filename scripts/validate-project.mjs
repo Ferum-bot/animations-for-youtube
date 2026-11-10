@@ -56,6 +56,9 @@ for (const entry of entries) {
       errors.push(`${entry.name}/${animationDirectory.name}: animation id must match directory name`);
     }
     if (!slugPattern.test(metadata.id)) errors.push(`${entry.name}/${metadata.id}: invalid animation id`);
+    if (metadata.shortHeight !== undefined && (!animationDirectory.isShort || ![1920, 2560].includes(metadata.shortHeight))) {
+      errors.push(`${entry.name}/${metadata.id}: shortHeight must be 1920 or 2560 on a Shorts composition`);
+    }
     if (metadata.studioFolder !== undefined &&
       (typeof metadata.studioFolder !== 'string' || !/^[a-zA-Z0-9-]+$/.test(metadata.studioFolder))) {
       errors.push(`${entry.name}/${metadata.id}: studioFolder must contain only letters A-Z, numbers, or hyphens`);

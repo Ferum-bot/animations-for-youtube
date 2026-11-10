@@ -3,7 +3,7 @@ import {Img, staticFile} from 'remotion';
 import {getTheme} from '@channel/theme';
 import {smoothProgress} from '@channel/motion-core';
 import {cues} from './scene';
-import {asset, authors} from './sources';
+import {asset, authors} from '../../shared/history-sources';
 import {SceneSurface} from './SceneSurface';
 
 export const AuthorsScene: React.FC<{readonly timeMs: number}> = ({timeMs}) => {

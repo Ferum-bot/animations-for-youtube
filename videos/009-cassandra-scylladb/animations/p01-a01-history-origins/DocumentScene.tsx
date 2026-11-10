@@ -2,7 +2,7 @@ import React from 'react';
 import {Img, staticFile} from 'remotion';
 import {highlightProgress, QuoteHighlight} from '../../shared/source-documents/QuoteHighlight';
 import {cues, highlights, scene} from './scene';
-import {asset, sources, type DocumentId} from './sources';
+import {asset, sources, type DocumentId} from '../../shared/history-sources';
 import {SceneSurface} from './SceneSurface';
 
 export const DocumentScene: React.FC<{

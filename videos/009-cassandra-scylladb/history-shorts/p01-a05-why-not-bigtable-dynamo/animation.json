@@ -1,0 +1,6 @@
+{
+  "id": "p01-a05-why-not-bigtable-dynamo", "part": 1, "order": 5,
+  "title": "Почему Facebook не взял готовую базу Google или Amazon?",
+  "kind": "2d", "designSystem": "v2", "shortHeight": 2560, "durationMs": 36100,
+  "defaultProps": {"withAudio": true}, "studioFolder": "P-01-History-Shorts"
+}

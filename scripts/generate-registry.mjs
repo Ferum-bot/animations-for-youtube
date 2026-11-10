@@ -42,11 +42,12 @@ for (const videoEntry of videoEntries) {
     const baseFolder = animation.studioFolder ?? `P-${formatIndex(animation.part)}`;
     const folderName = animation.designSystem === 'v2' ? baseFolder : `Deprecated-${baseFolder}`;
     const compositionRows = compositionRowsByFolder.get(folderName) ?? [];
+    const shortHeight = animation.shortHeight ?? 1920;
     compositionRows.push(`        <Composition
           id=${JSON.stringify(`Video-${video.id}-${animation.id}`)}
           component={${identifier}}
-          width={${animationEntry.isShort ? 1080 : video.width}}
-          height={${animationEntry.isShort ? 1920 : video.height}}
+          width={${animationEntry.isShort ? shortHeight * 9 / 16 : video.width}}
+          height={${animationEntry.isShort ? shortHeight : video.height}}
           fps={${video.fps}}
           durationInFrames={${msToFrames(animation.durationMs, video.fps)}}
           defaultProps={${JSON.stringify(animation.defaultProps)}}

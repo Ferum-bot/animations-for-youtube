@@ -1,0 +1,6 @@
+{
+  "id": "p01-a02-why-not-mysql", "part": 1, "order": 2,
+  "title": "У Facebook уже был MySQL. Зачем понадобилась Cassandra?",
+  "kind": "2d", "designSystem": "v2", "shortHeight": 2560, "durationMs": 48200,
+  "defaultProps": {"withAudio": true}, "studioFolder": "P-01-History-Shorts"
+}

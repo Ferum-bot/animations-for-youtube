@@ -1,0 +1,12 @@
+{
+  "id": "p03-a02-shard-per-core",
+  "part": 3,
+  "order": 2,
+  "title": "Почему вдвое больше ядер не дают вдвое больше скорости?",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 54583,
+  "defaultProps": {"withAudio": true},
+  "studioFolder": "P-03-ScyllaDB-Shorts"
+}

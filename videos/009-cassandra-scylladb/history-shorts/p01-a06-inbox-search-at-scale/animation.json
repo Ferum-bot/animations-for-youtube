@@ -1,0 +1,7 @@
+{
+  "id": "p01-a06-inbox-search-at-scale",
+  "part": 1, "order": 6,
+  "title": "50 ТБ на 150 узлах. Как быстро работал поиск Facebook?",
+  "kind": "2d", "designSystem": "v2", "shortHeight": 2560, "durationMs": 31200,
+  "defaultProps": {"withAudio": true}, "studioFolder": "P-01-History-Shorts"
+}

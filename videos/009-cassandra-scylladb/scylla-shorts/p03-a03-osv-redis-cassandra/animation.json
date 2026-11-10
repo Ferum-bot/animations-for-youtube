@@ -1,0 +1,12 @@
+{
+  "id": "p03-a03-osv-redis-cassandra",
+  "part": 3,
+  "order": 3,
+  "title": "Почему OSv ускорила Redis, а Cassandra — почти нет?",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 50500,
+  "defaultProps": {"withAudio": true},
+  "studioFolder": "P-03-ScyllaDB-Shorts"
+}

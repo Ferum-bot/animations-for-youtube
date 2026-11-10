@@ -1,0 +1,12 @@
+{
+  "id": "p03-a01-gc-pause",
+  "part": 3,
+  "order": 1,
+  "title": "Почему одна GC-пауза в Cassandra задерживает запросы?",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 55967,
+  "defaultProps": {"withAudio": true},
+  "studioFolder": "P-03-ScyllaDB-Shorts"
+}

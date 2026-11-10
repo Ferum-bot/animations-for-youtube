@@ -1,0 +1,6 @@
+{
+  "id": "p01-a03-inbox-index-writes", "part": 1, "order": 3,
+  "title": "Почему поиск по сообщениям создаёт столько записей?",
+  "kind": "2d", "designSystem": "v2", "shortHeight": 2560, "durationMs": 49400,
+  "defaultProps": {"withAudio": true}, "studioFolder": "P-01-History-Shorts"
+}

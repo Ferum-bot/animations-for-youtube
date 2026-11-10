@@ -3,7 +3,7 @@ import {Img, staticFile} from 'remotion';
 import {getTheme} from '@channel/theme';
 import {smoothProgress} from '@channel/motion-core';
 import {cues, scene, searchTiming} from './scene';
-import {asset, inboxSource} from './sources';
+import {asset, inboxSource} from '../../shared/history-sources';
 import {SceneSurface} from './SceneSurface';
 
 const messages = [

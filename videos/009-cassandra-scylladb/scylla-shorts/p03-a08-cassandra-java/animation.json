@@ -1,0 +1,12 @@
+{
+  "id": "p03-a08-cassandra-java",
+  "part": 3,
+  "order": 8,
+  "title": "Стоит ли уходить с Cassandra только из-за Java?",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 45200,
+  "defaultProps": {"withAudio": true},
+  "studioFolder": "P-03-ScyllaDB-Shorts"
+}

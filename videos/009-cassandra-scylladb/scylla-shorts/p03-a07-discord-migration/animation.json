@@ -1,0 +1,12 @@
+{
+  "id": "p03-a07-discord-migration",
+  "part": 3,
+  "order": 7,
+  "title": "Как Discord перешёл со 177 узлов Cassandra на 72 узла ScyllaDB?",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 54420,
+  "defaultProps": {"withAudio": true},
+  "studioFolder": "P-03-ScyllaDB-Shorts"
+}

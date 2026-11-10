@@ -1,0 +1,7 @@
+{
+  "id": "p01-a01-facebook-inbox-search",
+  "part": 1, "order": 1,
+  "title": "Зачем Facebook создал Cassandra?",
+  "kind": "2d", "designSystem": "v2", "shortHeight": 2560, "durationMs": 46400,
+  "defaultProps": {"withAudio": true}, "studioFolder": "P-01-History-Shorts"
+}

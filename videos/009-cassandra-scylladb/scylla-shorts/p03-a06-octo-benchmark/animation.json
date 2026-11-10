@@ -1,0 +1,12 @@
+{
+  "id": "p03-a06-octo-benchmark",
+  "part": 3,
+  "order": 6,
+  "title": "ScyllaDB в десять раз быстрее Cassandra? Тест OCTO",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 39233,
+  "defaultProps": {"withAudio": true},
+  "studioFolder": "P-03-ScyllaDB-Shorts"
+}
