@@ -207,6 +207,7 @@ import Animation200P03A05IoScheduler from '../../../../videos/009-cassandra-scyl
 import Animation201P03A06OctoBenchmark from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a06-octo-benchmark/Composition';
 import Animation202P03A07DiscordMigration from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a07-discord-migration/Composition';
 import Animation203P03A08CassandraJava from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a08-cassandra-java/Composition';
+import Animation204P00A02TiktokEndCard from '../../../../videos/009-cassandra-scylladb/tictok/p00-a02-tiktok-end-card/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -2542,6 +2543,17 @@ export const GeneratedVideoCompositions: React.FC = () => (
           fps={30}
           durationInFrames={3155}
           defaultProps={{"withAudio":true}}
+        />
+      </Folder>
+      <Folder name="TikTok">
+        <Composition
+          id="Video-009-cassandra-scylladb-p00-a02-tiktok-end-card"
+          component={Animation204P00A02TiktokEndCard}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={150}
+          defaultProps={{}}
         />
       </Folder>
       <Composition

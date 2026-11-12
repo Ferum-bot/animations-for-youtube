@@ -1,0 +1,12 @@
+{
+  "id": "p00-a02-tiktok-end-card",
+  "part": 0,
+  "order": 2,
+  "title": "Полный выпуск на YouTube — @ma_popov",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 5000,
+  "defaultProps": {},
+  "studioFolder": "TikTok"
+}

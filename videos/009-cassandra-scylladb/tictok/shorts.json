@@ -1,0 +1,185 @@
+[
+  {
+    "series": "architecture",
+    "slug": "01-postgres-write-replicas",
+    "animation": "architecture-shorts/p02-a01-postgres-write-replicas/animation.json",
+    "durationMs": 51600,
+    "title": "Почему реплика Postgres не ускоряет запись?",
+    "description": "Все изменения проходят через primary. Реплика получает копию, а разделить поток записей помогает шардинг.",
+    "hashtags": "#PostgreSQL #БазыДанных #Backend"
+  },
+  {
+    "series": "architecture",
+    "slug": "02-postgres-replica-ack",
+    "animation": "architecture-shorts/p02-a02-postgres-replica-ack/animation.json",
+    "durationMs": 54200,
+    "title": "Postgres ответил OK. Что на реплике?",
+    "description": "Клиент уже получил подтверждение, но реплика ещё может отставать. Показываю разницу между синхронной и асинхронной репликацией.",
+    "hashtags": "#PostgreSQL #БазыДанных #Backend"
+  },
+  {
+    "series": "architecture",
+    "slug": "03-cassandra-chat-history",
+    "animation": "architecture-shorts/p02-a03-cassandra-chat-history/animation.json",
+    "durationMs": 55800,
+    "title": "Как Cassandra находит последние сообщения чата?",
+    "description": "Ключ партиции определяет, где искать чат. Ключ кластеризации задаёт порядок сообщений внутри него.",
+    "hashtags": "#Cassandra #БазыДанных #Backend"
+  },
+  {
+    "series": "architecture",
+    "slug": "04-cassandra-new-node",
+    "animation": "architecture-shorts/p02-a04-cassandra-new-node/animation.json",
+    "durationMs": 48200,
+    "title": "Что переезжает, когда в Cassandra добавляют сервер?",
+    "description": "Новый узел получает часть диапазонов токенов. Показываю, какие данные нужно перенести.",
+    "hashtags": "#Cassandra #БазыДанных #Backend"
+  },
+  {
+    "series": "architecture",
+    "slug": "05-cassandra-coordinator",
+    "animation": "architecture-shorts/p02-a05-cassandra-coordinator/animation.json",
+    "durationMs": 53800,
+    "title": "Кто принимает запись, если в Cassandra нет главного сервера?",
+    "description": "Любой подходящий узел может принять запрос и стать его координатором. Данные он отправляет репликам нужной партиции.",
+    "hashtags": "#Cassandra #БазыДанных #Backend"
+  },
+  {
+    "series": "architecture",
+    "slug": "06-cassandra-write-acks",
+    "animation": "architecture-shorts/p02-a06-cassandra-write-acks/animation.json",
+    "durationMs": 42400,
+    "title": "Сколько реплик должны подтвердить запись в Cassandra?",
+    "description": "При трёх репликах ONE ждёт один ответ, QUORUM — два, ALL — три. Показываю, когда клиент получает подтверждение.",
+    "hashtags": "#Cassandra #БазыДанных #Backend"
+  },
+  {
+    "series": "architecture",
+    "slug": "07-cassandra-stale-read",
+    "animation": "architecture-shorts/p02-a07-cassandra-stale-read/animation.json",
+    "durationMs": 57600,
+    "title": "Запись прошла. Почему Cassandra вернула старое сообщение?",
+    "description": "Запись подтверждена, но одна из реплик ещё не получила новое сообщение. Что увидит следующий читатель?",
+    "hashtags": "#Cassandra #БазыДанных #Backend"
+  },
+  {
+    "series": "architecture",
+    "slug": "08-cassandra-last-write-wins",
+    "animation": "architecture-shorts/p02-a08-cassandra-last-write-wins/animation.json",
+    "durationMs": 35200,
+    "title": "В двух копиях одно значение, в третьей другое. Какое выберет Cassandra?",
+    "description": "Реплики вернули разные версии значения. Как Cassandra выбирает версию по временной метке?",
+    "hashtags": "#Cassandra #БазыДанных #Backend"
+  },
+  {
+    "series": "architecture",
+    "slug": "09-cassandra-replica-recovery",
+    "animation": "architecture-shorts/p02-a09-cassandra-replica-recovery/animation.json",
+    "durationMs": 59900,
+    "title": "Как реплика Cassandra догоняет пропущенные записи?",
+    "description": "Реплика была недоступна и пропустила изменения. Показываю, как работают hinted handoff и repair.",
+    "hashtags": "#Cassandra #БазыДанных #Backend"
+  },
+  {
+    "series": "architecture",
+    "slug": "10-cassandra-local-write",
+    "animation": "architecture-shorts/p02-a10-cassandra-local-write/animation.json",
+    "durationMs": 43000,
+    "title": "Что происходит с записью на одном узле Cassandra?",
+    "description": "Запись проходит через commit log и memtable. Позже данные из памяти попадают в SSTable на диске.",
+    "hashtags": "#Cassandra #БазыДанных #Backend"
+  },
+  {
+    "series": "architecture",
+    "slug": "11-cassandra-write-workload",
+    "animation": "architecture-shorts/p02-a11-cassandra-write-workload/animation.json",
+    "durationMs": 59200,
+    "title": "Много записей — уже пора брать Cassandra?",
+    "description": "Большой поток записей — только часть требований. Для Cassandra нужно заранее понимать запросы и распределение данных.",
+    "hashtags": "#Cassandra #БазыДанных #Backend"
+  },
+  {
+    "series": "history",
+    "slug": "01-facebook-inbox-search",
+    "animation": "history-shorts/p01-a01-facebook-inbox-search/animation.json",
+    "durationMs": 46400
+  },
+  {
+    "series": "history",
+    "slug": "02-why-not-mysql",
+    "animation": "history-shorts/p01-a02-why-not-mysql/animation.json",
+    "durationMs": 48200
+  },
+  {
+    "series": "history",
+    "slug": "03-inbox-index-writes",
+    "animation": "history-shorts/p01-a03-inbox-index-writes/animation.json",
+    "durationMs": 49400
+  },
+  {
+    "series": "history",
+    "slug": "04-missing-search-result",
+    "animation": "history-shorts/p01-a04-missing-search-result/animation.json",
+    "durationMs": 54400
+  },
+  {
+    "series": "history",
+    "slug": "05-why-not-bigtable-dynamo",
+    "animation": "history-shorts/p01-a05-why-not-bigtable-dynamo/animation.json",
+    "durationMs": 36100
+  },
+  {
+    "series": "history",
+    "slug": "06-inbox-search-at-scale",
+    "animation": "history-shorts/p01-a06-inbox-search-at-scale/animation.json",
+    "durationMs": 31200
+  },
+  {
+    "series": "scylla",
+    "slug": "01-gc-pause",
+    "animation": "scylla-shorts/p03-a01-gc-pause/animation.json",
+    "durationMs": 55967
+  },
+  {
+    "series": "scylla",
+    "slug": "02-shard-per-core",
+    "animation": "scylla-shorts/p03-a02-shard-per-core/animation.json",
+    "durationMs": 54583
+  },
+  {
+    "series": "scylla",
+    "slug": "03-osv-redis-cassandra",
+    "animation": "scylla-shorts/p03-a03-osv-redis-cassandra/animation.json",
+    "durationMs": 50500
+  },
+  {
+    "series": "scylla",
+    "slug": "04-familiar-cql",
+    "animation": "scylla-shorts/p03-a04-familiar-cql/animation.json",
+    "durationMs": 46133
+  },
+  {
+    "series": "scylla",
+    "slug": "05-io-scheduler",
+    "animation": "scylla-shorts/p03-a05-io-scheduler/animation.json",
+    "durationMs": 23967
+  },
+  {
+    "series": "scylla",
+    "slug": "06-octo-benchmark",
+    "animation": "scylla-shorts/p03-a06-octo-benchmark/animation.json",
+    "durationMs": 39233
+  },
+  {
+    "series": "scylla",
+    "slug": "07-discord-migration",
+    "animation": "scylla-shorts/p03-a07-discord-migration/animation.json",
+    "durationMs": 54420
+  },
+  {
+    "series": "scylla",
+    "slug": "08-cassandra-java",
+    "animation": "scylla-shorts/p03-a08-cassandra-java/animation.json",
+    "durationMs": 45200
+  }
+]

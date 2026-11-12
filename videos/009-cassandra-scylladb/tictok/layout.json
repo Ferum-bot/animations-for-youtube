@@ -1,0 +1,5 @@
+{
+  "canvas": {"width": 1080, "height": 1920},
+  "body": {"scale": 0.75, "left": 36, "top": 210},
+  "safe": {"left": 36, "top": 210, "right": 900, "bottom": 1650}
+}
