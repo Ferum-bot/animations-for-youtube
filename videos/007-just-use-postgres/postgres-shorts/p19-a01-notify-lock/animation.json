@@ -1,0 +1,15 @@
+{
+  "id": "p19-a01-notify-lock",
+  "part": 19,
+  "order": 1,
+  "title": "19. Как NOTIFY ставит коммиты в очередь — Shorts",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 54833,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "shorts"
+  },
+  "studioFolder": "P-02-Postgres-Shorts"
+}

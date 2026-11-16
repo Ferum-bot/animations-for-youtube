@@ -1,0 +1,15 @@
+{
+  "id": "p10-a01-notify-commit",
+  "part": 10,
+  "order": 1,
+  "title": "10. Когда Postgres отправляет NOTIFY — Shorts",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 35700,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "shorts"
+  },
+  "studioFolder": "P-02-Postgres-Shorts"
+}

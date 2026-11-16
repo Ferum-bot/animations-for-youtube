@@ -1,0 +1,15 @@
+{
+  "id": "p24-a02-quo-cassandra-tiktok",
+  "part": 24,
+  "order": 2,
+  "title": "24. Почему Quo переезжает на Cassandra — TikTok",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 64467,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "tiktok"
+  },
+  "studioFolder": "P-01-TikTok"
+}

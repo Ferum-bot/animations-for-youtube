@@ -1,0 +1,15 @@
+{
+  "id": "p17-a01-queue-benchmark",
+  "part": 17,
+  "order": 1,
+  "title": "17. Те же 10 000 задач. В 200 раз медленнее — Shorts",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 39433,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "shorts"
+  },
+  "studioFolder": "P-02-Postgres-Shorts"
+}

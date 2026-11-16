@@ -1,0 +1,15 @@
+{
+  "id": "p21-a02-recall-incident-tiktok",
+  "part": 21,
+  "order": 2,
+  "title": "21. База тормозит, а CPU свободен — TikTok",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 42567,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "tiktok"
+  },
+  "studioFolder": "P-01-TikTok"
+}

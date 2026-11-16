@@ -1,0 +1,15 @@
+{
+  "id": "p12-a01-one-transaction",
+  "part": 12,
+  "order": 1,
+  "title": "12. Одна транзакция на всё — Shorts",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 22967,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "shorts"
+  },
+  "studioFolder": "P-02-Postgres-Shorts"
+}

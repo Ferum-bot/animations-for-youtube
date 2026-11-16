@@ -1,0 +1,15 @@
+{
+  "id": "p14-a01-mvcc-delete",
+  "part": 14,
+  "order": 1,
+  "title": "14. Почему DELETE не удаляет сразу — Shorts",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 45100,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "shorts"
+  },
+  "studioFolder": "P-02-Postgres-Shorts"
+}

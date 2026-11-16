@@ -1,0 +1,15 @@
+{
+  "id": "p18-a01-trigger-incident",
+  "part": 18,
+  "order": 1,
+  "title": "18. Как очередь положила Trigger.dev — Shorts",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 47233,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "shorts"
+  },
+  "studioFolder": "P-02-Postgres-Shorts"
+}

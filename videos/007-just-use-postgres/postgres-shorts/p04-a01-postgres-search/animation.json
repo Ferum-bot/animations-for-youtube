@@ -1,0 +1,15 @@
+{
+  "id": "p04-a01-postgres-search",
+  "part": 4,
+  "order": 1,
+  "title": "04. Поиск по статьям в Postgres — Shorts",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 34600,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "shorts"
+  },
+  "studioFolder": "P-02-Postgres-Shorts"
+}

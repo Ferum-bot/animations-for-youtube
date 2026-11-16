@@ -1,0 +1,15 @@
+{
+  "id": "p11-a01-notify-not-queue",
+  "part": 11,
+  "order": 1,
+  "title": "11. NOTIFY — не надёжная очередь — Shorts",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 30933,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "shorts"
+  },
+  "studioFolder": "P-02-Postgres-Shorts"
+}

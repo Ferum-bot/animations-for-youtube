@@ -1,0 +1,15 @@
+{
+  "id": "p07-a01-cache-limits",
+  "part": 7,
+  "order": 1,
+  "title": "07. Чего не хватает кэшу в Postgres — Shorts",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 41967,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "shorts"
+  },
+  "studioFolder": "P-02-Postgres-Shorts"
+}

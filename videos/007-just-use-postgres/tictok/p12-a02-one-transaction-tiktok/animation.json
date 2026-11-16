@@ -1,0 +1,15 @@
+{
+  "id": "p12-a02-one-transaction-tiktok",
+  "part": 12,
+  "order": 2,
+  "title": "12. Одна транзакция на всё — TikTok",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 22967,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "tiktok"
+  },
+  "studioFolder": "P-01-TikTok"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "p04-a02-postgres-search-tiktok",
+  "part": 4,
+  "order": 2,
+  "title": "04. Поиск по статьям в Postgres — TikTok",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 34600,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "tiktok"
+  },
+  "studioFolder": "P-01-TikTok"
+}

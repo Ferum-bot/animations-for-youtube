@@ -1,0 +1,12 @@
+{
+  "id": "p01-a01-trend-origin",
+  "part": 1,
+  "order": 1,
+  "title": "Откуда взялось Just Use Postgres — Shorts",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 59800,
+  "defaultProps": {"withAudio": true, "platform": "shorts"},
+  "studioFolder": "P-01-Intro-Shorts"
+}

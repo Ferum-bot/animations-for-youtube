@@ -1,0 +1,15 @@
+{
+  "id": "p23-a02-write-replica-tiktok",
+  "part": 23,
+  "order": 2,
+  "title": "23. Реплика не ускоряет запись — TikTok",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 22067,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "tiktok"
+  },
+  "studioFolder": "P-01-TikTok"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "p16-a01-vacuum-horizon",
+  "part": 16,
+  "order": 1,
+  "title": "16. Кто мешает VACUUM — Shorts",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 39033,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "shorts"
+  },
+  "studioFolder": "P-02-Postgres-Shorts"
+}

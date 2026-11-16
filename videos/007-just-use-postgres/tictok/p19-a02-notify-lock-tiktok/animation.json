@@ -1,0 +1,15 @@
+{
+  "id": "p19-a02-notify-lock-tiktok",
+  "part": 19,
+  "order": 2,
+  "title": "19. Как NOTIFY ставит коммиты в очередь — TikTok",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 54833,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "tiktok"
+  },
+  "studioFolder": "P-01-TikTok"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "p08-a02-skip-locked-tiktok",
+  "part": 8,
+  "order": 2,
+  "title": "08. Два воркера без ожидания — TikTok",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 31700,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "tiktok"
+  },
+  "studioFolder": "P-01-TikTok"
+}

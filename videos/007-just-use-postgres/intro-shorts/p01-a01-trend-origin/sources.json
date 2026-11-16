@@ -1,0 +1,71 @@
+{
+  "publishedVideo": "https://www.youtube.com/watch?v=vEHA2xgAxEM",
+  "archiveCaptureDate": "2026-10-18",
+  "archiveAssets": "apps/remotion/public/assets/007-just-use-postgres/history",
+  "sources": [
+    {
+      "file": "essay-site.png",
+      "url": "https://www.amazingcto.com/postgres-for-everything/",
+      "note": "Updated site, not a 2022 archive capture"
+    },
+    {
+      "file": "hn-2022-site.png",
+      "url": "https://news.ycombinator.com/item?id=33934139"
+    },
+    {
+      "file": "laravel-site.png",
+      "url": "https://laravel.com/docs/11.x/releases#application-defaults"
+    },
+    {
+      "file": "rails-site.png",
+      "url": "https://rubyonrails.org/2024/11/7/rails-8-no-paas-required"
+    },
+    {
+      "file": "sponsor.png",
+      "url": "https://www.youtube.com/watch?v=3JW732GrMdg",
+      "note": "Description excerpt"
+    },
+    {
+      "file": "neon-site.png",
+      "url": "https://neon.com/"
+    },
+    {
+      "file": "book.png",
+      "url": "https://www.manning.com/books/just-use-postgres"
+    },
+    {
+      "file": "tiger-site.png",
+      "url": "https://www.tigerdata.com/blog/its-2026-just-use-postgres"
+    },
+    {
+      "file": "hn-2026-site.png",
+      "url": "https://news.ycombinator.com/item?id=46905555"
+    }
+  ],
+  "newAssets": [
+    {
+      "file": "vertical/full-episode.jpg",
+      "url": "https://www.youtube.com/watch?v=vEHA2xgAxEM",
+      "acquired": "2026-11-13",
+      "method": "Original YouTube thumbnail only, yt-dlp"
+    },
+    {
+      "file": "vertical/fireship.jpg",
+      "url": "https://www.youtube.com/watch?v=3JW732GrMdg",
+      "acquired": "2026-11-13",
+      "method": "Original YouTube thumbnail only, yt-dlp"
+    },
+    {
+      "file": "vertical/youtube-channel.jpg",
+      "url": "https://www.youtube.com/@ma_popov",
+      "acquired": "2026-11-11",
+      "method": "Approved channel screenshot reused from episode 009, copied for independent episode retention"
+    },
+    {
+      "file": "vertical/youtube-results.jpg",
+      "url": "https://www.youtube.com/results?search_query=I+replaced+my+entire+tech+stack+with+Postgres+Fireship",
+      "acquired": "2026-11-13",
+      "method": "Actual YouTube screenshot at 540x960 responsive viewport; no interface reconstruction. Current count is 1.6M; narration records the earlier 1.5M."
+    }
+  ]
+}

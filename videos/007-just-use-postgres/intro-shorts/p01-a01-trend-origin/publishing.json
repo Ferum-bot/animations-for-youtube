@@ -1,0 +1,6 @@
+{
+  "title": "Откуда взялось «Just Use Postgres»?",
+  "shortsDescription": "Эссе, Rails, ролики на YouTube и облачные сервисы — как распространился совет использовать Postgres для всего.\n\nВ полном выпуске проверяем, что получается, если заменить им MongoDB, Elasticsearch, Redis и RabbitMQ. Открывай связанное видео под именем канала.\n\n#postgresql #backend #базыданных",
+  "relatedVideo": "https://www.youtube.com/watch?v=vEHA2xgAxEM",
+  "tiktokCaption": "Откуда взялся совет использовать Postgres для всего? Эссе, Rails, популярные видео и облачные сервисы вокруг одной базы.\n\nПолный разбор на YouTube: @ma_popov — «Не используй Postgres для всего, пока не посмотришь это».\n\n#postgresql #backend #базыданных #программирование"
+}

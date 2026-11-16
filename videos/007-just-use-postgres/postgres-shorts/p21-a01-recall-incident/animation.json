@@ -1,0 +1,15 @@
+{
+  "id": "p21-a01-recall-incident",
+  "part": 21,
+  "order": 1,
+  "title": "21. База тормозит, а CPU свободен — Shorts",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 42567,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "shorts"
+  },
+  "studioFolder": "P-02-Postgres-Shorts"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "p22-a01-shared-cluster",
+  "part": 22,
+  "order": 1,
+  "title": "22. Одна база для всего приложения — Shorts",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 44567,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "shorts"
+  },
+  "studioFolder": "P-02-Postgres-Shorts"
+}

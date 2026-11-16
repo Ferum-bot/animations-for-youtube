@@ -1,0 +1,15 @@
+{
+  "id": "p16-a02-vacuum-horizon-tiktok",
+  "part": 16,
+  "order": 2,
+  "title": "16. Кто мешает VACUUM — TikTok",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 39033,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "tiktok"
+  },
+  "studioFolder": "P-01-TikTok"
+}

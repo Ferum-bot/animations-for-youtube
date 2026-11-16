@@ -1,0 +1,15 @@
+{
+  "id": "p09-a01-at-least-once",
+  "part": 9,
+  "order": 1,
+  "title": "09. Почему задача приходит дважды — Shorts",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 34267,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "shorts"
+  },
+  "studioFolder": "P-02-Postgres-Shorts"
+}

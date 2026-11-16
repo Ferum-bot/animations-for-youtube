@@ -1,0 +1,15 @@
+{
+  "id": "p10-a02-notify-commit-tiktok",
+  "part": 10,
+  "order": 2,
+  "title": "10. Когда Postgres отправляет NOTIFY — TikTok",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 35700,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "tiktok"
+  },
+  "studioFolder": "P-01-TikTok"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "p06-a01-postgres-cache",
+  "part": 6,
+  "order": 1,
+  "title": "06. Кэш в таблице Postgres — Shorts",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 31467,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "shorts"
+  },
+  "studioFolder": "P-02-Postgres-Shorts"
+}

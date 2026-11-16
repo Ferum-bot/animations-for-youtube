@@ -1,0 +1,15 @@
+{
+  "id": "p25-a01-context",
+  "part": 25,
+  "order": 1,
+  "title": "25. Перерос Postgres — ошибся с выбором? — Shorts",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 53300,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "shorts"
+  },
+  "studioFolder": "P-02-Postgres-Shorts"
+}

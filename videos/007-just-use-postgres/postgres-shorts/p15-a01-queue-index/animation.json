@@ -1,0 +1,15 @@
+{
+  "id": "p15-a01-queue-index",
+  "part": 15,
+  "order": 1,
+  "title": "15. Живых задач мало. Очередь тормозит — Shorts",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 55700,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "shorts"
+  },
+  "studioFolder": "P-02-Postgres-Shorts"
+}

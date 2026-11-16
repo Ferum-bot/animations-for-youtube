@@ -1,0 +1,15 @@
+{
+  "id": "p24-a01-quo-cassandra",
+  "part": 24,
+  "order": 1,
+  "title": "24. Почему Quo переезжает на Cassandra — Shorts",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 64467,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "shorts"
+  },
+  "studioFolder": "P-02-Postgres-Shorts"
+}

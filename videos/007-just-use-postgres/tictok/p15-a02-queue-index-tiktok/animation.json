@@ -1,0 +1,15 @@
+{
+  "id": "p15-a02-queue-index-tiktok",
+  "part": 15,
+  "order": 2,
+  "title": "15. Живых задач мало. Очередь тормозит — TikTok",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 55700,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "tiktok"
+  },
+  "studioFolder": "P-01-TikTok"
+}

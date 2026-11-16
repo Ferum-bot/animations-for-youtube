@@ -1,0 +1,15 @@
+{
+  "id": "p18-a02-trigger-incident-tiktok",
+  "part": 18,
+  "order": 2,
+  "title": "18. Как очередь положила Trigger.dev — TikTok",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 47233,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "tiktok"
+  },
+  "studioFolder": "P-01-TikTok"
+}

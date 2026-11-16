@@ -1,0 +1,346 @@
+[
+  {
+    "number": 2,
+    "slug": "jsonb-products",
+    "title": "Разные товары в одной таблице",
+    "cuts": [
+      {
+        "startMs": 146500,
+        "endMs": 159660
+      },
+      {
+        "startMs": 162780,
+        "endMs": 192300
+      }
+    ]
+  },
+  {
+    "number": 3,
+    "slug": "jsonb-cost",
+    "title": "Цена удобства JSONB",
+    "cuts": [
+      {
+        "startMs": 194960,
+        "endMs": 239280
+      }
+    ]
+  },
+  {
+    "number": 4,
+    "slug": "postgres-search",
+    "title": "Поиск по статьям в Postgres",
+    "cuts": [
+      {
+        "startMs": 288320,
+        "endMs": 298140
+      },
+      {
+        "startMs": 311000,
+        "endMs": 330780
+      }
+    ]
+  },
+  {
+    "number": 5,
+    "slug": "search-limits",
+    "title": "Где заканчивается поиск Postgres",
+    "cuts": [
+      {
+        "startMs": 333660,
+        "endMs": 369140
+      }
+    ]
+  },
+  {
+    "number": 6,
+    "slug": "postgres-cache",
+    "title": "Кэш в таблице Postgres",
+    "cuts": [
+      {
+        "startMs": 380520,
+        "endMs": 391720
+      },
+      {
+        "startMs": 397240,
+        "endMs": 412500
+      }
+    ]
+  },
+  {
+    "number": 7,
+    "slug": "cache-limits",
+    "title": "Чего не хватает кэшу в Postgres",
+    "cuts": [
+      {
+        "startMs": 428880,
+        "endMs": 465820
+      }
+    ]
+  },
+  {
+    "number": 8,
+    "slug": "skip-locked",
+    "title": "Два воркера без ожидания",
+    "cuts": [
+      {
+        "startMs": 494420,
+        "endMs": 521120
+      }
+    ]
+  },
+  {
+    "number": 9,
+    "slug": "at-least-once",
+    "title": "Почему задача приходит дважды",
+    "cuts": [
+      {
+        "startMs": 494420,
+        "endMs": 498600
+      },
+      {
+        "startMs": 509580,
+        "endMs": 521120
+      },
+      {
+        "startMs": 556020,
+        "endMs": 569560
+      }
+    ]
+  },
+  {
+    "number": 10,
+    "slug": "notify-commit",
+    "title": "Когда Postgres отправляет NOTIFY",
+    "cuts": [
+      {
+        "startMs": 631580,
+        "endMs": 643200
+      },
+      {
+        "startMs": 654280,
+        "endMs": 673340
+      }
+    ]
+  },
+  {
+    "number": 11,
+    "slug": "notify-not-queue",
+    "title": "NOTIFY — не надёжная очередь",
+    "cuts": [
+      {
+        "startMs": 683880,
+        "endMs": 709800
+      }
+    ]
+  },
+  {
+    "number": 12,
+    "slug": "one-transaction",
+    "title": "Одна транзакция на всё",
+    "cuts": [
+      {
+        "startMs": 717380,
+        "endMs": 718860
+      },
+      {
+        "startMs": 737320,
+        "endMs": 753780
+      }
+    ]
+  },
+  {
+    "number": 13,
+    "slug": "jobs-per-second",
+    "title": "20 миллионов задач — много?",
+    "cuts": [
+      {
+        "startMs": 779940,
+        "endMs": 805640
+      }
+    ]
+  },
+  {
+    "number": 14,
+    "slug": "mvcc-delete",
+    "title": "Почему DELETE не удаляет сразу",
+    "cuts": [
+      {
+        "startMs": 816360,
+        "endMs": 848820
+      },
+      {
+        "startMs": 849340,
+        "endMs": 856960
+      }
+    ]
+  },
+  {
+    "number": 15,
+    "slug": "queue-index",
+    "title": "Живых задач мало. Очередь тормозит",
+    "cuts": [
+      {
+        "startMs": 883800,
+        "endMs": 897820
+      },
+      {
+        "startMs": 913940,
+        "endMs": 930200
+      },
+      {
+        "startMs": 935340,
+        "endMs": 955740
+      }
+    ]
+  },
+  {
+    "number": 16,
+    "slug": "vacuum-horizon",
+    "title": "Кто мешает VACUUM",
+    "cuts": [
+      {
+        "startMs": 956480,
+        "endMs": 990500
+      }
+    ]
+  },
+  {
+    "number": 17,
+    "slug": "queue-benchmark",
+    "title": "Те же 10 000 задач. В 200 раз медленнее",
+    "cuts": [
+      {
+        "startMs": 994000,
+        "endMs": 1028420
+      }
+    ]
+  },
+  {
+    "number": 18,
+    "slug": "trigger-incident",
+    "title": "Как очередь положила Trigger.dev",
+    "cuts": [
+      {
+        "startMs": 1051940,
+        "endMs": 1094160
+      }
+    ]
+  },
+  {
+    "number": 19,
+    "slug": "notify-lock",
+    "title": "Как NOTIFY ставит коммиты в очередь",
+    "cuts": [
+      {
+        "startMs": 1098880,
+        "endMs": 1109980
+      },
+      {
+        "startMs": 1117080,
+        "endMs": 1146560
+      },
+      {
+        "startMs": 1155320,
+        "endMs": 1164560
+      }
+    ]
+  },
+  {
+    "number": 20,
+    "slug": "notify-benchmark",
+    "title": "64 клиента. Почти тот же результат",
+    "cuts": [
+      {
+        "startMs": 1167580,
+        "endMs": 1204220
+      }
+    ]
+  },
+  {
+    "number": 21,
+    "slug": "recall-incident",
+    "title": "База тормозит, а CPU свободен",
+    "cuts": [
+      {
+        "startMs": 1205040,
+        "endMs": 1215840
+      },
+      {
+        "startMs": 1218880,
+        "endMs": 1228160
+      },
+      {
+        "startMs": 1230900,
+        "endMs": 1236800
+      },
+      {
+        "startMs": 1240900,
+        "endMs": 1252480
+      }
+    ]
+  },
+  {
+    "number": 22,
+    "slug": "shared-cluster",
+    "title": "Одна база для всего приложения",
+    "cuts": [
+      {
+        "startMs": 1271100,
+        "endMs": 1284320
+      },
+      {
+        "startMs": 1298160,
+        "endMs": 1312480
+      },
+      {
+        "startMs": 1316160,
+        "endMs": 1328160
+      }
+    ]
+  },
+  {
+    "number": 23,
+    "slug": "write-replica",
+    "title": "Реплика не ускоряет запись",
+    "cuts": [
+      {
+        "startMs": 1331500,
+        "endMs": 1348540
+      }
+    ]
+  },
+  {
+    "number": 24,
+    "slug": "quo-cassandra",
+    "title": "Почему Quo переезжает на Cassandra",
+    "cuts": [
+      {
+        "startMs": 1352780,
+        "endMs": 1359240
+      },
+      {
+        "startMs": 1366360,
+        "endMs": 1376520
+      },
+      {
+        "startMs": 1388920,
+        "endMs": 1420340
+      },
+      {
+        "startMs": 1422780,
+        "endMs": 1434180
+      }
+    ]
+  },
+  {
+    "number": 25,
+    "slug": "context",
+    "title": "Перерос Postgres — ошибся с выбором?",
+    "cuts": [
+      {
+        "startMs": 1438780,
+        "endMs": 1487080
+      }
+    ]
+  }
+]

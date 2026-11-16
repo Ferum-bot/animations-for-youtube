@@ -1,0 +1,15 @@
+{
+  "id": "p03-a02-jsonb-cost-tiktok",
+  "part": 3,
+  "order": 2,
+  "title": "03. Цена удобства JSONB — TikTok",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 49333,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "tiktok"
+  },
+  "studioFolder": "P-01-TikTok"
+}

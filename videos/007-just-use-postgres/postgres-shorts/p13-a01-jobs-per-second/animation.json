@@ -1,0 +1,15 @@
+{
+  "id": "p13-a01-jobs-per-second",
+  "part": 13,
+  "order": 1,
+  "title": "13. 20 миллионов задач — много? — Shorts",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 30700,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "shorts"
+  },
+  "studioFolder": "P-02-Postgres-Shorts"
+}

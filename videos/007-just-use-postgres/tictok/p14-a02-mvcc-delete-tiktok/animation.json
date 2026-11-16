@@ -1,0 +1,15 @@
+{
+  "id": "p14-a02-mvcc-delete-tiktok",
+  "part": 14,
+  "order": 2,
+  "title": "14. Почему DELETE не удаляет сразу — TikTok",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 45100,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "tiktok"
+  },
+  "studioFolder": "P-01-TikTok"
+}

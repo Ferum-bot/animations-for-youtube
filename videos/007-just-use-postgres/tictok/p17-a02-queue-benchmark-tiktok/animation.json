@@ -1,0 +1,15 @@
+{
+  "id": "p17-a02-queue-benchmark-tiktok",
+  "part": 17,
+  "order": 2,
+  "title": "17. Те же 10 000 задач. В 200 раз медленнее — TikTok",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 39433,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "tiktok"
+  },
+  "studioFolder": "P-01-TikTok"
+}

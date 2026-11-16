@@ -1,3 +1,4 @@
+import {queueMeasurements as measurements} from '../../benchmark-measurements';
 export const schema = `CREATE TABLE jobs (
   id bigserial PRIMARY KEY,
   state text NOT NULL DEFAULT 'ready',
@@ -22,14 +23,7 @@ SELECT count(*) FROM pg_class;`;
 export const vacuum = `VACUUM (VERBOSE) jobs;`;
 export const vacuumLog = `tuples: 0 removed, 99978 remain,
 50000 are dead but not yet removable`;
-export const measurements = [
-  {jobs: 0, healthyMs: 0.044, blockedMs: 0.041, healthyKb: 240, blockedKb: 240, buffers: 23},
-  {jobs: 20000, healthyMs: 0.046, blockedMs: 2.2, healthyKb: 424, blockedKb: 736, buffers: 22287},
-  {jobs: 40000, healthyMs: 0.045, blockedMs: 3.7, healthyKb: 608, blockedKb: 1104, buffers: 26726},
-  {jobs: 60000, healthyMs: 0.042, blockedMs: 5.3, healthyKb: 608, blockedKb: 1472, buffers: 31162},
-  {jobs: 80000, healthyMs: 0.042, blockedMs: 6.9, healthyKb: 608, blockedKb: 1840, buffers: 35599},
-  {jobs: 100000, healthyMs: 0.044, blockedMs: 8.5, healthyKb: 608, blockedKb: 2208, buffers: 40039},
-] as const;
+export {measurements};
 
 // The separate post-cleanup measurement is not another workload-size sample.
 export const recovery = {

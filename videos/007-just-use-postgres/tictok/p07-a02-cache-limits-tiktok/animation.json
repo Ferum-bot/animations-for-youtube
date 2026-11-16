@@ -1,0 +1,15 @@
+{
+  "id": "p07-a02-cache-limits-tiktok",
+  "part": 7,
+  "order": 2,
+  "title": "07. Чего не хватает кэшу в Postgres — TikTok",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 41967,
+  "defaultProps": {
+    "withAudio": true,
+    "platform": "tiktok"
+  },
+  "studioFolder": "P-01-TikTok"
+}

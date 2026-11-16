@@ -143,71 +143,121 @@ import Animation136P07A01OneTransaction from '../../../../videos/007-just-use-po
 import Animation137P08A01MvccVacuum from '../../../../videos/007-just-use-postgres/animations/p08-a01-mvcc-vacuum/Composition';
 import Animation138P09A01ListenNotifyLock from '../../../../videos/007-just-use-postgres/animations/p09-a01-listen-notify-lock/Composition';
 import Animation139P10A01QuoScaling from '../../../../videos/007-just-use-postgres/animations/p10-a01-quo-scaling/Composition';
-import Animation140P00A01ShardingVideo from '../../../../videos/008-notification-system/animations/p00-a01-sharding-video/Composition';
-import Animation141P00A02PostgresVideo from '../../../../videos/008-notification-system/animations/p00-a02-postgres-video/Composition';
-import Animation142P00A03SchedulerVideo from '../../../../videos/008-notification-system/animations/p00-a03-scheduler-video/Composition';
-import Animation143P01A01DatabaseSchema from '../../../../videos/008-notification-system/animations/p01-a01-database-schema/Composition';
-import Animation144P01A02DeviceTokens from '../../../../videos/008-notification-system/animations/p01-a02-device-tokens/Composition';
-import Animation145P01A03ScheduledQuery from '../../../../videos/008-notification-system/animations/p01-a03-scheduled-query/Composition';
-import Animation146P01A04CampaignTables from '../../../../videos/008-notification-system/animations/p01-a04-campaign-tables/Composition';
-import Animation147P01A05Preferences from '../../../../videos/008-notification-system/animations/p01-a05-preferences/Composition';
-import Animation148P02A01ProducerSettings from '../../../../videos/008-notification-system/animations/p02-a01-producer-settings/Composition';
-import Animation149P02A02Outbox from '../../../../videos/008-notification-system/animations/p02-a02-outbox/Composition';
-import Animation150P02A03PostgresQueue from '../../../../videos/008-notification-system/animations/p02-a03-postgres-queue/Composition';
-import Animation151P02A04ConsumerSettings from '../../../../videos/008-notification-system/animations/p02-a04-consumer-settings/Composition';
-import Animation152P02A05ConsumerLiveness from '../../../../videos/008-notification-system/animations/p02-a05-consumer-liveness/Composition';
-import Animation153P02A06ProviderErrors from '../../../../videos/008-notification-system/animations/p02-a06-provider-errors/Composition';
-import Animation154P02A07RetryTopics from '../../../../videos/008-notification-system/animations/p02-a07-retry-topics/Composition';
-import Animation155P02A08Sweeper from '../../../../videos/008-notification-system/animations/p02-a08-sweeper/Composition';
-import Animation156P03A02ChannelPriorityMatrix from '../../../../videos/008-notification-system/animations/p03-a02-channel-priority-matrix/Composition';
-import Animation157P03A03CapacityTable from '../../../../videos/008-notification-system/animations/p03-a03-capacity-table/Composition';
-import Animation158P03A05LatencyBudget from '../../../../videos/008-notification-system/animations/p03-a05-latency-budget/Composition';
-import Animation159P04A01OutboxPartitions from '../../../../videos/008-notification-system/animations/p04-a01-outbox-partitions/Composition';
-import Animation160P05A01TimersClaim from '../../../../videos/008-notification-system/animations/p05-a01-timers-claim/Composition';
-import Animation161P00A01IntroSources from '../../../../videos/009-cassandra-scylladb/animations/p00-a01-intro-sources/Composition';
-import Animation162P01A00ChapterHistory from '../../../../videos/009-cassandra-scylladb/animations/p01-a00-chapter-history/Composition';
-import Animation163P01A01HistoryOrigins from '../../../../videos/009-cassandra-scylladb/animations/p01-a01-history-origins/Composition';
-import Animation164P01A02HistoryIndex from '../../../../videos/009-cassandra-scylladb/animations/p01-a02-history-index/Composition';
-import Animation165P01A03HistoryConsistency from '../../../../videos/009-cassandra-scylladb/animations/p01-a03-history-consistency/Composition';
-import Animation166P01A04HistoryLaunch from '../../../../videos/009-cassandra-scylladb/animations/p01-a04-history-launch/Composition';
-import Animation167P02A00ChapterArchitecture from '../../../../videos/009-cassandra-scylladb/animations/p02-a00-chapter-architecture/Composition';
-import Animation168P02A01PostgresReplication from '../../../../videos/009-cassandra-scylladb/animations/p02-a01-postgres-replication/Composition';
-import Animation169P02A02WriteSharding from '../../../../videos/009-cassandra-scylladb/animations/p02-a02-write-sharding/Composition';
-import Animation170P02A03ChatPartition from '../../../../videos/009-cassandra-scylladb/animations/p02-a03-chat-partition/Composition';
-import Animation171P02A04ReplicaQuorum from '../../../../videos/009-cassandra-scylladb/animations/p02-a04-replica-quorum/Composition';
-import Animation172P02A05ReplicaRepair from '../../../../videos/009-cassandra-scylladb/animations/p02-a05-replica-repair/Composition';
-import Animation173P02A06StorageAndWorkload from '../../../../videos/009-cassandra-scylladb/animations/p02-a06-storage-and-workload/Composition';
-import Animation174P03A00ChapterScylladb from '../../../../videos/009-cassandra-scylladb/animations/p03-a00-chapter-scylladb/Composition';
-import Animation175P03A02ScyllaOriginsEngine from '../../../../videos/009-cassandra-scylladb/animations/p03-a02-scylla-origins-engine/Composition';
-import Animation176P03A03ScyllaBenchmarks from '../../../../videos/009-cassandra-scylladb/animations/p03-a03-scylla-benchmarks/Composition';
-import Animation177P04A00ChapterChoice from '../../../../videos/009-cassandra-scylladb/animations/p04-a00-chapter-choice/Composition';
-import Animation178P04A02ChoiceInProduction from '../../../../videos/009-cassandra-scylladb/animations/p04-a02-choice-in-production/Composition';
-import Animation179P02A01PostgresWriteReplicas from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a01-postgres-write-replicas/Composition';
-import Animation180P02A02PostgresReplicaAck from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a02-postgres-replica-ack/Composition';
-import Animation181P02A03CassandraChatHistory from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a03-cassandra-chat-history/Composition';
-import Animation182P02A04CassandraNewNode from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a04-cassandra-new-node/Composition';
-import Animation183P02A05CassandraCoordinator from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a05-cassandra-coordinator/Composition';
-import Animation184P02A06CassandraWriteAcks from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a06-cassandra-write-acks/Composition';
-import Animation185P02A07CassandraStaleRead from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a07-cassandra-stale-read/Composition';
-import Animation186P02A08CassandraLastWriteWins from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a08-cassandra-last-write-wins/Composition';
-import Animation187P02A09CassandraReplicaRecovery from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a09-cassandra-replica-recovery/Composition';
-import Animation188P02A10CassandraLocalWrite from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a10-cassandra-local-write/Composition';
-import Animation189P02A11CassandraWriteWorkload from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a11-cassandra-write-workload/Composition';
-import Animation190P01A01FacebookInboxSearch from '../../../../videos/009-cassandra-scylladb/history-shorts/p01-a01-facebook-inbox-search/Composition';
-import Animation191P01A02WhyNotMysql from '../../../../videos/009-cassandra-scylladb/history-shorts/p01-a02-why-not-mysql/Composition';
-import Animation192P01A03InboxIndexWrites from '../../../../videos/009-cassandra-scylladb/history-shorts/p01-a03-inbox-index-writes/Composition';
-import Animation193P01A04MissingSearchResult from '../../../../videos/009-cassandra-scylladb/history-shorts/p01-a04-missing-search-result/Composition';
-import Animation194P01A05WhyNotBigtableDynamo from '../../../../videos/009-cassandra-scylladb/history-shorts/p01-a05-why-not-bigtable-dynamo/Composition';
-import Animation195P01A06InboxSearchAtScale from '../../../../videos/009-cassandra-scylladb/history-shorts/p01-a06-inbox-search-at-scale/Composition';
-import Animation196P03A01GcPause from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a01-gc-pause/Composition';
-import Animation197P03A02ShardPerCore from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a02-shard-per-core/Composition';
-import Animation198P03A03OsvRedisCassandra from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a03-osv-redis-cassandra/Composition';
-import Animation199P03A04FamiliarCql from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a04-familiar-cql/Composition';
-import Animation200P03A05IoScheduler from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a05-io-scheduler/Composition';
-import Animation201P03A06OctoBenchmark from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a06-octo-benchmark/Composition';
-import Animation202P03A07DiscordMigration from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a07-discord-migration/Composition';
-import Animation203P03A08CassandraJava from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a08-cassandra-java/Composition';
-import Animation204P00A02TiktokEndCard from '../../../../videos/009-cassandra-scylladb/tictok/p00-a02-tiktok-end-card/Composition';
+import Animation140P01A01TrendOrigin from '../../../../videos/007-just-use-postgres/intro-shorts/p01-a01-trend-origin/Composition';
+import Animation141P02A01JsonbProducts from '../../../../videos/007-just-use-postgres/postgres-shorts/p02-a01-jsonb-products/Composition';
+import Animation142P03A01JsonbCost from '../../../../videos/007-just-use-postgres/postgres-shorts/p03-a01-jsonb-cost/Composition';
+import Animation143P04A01PostgresSearch from '../../../../videos/007-just-use-postgres/postgres-shorts/p04-a01-postgres-search/Composition';
+import Animation144P05A01SearchLimits from '../../../../videos/007-just-use-postgres/postgres-shorts/p05-a01-search-limits/Composition';
+import Animation145P06A01PostgresCache from '../../../../videos/007-just-use-postgres/postgres-shorts/p06-a01-postgres-cache/Composition';
+import Animation146P07A01CacheLimits from '../../../../videos/007-just-use-postgres/postgres-shorts/p07-a01-cache-limits/Composition';
+import Animation147P08A01SkipLocked from '../../../../videos/007-just-use-postgres/postgres-shorts/p08-a01-skip-locked/Composition';
+import Animation148P09A01AtLeastOnce from '../../../../videos/007-just-use-postgres/postgres-shorts/p09-a01-at-least-once/Composition';
+import Animation149P10A01NotifyCommit from '../../../../videos/007-just-use-postgres/postgres-shorts/p10-a01-notify-commit/Composition';
+import Animation150P11A01NotifyNotQueue from '../../../../videos/007-just-use-postgres/postgres-shorts/p11-a01-notify-not-queue/Composition';
+import Animation151P12A01OneTransaction from '../../../../videos/007-just-use-postgres/postgres-shorts/p12-a01-one-transaction/Composition';
+import Animation152P13A01JobsPerSecond from '../../../../videos/007-just-use-postgres/postgres-shorts/p13-a01-jobs-per-second/Composition';
+import Animation153P14A01MvccDelete from '../../../../videos/007-just-use-postgres/postgres-shorts/p14-a01-mvcc-delete/Composition';
+import Animation154P15A01QueueIndex from '../../../../videos/007-just-use-postgres/postgres-shorts/p15-a01-queue-index/Composition';
+import Animation155P16A01VacuumHorizon from '../../../../videos/007-just-use-postgres/postgres-shorts/p16-a01-vacuum-horizon/Composition';
+import Animation156P17A01QueueBenchmark from '../../../../videos/007-just-use-postgres/postgres-shorts/p17-a01-queue-benchmark/Composition';
+import Animation157P18A01TriggerIncident from '../../../../videos/007-just-use-postgres/postgres-shorts/p18-a01-trigger-incident/Composition';
+import Animation158P19A01NotifyLock from '../../../../videos/007-just-use-postgres/postgres-shorts/p19-a01-notify-lock/Composition';
+import Animation159P20A01NotifyBenchmark from '../../../../videos/007-just-use-postgres/postgres-shorts/p20-a01-notify-benchmark/Composition';
+import Animation160P21A01RecallIncident from '../../../../videos/007-just-use-postgres/postgres-shorts/p21-a01-recall-incident/Composition';
+import Animation161P22A01SharedCluster from '../../../../videos/007-just-use-postgres/postgres-shorts/p22-a01-shared-cluster/Composition';
+import Animation162P23A01WriteReplica from '../../../../videos/007-just-use-postgres/postgres-shorts/p23-a01-write-replica/Composition';
+import Animation163P24A01QuoCassandra from '../../../../videos/007-just-use-postgres/postgres-shorts/p24-a01-quo-cassandra/Composition';
+import Animation164P25A01Context from '../../../../videos/007-just-use-postgres/postgres-shorts/p25-a01-context/Composition';
+import Animation165P01A02TrendOriginTiktok from '../../../../videos/007-just-use-postgres/tictok/p01-a02-trend-origin-tiktok/Composition';
+import Animation166P02A02JsonbProductsTiktok from '../../../../videos/007-just-use-postgres/tictok/p02-a02-jsonb-products-tiktok/Composition';
+import Animation167P03A02JsonbCostTiktok from '../../../../videos/007-just-use-postgres/tictok/p03-a02-jsonb-cost-tiktok/Composition';
+import Animation168P04A02PostgresSearchTiktok from '../../../../videos/007-just-use-postgres/tictok/p04-a02-postgres-search-tiktok/Composition';
+import Animation169P05A02SearchLimitsTiktok from '../../../../videos/007-just-use-postgres/tictok/p05-a02-search-limits-tiktok/Composition';
+import Animation170P06A02PostgresCacheTiktok from '../../../../videos/007-just-use-postgres/tictok/p06-a02-postgres-cache-tiktok/Composition';
+import Animation171P07A02CacheLimitsTiktok from '../../../../videos/007-just-use-postgres/tictok/p07-a02-cache-limits-tiktok/Composition';
+import Animation172P08A02SkipLockedTiktok from '../../../../videos/007-just-use-postgres/tictok/p08-a02-skip-locked-tiktok/Composition';
+import Animation173P09A02AtLeastOnceTiktok from '../../../../videos/007-just-use-postgres/tictok/p09-a02-at-least-once-tiktok/Composition';
+import Animation174P10A02NotifyCommitTiktok from '../../../../videos/007-just-use-postgres/tictok/p10-a02-notify-commit-tiktok/Composition';
+import Animation175P11A02NotifyNotQueueTiktok from '../../../../videos/007-just-use-postgres/tictok/p11-a02-notify-not-queue-tiktok/Composition';
+import Animation176P12A02OneTransactionTiktok from '../../../../videos/007-just-use-postgres/tictok/p12-a02-one-transaction-tiktok/Composition';
+import Animation177P13A02JobsPerSecondTiktok from '../../../../videos/007-just-use-postgres/tictok/p13-a02-jobs-per-second-tiktok/Composition';
+import Animation178P14A02MvccDeleteTiktok from '../../../../videos/007-just-use-postgres/tictok/p14-a02-mvcc-delete-tiktok/Composition';
+import Animation179P15A02QueueIndexTiktok from '../../../../videos/007-just-use-postgres/tictok/p15-a02-queue-index-tiktok/Composition';
+import Animation180P16A02VacuumHorizonTiktok from '../../../../videos/007-just-use-postgres/tictok/p16-a02-vacuum-horizon-tiktok/Composition';
+import Animation181P17A02QueueBenchmarkTiktok from '../../../../videos/007-just-use-postgres/tictok/p17-a02-queue-benchmark-tiktok/Composition';
+import Animation182P18A02TriggerIncidentTiktok from '../../../../videos/007-just-use-postgres/tictok/p18-a02-trigger-incident-tiktok/Composition';
+import Animation183P19A02NotifyLockTiktok from '../../../../videos/007-just-use-postgres/tictok/p19-a02-notify-lock-tiktok/Composition';
+import Animation184P20A02NotifyBenchmarkTiktok from '../../../../videos/007-just-use-postgres/tictok/p20-a02-notify-benchmark-tiktok/Composition';
+import Animation185P21A02RecallIncidentTiktok from '../../../../videos/007-just-use-postgres/tictok/p21-a02-recall-incident-tiktok/Composition';
+import Animation186P22A02SharedClusterTiktok from '../../../../videos/007-just-use-postgres/tictok/p22-a02-shared-cluster-tiktok/Composition';
+import Animation187P23A02WriteReplicaTiktok from '../../../../videos/007-just-use-postgres/tictok/p23-a02-write-replica-tiktok/Composition';
+import Animation188P24A02QuoCassandraTiktok from '../../../../videos/007-just-use-postgres/tictok/p24-a02-quo-cassandra-tiktok/Composition';
+import Animation189P25A02ContextTiktok from '../../../../videos/007-just-use-postgres/tictok/p25-a02-context-tiktok/Composition';
+import Animation190P00A01ShardingVideo from '../../../../videos/008-notification-system/animations/p00-a01-sharding-video/Composition';
+import Animation191P00A02PostgresVideo from '../../../../videos/008-notification-system/animations/p00-a02-postgres-video/Composition';
+import Animation192P00A03SchedulerVideo from '../../../../videos/008-notification-system/animations/p00-a03-scheduler-video/Composition';
+import Animation193P01A01DatabaseSchema from '../../../../videos/008-notification-system/animations/p01-a01-database-schema/Composition';
+import Animation194P01A02DeviceTokens from '../../../../videos/008-notification-system/animations/p01-a02-device-tokens/Composition';
+import Animation195P01A03ScheduledQuery from '../../../../videos/008-notification-system/animations/p01-a03-scheduled-query/Composition';
+import Animation196P01A04CampaignTables from '../../../../videos/008-notification-system/animations/p01-a04-campaign-tables/Composition';
+import Animation197P01A05Preferences from '../../../../videos/008-notification-system/animations/p01-a05-preferences/Composition';
+import Animation198P02A01ProducerSettings from '../../../../videos/008-notification-system/animations/p02-a01-producer-settings/Composition';
+import Animation199P02A02Outbox from '../../../../videos/008-notification-system/animations/p02-a02-outbox/Composition';
+import Animation200P02A03PostgresQueue from '../../../../videos/008-notification-system/animations/p02-a03-postgres-queue/Composition';
+import Animation201P02A04ConsumerSettings from '../../../../videos/008-notification-system/animations/p02-a04-consumer-settings/Composition';
+import Animation202P02A05ConsumerLiveness from '../../../../videos/008-notification-system/animations/p02-a05-consumer-liveness/Composition';
+import Animation203P02A06ProviderErrors from '../../../../videos/008-notification-system/animations/p02-a06-provider-errors/Composition';
+import Animation204P02A07RetryTopics from '../../../../videos/008-notification-system/animations/p02-a07-retry-topics/Composition';
+import Animation205P02A08Sweeper from '../../../../videos/008-notification-system/animations/p02-a08-sweeper/Composition';
+import Animation206P03A02ChannelPriorityMatrix from '../../../../videos/008-notification-system/animations/p03-a02-channel-priority-matrix/Composition';
+import Animation207P03A03CapacityTable from '../../../../videos/008-notification-system/animations/p03-a03-capacity-table/Composition';
+import Animation208P03A05LatencyBudget from '../../../../videos/008-notification-system/animations/p03-a05-latency-budget/Composition';
+import Animation209P04A01OutboxPartitions from '../../../../videos/008-notification-system/animations/p04-a01-outbox-partitions/Composition';
+import Animation210P05A01TimersClaim from '../../../../videos/008-notification-system/animations/p05-a01-timers-claim/Composition';
+import Animation211P00A01IntroSources from '../../../../videos/009-cassandra-scylladb/animations/p00-a01-intro-sources/Composition';
+import Animation212P01A00ChapterHistory from '../../../../videos/009-cassandra-scylladb/animations/p01-a00-chapter-history/Composition';
+import Animation213P01A01HistoryOrigins from '../../../../videos/009-cassandra-scylladb/animations/p01-a01-history-origins/Composition';
+import Animation214P01A02HistoryIndex from '../../../../videos/009-cassandra-scylladb/animations/p01-a02-history-index/Composition';
+import Animation215P01A03HistoryConsistency from '../../../../videos/009-cassandra-scylladb/animations/p01-a03-history-consistency/Composition';
+import Animation216P01A04HistoryLaunch from '../../../../videos/009-cassandra-scylladb/animations/p01-a04-history-launch/Composition';
+import Animation217P02A00ChapterArchitecture from '../../../../videos/009-cassandra-scylladb/animations/p02-a00-chapter-architecture/Composition';
+import Animation218P02A01PostgresReplication from '../../../../videos/009-cassandra-scylladb/animations/p02-a01-postgres-replication/Composition';
+import Animation219P02A02WriteSharding from '../../../../videos/009-cassandra-scylladb/animations/p02-a02-write-sharding/Composition';
+import Animation220P02A03ChatPartition from '../../../../videos/009-cassandra-scylladb/animations/p02-a03-chat-partition/Composition';
+import Animation221P02A04ReplicaQuorum from '../../../../videos/009-cassandra-scylladb/animations/p02-a04-replica-quorum/Composition';
+import Animation222P02A05ReplicaRepair from '../../../../videos/009-cassandra-scylladb/animations/p02-a05-replica-repair/Composition';
+import Animation223P02A06StorageAndWorkload from '../../../../videos/009-cassandra-scylladb/animations/p02-a06-storage-and-workload/Composition';
+import Animation224P03A00ChapterScylladb from '../../../../videos/009-cassandra-scylladb/animations/p03-a00-chapter-scylladb/Composition';
+import Animation225P03A02ScyllaOriginsEngine from '../../../../videos/009-cassandra-scylladb/animations/p03-a02-scylla-origins-engine/Composition';
+import Animation226P03A03ScyllaBenchmarks from '../../../../videos/009-cassandra-scylladb/animations/p03-a03-scylla-benchmarks/Composition';
+import Animation227P04A00ChapterChoice from '../../../../videos/009-cassandra-scylladb/animations/p04-a00-chapter-choice/Composition';
+import Animation228P04A02ChoiceInProduction from '../../../../videos/009-cassandra-scylladb/animations/p04-a02-choice-in-production/Composition';
+import Animation229P02A01PostgresWriteReplicas from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a01-postgres-write-replicas/Composition';
+import Animation230P02A02PostgresReplicaAck from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a02-postgres-replica-ack/Composition';
+import Animation231P02A03CassandraChatHistory from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a03-cassandra-chat-history/Composition';
+import Animation232P02A04CassandraNewNode from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a04-cassandra-new-node/Composition';
+import Animation233P02A05CassandraCoordinator from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a05-cassandra-coordinator/Composition';
+import Animation234P02A06CassandraWriteAcks from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a06-cassandra-write-acks/Composition';
+import Animation235P02A07CassandraStaleRead from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a07-cassandra-stale-read/Composition';
+import Animation236P02A08CassandraLastWriteWins from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a08-cassandra-last-write-wins/Composition';
+import Animation237P02A09CassandraReplicaRecovery from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a09-cassandra-replica-recovery/Composition';
+import Animation238P02A10CassandraLocalWrite from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a10-cassandra-local-write/Composition';
+import Animation239P02A11CassandraWriteWorkload from '../../../../videos/009-cassandra-scylladb/architecture-shorts/p02-a11-cassandra-write-workload/Composition';
+import Animation240P01A01FacebookInboxSearch from '../../../../videos/009-cassandra-scylladb/history-shorts/p01-a01-facebook-inbox-search/Composition';
+import Animation241P01A02WhyNotMysql from '../../../../videos/009-cassandra-scylladb/history-shorts/p01-a02-why-not-mysql/Composition';
+import Animation242P01A03InboxIndexWrites from '../../../../videos/009-cassandra-scylladb/history-shorts/p01-a03-inbox-index-writes/Composition';
+import Animation243P01A04MissingSearchResult from '../../../../videos/009-cassandra-scylladb/history-shorts/p01-a04-missing-search-result/Composition';
+import Animation244P01A05WhyNotBigtableDynamo from '../../../../videos/009-cassandra-scylladb/history-shorts/p01-a05-why-not-bigtable-dynamo/Composition';
+import Animation245P01A06InboxSearchAtScale from '../../../../videos/009-cassandra-scylladb/history-shorts/p01-a06-inbox-search-at-scale/Composition';
+import Animation246P03A01GcPause from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a01-gc-pause/Composition';
+import Animation247P03A02ShardPerCore from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a02-shard-per-core/Composition';
+import Animation248P03A03OsvRedisCassandra from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a03-osv-redis-cassandra/Composition';
+import Animation249P03A04FamiliarCql from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a04-familiar-cql/Composition';
+import Animation250P03A05IoScheduler from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a05-io-scheduler/Composition';
+import Animation251P03A06OctoBenchmark from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a06-octo-benchmark/Composition';
+import Animation252P03A07DiscordMigration from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a07-discord-migration/Composition';
+import Animation253P03A08CassandraJava from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a08-cassandra-java/Composition';
+import Animation254P00A02TiktokEndCard from '../../../../videos/009-cassandra-scylladb/tictok/p00-a02-tiktok-end-card/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -446,27 +496,27 @@ const V007JustUsePostgresOverlay: React.FC = () => (
 );
 
 const V008NotificationSystemComponents: Record<string, TimelineComponent> = {
-  "p00-a01-sharding-video": Animation140P00A01ShardingVideo,
-  "p00-a02-postgres-video": Animation141P00A02PostgresVideo,
-  "p00-a03-scheduler-video": Animation142P00A03SchedulerVideo,
-  "p01-a01-database-schema": Animation143P01A01DatabaseSchema,
-  "p01-a02-device-tokens": Animation144P01A02DeviceTokens,
-  "p01-a03-scheduled-query": Animation145P01A03ScheduledQuery,
-  "p01-a04-campaign-tables": Animation146P01A04CampaignTables,
-  "p01-a05-preferences": Animation147P01A05Preferences,
-  "p02-a01-producer-settings": Animation148P02A01ProducerSettings,
-  "p02-a02-outbox": Animation149P02A02Outbox,
-  "p02-a03-postgres-queue": Animation150P02A03PostgresQueue,
-  "p02-a04-consumer-settings": Animation151P02A04ConsumerSettings,
-  "p02-a05-consumer-liveness": Animation152P02A05ConsumerLiveness,
-  "p02-a06-provider-errors": Animation153P02A06ProviderErrors,
-  "p02-a07-retry-topics": Animation154P02A07RetryTopics,
-  "p02-a08-sweeper": Animation155P02A08Sweeper,
-  "p03-a02-channel-priority-matrix": Animation156P03A02ChannelPriorityMatrix,
-  "p03-a03-capacity-table": Animation157P03A03CapacityTable,
-  "p03-a05-latency-budget": Animation158P03A05LatencyBudget,
-  "p04-a01-outbox-partitions": Animation159P04A01OutboxPartitions,
-  "p05-a01-timers-claim": Animation160P05A01TimersClaim,
+  "p00-a01-sharding-video": Animation190P00A01ShardingVideo,
+  "p00-a02-postgres-video": Animation191P00A02PostgresVideo,
+  "p00-a03-scheduler-video": Animation192P00A03SchedulerVideo,
+  "p01-a01-database-schema": Animation193P01A01DatabaseSchema,
+  "p01-a02-device-tokens": Animation194P01A02DeviceTokens,
+  "p01-a03-scheduled-query": Animation195P01A03ScheduledQuery,
+  "p01-a04-campaign-tables": Animation196P01A04CampaignTables,
+  "p01-a05-preferences": Animation197P01A05Preferences,
+  "p02-a01-producer-settings": Animation198P02A01ProducerSettings,
+  "p02-a02-outbox": Animation199P02A02Outbox,
+  "p02-a03-postgres-queue": Animation200P02A03PostgresQueue,
+  "p02-a04-consumer-settings": Animation201P02A04ConsumerSettings,
+  "p02-a05-consumer-liveness": Animation202P02A05ConsumerLiveness,
+  "p02-a06-provider-errors": Animation203P02A06ProviderErrors,
+  "p02-a07-retry-topics": Animation204P02A07RetryTopics,
+  "p02-a08-sweeper": Animation205P02A08Sweeper,
+  "p03-a02-channel-priority-matrix": Animation206P03A02ChannelPriorityMatrix,
+  "p03-a03-capacity-table": Animation207P03A03CapacityTable,
+  "p03-a05-latency-budget": Animation208P03A05LatencyBudget,
+  "p04-a01-outbox-partitions": Animation209P04A01OutboxPartitions,
+  "p05-a01-timers-claim": Animation210P05A01TimersClaim,
 };
 
 const V008NotificationSystemOverlay: React.FC = () => (
@@ -479,24 +529,24 @@ const V008NotificationSystemOverlay: React.FC = () => (
 );
 
 const V009CassandraScylladbComponents: Record<string, TimelineComponent> = {
-  "p00-a01-intro-sources": Animation161P00A01IntroSources,
-  "p01-a00-chapter-history": Animation162P01A00ChapterHistory,
-  "p01-a01-history-origins": Animation163P01A01HistoryOrigins,
-  "p01-a02-history-index": Animation164P01A02HistoryIndex,
-  "p01-a03-history-consistency": Animation165P01A03HistoryConsistency,
-  "p01-a04-history-launch": Animation166P01A04HistoryLaunch,
-  "p02-a00-chapter-architecture": Animation167P02A00ChapterArchitecture,
-  "p02-a01-postgres-replication": Animation168P02A01PostgresReplication,
-  "p02-a02-write-sharding": Animation169P02A02WriteSharding,
-  "p02-a03-chat-partition": Animation170P02A03ChatPartition,
-  "p02-a04-replica-quorum": Animation171P02A04ReplicaQuorum,
-  "p02-a05-replica-repair": Animation172P02A05ReplicaRepair,
-  "p02-a06-storage-and-workload": Animation173P02A06StorageAndWorkload,
-  "p03-a00-chapter-scylladb": Animation174P03A00ChapterScylladb,
-  "p03-a02-scylla-origins-engine": Animation175P03A02ScyllaOriginsEngine,
-  "p03-a03-scylla-benchmarks": Animation176P03A03ScyllaBenchmarks,
-  "p04-a00-chapter-choice": Animation177P04A00ChapterChoice,
-  "p04-a02-choice-in-production": Animation178P04A02ChoiceInProduction,
+  "p00-a01-intro-sources": Animation211P00A01IntroSources,
+  "p01-a00-chapter-history": Animation212P01A00ChapterHistory,
+  "p01-a01-history-origins": Animation213P01A01HistoryOrigins,
+  "p01-a02-history-index": Animation214P01A02HistoryIndex,
+  "p01-a03-history-consistency": Animation215P01A03HistoryConsistency,
+  "p01-a04-history-launch": Animation216P01A04HistoryLaunch,
+  "p02-a00-chapter-architecture": Animation217P02A00ChapterArchitecture,
+  "p02-a01-postgres-replication": Animation218P02A01PostgresReplication,
+  "p02-a02-write-sharding": Animation219P02A02WriteSharding,
+  "p02-a03-chat-partition": Animation220P02A03ChatPartition,
+  "p02-a04-replica-quorum": Animation221P02A04ReplicaQuorum,
+  "p02-a05-replica-repair": Animation222P02A05ReplicaRepair,
+  "p02-a06-storage-and-workload": Animation223P02A06StorageAndWorkload,
+  "p03-a00-chapter-scylladb": Animation224P03A00ChapterScylladb,
+  "p03-a02-scylla-origins-engine": Animation225P03A02ScyllaOriginsEngine,
+  "p03-a03-scylla-benchmarks": Animation226P03A03ScyllaBenchmarks,
+  "p04-a00-chapter-choice": Animation227P04A00ChapterChoice,
+  "p04-a02-choice-in-production": Animation228P04A02ChoiceInProduction,
 };
 
 const V009CassandraScylladbOverlay: React.FC = () => (
@@ -1917,6 +1967,462 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"previewBackground":"footage","withAudio":true}}
         />
       </Folder>
+      <Folder name="P-01-Intro-Shorts">
+        <Composition
+          id="Video-007-just-use-postgres-p01-a01-trend-origin"
+          component={Animation140P01A01TrendOrigin}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1794}
+          defaultProps={{"withAudio":true,"platform":"shorts"}}
+        />
+      </Folder>
+      <Folder name="P-01-TikTok">
+        <Composition
+          id="Video-007-just-use-postgres-p01-a02-trend-origin-tiktok"
+          component={Animation165P01A02TrendOriginTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1794}
+          defaultProps={{"withAudio":true,"platform":"tiktok"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p02-a02-jsonb-products-tiktok"
+          component={Animation166P02A02JsonbProductsTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1431}
+          defaultProps={{"withAudio":true,"platform":"tiktok"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p03-a02-jsonb-cost-tiktok"
+          component={Animation167P03A02JsonbCostTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1480}
+          defaultProps={{"withAudio":true,"platform":"tiktok"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p04-a02-postgres-search-tiktok"
+          component={Animation168P04A02PostgresSearchTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1038}
+          defaultProps={{"withAudio":true,"platform":"tiktok"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p05-a02-search-limits-tiktok"
+          component={Animation169P05A02SearchLimitsTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1215}
+          defaultProps={{"withAudio":true,"platform":"tiktok"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p06-a02-postgres-cache-tiktok"
+          component={Animation170P06A02PostgresCacheTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={944}
+          defaultProps={{"withAudio":true,"platform":"tiktok"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p07-a02-cache-limits-tiktok"
+          component={Animation171P07A02CacheLimitsTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1259}
+          defaultProps={{"withAudio":true,"platform":"tiktok"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p08-a02-skip-locked-tiktok"
+          component={Animation172P08A02SkipLockedTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={951}
+          defaultProps={{"withAudio":true,"platform":"tiktok"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p09-a02-at-least-once-tiktok"
+          component={Animation173P09A02AtLeastOnceTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1028}
+          defaultProps={{"withAudio":true,"platform":"tiktok"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p10-a02-notify-commit-tiktok"
+          component={Animation174P10A02NotifyCommitTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1071}
+          defaultProps={{"withAudio":true,"platform":"tiktok"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p11-a02-notify-not-queue-tiktok"
+          component={Animation175P11A02NotifyNotQueueTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={928}
+          defaultProps={{"withAudio":true,"platform":"tiktok"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p12-a02-one-transaction-tiktok"
+          component={Animation176P12A02OneTransactionTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={689}
+          defaultProps={{"withAudio":true,"platform":"tiktok"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p13-a02-jobs-per-second-tiktok"
+          component={Animation177P13A02JobsPerSecondTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={921}
+          defaultProps={{"withAudio":true,"platform":"tiktok"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p14-a02-mvcc-delete-tiktok"
+          component={Animation178P14A02MvccDeleteTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1353}
+          defaultProps={{"withAudio":true,"platform":"tiktok"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p15-a02-queue-index-tiktok"
+          component={Animation179P15A02QueueIndexTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1671}
+          defaultProps={{"withAudio":true,"platform":"tiktok"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p16-a02-vacuum-horizon-tiktok"
+          component={Animation180P16A02VacuumHorizonTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1171}
+          defaultProps={{"withAudio":true,"platform":"tiktok"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p17-a02-queue-benchmark-tiktok"
+          component={Animation181P17A02QueueBenchmarkTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1183}
+          defaultProps={{"withAudio":true,"platform":"tiktok"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p18-a02-trigger-incident-tiktok"
+          component={Animation182P18A02TriggerIncidentTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1417}
+          defaultProps={{"withAudio":true,"platform":"tiktok"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p19-a02-notify-lock-tiktok"
+          component={Animation183P19A02NotifyLockTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1645}
+          defaultProps={{"withAudio":true,"platform":"tiktok"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p20-a02-notify-benchmark-tiktok"
+          component={Animation184P20A02NotifyBenchmarkTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1250}
+          defaultProps={{"withAudio":true,"platform":"tiktok"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p21-a02-recall-incident-tiktok"
+          component={Animation185P21A02RecallIncidentTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1277}
+          defaultProps={{"withAudio":true,"platform":"tiktok"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p22-a02-shared-cluster-tiktok"
+          component={Animation186P22A02SharedClusterTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1337}
+          defaultProps={{"withAudio":true,"platform":"tiktok"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p23-a02-write-replica-tiktok"
+          component={Animation187P23A02WriteReplicaTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={662}
+          defaultProps={{"withAudio":true,"platform":"tiktok"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p24-a02-quo-cassandra-tiktok"
+          component={Animation188P24A02QuoCassandraTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1934}
+          defaultProps={{"withAudio":true,"platform":"tiktok"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p25-a02-context-tiktok"
+          component={Animation189P25A02ContextTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1599}
+          defaultProps={{"withAudio":true,"platform":"tiktok"}}
+        />
+      </Folder>
+      <Folder name="P-02-Postgres-Shorts">
+        <Composition
+          id="Video-007-just-use-postgres-p02-a01-jsonb-products"
+          component={Animation141P02A01JsonbProducts}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1431}
+          defaultProps={{"withAudio":true,"platform":"shorts"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p03-a01-jsonb-cost"
+          component={Animation142P03A01JsonbCost}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1480}
+          defaultProps={{"withAudio":true,"platform":"shorts"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p04-a01-postgres-search"
+          component={Animation143P04A01PostgresSearch}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1038}
+          defaultProps={{"withAudio":true,"platform":"shorts"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p05-a01-search-limits"
+          component={Animation144P05A01SearchLimits}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1215}
+          defaultProps={{"withAudio":true,"platform":"shorts"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p06-a01-postgres-cache"
+          component={Animation145P06A01PostgresCache}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={944}
+          defaultProps={{"withAudio":true,"platform":"shorts"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p07-a01-cache-limits"
+          component={Animation146P07A01CacheLimits}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1259}
+          defaultProps={{"withAudio":true,"platform":"shorts"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p08-a01-skip-locked"
+          component={Animation147P08A01SkipLocked}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={951}
+          defaultProps={{"withAudio":true,"platform":"shorts"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p09-a01-at-least-once"
+          component={Animation148P09A01AtLeastOnce}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1028}
+          defaultProps={{"withAudio":true,"platform":"shorts"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p10-a01-notify-commit"
+          component={Animation149P10A01NotifyCommit}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1071}
+          defaultProps={{"withAudio":true,"platform":"shorts"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p11-a01-notify-not-queue"
+          component={Animation150P11A01NotifyNotQueue}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={928}
+          defaultProps={{"withAudio":true,"platform":"shorts"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p12-a01-one-transaction"
+          component={Animation151P12A01OneTransaction}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={689}
+          defaultProps={{"withAudio":true,"platform":"shorts"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p13-a01-jobs-per-second"
+          component={Animation152P13A01JobsPerSecond}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={921}
+          defaultProps={{"withAudio":true,"platform":"shorts"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p14-a01-mvcc-delete"
+          component={Animation153P14A01MvccDelete}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1353}
+          defaultProps={{"withAudio":true,"platform":"shorts"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p15-a01-queue-index"
+          component={Animation154P15A01QueueIndex}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1671}
+          defaultProps={{"withAudio":true,"platform":"shorts"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p16-a01-vacuum-horizon"
+          component={Animation155P16A01VacuumHorizon}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1171}
+          defaultProps={{"withAudio":true,"platform":"shorts"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p17-a01-queue-benchmark"
+          component={Animation156P17A01QueueBenchmark}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1183}
+          defaultProps={{"withAudio":true,"platform":"shorts"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p18-a01-trigger-incident"
+          component={Animation157P18A01TriggerIncident}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1417}
+          defaultProps={{"withAudio":true,"platform":"shorts"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p19-a01-notify-lock"
+          component={Animation158P19A01NotifyLock}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1645}
+          defaultProps={{"withAudio":true,"platform":"shorts"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p20-a01-notify-benchmark"
+          component={Animation159P20A01NotifyBenchmark}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1250}
+          defaultProps={{"withAudio":true,"platform":"shorts"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p21-a01-recall-incident"
+          component={Animation160P21A01RecallIncident}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1277}
+          defaultProps={{"withAudio":true,"platform":"shorts"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p22-a01-shared-cluster"
+          component={Animation161P22A01SharedCluster}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1337}
+          defaultProps={{"withAudio":true,"platform":"shorts"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p23-a01-write-replica"
+          component={Animation162P23A01WriteReplica}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={662}
+          defaultProps={{"withAudio":true,"platform":"shorts"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p24-a01-quo-cassandra"
+          component={Animation163P24A01QuoCassandra}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1934}
+          defaultProps={{"withAudio":true,"platform":"shorts"}}
+        />
+        <Composition
+          id="Video-007-just-use-postgres-p25-a01-context"
+          component={Animation164P25A01Context}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1599}
+          defaultProps={{"withAudio":true,"platform":"shorts"}}
+        />
+      </Folder>
       <Composition
         id="Video-007-just-use-postgres-Overlay"
         component={V007JustUsePostgresOverlay}
@@ -1930,7 +2436,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       <Folder name="Deprecated-P-00">
         <Composition
           id="Video-008-notification-system-p00-a01-sharding-video"
-          component={Animation140P00A01ShardingVideo}
+          component={Animation190P00A01ShardingVideo}
           width={2560}
           height={1440}
           fps={30}
@@ -1939,7 +2445,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-008-notification-system-p00-a02-postgres-video"
-          component={Animation141P00A02PostgresVideo}
+          component={Animation191P00A02PostgresVideo}
           width={2560}
           height={1440}
           fps={30}
@@ -1948,7 +2454,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-008-notification-system-p00-a03-scheduler-video"
-          component={Animation142P00A03SchedulerVideo}
+          component={Animation192P00A03SchedulerVideo}
           width={2560}
           height={1440}
           fps={30}
@@ -1959,7 +2465,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       <Folder name="Deprecated-P-01">
         <Composition
           id="Video-008-notification-system-p01-a01-database-schema"
-          component={Animation143P01A01DatabaseSchema}
+          component={Animation193P01A01DatabaseSchema}
           width={2560}
           height={1440}
           fps={30}
@@ -1968,7 +2474,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-008-notification-system-p01-a02-device-tokens"
-          component={Animation144P01A02DeviceTokens}
+          component={Animation194P01A02DeviceTokens}
           width={2560}
           height={1440}
           fps={30}
@@ -1977,7 +2483,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-008-notification-system-p01-a03-scheduled-query"
-          component={Animation145P01A03ScheduledQuery}
+          component={Animation195P01A03ScheduledQuery}
           width={2560}
           height={1440}
           fps={30}
@@ -1986,7 +2492,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-008-notification-system-p01-a04-campaign-tables"
-          component={Animation146P01A04CampaignTables}
+          component={Animation196P01A04CampaignTables}
           width={2560}
           height={1440}
           fps={30}
@@ -1995,7 +2501,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-008-notification-system-p01-a05-preferences"
-          component={Animation147P01A05Preferences}
+          component={Animation197P01A05Preferences}
           width={2560}
           height={1440}
           fps={30}
@@ -2006,7 +2512,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       <Folder name="Deprecated-P-02">
         <Composition
           id="Video-008-notification-system-p02-a01-producer-settings"
-          component={Animation148P02A01ProducerSettings}
+          component={Animation198P02A01ProducerSettings}
           width={2560}
           height={1440}
           fps={30}
@@ -2015,7 +2521,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-008-notification-system-p02-a02-outbox"
-          component={Animation149P02A02Outbox}
+          component={Animation199P02A02Outbox}
           width={2560}
           height={1440}
           fps={30}
@@ -2024,7 +2530,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-008-notification-system-p02-a03-postgres-queue"
-          component={Animation150P02A03PostgresQueue}
+          component={Animation200P02A03PostgresQueue}
           width={2560}
           height={1440}
           fps={30}
@@ -2033,7 +2539,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-008-notification-system-p02-a04-consumer-settings"
-          component={Animation151P02A04ConsumerSettings}
+          component={Animation201P02A04ConsumerSettings}
           width={2560}
           height={1440}
           fps={30}
@@ -2042,7 +2548,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-008-notification-system-p02-a05-consumer-liveness"
-          component={Animation152P02A05ConsumerLiveness}
+          component={Animation202P02A05ConsumerLiveness}
           width={2560}
           height={1440}
           fps={30}
@@ -2051,7 +2557,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-008-notification-system-p02-a06-provider-errors"
-          component={Animation153P02A06ProviderErrors}
+          component={Animation203P02A06ProviderErrors}
           width={2560}
           height={1440}
           fps={30}
@@ -2060,7 +2566,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-008-notification-system-p02-a07-retry-topics"
-          component={Animation154P02A07RetryTopics}
+          component={Animation204P02A07RetryTopics}
           width={2560}
           height={1440}
           fps={30}
@@ -2069,7 +2575,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-008-notification-system-p02-a08-sweeper"
-          component={Animation155P02A08Sweeper}
+          component={Animation205P02A08Sweeper}
           width={2560}
           height={1440}
           fps={30}
@@ -2080,7 +2586,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       <Folder name="Deprecated-P-03">
         <Composition
           id="Video-008-notification-system-p03-a02-channel-priority-matrix"
-          component={Animation156P03A02ChannelPriorityMatrix}
+          component={Animation206P03A02ChannelPriorityMatrix}
           width={2560}
           height={1440}
           fps={30}
@@ -2089,7 +2595,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-008-notification-system-p03-a03-capacity-table"
-          component={Animation157P03A03CapacityTable}
+          component={Animation207P03A03CapacityTable}
           width={2560}
           height={1440}
           fps={30}
@@ -2098,7 +2604,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-008-notification-system-p03-a05-latency-budget"
-          component={Animation158P03A05LatencyBudget}
+          component={Animation208P03A05LatencyBudget}
           width={2560}
           height={1440}
           fps={30}
@@ -2109,7 +2615,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       <Folder name="Deprecated-P-04">
         <Composition
           id="Video-008-notification-system-p04-a01-outbox-partitions"
-          component={Animation159P04A01OutboxPartitions}
+          component={Animation209P04A01OutboxPartitions}
           width={2560}
           height={1440}
           fps={30}
@@ -2120,7 +2626,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       <Folder name="Deprecated-P-05">
         <Composition
           id="Video-008-notification-system-p05-a01-timers-claim"
-          component={Animation160P05A01TimersClaim}
+          component={Animation210P05A01TimersClaim}
           width={2560}
           height={1440}
           fps={30}
@@ -2141,7 +2647,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       <Folder name="Deprecated-P-00-Intro">
         <Composition
           id="Video-009-cassandra-scylladb-p00-a01-intro-sources"
-          component={Animation161P00A01IntroSources}
+          component={Animation211P00A01IntroSources}
           width={2560}
           height={1440}
           fps={30}
@@ -2152,7 +2658,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       <Folder name="Deprecated-P-01-History">
         <Composition
           id="Video-009-cassandra-scylladb-p01-a01-history-origins"
-          component={Animation163P01A01HistoryOrigins}
+          component={Animation213P01A01HistoryOrigins}
           width={2560}
           height={1440}
           fps={30}
@@ -2163,7 +2669,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       <Folder name="P-00-Chapters">
         <Composition
           id="Video-009-cassandra-scylladb-p01-a00-chapter-history"
-          component={Animation162P01A00ChapterHistory}
+          component={Animation212P01A00ChapterHistory}
           width={2560}
           height={1440}
           fps={30}
@@ -2172,7 +2678,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p02-a00-chapter-architecture"
-          component={Animation167P02A00ChapterArchitecture}
+          component={Animation217P02A00ChapterArchitecture}
           width={2560}
           height={1440}
           fps={30}
@@ -2181,7 +2687,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p03-a00-chapter-scylladb"
-          component={Animation174P03A00ChapterScylladb}
+          component={Animation224P03A00ChapterScylladb}
           width={2560}
           height={1440}
           fps={30}
@@ -2190,7 +2696,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p04-a00-chapter-choice"
-          component={Animation177P04A00ChapterChoice}
+          component={Animation227P04A00ChapterChoice}
           width={2560}
           height={1440}
           fps={30}
@@ -2201,7 +2707,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       <Folder name="P-01-History">
         <Composition
           id="Video-009-cassandra-scylladb-p01-a02-history-index"
-          component={Animation164P01A02HistoryIndex}
+          component={Animation214P01A02HistoryIndex}
           width={2560}
           height={1440}
           fps={30}
@@ -2210,7 +2716,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p01-a03-history-consistency"
-          component={Animation165P01A03HistoryConsistency}
+          component={Animation215P01A03HistoryConsistency}
           width={2560}
           height={1440}
           fps={30}
@@ -2219,7 +2725,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p01-a04-history-launch"
-          component={Animation166P01A04HistoryLaunch}
+          component={Animation216P01A04HistoryLaunch}
           width={2560}
           height={1440}
           fps={30}
@@ -2230,7 +2736,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       <Folder name="P-01-History-Shorts">
         <Composition
           id="Video-009-cassandra-scylladb-p01-a01-facebook-inbox-search"
-          component={Animation190P01A01FacebookInboxSearch}
+          component={Animation240P01A01FacebookInboxSearch}
           width={1440}
           height={2560}
           fps={30}
@@ -2239,7 +2745,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p01-a02-why-not-mysql"
-          component={Animation191P01A02WhyNotMysql}
+          component={Animation241P01A02WhyNotMysql}
           width={1440}
           height={2560}
           fps={30}
@@ -2248,7 +2754,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p01-a03-inbox-index-writes"
-          component={Animation192P01A03InboxIndexWrites}
+          component={Animation242P01A03InboxIndexWrites}
           width={1440}
           height={2560}
           fps={30}
@@ -2257,7 +2763,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p01-a04-missing-search-result"
-          component={Animation193P01A04MissingSearchResult}
+          component={Animation243P01A04MissingSearchResult}
           width={1440}
           height={2560}
           fps={30}
@@ -2266,7 +2772,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p01-a05-why-not-bigtable-dynamo"
-          component={Animation194P01A05WhyNotBigtableDynamo}
+          component={Animation244P01A05WhyNotBigtableDynamo}
           width={1440}
           height={2560}
           fps={30}
@@ -2275,7 +2781,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p01-a06-inbox-search-at-scale"
-          component={Animation195P01A06InboxSearchAtScale}
+          component={Animation245P01A06InboxSearchAtScale}
           width={1440}
           height={2560}
           fps={30}
@@ -2286,7 +2792,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       <Folder name="P-02-Architecture">
         <Composition
           id="Video-009-cassandra-scylladb-p02-a01-postgres-replication"
-          component={Animation168P02A01PostgresReplication}
+          component={Animation218P02A01PostgresReplication}
           width={2560}
           height={1440}
           fps={30}
@@ -2295,7 +2801,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p02-a02-write-sharding"
-          component={Animation169P02A02WriteSharding}
+          component={Animation219P02A02WriteSharding}
           width={2560}
           height={1440}
           fps={30}
@@ -2304,7 +2810,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p02-a03-chat-partition"
-          component={Animation170P02A03ChatPartition}
+          component={Animation220P02A03ChatPartition}
           width={2560}
           height={1440}
           fps={30}
@@ -2313,7 +2819,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p02-a04-replica-quorum"
-          component={Animation171P02A04ReplicaQuorum}
+          component={Animation221P02A04ReplicaQuorum}
           width={2560}
           height={1440}
           fps={30}
@@ -2322,7 +2828,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p02-a05-replica-repair"
-          component={Animation172P02A05ReplicaRepair}
+          component={Animation222P02A05ReplicaRepair}
           width={2560}
           height={1440}
           fps={30}
@@ -2331,7 +2837,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p02-a06-storage-and-workload"
-          component={Animation173P02A06StorageAndWorkload}
+          component={Animation223P02A06StorageAndWorkload}
           width={2560}
           height={1440}
           fps={30}
@@ -2342,7 +2848,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       <Folder name="P-02-Architecture-Shorts">
         <Composition
           id="Video-009-cassandra-scylladb-p02-a01-postgres-write-replicas"
-          component={Animation179P02A01PostgresWriteReplicas}
+          component={Animation229P02A01PostgresWriteReplicas}
           width={1080}
           height={1920}
           fps={30}
@@ -2351,7 +2857,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p02-a02-postgres-replica-ack"
-          component={Animation180P02A02PostgresReplicaAck}
+          component={Animation230P02A02PostgresReplicaAck}
           width={1080}
           height={1920}
           fps={30}
@@ -2360,7 +2866,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p02-a03-cassandra-chat-history"
-          component={Animation181P02A03CassandraChatHistory}
+          component={Animation231P02A03CassandraChatHistory}
           width={1080}
           height={1920}
           fps={30}
@@ -2369,7 +2875,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p02-a04-cassandra-new-node"
-          component={Animation182P02A04CassandraNewNode}
+          component={Animation232P02A04CassandraNewNode}
           width={1080}
           height={1920}
           fps={30}
@@ -2378,7 +2884,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p02-a05-cassandra-coordinator"
-          component={Animation183P02A05CassandraCoordinator}
+          component={Animation233P02A05CassandraCoordinator}
           width={1080}
           height={1920}
           fps={30}
@@ -2387,7 +2893,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p02-a06-cassandra-write-acks"
-          component={Animation184P02A06CassandraWriteAcks}
+          component={Animation234P02A06CassandraWriteAcks}
           width={1080}
           height={1920}
           fps={30}
@@ -2396,7 +2902,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p02-a07-cassandra-stale-read"
-          component={Animation185P02A07CassandraStaleRead}
+          component={Animation235P02A07CassandraStaleRead}
           width={1080}
           height={1920}
           fps={30}
@@ -2405,7 +2911,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p02-a08-cassandra-last-write-wins"
-          component={Animation186P02A08CassandraLastWriteWins}
+          component={Animation236P02A08CassandraLastWriteWins}
           width={1080}
           height={1920}
           fps={30}
@@ -2414,7 +2920,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p02-a09-cassandra-replica-recovery"
-          component={Animation187P02A09CassandraReplicaRecovery}
+          component={Animation237P02A09CassandraReplicaRecovery}
           width={1080}
           height={1920}
           fps={30}
@@ -2423,7 +2929,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p02-a10-cassandra-local-write"
-          component={Animation188P02A10CassandraLocalWrite}
+          component={Animation238P02A10CassandraLocalWrite}
           width={1080}
           height={1920}
           fps={30}
@@ -2432,7 +2938,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p02-a11-cassandra-write-workload"
-          component={Animation189P02A11CassandraWriteWorkload}
+          component={Animation239P02A11CassandraWriteWorkload}
           width={1080}
           height={1920}
           fps={30}
@@ -2443,7 +2949,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       <Folder name="P-03-ScyllaDB">
         <Composition
           id="Video-009-cassandra-scylladb-p03-a02-scylla-origins-engine"
-          component={Animation175P03A02ScyllaOriginsEngine}
+          component={Animation225P03A02ScyllaOriginsEngine}
           width={2560}
           height={1440}
           fps={30}
@@ -2452,7 +2958,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p03-a03-scylla-benchmarks"
-          component={Animation176P03A03ScyllaBenchmarks}
+          component={Animation226P03A03ScyllaBenchmarks}
           width={2560}
           height={1440}
           fps={30}
@@ -2463,7 +2969,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       <Folder name="P-03-ScyllaDB-Shorts">
         <Composition
           id="Video-009-cassandra-scylladb-p03-a01-gc-pause"
-          component={Animation196P03A01GcPause}
+          component={Animation246P03A01GcPause}
           width={1440}
           height={2560}
           fps={30}
@@ -2472,7 +2978,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p03-a02-shard-per-core"
-          component={Animation197P03A02ShardPerCore}
+          component={Animation247P03A02ShardPerCore}
           width={1440}
           height={2560}
           fps={30}
@@ -2481,7 +2987,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p03-a03-osv-redis-cassandra"
-          component={Animation198P03A03OsvRedisCassandra}
+          component={Animation248P03A03OsvRedisCassandra}
           width={1440}
           height={2560}
           fps={30}
@@ -2490,7 +2996,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p03-a04-familiar-cql"
-          component={Animation199P03A04FamiliarCql}
+          component={Animation249P03A04FamiliarCql}
           width={1440}
           height={2560}
           fps={30}
@@ -2499,7 +3005,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p03-a05-io-scheduler"
-          component={Animation200P03A05IoScheduler}
+          component={Animation250P03A05IoScheduler}
           width={1440}
           height={2560}
           fps={30}
@@ -2508,7 +3014,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p03-a06-octo-benchmark"
-          component={Animation201P03A06OctoBenchmark}
+          component={Animation251P03A06OctoBenchmark}
           width={1440}
           height={2560}
           fps={30}
@@ -2517,7 +3023,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p03-a07-discord-migration"
-          component={Animation202P03A07DiscordMigration}
+          component={Animation252P03A07DiscordMigration}
           width={1440}
           height={2560}
           fps={30}
@@ -2526,7 +3032,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-009-cassandra-scylladb-p03-a08-cassandra-java"
-          component={Animation203P03A08CassandraJava}
+          component={Animation253P03A08CassandraJava}
           width={1440}
           height={2560}
           fps={30}
@@ -2537,7 +3043,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       <Folder name="P-04-Choice">
         <Composition
           id="Video-009-cassandra-scylladb-p04-a02-choice-in-production"
-          component={Animation178P04A02ChoiceInProduction}
+          component={Animation228P04A02ChoiceInProduction}
           width={2560}
           height={1440}
           fps={30}
@@ -2548,7 +3054,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       <Folder name="TikTok">
         <Composition
           id="Video-009-cassandra-scylladb-p00-a02-tiktok-end-card"
-          component={Animation204P00A02TiktokEndCard}
+          component={Animation254P00A02TiktokEndCard}
           width={1440}
           height={2560}
           fps={30}
