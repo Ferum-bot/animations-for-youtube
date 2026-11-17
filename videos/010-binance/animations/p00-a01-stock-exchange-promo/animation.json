@@ -1,0 +1,13 @@
+{
+  "id": "p00-a01-stock-exchange-promo",
+  "part": 0,
+  "order": 1,
+  "title": "Проектируем фондовую биржу",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 38720,
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  }
+}

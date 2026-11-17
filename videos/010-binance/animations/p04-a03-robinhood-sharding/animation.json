@@ -1,0 +1,13 @@
+{
+  "id": "p04-a03-robinhood-sharding",
+  "part": 4,
+  "order": 3,
+  "title": "Robinhood о шардировании PostgreSQL",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 18300,
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  }
+}

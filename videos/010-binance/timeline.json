@@ -1,5 +1,16 @@
 [
   {
+    "id": "show-p00-a01-stock-exchange-promo",
+    "animation": "p00-a01-stock-exchange-promo",
+    "anchor": "p00-a01-stock-exchange-promo-start",
+    "offsetMs": 0,
+    "durationMs": 38720,
+    "props": {
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  },
+  {
     "id": "show-p01-a01-broker-schema",
     "animation": "p01-a01-broker-schema",
     "anchor": "p01-a01-broker-schema-start",
@@ -49,6 +60,28 @@
     "anchor": "p04-a02-create-order-sql-start",
     "offsetMs": 0,
     "durationMs": 12200,
+    "props": {
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p04-a03-robinhood-sharding",
+    "animation": "p04-a03-robinhood-sharding",
+    "anchor": "p04-a03-robinhood-sharding-start",
+    "offsetMs": 0,
+    "durationMs": 18300,
+    "props": {
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p05-a01-portfolio-value",
+    "animation": "p05-a01-portfolio-value",
+    "anchor": "p05-a01-portfolio-value-start",
+    "offsetMs": 0,
+    "durationMs": 19000,
     "props": {
       "previewBackground": "transparent",
       "withAudio": false

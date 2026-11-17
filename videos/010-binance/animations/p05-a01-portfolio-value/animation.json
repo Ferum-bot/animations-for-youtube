@@ -1,0 +1,13 @@
+{
+  "id": "p05-a01-portfolio-value",
+  "part": 5,
+  "order": 1,
+  "title": "Стоимость портфеля",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 19000,
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  }
+}

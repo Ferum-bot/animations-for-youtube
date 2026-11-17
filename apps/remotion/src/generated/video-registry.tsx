@@ -258,11 +258,14 @@ import Animation251P03A06OctoBenchmark from '../../../../videos/009-cassandra-sc
 import Animation252P03A07DiscordMigration from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a07-discord-migration/Composition';
 import Animation253P03A08CassandraJava from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a08-cassandra-java/Composition';
 import Animation254P00A02TiktokEndCard from '../../../../videos/009-cassandra-scylladb/tictok/p00-a02-tiktok-end-card/Composition';
-import Animation255P01A01BrokerSchema from '../../../../videos/010-binance/animations/p01-a01-broker-schema/Composition';
-import Animation256P02A01ConnectionCapacity from '../../../../videos/010-binance/animations/p02-a01-connection-capacity/Composition';
-import Animation257P03A01ExecutionReportSql from '../../../../videos/010-binance/animations/p03-a01-execution-report-sql/Composition';
-import Animation258P04A01OrderStateGraph from '../../../../videos/010-binance/animations/p04-a01-order-state-graph/Composition';
-import Animation259P04A02CreateOrderSql from '../../../../videos/010-binance/animations/p04-a02-create-order-sql/Composition';
+import Animation255P00A01StockExchangePromo from '../../../../videos/010-binance/animations/p00-a01-stock-exchange-promo/Composition';
+import Animation256P01A01BrokerSchema from '../../../../videos/010-binance/animations/p01-a01-broker-schema/Composition';
+import Animation257P02A01ConnectionCapacity from '../../../../videos/010-binance/animations/p02-a01-connection-capacity/Composition';
+import Animation258P03A01ExecutionReportSql from '../../../../videos/010-binance/animations/p03-a01-execution-report-sql/Composition';
+import Animation259P04A01OrderStateGraph from '../../../../videos/010-binance/animations/p04-a01-order-state-graph/Composition';
+import Animation260P04A02CreateOrderSql from '../../../../videos/010-binance/animations/p04-a02-create-order-sql/Composition';
+import Animation261P04A03RobinhoodSharding from '../../../../videos/010-binance/animations/p04-a03-robinhood-sharding/Composition';
+import Animation262P05A01PortfolioValue from '../../../../videos/010-binance/animations/p05-a01-portfolio-value/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -564,19 +567,22 @@ const V009CassandraScylladbOverlay: React.FC = () => (
 );
 
 const V010BinanceComponents: Record<string, TimelineComponent> = {
-  "p01-a01-broker-schema": Animation255P01A01BrokerSchema,
-  "p02-a01-connection-capacity": Animation256P02A01ConnectionCapacity,
-  "p03-a01-execution-report-sql": Animation257P03A01ExecutionReportSql,
-  "p04-a01-order-state-graph": Animation258P04A01OrderStateGraph,
-  "p04-a02-create-order-sql": Animation259P04A02CreateOrderSql,
+  "p00-a01-stock-exchange-promo": Animation255P00A01StockExchangePromo,
+  "p01-a01-broker-schema": Animation256P01A01BrokerSchema,
+  "p02-a01-connection-capacity": Animation257P02A01ConnectionCapacity,
+  "p03-a01-execution-report-sql": Animation258P03A01ExecutionReportSql,
+  "p04-a01-order-state-graph": Animation259P04A01OrderStateGraph,
+  "p04-a02-create-order-sql": Animation260P04A02CreateOrderSql,
+  "p04-a03-robinhood-sharding": Animation261P04A03RobinhoodSharding,
+  "p05-a01-portfolio-value": Animation262P05A01PortfolioValue,
 };
 
 const V010BinanceOverlay: React.FC = () => (
   <TimelineOverlay
-    anchors={{"p01-a01-broker-schema-start":1393060,"p02-a01-connection-capacity-start":2181380,"connection-articles":2202320,"p03-a01-execution-report-sql-start":2879520,"p04-a01-order-state-graph-start":3209820,"p04-a02-create-order-sql-start":3301760}}
+    anchors={{"p00-a01-stock-exchange-promo-start":9360,"p01-a01-broker-schema-start":1393060,"p02-a01-connection-capacity-start":2181380,"connection-articles":2202320,"p03-a01-execution-report-sql-start":2879520,"p04-a01-order-state-graph-start":3209820,"p04-a02-create-order-sql-start":3301760,"p04-a03-robinhood-sharding-start":3465820,"p05-a01-portfolio-value-start":3804540}}
     audio={null}
     components={V010BinanceComponents}
-    timeline={[{"id":"show-p01-a01-broker-schema","animation":"p01-a01-broker-schema","anchor":"p01-a01-broker-schema-start","offsetMs":0,"durationMs":93000,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a01-connection-capacity","animation":"p02-a01-connection-capacity","anchor":"p02-a01-connection-capacity-start","offsetMs":0,"durationMs":26300,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p03-a01-execution-report-sql","animation":"p03-a01-execution-report-sql","anchor":"p03-a01-execution-report-sql-start","offsetMs":0,"durationMs":41000,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p04-a01-order-state-graph","animation":"p04-a01-order-state-graph","anchor":"p04-a01-order-state-graph-start","offsetMs":0,"durationMs":47000,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p04-a02-create-order-sql","animation":"p04-a02-create-order-sql","anchor":"p04-a02-create-order-sql-start","offsetMs":0,"durationMs":12200,"props":{"previewBackground":"transparent","withAudio":false}}]}
+    timeline={[{"id":"show-p00-a01-stock-exchange-promo","animation":"p00-a01-stock-exchange-promo","anchor":"p00-a01-stock-exchange-promo-start","offsetMs":0,"durationMs":38720,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a01-broker-schema","animation":"p01-a01-broker-schema","anchor":"p01-a01-broker-schema-start","offsetMs":0,"durationMs":93000,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a01-connection-capacity","animation":"p02-a01-connection-capacity","anchor":"p02-a01-connection-capacity-start","offsetMs":0,"durationMs":26300,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p03-a01-execution-report-sql","animation":"p03-a01-execution-report-sql","anchor":"p03-a01-execution-report-sql-start","offsetMs":0,"durationMs":41000,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p04-a01-order-state-graph","animation":"p04-a01-order-state-graph","anchor":"p04-a01-order-state-graph-start","offsetMs":0,"durationMs":47000,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p04-a02-create-order-sql","animation":"p04-a02-create-order-sql","anchor":"p04-a02-create-order-sql-start","offsetMs":0,"durationMs":12200,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p04-a03-robinhood-sharding","animation":"p04-a03-robinhood-sharding","anchor":"p04-a03-robinhood-sharding-start","offsetMs":0,"durationMs":18300,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p05-a01-portfolio-value","animation":"p05-a01-portfolio-value","anchor":"p05-a01-portfolio-value-start","offsetMs":0,"durationMs":19000,"props":{"previewBackground":"transparent","withAudio":false}}]}
   />
 );
 
@@ -3094,10 +3100,21 @@ export const GeneratedVideoCompositions: React.FC = () => (
       />
     </Folder>
     <Folder name="V-010-binance">
+      <Folder name="P-00">
+        <Composition
+          id="Video-010-binance-p00-a01-stock-exchange-promo"
+          component={Animation255P00A01StockExchangePromo}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1162}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+      </Folder>
       <Folder name="P-01">
         <Composition
           id="Video-010-binance-p01-a01-broker-schema"
-          component={Animation255P01A01BrokerSchema}
+          component={Animation256P01A01BrokerSchema}
           width={2560}
           height={1440}
           fps={30}
@@ -3108,7 +3125,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       <Folder name="P-02">
         <Composition
           id="Video-010-binance-p02-a01-connection-capacity"
-          component={Animation256P02A01ConnectionCapacity}
+          component={Animation257P02A01ConnectionCapacity}
           width={2560}
           height={1440}
           fps={30}
@@ -3119,7 +3136,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       <Folder name="P-03">
         <Composition
           id="Video-010-binance-p03-a01-execution-report-sql"
-          component={Animation257P03A01ExecutionReportSql}
+          component={Animation258P03A01ExecutionReportSql}
           width={2560}
           height={1440}
           fps={30}
@@ -3130,7 +3147,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
       <Folder name="P-04">
         <Composition
           id="Video-010-binance-p04-a01-order-state-graph"
-          component={Animation258P04A01OrderStateGraph}
+          component={Animation259P04A01OrderStateGraph}
           width={2560}
           height={1440}
           fps={30}
@@ -3139,11 +3156,31 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-010-binance-p04-a02-create-order-sql"
-          component={Animation259P04A02CreateOrderSql}
+          component={Animation260P04A02CreateOrderSql}
           width={2560}
           height={1440}
           fps={30}
           durationInFrames={366}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+        <Composition
+          id="Video-010-binance-p04-a03-robinhood-sharding"
+          component={Animation261P04A03RobinhoodSharding}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={549}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+      </Folder>
+      <Folder name="P-05">
+        <Composition
+          id="Video-010-binance-p05-a01-portfolio-value"
+          component={Animation262P05A01PortfolioValue}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={570}
           defaultProps={{"previewBackground":"photo","withAudio":true}}
         />
       </Folder>
