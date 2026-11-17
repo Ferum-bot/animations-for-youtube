@@ -1,0 +1,8 @@
+{
+  "p01-a01-broker-schema-start": 1393060,
+  "p02-a01-connection-capacity-start": 2181380,
+  "connection-articles": 2202320,
+  "p03-a01-execution-report-sql-start": 2879520,
+  "p04-a01-order-state-graph-start": 3209820,
+  "p04-a02-create-order-sql-start": 3301760
+}

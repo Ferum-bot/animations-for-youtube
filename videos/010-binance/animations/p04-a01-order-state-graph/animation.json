@@ -1,0 +1,13 @@
+{
+  "id": "p04-a01-order-state-graph",
+  "part": 4,
+  "order": 1,
+  "title": "Граф состояний заявки",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 47000,
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  }
+}

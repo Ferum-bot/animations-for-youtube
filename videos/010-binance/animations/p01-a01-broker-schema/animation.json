@@ -1,0 +1,13 @@
+{
+  "id": "p01-a01-broker-schema",
+  "part": 1,
+  "order": 1,
+  "title": "База брокера",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 93000,
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  }
+}

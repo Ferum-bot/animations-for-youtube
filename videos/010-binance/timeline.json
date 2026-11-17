@@ -1,0 +1,57 @@
+[
+  {
+    "id": "show-p01-a01-broker-schema",
+    "animation": "p01-a01-broker-schema",
+    "anchor": "p01-a01-broker-schema-start",
+    "offsetMs": 0,
+    "durationMs": 93000,
+    "props": {
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p02-a01-connection-capacity",
+    "animation": "p02-a01-connection-capacity",
+    "anchor": "p02-a01-connection-capacity-start",
+    "offsetMs": 0,
+    "durationMs": 26300,
+    "props": {
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p03-a01-execution-report-sql",
+    "animation": "p03-a01-execution-report-sql",
+    "anchor": "p03-a01-execution-report-sql-start",
+    "offsetMs": 0,
+    "durationMs": 41000,
+    "props": {
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p04-a01-order-state-graph",
+    "animation": "p04-a01-order-state-graph",
+    "anchor": "p04-a01-order-state-graph-start",
+    "offsetMs": 0,
+    "durationMs": 47000,
+    "props": {
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p04-a02-create-order-sql",
+    "animation": "p04-a02-create-order-sql",
+    "anchor": "p04-a02-create-order-sql-start",
+    "offsetMs": 0,
+    "durationMs": 12200,
+    "props": {
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  }
+]

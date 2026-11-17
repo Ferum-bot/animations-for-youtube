@@ -258,6 +258,11 @@ import Animation251P03A06OctoBenchmark from '../../../../videos/009-cassandra-sc
 import Animation252P03A07DiscordMigration from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a07-discord-migration/Composition';
 import Animation253P03A08CassandraJava from '../../../../videos/009-cassandra-scylladb/scylla-shorts/p03-a08-cassandra-java/Composition';
 import Animation254P00A02TiktokEndCard from '../../../../videos/009-cassandra-scylladb/tictok/p00-a02-tiktok-end-card/Composition';
+import Animation255P01A01BrokerSchema from '../../../../videos/010-binance/animations/p01-a01-broker-schema/Composition';
+import Animation256P02A01ConnectionCapacity from '../../../../videos/010-binance/animations/p02-a01-connection-capacity/Composition';
+import Animation257P03A01ExecutionReportSql from '../../../../videos/010-binance/animations/p03-a01-execution-report-sql/Composition';
+import Animation258P04A01OrderStateGraph from '../../../../videos/010-binance/animations/p04-a01-order-state-graph/Composition';
+import Animation259P04A02CreateOrderSql from '../../../../videos/010-binance/animations/p04-a02-create-order-sql/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -555,6 +560,23 @@ const V009CassandraScylladbOverlay: React.FC = () => (
     audio={null}
     components={V009CassandraScylladbComponents}
     timeline={[{"id":"show-p00-a01-intro-sources","animation":"p00-a01-intro-sources","anchor":"intro-start","offsetMs":0,"durationMs":41700,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a00-chapter-history","animation":"p01-a00-chapter-history","anchor":"chapter-history","offsetMs":0,"durationMs":4500,"props":{"themeId":"graphite","motionProfile":"calm"}},{"id":"show-p01-a01-history-origins","animation":"p01-a01-history-origins","anchor":"chapter-history","offsetMs":4500,"durationMs":49866.666667,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a02-history-index","animation":"p01-a02-history-index","anchor":"chapter-history","offsetMs":54366.666667,"durationMs":117300,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a03-history-consistency","animation":"p01-a03-history-consistency","anchor":"chapter-history","offsetMs":196800.000333,"durationMs":55866.666667,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a04-history-launch","animation":"p01-a04-history-launch","anchor":"chapter-history","offsetMs":252666.667,"durationMs":26200,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a00-chapter-architecture","animation":"p02-a00-chapter-architecture","anchor":"chapter-architecture","offsetMs":4500,"durationMs":4500,"props":{"themeId":"graphite","motionProfile":"calm"}},{"id":"show-p02-a01-postgres-replication","animation":"p02-a01-postgres-replication","anchor":"chapter-architecture","offsetMs":9000,"durationMs":123300,"props":{"withAudio":false}},{"id":"show-p02-a02-write-sharding","animation":"p02-a02-write-sharding","anchor":"chapter-architecture","offsetMs":132300,"durationMs":102000,"props":{"withAudio":false}},{"id":"show-p02-a03-chat-partition","animation":"p02-a03-chat-partition","anchor":"chapter-architecture","offsetMs":234300,"durationMs":115000,"props":{"withAudio":false}},{"id":"show-p02-a04-replica-quorum","animation":"p02-a04-replica-quorum","anchor":"chapter-architecture","offsetMs":349300,"durationMs":173000,"props":{"withAudio":false}},{"id":"show-p02-a05-replica-repair","animation":"p02-a05-replica-repair","anchor":"chapter-architecture","offsetMs":522300,"durationMs":107666.667,"props":{"withAudio":false}},{"id":"show-p02-a06-storage-and-workload","animation":"p02-a06-storage-and-workload","anchor":"chapter-architecture","offsetMs":629966.667,"durationMs":157233.333,"props":{"withAudio":false}},{"id":"show-p03-a00-chapter-scylladb","animation":"p03-a00-chapter-scylladb","anchor":"chapter-scylladb","offsetMs":9000,"durationMs":4500,"props":{"themeId":"graphite","motionProfile":"calm"}},{"id":"show-p03-a02-scylla-origins-engine","animation":"p03-a02-scylla-origins-engine","anchor":"chapter-scylladb","offsetMs":114133.333,"durationMs":190100,"props":{"withAudio":false}},{"id":"show-p03-a03-scylla-benchmarks","animation":"p03-a03-scylla-benchmarks","anchor":"chapter-scylladb","offsetMs":313100,"durationMs":107000,"props":{"withAudio":false}},{"id":"show-p04-a00-chapter-choice","animation":"p04-a00-chapter-choice","anchor":"chapter-choice","offsetMs":0,"durationMs":4500,"props":{"themeId":"graphite","motionProfile":"calm"}},{"id":"show-p04-a02-choice-in-production","animation":"p04-a02-choice-in-production","anchor":"chapter-choice","offsetMs":41233.334,"durationMs":105166.667,"props":{"withAudio":false}}]}
+  />
+);
+
+const V010BinanceComponents: Record<string, TimelineComponent> = {
+  "p01-a01-broker-schema": Animation255P01A01BrokerSchema,
+  "p02-a01-connection-capacity": Animation256P02A01ConnectionCapacity,
+  "p03-a01-execution-report-sql": Animation257P03A01ExecutionReportSql,
+  "p04-a01-order-state-graph": Animation258P04A01OrderStateGraph,
+  "p04-a02-create-order-sql": Animation259P04A02CreateOrderSql,
+};
+
+const V010BinanceOverlay: React.FC = () => (
+  <TimelineOverlay
+    anchors={{"p01-a01-broker-schema-start":1393060,"p02-a01-connection-capacity-start":2181380,"connection-articles":2202320,"p03-a01-execution-report-sql-start":2879520,"p04-a01-order-state-graph-start":3209820,"p04-a02-create-order-sql-start":3301760}}
+    audio={null}
+    components={V010BinanceComponents}
+    timeline={[{"id":"show-p01-a01-broker-schema","animation":"p01-a01-broker-schema","anchor":"p01-a01-broker-schema-start","offsetMs":0,"durationMs":93000,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a01-connection-capacity","animation":"p02-a01-connection-capacity","anchor":"p02-a01-connection-capacity-start","offsetMs":0,"durationMs":26300,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p03-a01-execution-report-sql","animation":"p03-a01-execution-report-sql","anchor":"p03-a01-execution-report-sql-start","offsetMs":0,"durationMs":41000,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p04-a01-order-state-graph","animation":"p04-a01-order-state-graph","anchor":"p04-a01-order-state-graph-start","offsetMs":0,"durationMs":47000,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p04-a02-create-order-sql","animation":"p04-a02-create-order-sql","anchor":"p04-a02-create-order-sql-start","offsetMs":0,"durationMs":12200,"props":{"previewBackground":"transparent","withAudio":false}}]}
   />
 );
 
@@ -3069,6 +3091,69 @@ export const GeneratedVideoCompositions: React.FC = () => (
         height={1440}
         fps={30}
         durationInFrames={54952}
+      />
+    </Folder>
+    <Folder name="V-010-binance">
+      <Folder name="P-01">
+        <Composition
+          id="Video-010-binance-p01-a01-broker-schema"
+          component={Animation255P01A01BrokerSchema}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={2790}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+      </Folder>
+      <Folder name="P-02">
+        <Composition
+          id="Video-010-binance-p02-a01-connection-capacity"
+          component={Animation256P02A01ConnectionCapacity}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={789}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+      </Folder>
+      <Folder name="P-03">
+        <Composition
+          id="Video-010-binance-p03-a01-execution-report-sql"
+          component={Animation257P03A01ExecutionReportSql}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1230}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+      </Folder>
+      <Folder name="P-04">
+        <Composition
+          id="Video-010-binance-p04-a01-order-state-graph"
+          component={Animation258P04A01OrderStateGraph}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1410}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+        <Composition
+          id="Video-010-binance-p04-a02-create-order-sql"
+          component={Animation259P04A02CreateOrderSql}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={366}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+      </Folder>
+      <Composition
+        id="Video-010-binance-Overlay"
+        component={V010BinanceOverlay}
+        width={2560}
+        height={1440}
+        fps={30}
+        durationInFrames={118425}
       />
     </Folder>
   </>

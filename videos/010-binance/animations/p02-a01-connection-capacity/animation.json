@@ -1,0 +1,13 @@
+{
+  "id": "p02-a01-connection-capacity",
+  "part": 2,
+  "order": 1,
+  "title": "Соединения и источники",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 26300,
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  }
+}

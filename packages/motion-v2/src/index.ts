@@ -9,3 +9,6 @@ export {PresenterPreview} from './PresenterPreview';
 export type {PreviewProps, PreviewMedia} from './PresenterPreview';
 export {GeometryChapterDivider} from './GeometryChapterDivider';
 export type {ChapterDividerProps, ChapterTitle, SourceRect} from './types';
+export {CodeEditor, editorLayout, type CodeLine} from './code-editor/CodeEditor';
+export {codeTheme} from './code-editor/code-theme';
+export {tokenizeCodeLine, type CodeLanguage} from './code-editor/code-syntax';

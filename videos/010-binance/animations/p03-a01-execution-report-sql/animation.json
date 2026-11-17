@@ -1,0 +1,13 @@
+{
+  "id": "p03-a01-execution-report-sql",
+  "part": 3,
+  "order": 1,
+  "title": "SQL обработки исполнения",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 41000,
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  }
+}

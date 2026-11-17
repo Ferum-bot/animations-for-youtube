@@ -1,0 +1,13 @@
+{
+  "id": "p04-a02-create-order-sql",
+  "part": 4,
+  "order": 2,
+  "title": "SQL создания заявки",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 12200,
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  }
+}
