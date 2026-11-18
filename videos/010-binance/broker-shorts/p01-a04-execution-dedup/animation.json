@@ -1,0 +1,12 @@
+{
+  "id": "p01-a04-execution-dedup",
+  "part": 1,
+  "order": 4,
+  "title": "Один отчёт пришёл дважды. У клиента 200 акций?",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 31100,
+  "defaultProps": {},
+  "studioFolder": "Shorts"
+}

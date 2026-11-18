@@ -266,6 +266,26 @@ import Animation259P04A01OrderStateGraph from '../../../../videos/010-binance/an
 import Animation260P04A02CreateOrderSql from '../../../../videos/010-binance/animations/p04-a02-create-order-sql/Composition';
 import Animation261P04A03RobinhoodSharding from '../../../../videos/010-binance/animations/p04-a03-robinhood-sharding/Composition';
 import Animation262P05A01PortfolioValue from '../../../../videos/010-binance/animations/p05-a01-portfolio-value/Composition';
+import Animation263P01A01DoubleBuy from '../../../../videos/010-binance/broker-shorts/p01-a01-double-buy/Composition';
+import Animation264P01A02CancelRace from '../../../../videos/010-binance/broker-shorts/p01-a02-cancel-race/Composition';
+import Animation265P01A03PriceFanout from '../../../../videos/010-binance/broker-shorts/p01-a03-price-fanout/Composition';
+import Animation266P01A04ExecutionDedup from '../../../../videos/010-binance/broker-shorts/p01-a04-execution-dedup/Composition';
+import Animation267P01A05PortfolioTail from '../../../../videos/010-binance/broker-shorts/p01-a05-portfolio-tail/Composition';
+import Animation268P01A06InitialSnapshot from '../../../../videos/010-binance/broker-shorts/p01-a06-initial-snapshot/Composition';
+import Animation269P01A07ReconnectJitter from '../../../../videos/010-binance/broker-shorts/p01-a07-reconnect-jitter/Composition';
+import Animation270P01A08UnknownOrder from '../../../../videos/010-binance/broker-shorts/p01-a08-unknown-order/Composition';
+import Animation271P01A09PostgresShards from '../../../../videos/010-binance/broker-shorts/p01-a09-postgres-shards/Composition';
+import Animation272P01A10BalanceLedger from '../../../../videos/010-binance/broker-shorts/p01-a10-balance-ledger/Composition';
+import Animation273P01A01DoubleBuyTiktok from '../../../../videos/010-binance/tictok/p01-a01-double-buy-tiktok/Composition';
+import Animation274P01A02CancelRaceTiktok from '../../../../videos/010-binance/tictok/p01-a02-cancel-race-tiktok/Composition';
+import Animation275P01A03PriceFanoutTiktok from '../../../../videos/010-binance/tictok/p01-a03-price-fanout-tiktok/Composition';
+import Animation276P01A04ExecutionDedupTiktok from '../../../../videos/010-binance/tictok/p01-a04-execution-dedup-tiktok/Composition';
+import Animation277P01A05PortfolioTailTiktok from '../../../../videos/010-binance/tictok/p01-a05-portfolio-tail-tiktok/Composition';
+import Animation278P01A06InitialSnapshotTiktok from '../../../../videos/010-binance/tictok/p01-a06-initial-snapshot-tiktok/Composition';
+import Animation279P01A07ReconnectJitterTiktok from '../../../../videos/010-binance/tictok/p01-a07-reconnect-jitter-tiktok/Composition';
+import Animation280P01A08UnknownOrderTiktok from '../../../../videos/010-binance/tictok/p01-a08-unknown-order-tiktok/Composition';
+import Animation281P01A09PostgresShardsTiktok from '../../../../videos/010-binance/tictok/p01-a09-postgres-shards-tiktok/Composition';
+import Animation282P01A10BalanceLedgerTiktok from '../../../../videos/010-binance/tictok/p01-a10-balance-ledger-tiktok/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -3182,6 +3202,190 @@ export const GeneratedVideoCompositions: React.FC = () => (
           fps={30}
           durationInFrames={570}
           defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+      </Folder>
+      <Folder name="Shorts">
+        <Composition
+          id="Video-010-binance-p01-a01-double-buy"
+          component={Animation263P01A01DoubleBuy}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1083}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-010-binance-p01-a02-cancel-race"
+          component={Animation264P01A02CancelRace}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={813}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-010-binance-p01-a03-price-fanout"
+          component={Animation265P01A03PriceFanout}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1040}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-010-binance-p01-a04-execution-dedup"
+          component={Animation266P01A04ExecutionDedup}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={933}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-010-binance-p01-a05-portfolio-tail"
+          component={Animation267P01A05PortfolioTail}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={876}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-010-binance-p01-a06-initial-snapshot"
+          component={Animation268P01A06InitialSnapshot}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={859}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-010-binance-p01-a07-reconnect-jitter"
+          component={Animation269P01A07ReconnectJitter}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={586}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-010-binance-p01-a08-unknown-order"
+          component={Animation270P01A08UnknownOrder}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={898}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-010-binance-p01-a09-postgres-shards"
+          component={Animation271P01A09PostgresShards}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1132}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-010-binance-p01-a10-balance-ledger"
+          component={Animation272P01A10BalanceLedger}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={996}
+          defaultProps={{}}
+        />
+      </Folder>
+      <Folder name="TikTok">
+        <Composition
+          id="Video-010-binance-p01-a01-double-buy-tiktok"
+          component={Animation273P01A01DoubleBuyTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1083}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-010-binance-p01-a02-cancel-race-tiktok"
+          component={Animation274P01A02CancelRaceTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={813}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-010-binance-p01-a03-price-fanout-tiktok"
+          component={Animation275P01A03PriceFanoutTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1040}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-010-binance-p01-a04-execution-dedup-tiktok"
+          component={Animation276P01A04ExecutionDedupTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={933}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-010-binance-p01-a05-portfolio-tail-tiktok"
+          component={Animation277P01A05PortfolioTailTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={876}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-010-binance-p01-a06-initial-snapshot-tiktok"
+          component={Animation278P01A06InitialSnapshotTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={859}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-010-binance-p01-a07-reconnect-jitter-tiktok"
+          component={Animation279P01A07ReconnectJitterTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={586}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-010-binance-p01-a08-unknown-order-tiktok"
+          component={Animation280P01A08UnknownOrderTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={898}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-010-binance-p01-a09-postgres-shards-tiktok"
+          component={Animation281P01A09PostgresShardsTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={1132}
+          defaultProps={{}}
+        />
+        <Composition
+          id="Video-010-binance-p01-a10-balance-ledger-tiktok"
+          component={Animation282P01A10BalanceLedgerTiktok}
+          width={1440}
+          height={2560}
+          fps={30}
+          durationInFrames={996}
+          defaultProps={{}}
         />
       </Folder>
       <Composition

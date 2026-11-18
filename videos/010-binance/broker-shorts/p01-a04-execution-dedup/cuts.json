@@ -1,0 +1,27 @@
+[
+  {
+    "cameraMs": 2790233.334,
+    "voiceMs": 2828966.667,
+    "lengthMs": 6566.667
+  },
+  {
+    "cameraMs": 2803933.334,
+    "voiceMs": 2842666.667,
+    "lengthMs": 10000.0
+  },
+  {
+    "cameraMs": 2817233.334,
+    "voiceMs": 2855966.667,
+    "lengthMs": 2366.667
+  },
+  {
+    "cameraMs": 2822633.334,
+    "voiceMs": 2861366.667,
+    "lengthMs": 5200.0
+  },
+  {
+    "cameraMs": 2849300.0,
+    "voiceMs": 2888033.333,
+    "lengthMs": 2966.667
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "id": "p01-a05-portfolio-tail-tiktok",
+  "part": 1,
+  "order": 5,
+  "title": "Почему на графике портфеля двигается только последняя точка?",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 29200,
+  "defaultProps": {},
+  "studioFolder": "TikTok"
+}

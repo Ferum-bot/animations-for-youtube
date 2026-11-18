@@ -1,0 +1,12 @@
+{
+  "id": "p01-a07-reconnect-jitter",
+  "part": 1,
+  "order": 7,
+  "title": "Сервер поднялся. Почему клиенты снова его кладут?",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 19533,
+  "defaultProps": {},
+  "studioFolder": "Shorts"
+}

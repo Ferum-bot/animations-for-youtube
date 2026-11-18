@@ -1,0 +1,32 @@
+[
+  {
+    "cameraMs": 3810800.0,
+    "voiceMs": 3804433.333,
+    "lengthMs": 1666.667
+  },
+  {
+    "cameraMs": 3818033.334,
+    "voiceMs": 3811666.667,
+    "lengthMs": 9466.667
+  },
+  {
+    "cameraMs": 3858866.667,
+    "voiceMs": 3852500.0,
+    "lengthMs": 3033.333
+  },
+  {
+    "cameraMs": 3863766.667,
+    "voiceMs": 3857400.0,
+    "lengthMs": 2600.0
+  },
+  {
+    "cameraMs": 3875400.0,
+    "voiceMs": 3869033.333,
+    "lengthMs": 5900.0
+  },
+  {
+    "cameraMs": 3885366.667,
+    "voiceMs": 3879000.0,
+    "lengthMs": 2533.333
+  }
+]

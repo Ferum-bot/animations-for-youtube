@@ -1,0 +1,12 @@
+{
+  "id": "p01-a08-unknown-order",
+  "part": 1,
+  "order": 8,
+  "title": "Нажал «Купить», получил таймаут. Где заявка?",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 29933,
+  "defaultProps": {},
+  "studioFolder": "Shorts"
+}

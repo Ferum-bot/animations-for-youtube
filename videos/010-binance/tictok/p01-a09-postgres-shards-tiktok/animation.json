@@ -1,0 +1,12 @@
+{
+  "id": "p01-a09-postgres-shards-tiktok",
+  "part": 1,
+  "order": 9,
+  "title": "Как Robinhood остался на PostgreSQL?",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 37733,
+  "defaultProps": {},
+  "studioFolder": "TikTok"
+}

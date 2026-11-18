@@ -1,0 +1,12 @@
+{
+  "id": "p01-a10-balance-ledger",
+  "part": 1,
+  "order": 10,
+  "title": "Что теряется, когда баланс просто перезаписывают?",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 33200,
+  "defaultProps": {},
+  "studioFolder": "Shorts"
+}

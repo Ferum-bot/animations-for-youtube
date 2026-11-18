@@ -1,0 +1,12 @@
+{
+  "id": "p01-a01-double-buy-tiktok",
+  "part": 1,
+  "order": 1,
+  "title": "На счёте $1000. Откуда заявки на $1600?",
+  "kind": "2d",
+  "designSystem": "v2",
+  "shortHeight": 2560,
+  "durationMs": 36100,
+  "defaultProps": {},
+  "studioFolder": "TikTok"
+}
