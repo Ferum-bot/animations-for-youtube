@@ -197,6 +197,105 @@
     "props": {}
   },
   {
+    "id": "show-p04-a01-slow-client",
+    "animation": "p04-a01-slow-client",
+    "anchor": "slow-client-edit",
+    "offsetMs": 0,
+    "durationMs": 39420,
+    "props": {
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p04-a02-connection-memory",
+    "animation": "p04-a02-connection-memory",
+    "anchor": "connection-memory-edit",
+    "offsetMs": 0,
+    "durationMs": 67160,
+    "props": {
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p04-a03-idle-footprint",
+    "animation": "p04-a03-idle-footprint",
+    "anchor": "idle-footprint-edit",
+    "offsetMs": 0,
+    "durationMs": 4080,
+    "props": {
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p04-a04-memory-publications",
+    "animation": "p04-a04-memory-publications",
+    "anchor": "memory-publications-edit",
+    "offsetMs": 0,
+    "durationMs": 43200,
+    "props": {
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p04-a05-million-connections",
+    "animation": "p04-a05-million-connections",
+    "anchor": "million-connections-edit",
+    "offsetMs": 0,
+    "durationMs": 57480,
+    "props": {
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p04-a06-browser-backpressure",
+    "animation": "p04-a06-browser-backpressure",
+    "anchor": "browser-backpressure-edit",
+    "offsetMs": 0,
+    "durationMs": 26420,
+    "props": {
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p04-a07-websocket-stream",
+    "animation": "p04-a07-websocket-stream",
+    "anchor": "websocket-stream-edit",
+    "offsetMs": 0,
+    "durationMs": 15400,
+    "props": {
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p04-a08-library-buffers",
+    "animation": "p04-a08-library-buffers",
+    "anchor": "library-buffers-edit",
+    "offsetMs": 0,
+    "durationMs": 16920,
+    "props": {
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  },
+  {
+    "id": "show-p04-a09-incident-reports",
+    "animation": "p04-a09-incident-reports",
+    "anchor": "incident-reports-edit",
+    "offsetMs": 0,
+    "durationMs": 11820,
+    "props": {
+      "previewBackground": "transparent",
+      "withAudio": false
+    }
+  },
+  {
     "id": "show-chapter-summary",
     "animation": "p05-a00-chapter-summary",
     "anchor": "chapter-summary",

@@ -1,0 +1,14 @@
+{
+  "id": "p04-a09-incident-reports",
+  "part": 4,
+  "order": 9,
+  "title": "Разборы инцидентов и проблемы в библиотеках",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 11820,
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  },
+  "studioFolder": "P-04-Memory"
+}

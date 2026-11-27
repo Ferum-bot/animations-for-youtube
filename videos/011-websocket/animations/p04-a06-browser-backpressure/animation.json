@@ -1,0 +1,14 @@
+{
+  "id": "p04-a06-browser-backpressure",
+  "part": 4,
+  "order": 6,
+  "title": "Backpressure в браузере · send() и bufferedAmount",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 26420,
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  },
+  "studioFolder": "P-04-Memory"
+}

@@ -305,7 +305,16 @@ import Animation298P03A05CloudflareWaf from '../../../../videos/011-websocket/an
 import Animation299P03A06BrowserAuth from '../../../../videos/011-websocket/animations/p03-a06-browser-auth/Composition';
 import Animation300P03A07AccessChecks from '../../../../videos/011-websocket/animations/p03-a07-access-checks/Composition';
 import Animation301P04A00ChapterSlowClient from '../../../../videos/011-websocket/animations/p04-a00-chapter-slow-client/Composition';
-import Animation302P05A00ChapterSummary from '../../../../videos/011-websocket/animations/p05-a00-chapter-summary/Composition';
+import Animation302P04A01SlowClient from '../../../../videos/011-websocket/animations/p04-a01-slow-client/Composition';
+import Animation303P04A02ConnectionMemory from '../../../../videos/011-websocket/animations/p04-a02-connection-memory/Composition';
+import Animation304P04A03IdleFootprint from '../../../../videos/011-websocket/animations/p04-a03-idle-footprint/Composition';
+import Animation305P04A04MemoryPublications from '../../../../videos/011-websocket/animations/p04-a04-memory-publications/Composition';
+import Animation306P04A05MillionConnections from '../../../../videos/011-websocket/animations/p04-a05-million-connections/Composition';
+import Animation307P04A06BrowserBackpressure from '../../../../videos/011-websocket/animations/p04-a06-browser-backpressure/Composition';
+import Animation308P04A07WebsocketStream from '../../../../videos/011-websocket/animations/p04-a07-websocket-stream/Composition';
+import Animation309P04A08LibraryBuffers from '../../../../videos/011-websocket/animations/p04-a08-library-buffers/Composition';
+import Animation310P04A09IncidentReports from '../../../../videos/011-websocket/animations/p04-a09-incident-reports/Composition';
+import Animation311P05A00ChapterSummary from '../../../../videos/011-websocket/animations/p05-a00-chapter-summary/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -646,15 +655,24 @@ const V011WebsocketComponents: Record<string, TimelineComponent> = {
   "p03-a06-browser-auth": Animation299P03A06BrowserAuth,
   "p03-a07-access-checks": Animation300P03A07AccessChecks,
   "p04-a00-chapter-slow-client": Animation301P04A00ChapterSlowClient,
-  "p05-a00-chapter-summary": Animation302P05A00ChapterSummary,
+  "p04-a01-slow-client": Animation302P04A01SlowClient,
+  "p04-a02-connection-memory": Animation303P04A02ConnectionMemory,
+  "p04-a03-idle-footprint": Animation304P04A03IdleFootprint,
+  "p04-a04-memory-publications": Animation305P04A04MemoryPublications,
+  "p04-a05-million-connections": Animation306P04A05MillionConnections,
+  "p04-a06-browser-backpressure": Animation307P04A06BrowserBackpressure,
+  "p04-a07-websocket-stream": Animation308P04A07WebsocketStream,
+  "p04-a08-library-buffers": Animation309P04A08LibraryBuffers,
+  "p04-a09-incident-reports": Animation310P04A09IncidentReports,
+  "p05-a00-chapter-summary": Animation311P05A00ChapterSummary,
 };
 
 const V011WebsocketOverlay: React.FC = () => (
   <TimelineOverlay
-    anchors={{"chapter-reconnect":50940,"chapter-proxies":269920,"chapter-access":605040,"chapter-slow-client":796660,"chapter-summary":1130240,"reconnect-sources-edit":86000,"p01-a02-reconnect-treatment-start":171800,"network-route-edit":314000,"connection-resources-edit":366000,"tcp-link-types-edit":383000,"proxy-comparison-edit":451500,"timer-reference-edit":496060,"handshake-edit":524000,"rfc-auth-edit":650600,"access-publications-edit":674000,"kubernetes-upgrade-edit":689000,"clawd-bet-edit":706880,"cloudflare-waf-edit":726340,"browser-auth-edit":743000,"access-checks-edit":790560}}
+    anchors={{"chapter-reconnect":50940,"chapter-proxies":269920,"chapter-access":605040,"chapter-slow-client":796660,"chapter-summary":1130240,"reconnect-sources-edit":86000,"p01-a02-reconnect-treatment-start":171800,"network-route-edit":314000,"connection-resources-edit":366000,"tcp-link-types-edit":383000,"proxy-comparison-edit":451500,"timer-reference-edit":496060,"handshake-edit":524000,"rfc-auth-edit":650600,"access-publications-edit":674000,"kubernetes-upgrade-edit":689000,"clawd-bet-edit":706880,"cloudflare-waf-edit":726340,"browser-auth-edit":743000,"access-checks-edit":790560,"slow-client-edit":836080,"connection-memory-edit":883160,"idle-footprint-edit":954340,"memory-publications-edit":963840,"million-connections-edit":1007820,"browser-backpressure-edit":1065940,"websocket-stream-edit":1093060,"library-buffers-edit":1109140,"incident-reports-edit":1134000}}
     audio={null}
     components={V011WebsocketComponents}
-    timeline={[{"id":"show-chapter-reconnect","animation":"p01-a00-chapter-reconnect","anchor":"chapter-reconnect","offsetMs":0,"durationMs":4000,"props":{}},{"id":"show-p01-a01-reconnect-sources","animation":"p01-a01-reconnect-sources","anchor":"reconnect-sources-edit","offsetMs":0,"durationMs":83000,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a02-reconnect-treatment","animation":"p01-a02-reconnect-treatment","anchor":"p01-a02-reconnect-treatment-start","offsetMs":4000,"durationMs":97900,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-chapter-proxies","animation":"p02-a00-chapter-proxies","anchor":"chapter-proxies","offsetMs":4000,"durationMs":4000,"props":{}},{"id":"show-p02-a01-network-route","animation":"p02-a01-network-route","anchor":"network-route-edit","offsetMs":0,"durationMs":49200,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a02-connection-resources","animation":"p02-a02-connection-resources","anchor":"connection-resources-edit","offsetMs":0,"durationMs":16700,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a03-tcp-link-types","animation":"p02-a03-tcp-link-types","anchor":"tcp-link-types-edit","offsetMs":0,"durationMs":68500,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a04-proxy-comparison","animation":"p02-a04-proxy-comparison","anchor":"proxy-comparison-edit","offsetMs":0,"durationMs":26340,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a05-timer-reference","animation":"p02-a05-timer-reference","anchor":"timer-reference-edit","offsetMs":0,"durationMs":22940,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a06-handshake","animation":"p02-a06-handshake","anchor":"handshake-edit","offsetMs":0,"durationMs":53000,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-chapter-access","animation":"p03-a00-chapter-access","anchor":"chapter-access","offsetMs":8000,"durationMs":4000,"props":{}},{"id":"show-p03-a01-rfc-auth","animation":"p03-a01-rfc-auth","anchor":"rfc-auth-edit","offsetMs":0,"durationMs":5000,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p03-a02-access-publications","animation":"p03-a02-access-publications","anchor":"access-publications-edit","offsetMs":0,"durationMs":15000,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p03-a03-kubernetes-upgrade","animation":"p03-a03-kubernetes-upgrade","anchor":"kubernetes-upgrade-edit","offsetMs":0,"durationMs":17200,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p03-a04-clawd-wave","animation":"p03-a04-clawd-wave","anchor":"clawd-bet-edit","offsetMs":0,"durationMs":6400,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p03-a05-cloudflare-waf","animation":"p03-a05-cloudflare-waf","anchor":"cloudflare-waf-edit","offsetMs":0,"durationMs":16060,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p03-a06-browser-auth","animation":"p03-a06-browser-auth","anchor":"browser-auth-edit","offsetMs":0,"durationMs":46560,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p03-a07-access-checks","animation":"p03-a07-access-checks","anchor":"access-checks-edit","offsetMs":0,"durationMs":17660,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-chapter-slow-client","animation":"p04-a00-chapter-slow-client","anchor":"chapter-slow-client","offsetMs":12000,"durationMs":4000,"props":{}},{"id":"show-chapter-summary","animation":"p05-a00-chapter-summary","anchor":"chapter-summary","offsetMs":16000,"durationMs":4000,"props":{}}]}
+    timeline={[{"id":"show-chapter-reconnect","animation":"p01-a00-chapter-reconnect","anchor":"chapter-reconnect","offsetMs":0,"durationMs":4000,"props":{}},{"id":"show-p01-a01-reconnect-sources","animation":"p01-a01-reconnect-sources","anchor":"reconnect-sources-edit","offsetMs":0,"durationMs":83000,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a02-reconnect-treatment","animation":"p01-a02-reconnect-treatment","anchor":"p01-a02-reconnect-treatment-start","offsetMs":4000,"durationMs":97900,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-chapter-proxies","animation":"p02-a00-chapter-proxies","anchor":"chapter-proxies","offsetMs":4000,"durationMs":4000,"props":{}},{"id":"show-p02-a01-network-route","animation":"p02-a01-network-route","anchor":"network-route-edit","offsetMs":0,"durationMs":49200,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a02-connection-resources","animation":"p02-a02-connection-resources","anchor":"connection-resources-edit","offsetMs":0,"durationMs":16700,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a03-tcp-link-types","animation":"p02-a03-tcp-link-types","anchor":"tcp-link-types-edit","offsetMs":0,"durationMs":68500,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a04-proxy-comparison","animation":"p02-a04-proxy-comparison","anchor":"proxy-comparison-edit","offsetMs":0,"durationMs":26340,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a05-timer-reference","animation":"p02-a05-timer-reference","anchor":"timer-reference-edit","offsetMs":0,"durationMs":22940,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a06-handshake","animation":"p02-a06-handshake","anchor":"handshake-edit","offsetMs":0,"durationMs":53000,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-chapter-access","animation":"p03-a00-chapter-access","anchor":"chapter-access","offsetMs":8000,"durationMs":4000,"props":{}},{"id":"show-p03-a01-rfc-auth","animation":"p03-a01-rfc-auth","anchor":"rfc-auth-edit","offsetMs":0,"durationMs":5000,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p03-a02-access-publications","animation":"p03-a02-access-publications","anchor":"access-publications-edit","offsetMs":0,"durationMs":15000,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p03-a03-kubernetes-upgrade","animation":"p03-a03-kubernetes-upgrade","anchor":"kubernetes-upgrade-edit","offsetMs":0,"durationMs":17200,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p03-a04-clawd-wave","animation":"p03-a04-clawd-wave","anchor":"clawd-bet-edit","offsetMs":0,"durationMs":6400,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p03-a05-cloudflare-waf","animation":"p03-a05-cloudflare-waf","anchor":"cloudflare-waf-edit","offsetMs":0,"durationMs":16060,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p03-a06-browser-auth","animation":"p03-a06-browser-auth","anchor":"browser-auth-edit","offsetMs":0,"durationMs":46560,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p03-a07-access-checks","animation":"p03-a07-access-checks","anchor":"access-checks-edit","offsetMs":0,"durationMs":17660,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-chapter-slow-client","animation":"p04-a00-chapter-slow-client","anchor":"chapter-slow-client","offsetMs":12000,"durationMs":4000,"props":{}},{"id":"show-p04-a01-slow-client","animation":"p04-a01-slow-client","anchor":"slow-client-edit","offsetMs":0,"durationMs":39420,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p04-a02-connection-memory","animation":"p04-a02-connection-memory","anchor":"connection-memory-edit","offsetMs":0,"durationMs":67160,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p04-a03-idle-footprint","animation":"p04-a03-idle-footprint","anchor":"idle-footprint-edit","offsetMs":0,"durationMs":4080,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p04-a04-memory-publications","animation":"p04-a04-memory-publications","anchor":"memory-publications-edit","offsetMs":0,"durationMs":43200,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p04-a05-million-connections","animation":"p04-a05-million-connections","anchor":"million-connections-edit","offsetMs":0,"durationMs":57480,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p04-a06-browser-backpressure","animation":"p04-a06-browser-backpressure","anchor":"browser-backpressure-edit","offsetMs":0,"durationMs":26420,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p04-a07-websocket-stream","animation":"p04-a07-websocket-stream","anchor":"websocket-stream-edit","offsetMs":0,"durationMs":15400,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p04-a08-library-buffers","animation":"p04-a08-library-buffers","anchor":"library-buffers-edit","offsetMs":0,"durationMs":16920,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p04-a09-incident-reports","animation":"p04-a09-incident-reports","anchor":"incident-reports-edit","offsetMs":0,"durationMs":11820,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-chapter-summary","animation":"p05-a00-chapter-summary","anchor":"chapter-summary","offsetMs":16000,"durationMs":4000,"props":{}}]}
   />
 );
 
@@ -3489,7 +3507,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-011-websocket-p05-a00-chapter-summary"
-          component={Animation302P05A00ChapterSummary}
+          component={Animation311P05A00ChapterSummary}
           width={2560}
           height={1440}
           fps={30}
@@ -3635,6 +3653,89 @@ export const GeneratedVideoCompositions: React.FC = () => (
           height={1440}
           fps={30}
           durationInFrames={530}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+      </Folder>
+      <Folder name="P-04-Memory">
+        <Composition
+          id="Video-011-websocket-p04-a01-slow-client"
+          component={Animation302P04A01SlowClient}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1183}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+        <Composition
+          id="Video-011-websocket-p04-a02-connection-memory"
+          component={Animation303P04A02ConnectionMemory}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={2015}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+        <Composition
+          id="Video-011-websocket-p04-a03-idle-footprint"
+          component={Animation304P04A03IdleFootprint}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={122}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+        <Composition
+          id="Video-011-websocket-p04-a04-memory-publications"
+          component={Animation305P04A04MemoryPublications}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1296}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+        <Composition
+          id="Video-011-websocket-p04-a05-million-connections"
+          component={Animation306P04A05MillionConnections}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1724}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+        <Composition
+          id="Video-011-websocket-p04-a06-browser-backpressure"
+          component={Animation307P04A06BrowserBackpressure}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={793}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+        <Composition
+          id="Video-011-websocket-p04-a07-websocket-stream"
+          component={Animation308P04A07WebsocketStream}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={462}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+        <Composition
+          id="Video-011-websocket-p04-a08-library-buffers"
+          component={Animation309P04A08LibraryBuffers}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={508}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+        <Composition
+          id="Video-011-websocket-p04-a09-incident-reports"
+          component={Animation310P04A09IncidentReports}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={355}
           defaultProps={{"previewBackground":"photo","withAudio":true}}
         />
       </Folder>

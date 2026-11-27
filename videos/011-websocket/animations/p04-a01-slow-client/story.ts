@@ -20,5 +20,4 @@ export const headlines = [
   {at: cue.crash, title: 'Процесс упал по памяти'},
   {at: cue.question, title: 'Что делают клиенты?'},
   {at: cue.retry, title: 'Переподключаются к соседу'},
-  {at: cue.cascade, title: 'Снова лавина переподключений'},
 ] as const;

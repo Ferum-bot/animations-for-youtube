@@ -47,7 +47,7 @@ function routePoint(source: number, client: number, t: number) {
 function Route({source, client, time, slow, retry}: {
   source: number; client: number; time: number; slow: boolean; retry: boolean;
 }) {
-  const starts = retry ? [cue.retry + 220] : [cue.send, cue.send + 2550, cue.slow + 180, cue.slow + 3230, cue.buffer + 290];
+  const starts = retry ? [cue.retry + 220] : [cue.send, cue.send + 2550, cue.slow + 180, cue.slow + 3230, cue.buffer + 290, cue.queue + 320, cue.unbounded + 670];
   return <g>
     <path d={`M${source} ${routeTop} C${source} 627 ${client} 627 ${client} ${routeBottom}`}
       stroke={colors.text} strokeOpacity={0.48} strokeWidth={5} fill="none"/>

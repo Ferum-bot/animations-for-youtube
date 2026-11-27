@@ -1,0 +1,14 @@
+{
+  "id": "p04-a07-websocket-stream",
+  "part": 4,
+  "order": 7,
+  "title": "WebSocketStream · backpressure и статус API",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 15400,
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  },
+  "studioFolder": "P-04-Memory"
+}

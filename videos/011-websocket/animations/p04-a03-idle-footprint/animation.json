@@ -1,0 +1,14 @@
+{
+  "id": "p04-a03-idle-footprint",
+  "part": 4,
+  "order": 3,
+  "title": "Evil Martians · память на простаивающее соединение",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 4080,
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  },
+  "studioFolder": "P-04-Memory"
+}

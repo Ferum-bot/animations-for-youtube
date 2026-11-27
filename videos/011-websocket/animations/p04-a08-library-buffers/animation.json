@@ -1,0 +1,14 @@
+{
+  "id": "p04-a08-library-buffers",
+  "part": 4,
+  "order": 8,
+  "title": "Библиотеки · лимиты очереди отправки",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 16920,
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  },
+  "studioFolder": "P-04-Memory"
+}

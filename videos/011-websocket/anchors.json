@@ -18,5 +18,14 @@
   "clawd-bet-edit": 706880,
   "cloudflare-waf-edit": 726340,
   "browser-auth-edit": 743000,
-  "access-checks-edit": 790560
+  "access-checks-edit": 790560,
+  "slow-client-edit": 836080,
+  "connection-memory-edit": 883160,
+  "idle-footprint-edit": 954340,
+  "memory-publications-edit": 963840,
+  "million-connections-edit": 1007820,
+  "browser-backpressure-edit": 1065940,
+  "websocket-stream-edit": 1093060,
+  "library-buffers-edit": 1109140,
+  "incident-reports-edit": 1134000
 }

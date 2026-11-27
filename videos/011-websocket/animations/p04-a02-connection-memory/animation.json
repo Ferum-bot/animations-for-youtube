@@ -1,0 +1,14 @@
+{
+  "id": "p04-a02-connection-memory",
+  "part": 4,
+  "order": 2,
+  "title": "Отправка данных и память одного соединения",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 67160,
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  },
+  "studioFolder": "P-04-Memory"
+}

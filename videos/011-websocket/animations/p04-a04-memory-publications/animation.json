@@ -1,0 +1,14 @@
+{
+  "id": "p04-a04-memory-publications",
+  "part": 4,
+  "order": 4,
+  "title": "Jetty, Socket.IO, Go и Mail.Ru · исходные публикации",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 43200,
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  },
+  "studioFolder": "P-04-Memory"
+}
