@@ -1,0 +1,14 @@
+{
+  "id": "p03-a05-cloudflare-waf",
+  "part": 3,
+  "order": 5,
+  "title": "WebSocket и WAF · документация провайдеров",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 16060,
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  },
+  "studioFolder": "P-03-Access"
+}

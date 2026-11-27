@@ -1,0 +1,14 @@
+{
+  "id": "p03-a07-access-checks",
+  "part": 3,
+  "order": 7,
+  "title": "Три уровня проверки прав",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 17660,
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  },
+  "studioFolder": "P-03-Access"
+}

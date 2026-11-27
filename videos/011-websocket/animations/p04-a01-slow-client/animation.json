@@ -1,0 +1,14 @@
+{
+  "id": "p04-a01-slow-client",
+  "part": 4,
+  "order": 1,
+  "title": "Как медленный клиент роняет сервер",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 39420,
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  },
+  "studioFolder": "P-04-Memory"
+}

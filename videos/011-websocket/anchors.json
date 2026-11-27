@@ -11,5 +11,12 @@
   "tcp-link-types-edit": 383000,
   "proxy-comparison-edit": 451500,
   "timer-reference-edit": 496060,
-  "handshake-edit": 524000
+  "handshake-edit": 524000,
+  "rfc-auth-edit": 650600,
+  "access-publications-edit": 674000,
+  "kubernetes-upgrade-edit": 689000,
+  "clawd-bet-edit": 706880,
+  "cloudflare-waf-edit": 726340,
+  "browser-auth-edit": 743000,
+  "access-checks-edit": 790560
 }

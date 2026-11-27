@@ -1,0 +1,14 @@
+{
+  "id": "p03-a04-clawd-wave",
+  "part": 3,
+  "order": 4,
+  "title": "Clawd машет рукой",
+  "kind": "3d",
+  "designSystem": "v2",
+  "durationMs": 6400,
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  },
+  "studioFolder": "P-03-Access"
+}

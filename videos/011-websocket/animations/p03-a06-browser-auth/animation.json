@@ -1,0 +1,14 @@
+{
+  "id": "p03-a06-browser-auth",
+  "part": 3,
+  "order": 6,
+  "title": "WebSocket в браузере · пять способов передать токен",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 46560,
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  },
+  "studioFolder": "P-03-Access"
+}

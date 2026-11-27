@@ -1,0 +1,14 @@
+{
+  "id": "p03-a02-access-publications",
+  "part": 3,
+  "order": 2,
+  "title": "Публикации о правах доступа",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 15000,
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  },
+  "studioFolder": "P-03-Access"
+}

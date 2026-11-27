@@ -1,0 +1,14 @@
+{
+  "id": "p03-a01-rfc-auth",
+  "part": 3,
+  "order": 1,
+  "title": "Аутентификация в RFC 6455",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 5000,
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  },
+  "studioFolder": "P-03-Access"
+}
