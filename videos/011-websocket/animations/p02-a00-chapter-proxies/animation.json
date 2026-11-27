@@ -1,0 +1,11 @@
+{
+  "id": "p02-a00-chapter-proxies",
+  "part": 2,
+  "order": 0,
+  "title": "02. Proxy и невидимые таймер",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 4000,
+  "studioFolder": "P-00-Chapters",
+  "defaultProps": {}
+}

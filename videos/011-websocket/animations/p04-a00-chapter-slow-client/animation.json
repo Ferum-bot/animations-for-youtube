@@ -1,0 +1,11 @@
+{
+  "id": "p04-a00-chapter-slow-client",
+  "part": 4,
+  "order": 0,
+  "title": "04. Память и медленный клиент",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 4000,
+  "studioFolder": "P-00-Chapters",
+  "defaultProps": {}
+}

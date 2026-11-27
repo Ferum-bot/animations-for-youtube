@@ -1,0 +1,11 @@
+{
+  "id": "p01-a00-chapter-reconnect",
+  "part": 1,
+  "order": 0,
+  "title": "01. Как WebSocket будет уничтожать сам себя?",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 4000,
+  "studioFolder": "P-00-Chapters",
+  "defaultProps": {}
+}

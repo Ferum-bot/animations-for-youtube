@@ -1,0 +1,14 @@
+{
+  "id": "p02-a01-network-route",
+  "part": 2,
+  "order": 1,
+  "title": "Реальный маршрут WebSocket",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 49200,
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  },
+  "studioFolder": "P-02-Proxies"
+}

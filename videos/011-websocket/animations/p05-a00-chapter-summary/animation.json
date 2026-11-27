@@ -1,0 +1,11 @@
+{
+  "id": "p05-a00-chapter-summary",
+  "part": 5,
+  "order": 0,
+  "title": "05. Итог",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 4000,
+  "studioFolder": "P-00-Chapters",
+  "defaultProps": {}
+}

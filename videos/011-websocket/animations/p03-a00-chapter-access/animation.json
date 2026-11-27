@@ -1,0 +1,11 @@
+{
+  "id": "p03-a00-chapter-access",
+  "part": 3,
+  "order": 0,
+  "title": "03. А вы слышали про WAF?",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 4000,
+  "studioFolder": "P-00-Chapters",
+  "defaultProps": {}
+}
