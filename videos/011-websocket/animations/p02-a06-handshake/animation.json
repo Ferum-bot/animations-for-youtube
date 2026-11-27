@@ -1,0 +1,14 @@
+{
+  "id": "p02-a06-handshake",
+  "part": 2,
+  "order": 6,
+  "title": "Рукопожатие по шагам",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 53000,
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  },
+  "studioFolder": "P-02-Proxies"
+}

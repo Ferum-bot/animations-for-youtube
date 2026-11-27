@@ -6,5 +6,10 @@
   "chapter-summary": 1130240,
   "reconnect-sources-edit": 86000,
   "p01-a02-reconnect-treatment-start": 171800,
-  "network-route-edit": 314000
+  "network-route-edit": 314000,
+  "connection-resources-edit": 366000,
+  "tcp-link-types-edit": 383000,
+  "proxy-comparison-edit": 451500,
+  "timer-reference-edit": 496060,
+  "handshake-edit": 524000
 }

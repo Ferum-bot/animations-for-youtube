@@ -291,9 +291,14 @@ import Animation284P01A01ReconnectSources from '../../../../videos/011-websocket
 import Animation285P01A02ReconnectTreatment from '../../../../videos/011-websocket/animations/p01-a02-reconnect-treatment/Composition';
 import Animation286P02A00ChapterProxies from '../../../../videos/011-websocket/animations/p02-a00-chapter-proxies/Composition';
 import Animation287P02A01NetworkRoute from '../../../../videos/011-websocket/animations/p02-a01-network-route/Composition';
-import Animation288P03A00ChapterAccess from '../../../../videos/011-websocket/animations/p03-a00-chapter-access/Composition';
-import Animation289P04A00ChapterSlowClient from '../../../../videos/011-websocket/animations/p04-a00-chapter-slow-client/Composition';
-import Animation290P05A00ChapterSummary from '../../../../videos/011-websocket/animations/p05-a00-chapter-summary/Composition';
+import Animation288P02A02ConnectionResources from '../../../../videos/011-websocket/animations/p02-a02-connection-resources/Composition';
+import Animation289P02A03TcpLinkTypes from '../../../../videos/011-websocket/animations/p02-a03-tcp-link-types/Composition';
+import Animation290P02A04ProxyComparison from '../../../../videos/011-websocket/animations/p02-a04-proxy-comparison/Composition';
+import Animation291P02A05TimerReference from '../../../../videos/011-websocket/animations/p02-a05-timer-reference/Composition';
+import Animation292P02A06Handshake from '../../../../videos/011-websocket/animations/p02-a06-handshake/Composition';
+import Animation293P03A00ChapterAccess from '../../../../videos/011-websocket/animations/p03-a00-chapter-access/Composition';
+import Animation294P04A00ChapterSlowClient from '../../../../videos/011-websocket/animations/p04-a00-chapter-slow-client/Composition';
+import Animation295P05A00ChapterSummary from '../../../../videos/011-websocket/animations/p05-a00-chapter-summary/Composition';
 
 const V000DemoMicroservicesComponents: Record<string, TimelineComponent> = {
   "p01-a01-request-flow": Animation0P01A01RequestFlow,
@@ -620,17 +625,22 @@ const V011WebsocketComponents: Record<string, TimelineComponent> = {
   "p01-a02-reconnect-treatment": Animation285P01A02ReconnectTreatment,
   "p02-a00-chapter-proxies": Animation286P02A00ChapterProxies,
   "p02-a01-network-route": Animation287P02A01NetworkRoute,
-  "p03-a00-chapter-access": Animation288P03A00ChapterAccess,
-  "p04-a00-chapter-slow-client": Animation289P04A00ChapterSlowClient,
-  "p05-a00-chapter-summary": Animation290P05A00ChapterSummary,
+  "p02-a02-connection-resources": Animation288P02A02ConnectionResources,
+  "p02-a03-tcp-link-types": Animation289P02A03TcpLinkTypes,
+  "p02-a04-proxy-comparison": Animation290P02A04ProxyComparison,
+  "p02-a05-timer-reference": Animation291P02A05TimerReference,
+  "p02-a06-handshake": Animation292P02A06Handshake,
+  "p03-a00-chapter-access": Animation293P03A00ChapterAccess,
+  "p04-a00-chapter-slow-client": Animation294P04A00ChapterSlowClient,
+  "p05-a00-chapter-summary": Animation295P05A00ChapterSummary,
 };
 
 const V011WebsocketOverlay: React.FC = () => (
   <TimelineOverlay
-    anchors={{"chapter-reconnect":50940,"chapter-proxies":269920,"chapter-access":605040,"chapter-slow-client":796660,"chapter-summary":1130240,"reconnect-sources-edit":86000,"p01-a02-reconnect-treatment-start":171800,"p02-a01-network-route-start":0}}
+    anchors={{"chapter-reconnect":50940,"chapter-proxies":269920,"chapter-access":605040,"chapter-slow-client":796660,"chapter-summary":1130240,"reconnect-sources-edit":86000,"p01-a02-reconnect-treatment-start":171800,"network-route-edit":314000,"connection-resources-edit":366000,"tcp-link-types-edit":383000,"proxy-comparison-edit":451500,"timer-reference-edit":496060,"handshake-edit":524000}}
     audio={null}
     components={V011WebsocketComponents}
-    timeline={[{"id":"show-chapter-reconnect","animation":"p01-a00-chapter-reconnect","anchor":"chapter-reconnect","offsetMs":0,"durationMs":4000,"props":{}},{"id":"show-p01-a01-reconnect-sources","animation":"p01-a01-reconnect-sources","anchor":"reconnect-sources-edit","offsetMs":0,"durationMs":83000,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a02-reconnect-treatment","animation":"p01-a02-reconnect-treatment","anchor":"p01-a02-reconnect-treatment-start","offsetMs":4000,"durationMs":97900,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-chapter-proxies","animation":"p02-a00-chapter-proxies","anchor":"chapter-proxies","offsetMs":4000,"durationMs":4000,"props":{}},{"id":"show-chapter-access","animation":"p03-a00-chapter-access","anchor":"chapter-access","offsetMs":8000,"durationMs":4000,"props":{}},{"id":"show-chapter-slow-client","animation":"p04-a00-chapter-slow-client","anchor":"chapter-slow-client","offsetMs":12000,"durationMs":4000,"props":{}},{"id":"show-chapter-summary","animation":"p05-a00-chapter-summary","anchor":"chapter-summary","offsetMs":16000,"durationMs":4000,"props":{}},{"id":"show-p02-a01-network-route","animation":"p02-a01-network-route","anchor":"p02-a01-network-route-start","offsetMs":0,"durationMs":4000,"props":{"themeId":"graphite","transparent":true}}]}
+    timeline={[{"id":"show-chapter-reconnect","animation":"p01-a00-chapter-reconnect","anchor":"chapter-reconnect","offsetMs":0,"durationMs":4000,"props":{}},{"id":"show-p01-a01-reconnect-sources","animation":"p01-a01-reconnect-sources","anchor":"reconnect-sources-edit","offsetMs":0,"durationMs":83000,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p01-a02-reconnect-treatment","animation":"p01-a02-reconnect-treatment","anchor":"p01-a02-reconnect-treatment-start","offsetMs":4000,"durationMs":97900,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-chapter-proxies","animation":"p02-a00-chapter-proxies","anchor":"chapter-proxies","offsetMs":4000,"durationMs":4000,"props":{}},{"id":"show-p02-a01-network-route","animation":"p02-a01-network-route","anchor":"network-route-edit","offsetMs":0,"durationMs":49200,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a02-connection-resources","animation":"p02-a02-connection-resources","anchor":"connection-resources-edit","offsetMs":0,"durationMs":16700,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a03-tcp-link-types","animation":"p02-a03-tcp-link-types","anchor":"tcp-link-types-edit","offsetMs":0,"durationMs":68500,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a04-proxy-comparison","animation":"p02-a04-proxy-comparison","anchor":"proxy-comparison-edit","offsetMs":0,"durationMs":26340,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a05-timer-reference","animation":"p02-a05-timer-reference","anchor":"timer-reference-edit","offsetMs":0,"durationMs":22940,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-p02-a06-handshake","animation":"p02-a06-handshake","anchor":"handshake-edit","offsetMs":0,"durationMs":53000,"props":{"previewBackground":"transparent","withAudio":false}},{"id":"show-chapter-access","animation":"p03-a00-chapter-access","anchor":"chapter-access","offsetMs":8000,"durationMs":4000,"props":{}},{"id":"show-chapter-slow-client","animation":"p04-a00-chapter-slow-client","anchor":"chapter-slow-client","offsetMs":12000,"durationMs":4000,"props":{}},{"id":"show-chapter-summary","animation":"p05-a00-chapter-summary","anchor":"chapter-summary","offsetMs":16000,"durationMs":4000,"props":{}}]}
   />
 );
 
@@ -3447,7 +3457,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-011-websocket-p03-a00-chapter-access"
-          component={Animation288P03A00ChapterAccess}
+          component={Animation293P03A00ChapterAccess}
           width={2560}
           height={1440}
           fps={30}
@@ -3456,7 +3466,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-011-websocket-p04-a00-chapter-slow-client"
-          component={Animation289P04A00ChapterSlowClient}
+          component={Animation294P04A00ChapterSlowClient}
           width={2560}
           height={1440}
           fps={30}
@@ -3465,7 +3475,7 @@ export const GeneratedVideoCompositions: React.FC = () => (
         />
         <Composition
           id="Video-011-websocket-p05-a00-chapter-summary"
-          component={Animation290P05A00ChapterSummary}
+          component={Animation295P05A00ChapterSummary}
           width={2560}
           height={1440}
           fps={30}
@@ -3493,15 +3503,60 @@ export const GeneratedVideoCompositions: React.FC = () => (
           defaultProps={{"previewBackground":"photo","withAudio":true}}
         />
       </Folder>
-      <Folder name="P-02">
+      <Folder name="P-02-Proxies">
         <Composition
           id="Video-011-websocket-p02-a01-network-route"
           component={Animation287P02A01NetworkRoute}
           width={2560}
           height={1440}
           fps={30}
-          durationInFrames={120}
-          defaultProps={{"themeId":"graphite","transparent":true}}
+          durationInFrames={1476}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+        <Composition
+          id="Video-011-websocket-p02-a02-connection-resources"
+          component={Animation288P02A02ConnectionResources}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={501}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+        <Composition
+          id="Video-011-websocket-p02-a03-tcp-link-types"
+          component={Animation289P02A03TcpLinkTypes}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={2055}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+        <Composition
+          id="Video-011-websocket-p02-a04-proxy-comparison"
+          component={Animation290P02A04ProxyComparison}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={790}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+        <Composition
+          id="Video-011-websocket-p02-a05-timer-reference"
+          component={Animation291P02A05TimerReference}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={688}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
+        />
+        <Composition
+          id="Video-011-websocket-p02-a06-handshake"
+          component={Animation292P02A06Handshake}
+          width={2560}
+          height={1440}
+          fps={30}
+          durationInFrames={1590}
+          defaultProps={{"previewBackground":"photo","withAudio":true}}
         />
       </Folder>
       <Composition

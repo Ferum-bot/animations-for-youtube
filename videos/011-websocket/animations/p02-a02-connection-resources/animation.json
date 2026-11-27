@@ -1,0 +1,14 @@
+{
+  "id": "p02-a02-connection-resources",
+  "part": 2,
+  "order": 2,
+  "title": "Ресурсы открытого соединения",
+  "kind": "2d",
+  "designSystem": "v2",
+  "durationMs": 16700,
+  "defaultProps": {
+    "previewBackground": "photo",
+    "withAudio": true
+  },
+  "studioFolder": "P-02-Proxies"
+}
